@@ -9,7 +9,7 @@ Kenya’s transition to the **eGP (Electronic Government Procurement)** system m
 
 I offer a transformative training and onboarding experience designed to equip suppliers with the skills, confidence, and systems mastery needed to succeed on eGP—from registration to bidding and beyond.
 
-&lt;hr&gt;
+\---
 
 ### 💡 Why This Training Matters
 
@@ -17,7 +17,7 @@ I offer a transformative training and onboarding experience designed to equip su
 * Many suppliers lack the digital literacy or workflow clarity to navigate the platform effectively.
 * Our training bridges the gap with **hands-on guidance**, **modular systems**, and **faith-driven support**.
 
-&lt;hr&gt;
+\---
 
 ### 📚 What You’ll Learn
 
@@ -27,7 +27,7 @@ I offer a transformative training and onboarding experience designed to equip su
 * ✅ Avoiding common pitfalls and disqualifications
 * ✅ Strategic positioning for long-term success
 
-&lt;hr&gt;
+\---
 
 ### 💼 Who This Is For
 
@@ -37,7 +37,7 @@ I offer a transformative training and onboarding experience designed to equip su
 * Faith-based organizations seeking procurement access
 * Any supplier ready to scale with confidence
 
-&lt;hr&gt;
+\---
 
 ### 🌐 How It Works
 
@@ -45,13 +45,13 @@ I offer a transformative training and onboarding experience designed to equip su
 * 📲 **Telegram Group Access** — stay connected, ask questions, and receive ongoing support
 * 📅 Flexible scheduling and cohort options to suit your workflow
 
-&lt;hr&gt;
+\---
 
 ### 🌍 Built in Mombasa. Designed for Kenya.
 
 This program is born from real-world experience—refined in Mombasa, now ready to empower suppliers across the country. With a goal to train **2,000+ suppliers**, we’re not just teaching systems—we’re building a movement of **digitally fluent, ethically grounded, and opportunity-ready entrepreneurs**.
 
-&lt;hr&gt;
+\---
 
 ### 🎯 Your Trainer: Stephen Ajulu and David Mbugua
 
@@ -61,7 +61,7 @@ Stephen brings deep expertise in modular systems, strategic planning, and brand 
 
 Mbugua brings his 10 years in procurement and deep expertise. The pitfalls of common suppliers. How to bid. His approach blends **years of experience** in **validating suppliers** and more. He'll cover how you win ensuring every supplier feels confident and capable.
 
-&lt;hr&gt;
+\---
 
 ### 📞 Ready to Get Started?
 
