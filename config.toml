@@ -51,7 +51,7 @@ mediatype = "application/json"
   copyright = "Stephen Ajulu"
   showFullTextinJSONFeed = "true"
   image = "images/socialimage.png"
-  logo = "images/mypic1.jpg"
+  logo = "images/logo.svg"
 
 
   [Author]
