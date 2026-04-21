@@ -19,11 +19,6 @@
       "name": "linkedin",
       "url": "https://www.linkedin.com/in/stephenajulu",
       "image": "images/social/linkedin.svg"
-    },
-    {
-      "name": "ethereum",
-      "url": "",
-      "image": "images/social/ethereum.svg"
     }
   ]
 }
