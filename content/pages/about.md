@@ -7,7 +7,7 @@ image: images/about.jpg
 
 #### I am a multidisciplinary architect, technologist, and strategic advisor based in Nairobi, Kenya. 
 
-With over a decade of hands-on experience bridging technology, engineering, design, and business, I engineer systems that solve complex operational problems. My work is rooted in a single principle: replacing fragmented technology with unified, self-sustaining ecosystems.
+With over a decade of hands-on experience bridging technology, engineering, design, and business, I architect and engineer systems that solve complex operational problems. My work is rooted in a single principle: replacing fragmented technology with unified, self-sustaining ecosystems.
 
 ### Systematic Exploration
 
@@ -26,27 +26,28 @@ Whether operating through my personal advisory or deploying through Julz Insight
 * **Design & Experience:** Brand Identity Design • UI/UX & Digital Real Estate • Full-Stack Web Development
 * **Strategy & Transformation:** High-Level Technical Consultation • Digital Transformation Roadmaps • Technical Writing
 
----
-
 > "Write about what fascinates you. You don't need to be an expert. Curiosity leads to expertise."
 > **— James Clear**
 
 ### Cross-Domain Writing
 
-Writing is my mechanism for synthesizing complex ideas into clear, actionable intelligence. This platform serves as a public archive of my research and insights across several key disciplines:
+> "Write about what fascinates you. You don't need to be an expert. Curiosity leads to expertise."
+> **— James Clear**
 
-* **Technology and Architecture:** Deep dives into software systems, managed infrastructure, and the deployment of sovereign open-source solutions.
+Writing is my mechanism for synthesizing complex ideas into clear knowledge. This platform serves as a public archive of my exploratory research and insights across several key disciplines:
+
+* **Technology and Architecture:** Deep dives into software, systems, infrastructure, and the sovereign open-source solutions.
 * **Biomimicry and Design:** Exploring the intersection of high-technology and nature-harmonized infrastructure.
 * **Emerging Frontiers:** Strategic analysis of frontier technologies, from artificial intelligence to decentralization, filtering practical utility from industry noise.
-* **Cultural and Theological Insight:** Examining cultural phenomena, lifestyle optimization, and spiritual revelation through the lens of a disciplined, purpose-driven life.
+* **Cultural and Theological Insight:** Exploring cultural phenomena, lifestyle optimization, and Christian spiritual revelation through the lens of a disciplined, purpose-driven life.
 
 ### Analog Pursuits
 
-My commitment to building self-sustaining ecosystems extends beyond the digital realm. When I am not architecting software, my focus shifts to physical and intellectual conditioning:
+My commitment to building self-sustaining ecosystems extends beyond the digital realm. When I am not architecting things, my focus shifts to physical and intellectual conditioning:
 
 * **Tactical Synthesis:** I believe in hands-on creation. Whether constructing physical infrastructure, experimenting with hardware, or optimizing mechanical systems, I build to understand the mechanics of reality.
 * **Continuous Conditioning:** I view lifelong learning as a mandatory protocol for adaptability, studying everything from off-grid resilience to frontier technologies.
-* **Speculative World-Building:** I study high-concept anime and speculative fiction as masterclasses in narrative architecture, utilizing their visionary storytelling to inspire my Solarpunk design language.
+* **Speculative World-Building:** I study high-concept anime and speculative fiction as masterclasses in narrative architecture, utilizing their visionary storytelling to inspire myself and future ventures.
 
 ### Definitive Summary
 
@@ -59,10 +60,10 @@ My commitment to building self-sustaining ecosystems extends beyond the digital 
 I provide high-level technical consulting, systems architecture planning, and strategic direction for businesses looking to modernize their infrastructure or build new technical products. I audit your current systems and deliver actionable blueprints for operational excellence.
 
 **What do you mean by "Digital Sovereignty"?**
-Digital sovereignty is the operational independence of a business. Relying entirely on rented, proprietary cloud ecosystems creates vulnerability and vendor lock-in. I advocate for and deploy managed open-source infrastructure—giving you complete ownership over your data, your systems, and your operational future.
+Digital sovereignty is the operational independence of a business. Relying entirely on rented, proprietary cloud ecosystems creates vulnerability and vendor lock-in. I advocate for and deploy managed open-source infrastructure. Giving you complete ownership over your data, your systems, and your operational future.
 
 **Who is the ideal client for Julz Insight?**
-We partner with progressive African enterprises, forward-thinking SMEs, and operational leaders (CIOs, CTOs) who are ready to abandon fragmented legacy systems. Our clients value long-term stability, security, and the strategic advantage of unified open-source business infrastructure.
+We partner with progressive African enterprises, forward-thinking SMEs, and operational leaders (CIOs, CTOs) who are ready to abandon fragmented, proprietary, and/or legacy systems. Our clients value long-term stability, security, and the strategic advantage of unified open-source business infrastructure.
 
 **How do your personal consulting services relate to Julz Insight?**
 My personal advisory focuses on strategy, architecture blueprints, and high-level roadmaps. When a strategic plan requires hands-on engineering, server deployment, or active software implementation, I transition the execution to the infrastructure team at Julz Insight.
@@ -71,7 +72,7 @@ My personal advisory focuses on strategy, architecture blueprints, and high-leve
 Julz Insight is an active B2B technology consulting firm focused on deploying digital sovereignty solutions for enterprises today. JULZ is the parent R&D holding entity focused on the long-term future, multidisciplinary innovation, and building experimental Solarpunk infrastructure.
 
 **How do you operate across multiple massive ventures simultaneously?**
-Through extreme discipline and modular execution. My role as an ICT Officer at the Kenya National Library Service grounds me in the realities of large-scale public infrastructure. Outside of those hours, I operate within highly compressed, high-leverage execution windows to build the JULZ ecosystem. I design my ventures to be self-sustaining systems, not manual labor traps.
+Through extreme discipline and modular execution. My role as an ICT Officer at the Kenya National Library Service grounds me in the realities of large-scale public infrastructure. Outside of those hours, I operate within highly compressed, high-leverage execution windows to build the JULZ ecosystem. I design my ventures to be self-sustaining systems, not manual labor traps. In short, it is by The Grace of God.
 
 
 ### Subscribe To My Newsletter
@@ -80,7 +81,7 @@ Through extreme discipline and modular execution. My role as an ICT Officer at t
 
 ### Colophon
 
-* This site is built using [Hugo](https://gohugo.io), a static site generator based on JAMstack, hosted in [GitHub](https://github.com) and deployed to [Netlify](https://netlify.com). It uses [Formspree](https://formspree.io) for static form handling, [Umami Cloud](https://umami.is) for Web Analytics, and supports Web Monetization and IndieWeb.
+* This site is built using [Hugo](https://gohugo.io), a static site generator based on GoLang and follows the principles of JAMstack, hosted in [GitHub](https://github.com) and deployed to [Netlify](https://netlify.com) automatically upon change. It uses [Formspree](https://formspree.io) for static form handling, [Umami Cloud](https://umami.is) for Web Analytics, and supports Web Monetization and IndieWeb.
 
 ### Book a call
 
