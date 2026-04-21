@@ -3,7 +3,7 @@
   display: flex;
   border-radius: 10px;
   overflow: hidden;
-  width: 80%;
+  {{if .IsHome }}width: 80%;{{ else}}width:100%
 }
 
 .newsletter-form input[type="email"] {
