@@ -53,8 +53,13 @@ My commitment to building self-sustaining ecosystems extends beyond the digital 
 
 ### Targeted FAQ
 
-**What exactly do your advisory services entail?**
-I provide high-level technical consulting, systems architecture planning, and strategic direction for businesses looking to modernize their infrastructure or build new technical products. I audit your current systems and deliver actionable blueprints for operational excellence.
+<details>
+  <summary>**What exactly do your advisory services entail?**</summary>
+  I provide high-level technical consulting, systems architecture planning, and strategic direction for businesses looking to modernize their infrastructure or build new technical products. I audit your current systems and deliver actionable blueprints for operational excellence.
+</details>
+
+
+
 
 **What do you mean by "Digital Sovereignty"?**
 Digital sovereignty is the operational independence of a business. Relying entirely on rented, proprietary cloud ecosystems creates vulnerability and vendor lock-in. I advocate for and deploy managed open-source infrastructure. Giving you complete ownership over your data, your systems, and your operational future.
