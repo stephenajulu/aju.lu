@@ -19,6 +19,11 @@
       "name": "linkedin",
       "url": "https://www.linkedin.com/in/stephenajulu",
       "image": "images/social/linkedin.svg"
+    },
+    {
+      "name": "rss",
+      "url": "https://ajulu.netlify.app/feed.xml",
+      "image": "images/social/rss.svg"
     }
   ]
 }
