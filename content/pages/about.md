@@ -1,7 +1,7 @@
 ---
 title: About me
 url: /about/
-image: images/about.jpg
+image: images/me.jpg
 ---
 ### About Ajulu
 
