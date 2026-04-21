@@ -3,7 +3,7 @@
       {{ partial "logo.html" . }}
     </a>
   <div class="menu-main">
-    <ul style="font-family: Newsreader;">
+    <ul style="font-family: Fraunces;">
       {{ $currentPage := . }}
       {{ range .Site.Menus.main }}
       {{ $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
