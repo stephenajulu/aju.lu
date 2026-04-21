@@ -1,8 +1,8 @@
 ---
-title: Hello, I'm Stephen Ajulu
-description: Hello, I'm Stephen Ajulu, a seasoned tech expert, writer, and consultant with over a decade of hands-on experience. My forte is building impactful products and solutions at the intersection of technology, design, and engineering.
+title: Hello, I'm Ajulu
+description: Hello, I'm Stephen Ajulu, a multidisciplinary tech expert and architect based in Nairobi, Kenya, with over a decade of hands-on experience. My forte is building impactful products, brands, and solutions at the intersection of technology, design, engineering, and business.
 ---
 
-A seasoned tech expert, writer, and consultant with <span style="font-weight: bold; color:#6320d6;">over a decade of experience</span>. I am building impactful products, brands, and solutions using <span style="font-weight: bold; color:#6320d6;">cutting-edge tech, aesthetic design, strategic insight, and modular engineering </span>at my tech firm and innovation studio: <a style="font-family: Newsreader; font-weight: bold; color:#6320d6;" href="https://julzinsight.netlify.app">JULZ</a>. Passionate about various domains, I delve into Development, Design, AI, Blockchain, Cybersecurity, Software, Data, DevOps, Open Source, Cloud Infrastructure, and more. Beyond expertise, I also offer <span style="font-weight: bold; color:#6320d6;">bespoke services and solutions</span> in these very realms.
+I am a multidisciplinary tech expert and architect based in Nairobi, Kenya with <span style="font-weight: bold; color:#6320d6;">over a decade of experience</span> in technology, design, engineering, and business. This platform houses my cross-domain writing and serves as the base for my <span style="font-weight: bold; color:#6320d6;">strategic advisory services</span>, providing high-level technical consulting. When a strategy requires hands-on execution, I transition the deployment to <a style="font-weight: bold; color:#6320d6;" href="https://julzinsight.co">Julz Insight</a>, my tech company and the engine for building sovereign open-source infrastructure for African enterprises. Concurrently, through <a style="font-weight: bold; color:#6320d6;" href="https://julzinsight.co">JULZ</a>, my research, design, and development tech forge, I build impactful tech products and brands for a sustainable civilization.
 
 {{< newsletter >}}
