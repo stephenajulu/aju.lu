@@ -26,13 +26,7 @@ Whether operating through my personal advisory or deploying through Julz Insight
 * **Design & Experience:** Brand Identity Design • UI/UX & Digital Real Estate • Full-Stack Web Development
 * **Strategy & Transformation:** High-Level Technical Consultation • Digital Transformation Roadmaps • Technical Writing
 
-> "Write about what fascinates you. You don't need to be an expert. Curiosity leads to expertise."
-> **— James Clear**
-
 ### Cross-Domain Writing
-
-> "Write about what fascinates you. You don't need to be an expert. Curiosity leads to expertise."
-> **— James Clear**
 
 Writing is my mechanism for synthesizing complex ideas into clear knowledge. This platform serves as a public archive of my exploratory research and insights across several key disciplines:
 
@@ -40,6 +34,9 @@ Writing is my mechanism for synthesizing complex ideas into clear knowledge. Thi
 * **Biomimicry and Design:** Exploring the intersection of high-technology and nature-harmonized infrastructure.
 * **Emerging Frontiers:** Strategic analysis of frontier technologies, from artificial intelligence to decentralization, filtering practical utility from industry noise.
 * **Cultural and Theological Insight:** Exploring cultural phenomena, lifestyle optimization, and Christian spiritual revelation through the lens of a disciplined, purpose-driven life.
+
+> "Write about what fascinates you. You don't need to be an expert. Curiosity leads to expertise."
+> **— James Clear**
 
 ### Analog Pursuits
 
