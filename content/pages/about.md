@@ -80,11 +80,6 @@ My commitment to building self-sustaining ecosystems extends beyond the digital 
 
   Through extreme discipline and modular execution. My role as an ICT Officer at the Kenya National Library Service grounds me in the realities of large-scale public infrastructure. Outside of those hours, I operate within highly compressed, high-leverage execution windows to build the JULZ ecosystem. I design my ventures to be self-sustaining systems, not manual labor traps. In short, it is by The Grace of God.
 
-
-### Subscribe To My Newsletter
-
-{{< newsletter >}}
-
 ### Colophon
 
 * This site is built using [Hugo](https://gohugo.io), a static site generator based on GoLang and follows the principles of JAMstack, hosted in [GitHub](https://github.com) and deployed to [Netlify](https://netlify.com) automatically upon change. It uses [Formspree](https://formspree.io) for static form handling, [Umami Cloud](https://umami.is) for Web Analytics, and supports Web Monetization and IndieWeb.
