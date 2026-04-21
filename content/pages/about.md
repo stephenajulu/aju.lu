@@ -35,8 +35,10 @@ Writing is my mechanism for synthesizing complex ideas into clear knowledge. Thi
 * **Emerging Frontiers:** Strategic analysis of frontier technologies, from artificial intelligence to decentralization, filtering practical utility from industry noise.
 * **Cultural and Theological Insight:** Exploring cultural phenomena, lifestyle optimization, and Christian spiritual revelation through the lens of a disciplined, purpose-driven life.
 
+***
 > "Write about what fascinates you. You don't need to be an expert. Curiosity leads to expertise."
 > **— James Clear**
+***
 
 ### Analog Pursuits
 
@@ -53,27 +55,28 @@ My commitment to building self-sustaining ecosystems extends beyond the digital 
 
 ### Targeted FAQ
 
-<details>
-  <summary>**What exactly do your advisory services entail?**</summary>
+**What exactly do your advisory services entail?**
+
   I provide high-level technical consulting, systems architecture planning, and strategic direction for businesses looking to modernize their infrastructure or build new technical products. I audit your current systems and deliver actionable blueprints for operational excellence.
-</details>
-
-
-
 
 **What do you mean by "Digital Sovereignty"?**
+
 Digital sovereignty is the operational independence of a business. Relying entirely on rented, proprietary cloud ecosystems creates vulnerability and vendor lock-in. I advocate for and deploy managed open-source infrastructure. Giving you complete ownership over your data, your systems, and your operational future.
 
 **Who is the ideal client for Julz Insight?**
+
 We partner with progressive African enterprises, forward-thinking SMEs, and operational leaders (CIOs, CTOs) who are ready to abandon fragmented, proprietary, and/or legacy systems. Our clients value long-term stability, security, and the strategic advantage of unified open-source business infrastructure.
 
 **How do your personal consulting services relate to Julz Insight?**
+
 My personal advisory focuses on strategy, architecture blueprints, and high-level roadmaps. When a strategic plan requires hands-on engineering, server deployment, or active software implementation, I transition the execution to the infrastructure team at Julz Insight.
 
 **What is the strict difference between Julz Insight and JULZ?**
+
 Julz Insight is an active B2B technology consulting firm focused on deploying digital sovereignty solutions for enterprises today. JULZ is the parent R&D holding entity focused on the long-term future, multidisciplinary innovation, and building experimental Solarpunk infrastructure.
 
 **How do you operate across multiple massive ventures simultaneously?**
+
 Through extreme discipline and modular execution. My role as an ICT Officer at the Kenya National Library Service grounds me in the realities of large-scale public infrastructure. Outside of those hours, I operate within highly compressed, high-leverage execution windows to build the JULZ ecosystem. I design my ventures to be self-sustaining systems, not manual labor traps. In short, it is by The Grace of God.
 
 
