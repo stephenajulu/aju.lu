@@ -5,7 +5,7 @@ paginate = 6
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
-copyright= "Stephen Ajulu"
+copyright= "Stephen Ajulu."
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
@@ -58,7 +58,7 @@ mediatype = "application/json"
     name = "Stephen Ajulu"
     email  = "ajulu.b22uf@aleeas.com"
     url = "https://stephenajulu.com"
-    image = "images/about.jpg"
+    image = "images/me.jpg"
     description = "Hello, I'm Stephen Ajulu, a seasoned tech expert, writer, and consultant with over a decade of experience. I build impactful products and solutions by using technology, design, and engineering  strategically."
 
 # markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
