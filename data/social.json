@@ -1,9 +1,9 @@
 {
   "links": [
     {
-      "name": "twitter",
-      "url": "https://twitter.com/stephenajulu",
-      "image": "images/social/twitter.svg"
+      "name": "x",
+      "url": "https://x.com/stephenajulu",
+      "image": "images/social/x.svg"
     },
     {
       "name": "github",
@@ -11,9 +11,18 @@
       "image": "images/social/github.svg"
     },
     {
+      "name": "instagram",
+      "url": "https://www.instagram.com/stephenajulu"
+      "image": "images/social/instagram.svg"
+    },
+    {
       "name": "linkedin",
       "url": "https://www.linkedin.com/in/stephenajulu",
       "image": "images/social/linkedin.svg"
+    },
+    {
+      "name": "ethereum",
+      "image": "images/social/ethereum.svg"
     }
   ]
 }
