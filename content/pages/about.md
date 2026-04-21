@@ -38,6 +38,9 @@ Writing is my mechanism for synthesizing complex ideas into clear knowledge. Thi
 > "Write about what fascinates you. You don't need to be an expert. Curiosity leads to expertise."
 > **— James Clear**
 
+Subscribe to my newsletter:
+{{< newsletter >}}
+
 ### Analog Pursuits
 
 My commitment to building self-sustaining ecosystems extends beyond the digital realm. When I am not architecting things, my focus shifts to physical and intellectual conditioning:
