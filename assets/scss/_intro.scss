@@ -7,7 +7,7 @@
     margin-bottom: 30px;
     @include breakpoint('small') {
       width: 80%;
-      font-size: 80px;
+      font-size: 88px;
       line-height: 94px;
       margin-bottom: 50px;
     }
@@ -27,7 +27,7 @@
     line-height: 26px;
     @include breakpoint('small') {
       width: 80%;
-      font-size: 14px;
+      font-size: 22px;
       line-height: 32px;
     }
   }
