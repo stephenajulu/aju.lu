@@ -52,7 +52,7 @@ mediatype = "application/json"
   footerContent = "&copy; Stephen Ajulu  — <a href='/license/'>CC BY-NC-SA 4.0</a>"
   showFullTextinJSONFeed = "true"
   image = "images/socialimage.png"
-  logo = "images/logo.svg"
+  logo = "images/me.jpg"
 
 
   [Author]
