@@ -1,4 +1,11 @@
 <style>
+.newsletter-label {
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  color: #888;
+  font-size: 38px;
+}
+
 .newsletter-form {
   display: flex;
   border-radius: 30px;
@@ -46,8 +53,22 @@
 </style>
 
 <div class="newsletter section" id="newsletter">
-    <form action="https://buttondown.com/api/emails/embed-subscribe/ajulu" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/ajulu', 'popupwindow')" class="embeddable-buttondown-form newsletter-form">
-    <input type="email" name="email" id="bd-email" placeholder="your@email.com">
+    <p class="newsletter-label">Subscribe to get future posts via email (or grab the RSS feed)</p>
+    <form action="https://buttondown.com/api/emails/embed-subscribe/ajulu" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/ajulu', 'popupwindow')" class="embeddable-buttondown-form newsletter-form" onsubmit="return validateEmail()">
+    <input type="email" name="email" id="bd-email" placeholder="Enter your email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+      <span id="error-message" class="error-message">Please enter a valid email address.</span>
     <button type="submit" value="Subscribe">Subscribe</button>
   </form>
   </div>
+
+<script>
+function validateEmail() {
+  const emailField = document.getElementById('bd-email');
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailPattern.test(emailField.value)) {
+    alert('Please enter a valid email address.');
+    return false;
+  }
+  return true;
+}
+</script>
