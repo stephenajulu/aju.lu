@@ -1,23 +1,16 @@
 <style>
-.newsletter-section {
-  text-align: center;
-  margin: 2rem auto;
-  font-family: 'Poppins', sans-serif;
-}
-
-.newsletter-nudge {
+.newsletter-label {
   font-weight: 600;
-  color: #6320d6;
   margin-bottom: 0.5rem;
+  color: #222;
 }
 
 .newsletter-form {
   display: flex;
-  justify-content: center;
   border-radius: 30px;
   overflow: hidden;
   max-width: 500px;
-  margin: 0 auto;
+  margin: 0.5rem 0; /* left-aligned flow */
 }
 
 .newsletter-form input[type="email"] {
@@ -48,16 +41,11 @@
   background-color: #4b18a3;
 }
 
-.newsletter-reassurance {
-  font-size: 0.85rem;
-  color: #555;
-  margin-top: 0.5rem;
-}
-
 @media only screen and (max-width: 768px) {
   .newsletter-form {
     flex-direction: column;
     border-radius: 30px;
+    max-width: 100%;
   }
 
   .newsletter-form input[type="email"],
@@ -73,8 +61,8 @@
 }
 </style>
 
-<div class="newsletter-section" id="newsletter">
-  <p class="newsletter-nudge">📬 Join 586+ readers</p>
+<div class="newsletter" id="newsletter">
+  <p class="newsletter-label">Newsletter</p>
   <form action="https://buttondown.com/api/emails/embed-subscribe/ajulu" 
         method="post" 
         target="popupwindow" 
@@ -83,5 +71,4 @@
     <input type="email" name="email" id="bd-email" placeholder="Enter your email" required>
     <button type="submit">Subscribe</button>
   </form>
-  <p class="newsletter-reassurance">No spam. Unsubscribe anytime.</p>
 </div>
