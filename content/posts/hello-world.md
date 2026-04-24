@@ -2,7 +2,6 @@
 title: Hello World
 date: 2026-04-23
 description: Getting back into writing and blogging
-image: images/cctv.jpeg
 draft: false
 ---
 
