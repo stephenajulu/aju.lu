@@ -3,6 +3,6 @@
 {{ $scratch.Add "fullwordcount" .WordCount }}
 {{ end }}
 
-#### Here's a litle bit of info:
+<h4>Here's a little bit of info:</h4>
 
-{{ len (where .Site.RegularPages "Section" "=" "posts") }} posts ({{ $scratch.Get "fullwordcount" | lang.NumFmt 0 }} words) have been published on [Stephen Ajulu](https://stephenajulu.com)
+{{ len (where .Site.RegularPages "Section" "=" "posts") }} posts ({{ $scratch.Get "fullwordcount" | lang.NumFmt 0 }} words) have been published on <a href="https://ajulu.netlify.app">Stephen Ajulu</a>
