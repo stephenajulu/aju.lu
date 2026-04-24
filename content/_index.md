@@ -7,4 +7,4 @@ Hello, I'm Stephen Ajulu, a multidisciplinary tech professional based in Nairobi
 
 This platform houses my cross-domain writing and interests, but mostly technology, design, engineering, lifestyle, and science.
 
-{{< newsletter2 >}}
+{{< newsletter >}}
