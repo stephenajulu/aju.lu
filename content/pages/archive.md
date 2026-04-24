@@ -8,4 +8,4 @@ url: /archive/
 
 
 
-{{< archive >}}
+{{% archive %}}
