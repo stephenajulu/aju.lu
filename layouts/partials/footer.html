@@ -1,7 +1,7 @@
 <footer class="footer">
-  {{ if site.Data.social.links }}
+  {{ if .Site.Data.social.links }}
   <div class="footer-social">
-    {{ range site.Data.social.links }}
+    {{ range .Site.Data.social.links }}
       <span class="social-icon social-icon-{{ .name | urlize }}">
         <a href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener me">
           <img src="{{ .image | relURL }}" width="24" height="24" alt="{{ .name }}"/>
@@ -10,6 +10,11 @@
     {{ end }}
   </div>
   {{ end }}
-  <p>{{ site.Params.footerContent | safeHTML }}</p>
+  <p>{{ .Site.Params.footerContent | safeHTML }}</p>
   {{ partial "h-card.html" . }}
 </footer>
+
+
+
+
+

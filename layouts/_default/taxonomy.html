@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="intro">
-    <h1>All {{ .Data.Plural | humanize }}{{ if site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+    <h1>All {{ .Data.Plural | humanize }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
     <p>Browse content by topic and classification.</p>
 </div>
 
@@ -12,3 +12,8 @@
     {{ end }}
 </div>
 {{ end }}
+
+
+
+
+

@@ -1,7 +1,11 @@
-[{{ range $index, $page := site.RegularPages }}{{ if $index }},{{ end }}{
+[{{ range $index, $page := .Site.RegularPages }}{{ if $index }},{{ end }}{
     "t": {{ $page.Title | jsonify }},
     "u": {{ $page.RelPermalink | jsonify }},
     "s": {{ $page.Description | default ($page.Summary | plainify | truncate 160) | jsonify }},
     "d": {{ $page.Date.Format "Jan 2, 2006" | jsonify }},
     "tags": {{ $page.Params.tags | jsonify }}
 }{{ end }}]
+
+
+
+

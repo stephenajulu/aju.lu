@@ -1,15 +1,15 @@
 {
     "version": "https://jsonfeed.org/version/1.1",
-    "title": {{ site.Title | jsonify }},
-    "home_page_url": {{ site.BaseURL | jsonify }},
+    "title": {{ $.Site.Title | jsonify }},
+    "home_page_url": {{ $.Site.BaseURL | jsonify }},
     "feed_url": {{ (printf "%sfeed.json" .Permalink) | jsonify }},
-    {{ with site.Params.author.description }}"description": {{ . | jsonify }},{{ end }}
-    {{ with site.Params.author.image }}"icon": {{ . | absURL | jsonify }},{{ end }}
+    {{ with $.Site.Params.author.description }}"description": {{ . | jsonify }},{{ end }}
+    {{ with $.Site.Params.author.image }}"icon": {{ . | absURL | jsonify }},{{ end }}
     "authors": [
         {
-            "name": {{ site.Params.author.name | jsonify }},
-            "url": {{ site.Params.author.url | jsonify }},
-            "avatar": {{ site.Params.author.image | absURL | jsonify }}
+            "name": {{ $.Site.Params.author.name | jsonify }},
+            "url": {{ $.Site.Params.author.url | jsonify }},
+            "avatar": {{ $.Site.Params.author.image | absURL | jsonify }}
         }
     ],
     "items": [

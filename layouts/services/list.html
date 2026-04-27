@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="intro">
-  <h1>{{ .Title }}{{ if site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+  <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
   {{ .Content }}
 </div>
 
@@ -38,3 +38,8 @@
     <a href="/contact/" class="btn-primary">Get in Touch</a>
 </div>
 {{ end }}
+
+
+
+
+

@@ -1,5 +1,5 @@
 <div class="archive-grouped">
-  {{ $pages := where site.RegularPages "Type" "in" (slice "posts") }}
+  {{ $pages := where .Site.RegularPages "Type" "in" (slice "posts") }}
   {{ range $pages.GroupByDate "2006" }}
   <div class="archive-year-group">
     <h2 class="archive-year">{{ .Key }} <span class="archive-count">{{ len .Pages }} posts</span></h2>
@@ -14,3 +14,8 @@
   </div>
   {{ end }}
 </div>
+
+
+
+
+

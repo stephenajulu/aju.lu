@@ -2,18 +2,18 @@
 
 {{ define "main" }}
   <article class="blog h-entry">
-    {{ if site.Params.showAuthorOnPosts }}
+    {{ if .Site.Params.showAuthorOnPosts }}
       {{ partial "author.html" . }}
     {{ else }}
       <div style="display:none;">
-        <a class="p-author h-card" href="{{ site.BaseURL }}">{{ site.Params.author.name }}</a>
+        <a class="p-author h-card" href="{{ .Site.BaseURL }}">{{ .Site.Params.author.name }}</a>
         <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
         <a class="u-url" href="{{ .Permalink }}">{{ .Title }}</a>
       </div>
     {{ end }}
     
     <div class="intro">
-      <h1 class="p-name">{{ .Title }}{{ if site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+      <h1 class="p-name">{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
       {{ if .Params.image }}
       <img class="u-featured" alt="{{.Params.imageAltAttribute | default "Article hero image"}}" src="{{ .Params.image | relURL }}" />
       {{ end }}
@@ -37,7 +37,7 @@
         {{ partial "share.html" . }}
       </div>
       <br>
-      <a class="dramatic" style="font-family: Newsreader; font-weight: bold; font-style: italics; text-decoration:none;" href="mailto:{{ site.Params.author.email }}?subject={{ replace (printf "Re: %s" .Page.Title) "\"" "'" }}">Reply by email</a>
+      <a class="dramatic" style="font-family: Newsreader; font-weight: bold; font-style: italics; text-decoration:none;" href="mailto:{{ .Site.Params.author.email }}?subject={{ replace (printf "Re: %s" .Page.Title) "\"" "'" }}">Reply by email</a>
       <br>
       <div id="webmentions-container">
         {{ partial "webmention.html" . }}
@@ -64,3 +64,8 @@
     </div>
   </article>
 {{ end }}
+
+
+
+
+

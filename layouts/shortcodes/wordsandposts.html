@@ -1,5 +1,5 @@
 {{ $scratch := newScratch }}
-{{ $posts := where site.RegularPages "Type" "in" (slice "posts") }}
+{{ $posts := where .Site.RegularPages "Type" "in" (slice "posts") }}
 {{ range $posts }}
   {{ $scratch.Add "fullwordcount" .WordCount }}
 {{ end }}
@@ -14,7 +14,12 @@
         <span class="stats-label">Total Words</span>
     </div>
     <div class="stats-item">
-        <span class="stats-value">{{ len (where site.RegularPages "Section" "projects") }}</span>
+        <span class="stats-value">{{ len (where .Site.RegularPages "Section" "projects") }}</span>
         <span class="stats-label">Projects</span>
     </div>
 </div>
+
+
+
+
+
