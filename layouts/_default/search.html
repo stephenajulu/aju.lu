@@ -1,14 +1,14 @@
 {{ define "main" }}
 <div class="intro">
     <h1>Search{{ if site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+    <p>Press <kbd>/</kbd> to focus search.</p>
 </div>
 
 <div class="search-container">
-    <input type="text" id="search-input" placeholder="Type to search..." autocomplete="off">
+    <input type="text" id="search-input" placeholder="Type to search..." autocomplete="off" aria-label="Search posts">
     <div id="search-results"></div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
 <script>
     let fuse;
     const searchInput = document.getElementById('search-input');
@@ -22,11 +22,11 @@
             
             fuse = new Fuse(data, {
                 keys: [
-                    { name: 'title', weight: 0.7 },
-                    { name: 'summary', weight: 0.3 },
-                    { name: 'content', weight: 0.1 }
+                    { name: 't', weight: 0.8 }, // title
+                    { name: 's', weight: 0.2 }, // summary
+                    { name: 'tags', weight: 0.5 }
                 ],
-                threshold: 0.3,
+                threshold: 0.4,
                 includeMatches: true,
                 minMatchCharLength: 2
             });
@@ -35,6 +35,14 @@
             searchResults.innerHTML = '<p>Search is currently unavailable. Please try again later.</p>';
         }
     }
+
+    // Keyboard shortcut /
+    document.addEventListener('keydown', (e) => {
+        if (e.key === '/' && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
+            e.preventDefault();
+            searchInput.focus();
+        }
+    });
 
     searchInput.addEventListener('input', () => {
         const query = searchInput.value.trim();
@@ -60,9 +68,9 @@
             const article = document.createElement('article');
             article.className = 'search-result-item';
             article.innerHTML = `
-                <h3><a href="${item.permalink}">${item.title}</a></h3>
-                <div class="search-result-meta">${item.date}</div>
-                <p>${item.summary}</p>
+                <h3><a href="${item.u}">${item.t}</a></h3>
+                <div class="search-result-meta">${item.d}</div>
+                <p>${item.s}</p>
             `;
             searchResults.appendChild(article);
         });

@@ -32,7 +32,10 @@
     {{ end }}
 
     <div class="blog-footer">
-      {{ partial "share.html" . }}
+      <div class="footer-actions">
+        <button id="copy-link" class="btn-copy" data-url="{{ .Permalink }}">Copy Permalink</button>
+        {{ partial "share.html" . }}
+      </div>
       <br>
       <a class="dramatic" style="font-family: Newsreader; font-weight: bold; font-style: italics; text-decoration:none;" href="mailto:{{ site.Params.author.email }}?subject={{ replace (printf "Re: %s" .Page.Title) "\"" "'" }}">Reply by email</a>
       <br>

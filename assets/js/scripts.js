@@ -3,11 +3,26 @@ var menuTrigger = document.querySelector('#toggle-menu-main-mobile');
 var menuContainer = document.querySelector('#menu-main-mobile');
 var hamburgerIcon = document.querySelector('.hamburger');
 
+// Mobile Menu Toggle
 if (menuTrigger !== null) {
   menuTrigger.addEventListener('click', function(e) {
+    const isOpen = menuContainer.classList.contains('open');
     menuContainer.classList.toggle('open');
     hamburgerIcon.classList.toggle('is-active');
     body.classList.toggle('lock-scroll');
+    
+    // Accessibility
+    hamburgerIcon.setAttribute('aria-expanded', !isOpen);
+  });
+
+  // Close on Escape
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && menuContainer.classList.contains('open')) {
+        menuContainer.classList.remove('open');
+        hamburgerIcon.classList.remove('is-active');
+        body.classList.remove('lock-scroll');
+        hamburgerIcon.setAttribute('aria-expanded', 'false');
+    }
   });
 }
 
@@ -114,4 +129,53 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   }
+});
+
+// 5. Desktop Dropdown Accessibility
+document.addEventListener('DOMContentLoaded', () => {
+    const dropdowns = document.querySelectorAll('.has-children');
+    
+    dropdowns.forEach(dropdown => {
+        const link = dropdown.querySelector('a');
+        
+        // Handle click on parent link for touch/keyboard
+        link.addEventListener('click', (e) => {
+            if (window.innerWidth >= 992) { // Only on desktop
+                e.preventDefault();
+                const isExpanded = link.getAttribute('aria-expanded') === 'true';
+                link.setAttribute('aria-expanded', !isExpanded);
+                dropdown.classList.toggle('is-open');
+            }
+        });
+
+        // Close on blur (when tabbing out)
+        dropdown.addEventListener('focusout', (e) => {
+            if (!dropdown.contains(e.relatedTarget)) {
+                link.setAttribute('aria-expanded', 'false');
+                dropdown.classList.remove('is-open');
+            }
+        });
+    });
+});
+
+// 6. Copy Permalink
+document.addEventListener('DOMContentLoaded', () => {
+    const copyBtn = document.getElementById('copy-link');
+    if (copyBtn) {
+        copyBtn.addEventListener('click', async () => {
+            const url = copyBtn.getAttribute('data-url');
+            try {
+                await navigator.clipboard.writeText(url);
+                const originalText = copyBtn.innerText;
+                copyBtn.innerText = 'Link Copied!';
+                copyBtn.classList.add('copied');
+                setTimeout(() => {
+                    copyBtn.innerText = originalText;
+                    copyBtn.classList.remove('copied');
+                }, 2000);
+            } catch (err) {
+                console.error('Failed to copy: ', err);
+            }
+        });
+    }
 });

@@ -1,6 +1,6 @@
 .menu-main-mobile {
   position: fixed;
-  background: var(--base-color);
+  background: var(--highlight-color); /* Highlight color background as requested */
   top: 0;
   left: 0;
   width: 100%;
@@ -10,10 +10,12 @@
   visibility: hidden;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow-y: auto;
+  flex-direction: column;
+  align-items: center; /* Horizontal centering */
+  justify-content: center; /* Vertical centering */
+  overflow-y: auto; /* Support for long menus */
   padding: 80px 20px;
+  box-sizing: border-box;
 
   &.open {
     opacity: 1;
@@ -32,19 +34,20 @@
       
       a {
         font-family: var(--font-family-heading);
-        font-size: 1.8rem;
+        font-size: 2.2rem;
         font-weight: 700;
-        color: var(--heading-color);
+        color: var(--text-color); /* Theme text color as requested */
         text-decoration: none;
-        transition: color 0.3s ease;
+        transition: opacity 0.3s ease;
+        display: inline-block;
         
         &:hover {
-          color: var(--highlight-color);
+          opacity: 0.7;
         }
       }
 
       &.active a {
-        color: var(--highlight-color);
+        text-decoration: underline;
       }
 
       /* Mobile Nesting */
@@ -56,8 +59,8 @@
           li {
             margin-bottom: 15px;
             a {
-              font-size: 1.2rem;
-              opacity: 0.8;
+              font-size: 1.4rem;
+              opacity: 0.9;
               font-family: var(--font-family-paragraph);
               font-weight: 500;
             }
@@ -70,4 +73,12 @@
 
 body.lock-scroll {
     overflow: hidden;
+}
+
+.hamburger {
+  &.is-active {
+    span {
+      background: var(--text-color) !important; /* Ensure visibility against highlight bg */
+    }
+  }
 }

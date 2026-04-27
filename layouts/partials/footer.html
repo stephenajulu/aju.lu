@@ -1,4 +1,4 @@
-<div class="footer">
+<footer class="footer">
   {{ if site.Data.social.links }}
   <div class="footer-social">
     {{ range site.Data.social.links }}
@@ -12,5 +12,4 @@
   {{ end }}
   <p>{{ site.Params.footerContent | safeHTML }}</p>
   {{ partial "h-card.html" . }}
-</div>
-
+</footer>

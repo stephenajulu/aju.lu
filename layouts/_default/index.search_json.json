@@ -1,7 +1,7 @@
 [{{ range $index, $page := site.RegularPages }}{{ if $index }},{{ end }}{
-    "title": {{ $page.Title | jsonify }},
-    "permalink": {{ $page.RelPermalink | jsonify }},
-    "summary": {{ $page.Summary | plainify | jsonify }},
-    "content": {{ $page.Plain | jsonify }},
-    "date": {{ $page.Date.Format "Jan 2, 2006" | jsonify }}
+    "t": {{ $page.Title | jsonify }},
+    "u": {{ $page.RelPermalink | jsonify }},
+    "s": {{ $page.Description | default ($page.Summary | plainify | truncate 160) | jsonify }},
+    "d": {{ $page.Date.Format "Jan 2, 2006" | jsonify }},
+    "tags": {{ $page.Params.tags | jsonify }}
 }{{ end }}]

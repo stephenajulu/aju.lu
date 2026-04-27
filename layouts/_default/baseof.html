@@ -13,7 +13,6 @@
       }
     })();
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js"></script>
   <title>{{ if .IsHome }}{{ site.Title}}{{ else }}{{ block "title" . }}{{ .Title }} | {{ site.Title }}{{ end }}{{ end }}</title>
 
   {{ "<!--Favicon -->" | safeHTML }}
@@ -64,8 +63,10 @@
   {{ partial "menu-main-mobile.html" . }}
   <div id="wrapper" class="wrapper">
     {{ partial "header.html" . }}
-    {{ block "main" . }}
-    {{ end }}
+    <main id="main" class="main">
+      {{ block "main" . }}
+      {{ end }}
+    </main>
     {{ partial "footer.html" . }}
   </div>
 
@@ -74,8 +75,10 @@
   </button>
 
   {{ $scripts := resources.Get "js/scripts.js" }}
+  {{ $fuse := resources.Get "js/fuse.min.js" }}
+  {{ $zoom := resources.Get "js/medium-zoom.min.js" }}
 
-  {{ $js := slice $scripts | resources.Concat "js/bundle.js" }}
+  {{ $js := slice $fuse $zoom $scripts | resources.Concat "js/bundle.js" }}
 
   {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
     <script type="text/javascript" src="{{ ($js | minify | fingerprint).RelPermalink }}"></script>
