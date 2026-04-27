@@ -126,7 +126,12 @@ mediatype = "application/json"
     weight = 5
     url = "/search/"
   [[menu.main]]
+    name = "Contact"
+    identifier = "contact"
+    weight = 6
+    url = "/contact/"
+  [[menu.main]]
     name = "About"
     identifier = "about"
-    weight = 6
+    weight = 7
     url = "/About/"

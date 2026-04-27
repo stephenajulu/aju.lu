@@ -3,7 +3,7 @@ title: Archive
 url: /archive/
 ---
 
-{{% wordsandposts %}}
+{{< wordsandposts >}}
 
 
-{{% archive %}}
+{{< archive >}}
