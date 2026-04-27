@@ -2,24 +2,61 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Stephen Ajulu"
 paginate = 6
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-pygmentsUseClasses = true
 copyright= "Stephen Ajulu."
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS", "JSON", "SEARCH_JSON"]
+section = ["HTML", "RSS", "JSON"]
+taxonomy = ["HTML", "RSS"]
+term = ["HTML", "RSS"]
+
+[mediaTypes]
+  [mediaTypes."application/feed+json"]
+    suffixes = ["json"]
+
 [outputFormats.RSS]
 baseName = "feed"
-mediatype = "application/rss"
+mediatype = "application/rss+xml"
+
 [outputFormats.JSON]
 baseName = "feed"
+mediatype = "application/feed+json"
+
+[outputFormats.SEARCH_JSON]
+baseName = "index"
 mediatype = "application/json"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    style = "github"
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
+
+[related]
+  threshold = 80
+  includeNewer = false
+  toLower = true
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "categories"
+    weight = 80
+  [[related.indices]]
+    name = "date"
+    weight = 10
 
 [module]
   [module.hugoVersion]
     extended = true
-    min = "0.55.0"
+    min = "0.125.0"
 
 [params]
   google_analytics_id = ""
@@ -43,7 +80,7 @@ mediatype = "application/json"
   enableGoogleFonts = true 
   location = "Nairobi, Kenya"
   enableGitInfo = true
-  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" #https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap
+  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
   fontFamilyHeading = "Fraunces"
   fontFamilyParagraph = "Poppins"
   fontFamilyMonospace = "monospace"
@@ -55,20 +92,12 @@ mediatype = "application/json"
   logo = "images/me.jpg"
 
 
-  [Author]
+  [params.author]
     name = "Stephen Ajulu"
     email  = "ajulu.b22uf@aleeas.com"
     url = "https://stephenajulu.com"
     image = "images/me.jpg"
     description = "Hello, I'm Stephen Ajulu, a seasoned tech expert, writer, and consultant with over a decade of experience. I build impactful products and solutions by using technology, design, and engineering  strategically."
-
-# markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      hardWraps = false
-      unsafe = true
-      xhtml = false
 
 [menu]
   [[menu.main]]
@@ -82,7 +111,36 @@ mediatype = "application/json"
     weight = 2
     url = "/posts/"
   [[menu.main]]
+    name = "Notes"
+    identifier = "notes"
+    weight = 3
+    url = "/notes/"
+  [[menu.main]]
+    name = "Search"
+    identifier = "search"
+    weight = 4
+    url = "/search/"
+  [[menu.main]]
+    name = "More"
+    identifier = "more"
+    weight = 5
+  [[menu.main]]
+    name = "Portfolio"
+    parent = "more"
+    weight = 1
+    url = "/projects/"
+  [[menu.main]]
+    name = "Services"
+    parent = "more"
+    weight = 2
+    url = "/services/"
+  [[menu.main]]
+    name = "Contact"
+    parent = "more"
+    weight = 3
+    url = "/contact/"
+  [[menu.main]]
     name = "About"
     identifier = "about"
-    weight = 4
+    weight = 6
     url = "/About/"

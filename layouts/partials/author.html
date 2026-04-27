@@ -1,6 +1,8 @@
-<div class="author">
-  <img width="30" class="author-image" src="{{ .Site.Data.author.image | relURL }}" alt="{{ .Site.Data.author.name }}" />
-  <span class="author-name p-author">{{ .Site.Data.author.name }}</span>
+<div class="author p-author h-card">
+  <img width="30" class="author-image u-photo" src="{{ site.Data.author.image | relURL }}" alt="{{ site.Data.author.name }}" />
+  <a class="author-name p-name u-url" href="{{ site.BaseURL }}">{{ site.Data.author.name }}</a>
   <span class="author-divider"></span>
-  <span class="author-date">{{ dateFormat "January 2, 2006" .Date }}</span>
+  <time class="author-date dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ dateFormat "January 2, 2006" .Date }}</time>
+  <span class="author-divider"></span>
+  <span class="author-reading-time">{{ .ReadingTime }} min read</span>
 </div>

@@ -1,0 +1,81 @@
+{{ define "main" }}
+<div class="intro">
+    <h1>Search{{ if site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+    <p>Press <kbd>/</kbd> to focus search.</p>
+</div>
+
+<div class="search-container">
+    <input type="text" id="search-input" placeholder="Type to search..." autocomplete="off" aria-label="Search posts">
+    <div id="search-results"></div>
+</div>
+
+<script>
+    let fuse;
+    const searchInput = document.getElementById('search-input');
+    const searchResults = document.getElementById('search-results');
+
+    async function initSearch() {
+        try {
+            const response = await fetch('/index.json');
+            if (!response.ok) throw new Error('Network response was not ok');
+            const data = await response.json();
+            
+            fuse = new Fuse(data, {
+                keys: [
+                    { name: 't', weight: 0.8 }, // title
+                    { name: 's', weight: 0.2 }, // summary
+                    { name: 'tags', weight: 0.5 }
+                ],
+                threshold: 0.4,
+                includeMatches: true,
+                minMatchCharLength: 2
+            });
+        } catch (e) {
+            console.error('Failed to load search index', e);
+            searchResults.innerHTML = '<p>Search is currently unavailable. Please try again later.</p>';
+        }
+    }
+
+    // Keyboard shortcut /
+    document.addEventListener('keydown', (e) => {
+        if (e.key === '/' && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
+            e.preventDefault();
+            searchInput.focus();
+        }
+    });
+
+    searchInput.addEventListener('input', () => {
+        const query = searchInput.value.trim();
+        if (!fuse || query.length < 2) {
+            searchResults.innerHTML = '';
+            return;
+        }
+        
+        const results = fuse.search(query);
+        displayResults(results);
+    });
+
+    function displayResults(results) {
+        searchResults.innerHTML = '';
+        
+        if (results.length === 0) {
+            searchResults.innerHTML = '<p>No results found for "' + searchInput.value + '".</p>';
+            return;
+        }
+
+        results.forEach(result => {
+            const item = result.item;
+            const article = document.createElement('article');
+            article.className = 'search-result-item';
+            article.innerHTML = `
+                <h3><a href="${item.u}">${item.t}</a></h3>
+                <div class="search-result-meta">${item.d}</div>
+                <p>${item.s}</p>
+            `;
+            searchResults.appendChild(article);
+        });
+    }
+
+    initSearch();
+</script>
+{{ end }}

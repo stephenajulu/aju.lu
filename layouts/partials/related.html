@@ -1,0 +1,14 @@
+{{ $related := site.RegularPages.Related . | first 3 }}
+{{ with $related }}
+<div class="related-posts">
+  <h3 class="related-title">You might also like{{ if site.Params.addDot }}<span class="dot">.</span>{{ end }}</h3>
+  <div class="related-grid">
+    {{ range . }}
+    <div class="related-item">
+      <div class="related-meta">{{ .Date.Format "Jan 2, 2006" }}</div>
+      <h4 class="related-post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

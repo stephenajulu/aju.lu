@@ -1,68 +1,69 @@
 .menu-main-mobile {
   position: fixed;
-  background: var(--highlight-color);
+  background: var(--highlight-color); /* Highlight color background as requested */
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
+  z-index: 10000;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.35s, visibility 0.35s, height 0.35s;
-  overflow: hidden;
-  display: none;
-  justify-content: center;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
   flex-direction: column;
+  align-items: center; /* Horizontal centering */
+  justify-content: center; /* Vertical centering */
+  overflow-y: auto; /* Support for long menus */
+  padding: 80px 20px;
+  box-sizing: border-box;
+
   &.open {
     opacity: 1;
     visibility: visible;
-    height: 100%;
-    z-index: 10;
-    display: flex;
-    li {
-      animation: fadeInTop 0.5s ease forwards;
-      animation-delay: 0.1s;
-      &:nth-of-type(2) {
-        animation-delay: 0.15s;
-      }
-      &:nth-of-type(3) {
-        animation-delay: 0.20s;
-      }
-      &:nth-of-type(4) {
-        animation-delay: 0.25s;
-      }
-      &:nth-of-type(5) {
-        animation-delay: 0.30s;
-      }
-      &:nth-of-type(6) {
-        animation-delay: 0.35s;
-      }
-    }
   }
+
   ul {
-    font-size: 2rem;
-    font-family: var(--font-family-heading);
-    text-align: center;
     list-style: none;
+    padding: 0;
     margin: 0;
-    flex: 0;
+    text-align: center;
+    width: 100%;
+
     li {
-      display: block;
-      position: relative;
-      opacity: 0;
+      margin-bottom: 25px;
+      
       a {
-        display: block;
-        position: relative;
-        color: var(--base-color);
+        font-family: var(--font-family-heading);
+        font-size: 2.2rem;
+        font-weight: 700;
+        color: var(--text-color); /* Theme text color as requested */
         text-decoration: none;
+        transition: opacity 0.3s ease;
+        display: inline-block;
+        
         &:hover {
           opacity: 0.7;
         }
       }
-      ul.sub-menu {
-        font-size: 1.2rem;
-        li {
-          a {
 
+      &.active a {
+        text-decoration: underline;
+      }
+
+      /* Mobile Nesting */
+      &.has-children {
+        .sub-menu {
+          margin-top: 15px;
+          display: block;
+          
+          li {
+            margin-bottom: 15px;
+            a {
+              font-size: 1.4rem;
+              opacity: 0.9;
+              font-family: var(--font-family-paragraph);
+              font-weight: 500;
+            }
           }
         }
       }
@@ -70,68 +71,14 @@
   }
 }
 
-.hamburger-trigger {
-  height: 30px;
-  display: flex;
-  align-items: center;
-  @include breakpoint('medium') {
-    display: none;
-  }
+body.lock-scroll {
+    overflow: hidden;
 }
 
 .hamburger {
-  border: none;
-  cursor: pointer;
-  outline: none;
-  position: relative;
-  display: block;
-  width: 30px;
-  height: 20px;
-  background: transparent;
-  border-top: 2px solid;
-  border-bottom: 2px solid;
-  font-size: 0;
-  transition: all 0.25s ease-in-out;
-  color: var(--highlight-color);
-  &:before,
-  &:after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 2px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    background: currentColor;
-    transform: translate(-50%, -50%);
-    transition: transform 0.25s ease-in-out;
-  }
-  &:hover {
-    opacity: 0.7;
-  }
   &.is-active {
-    border-color: transparent;
-    z-index: 100;
-    color: var(--base-color);
-    &:hover {
-      opacity: 1;
+    span {
+      background: var(--text-color) !important; /* Ensure visibility against highlight bg */
     }
-    &:before {
-      transform: translate(-50%, -50%) rotate(45deg);
-    }
-    &:after {
-      transform: translate(-50%, -50%) rotate(-45deg);
-    }
-  }
-}
-
-@keyframes fadeInTop {
-  0% {
-    opacity: 0;
-    top: 20%;
-  }
-  100% {
-    opacity: 1;
-    top: 0;
   }
 }

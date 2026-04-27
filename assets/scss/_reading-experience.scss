@@ -1,0 +1,71 @@
+// Reading Progress Bar
+#reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background: var(--highlight-color, #6320d6);
+  width: 0%;
+  z-index: 10000; // Extremely high to stay above headers/nav
+  transition: width 0.1s ease;
+  pointer-events: none; // Don't block clicks
+}
+
+// Code Block Top Bar (Language & Copy Button)
+.highlight {
+  position: relative;
+  margin: 30px 0;
+  
+  .code-top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--base-offset-color);
+    border-bottom: 1px solid rgba(156, 163, 175, 0.1);
+    padding: 8px 16px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+    .code-lang-label {
+      font-size: 0.7rem;
+      font-weight: 800;
+      color: var(--meta-color);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-family: var(--font-family-monospace);
+    }
+    
+    .code-copy-btn {
+      background: transparent;
+      border: 1px solid rgba(156, 163, 175, 0.3);
+      color: var(--meta-color);
+      border-radius: 4px;
+      padding: 4px 10px;
+      font-size: 0.7rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-family: var(--font-family-paragraph);
+      font-weight: 600;
+      
+      &:hover {
+        background: var(--highlight-color);
+        color: #ffffff;
+        border-color: var(--highlight-color);
+      }
+      
+      &.copied {
+        background: #10b981; // Green success
+        color: #ffffff;
+        border-color: #10b981;
+      }
+    }
+  }
+  
+  pre {
+    margin: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+}

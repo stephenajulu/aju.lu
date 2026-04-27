@@ -4,8 +4,16 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>{{ if .IsHome }}{{ .Site.Title}}{{ else }}{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}{{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    (function() {
+      const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+      if (theme === 'light') {
+        document.documentElement.classList.add('light-mode');
+      }
+    })();
+  </script>
+  <title>{{ if .IsHome }}{{ site.Title}}{{ else }}{{ block "title" . }}{{ .Title }} | {{ site.Title }}{{ end }}{{ end }}</title>
 
   {{ "<!--Favicon -->" | safeHTML }}
   <link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}" type="image/x-icon" />
@@ -26,36 +34,51 @@
   {{- end }}
 
   {{ block "meta_tags" . }}
-    {{ if .Params.description }}<meta name="description" content="{{ .Params.description }}"/>{{ end }}<meta property="og:title" content="{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}"/><meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}"/><meta property="og:url" content="{{ .Permalink }}"/>
+    {{ $description := .Description | default (.Summary | plainify | truncate 160) }}
+    <meta name="description" content="{{ $description }}"/>
+    <meta property="og:title" content="{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} - {{ site.Title }}{{ end }}"/>
+    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}"/>
+    <meta property="og:url" content="{{ .Permalink }}"/>
+    <meta property="og:description" content="{{ $description }}"/>
     {{ if .Params.image }}<meta property="og:image" content="{{ .Params.image | absURL }}"/>{{ end }}
-    {{ if .Params.description }}<meta property="og:description" content="{{ .Params.description }}"/>{{ end }}<meta name="twitter:card" content="summary_large_image"/>
-    {{ if .Site.Params.twitter_handle }}<meta name="twitter:site" content="{{ .Site.Params.twitter_handle }}"/>{{ end }}
-    {{ if .Site.Params.twitter_handle }}<meta name="twitter:creator" content="{{ .Site.Params.twitter_handle }}"/>{{ end }}
+    <meta name="twitter:card" content="summary_large_image"/>
+    {{ if site.Params.twitter_handle }}<meta name="twitter:site" content="{{ site.Params.twitter_handle }}"/>{{ end }}
+    {{ if site.Params.twitter_handle }}<meta name="twitter:creator" content="{{ site.Params.twitter_handle }}"/>{{ end }}
   {{ end }}
 
-  {{ if and .Site.Params.googleFontsUrl .Site.Params.enableGoogleFonts }}
+  {{ if and site.Params.googleFontsUrl site.Params.enableGoogleFonts }}
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="{{ .Site.Params.googleFontsUrl }}" rel="stylesheet">
+    <link href="{{ site.Params.googleFontsUrl }}" rel="stylesheet">
   {{ end }}
 
+  {{ partial "schema.html" . }}
   {{ partial "extend-head.html" . }}
 </head>
 
 {{ $themeStyle := slice "" }}
-{{ if eq .Site.Params.addFrame true }}{{ $themeStyle = $themeStyle | append "frame" }}{{ end }}
+{{ if eq site.Params.addFrame true }}{{ $themeStyle = $themeStyle | append "frame" }}{{ end }}
 
 <body class='page{{ delimit $themeStyle " " }} {{ block "body_classes" . }}{{ end }}'>
+  <div id="reading-progress"></div>
   {{ partial "menu-main-mobile.html" . }}
   <div id="wrapper" class="wrapper">
     {{ partial "header.html" . }}
-    {{ block "main" . }}
-    {{ end }}
+    <main id="main" class="main">
+      {{ block "main" . }}
+      {{ end }}
+    </main>
     {{ partial "footer.html" . }}
   </div>
 
-  {{ $scripts := resources.Get "js/scripts.js" }}
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
+  </button>
 
-  {{ $js := slice $scripts | resources.Concat "js/bundle.js" }}
+  {{ $scripts := resources.Get "js/scripts.js" }}
+  {{ $fuse := resources.Get "js/fuse.min.js" }}
+  {{ $zoom := resources.Get "js/medium-zoom.min.js" }}
+
+  {{ $js := slice $fuse $zoom $scripts | resources.Concat "js/bundle.js" }}
 
   {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
     <script type="text/javascript" src="{{ ($js | minify | fingerprint).RelPermalink }}"></script>
@@ -65,6 +88,31 @@
 
   {{ block "footer_js" . }}
   {{ end }}
+
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const moonIcon = document.getElementById('moon-icon');
+    const sunIcon = document.getElementById('sun-icon');
+
+    function updateIcons() {
+      if (document.documentElement.classList.contains('light-mode')) {
+        moonIcon.style.display = 'none';
+        sunIcon.style.display = 'block';
+      } else {
+        moonIcon.style.display = 'block';
+        sunIcon.style.display = 'none';
+      }
+    }
+
+    updateIcons();
+
+    themeToggle.addEventListener('click', () => {
+      document.documentElement.classList.toggle('light-mode');
+      const isLight = document.documentElement.classList.contains('light-mode');
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+      updateIcons();
+    });
+  </script>
 
   {{ partial "google-analytics.html" . }}
   {{ partial "extend-footer.html" . }}

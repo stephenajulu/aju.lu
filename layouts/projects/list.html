@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="intro">
+  <h1>{{ .Title }}{{ if site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+  {{ .Content }}
+</div>
+
+<div class="portfolio-grid {{ if .Params.mosaic }}mosaic{{ end }}">
+  {{ range .Pages }}
+  <a href="{{ .RelPermalink }}" class="portfolio-item {{ if .Params.tall }}tall{{ end }} {{ if .Params.wide }}wide{{ end }}">
+    {{ if .Params.image }}
+    <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" loading="lazy">
+    {{ else }}
+    <div class="portfolio-placeholder"></div>
+    {{ end }}
+    
+    <div class="portfolio-overlay-top">
+      <h2 class="portfolio-title">{{ .Title }}</h2>
+      <div class="portfolio-date">{{ .Date.Format "January 2006" }}</div>
+    </div>
+    
+    <div class="portfolio-overlay-bottom">
+      <p class="portfolio-description">{{ .Description | truncate 100 }}</p>
+    </div>
+  </a>
+  {{ end }}
+</div>
+{{ end }}

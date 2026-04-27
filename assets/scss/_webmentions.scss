@@ -1,0 +1,80 @@
+#webmentions {
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 1px solid var(--base-offset-color);
+
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+}
+
+.webmentions-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.webmention {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 15px;
+
+    .webmention-author-photo {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .webmention-content {
+        flex: 1;
+        
+        .webmention-author-name {
+            font-weight: 700;
+            color: var(--highlight-color);
+            text-decoration: none;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .webmention-meta {
+            font-size: 0.8rem;
+            color: var(--meta-color);
+            margin-bottom: 10px;
+        }
+
+        .webmention-body {
+            font-size: 1rem;
+            line-height: 1.5;
+            
+            p {
+                margin: 0;
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+.webmention-links {
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+    .webmention-link {
+        display: inline-block;
+        
+        img {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            border: 2px solid var(--base-offset-color);
+            transition: border-color 0.3s ease;
+            
+            &:hover {
+                border-color: var(--highlight-color);
+            }
+        }
+    }
+}

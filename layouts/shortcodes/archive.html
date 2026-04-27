@@ -1,20 +1,16 @@
-{{/*
-
-simple shortcode to display all posts in yearly sections on your archive page
-by Charl P. Botha
-
-this is a much simplified version of the yearly post archiving template at:
-https://rohanverma.net/blog/2019/11/15/archive-pages-group-by-year-hugo/
-
-*/}}
-
-{{ $prev := 3000}}
-{{ range where $.Site.RegularPages "Type" "posts" }}
-{{if .Date}}
-{{if gt $prev (.Date.Format "2006")}}
-## {{ .Date.Format "2006" }}
-{{end}}
-{{.Date.Format "02 Jan"}} -- [{{.Title}}]({{.Permalink}})
-{{ $prev = .Date.Format "2006"}}
-{{end}}
-{{end}}
+<div class="archive-grouped">
+  {{ $pages := where site.RegularPages "Type" "in" (slice "posts") }}
+  {{ range $pages.GroupByDate "2006" }}
+  <div class="archive-year-group">
+    <h2 class="archive-year">{{ .Key }} <span class="archive-count">{{ len .Pages }} posts</span></h2>
+    <div class="archive-list">
+      {{ range .Pages }}
+      <div class="archive-item">
+        <time class="archive-date">{{ .Date.Format "Jan 02" }}</time>
+        <h3 class="archive-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+</div>
