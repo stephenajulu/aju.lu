@@ -1,7 +1,6 @@
 ---
 title: Why Divorce Rates Are Through The Roof
 date: '2023-02-24 11:00:00+03:00'
-image: 'draft: False'
 draft: false
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: How I'm going to be an outlier male in 5 years
-date: 'null'
-image: 'draft: False'
+date: 2022-06-01T12:00:00Z
 draft: false
 ---
 

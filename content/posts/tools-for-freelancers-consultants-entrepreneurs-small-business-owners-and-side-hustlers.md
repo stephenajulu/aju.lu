@@ -1,7 +1,6 @@
 ---
 title: Tools for Freelancers, Consultants, Entrepreneurs, Small Business Owners, and
 date: '2022-08-30 09:00:00+03:00'
-image: 'draft: False'
 draft: false
 ---
 

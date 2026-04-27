@@ -1,7 +1,6 @@
 ---
 title: 'The Outlier Male: Straight Seven System'
 date: '2023-02-26 14:25:00+03:00'
-image: 'draft: False'
 draft: false
 ---
 
