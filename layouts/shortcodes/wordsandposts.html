@@ -10,7 +10,7 @@
         <span class="stats-label">Posts Published</span>
     </div>
     <div class="stats-item">
-        <span class="stats-value">{{ $scratch.Get "fullwordcount" | lang.NumFmt 0 }}</span>
+        <span class="stats-value">{{ printf "%d" ($scratch.Get "fullwordcount") }}</span>
         <span class="stats-label">Total Words</span>
     </div>
     <div class="stats-item">
