@@ -1,9 +1,12 @@
 .search-container {
     margin-top: 40px;
     margin-bottom: 60px;
+    width: 100%;
+    box-sizing: border-box;
 
     #search-input {
         width: 100%;
+        box-sizing: border-box;
         padding: 15px 20px;
         font-size: 1.2rem;
         background: var(--base-offset-color);
@@ -17,17 +20,25 @@
         &:focus {
             border-color: var(--highlight-color);
         }
+
+        @include breakpoint('small') {
+            font-size: 1rem;
+            padding: 12px 15px;
+        }
     }
 }
 
 #search-results {
     margin-top: 40px;
+    width: 100%;
 }
 
 .search-result-item {
     margin-bottom: 40px;
     padding-bottom: 20px;
     border-bottom: 1px solid var(--base-offset-color);
+    width: 100%;
+    box-sizing: border-box;
 
     h3 {
         margin-top: 0;
@@ -40,6 +51,10 @@
             &:hover {
                 color: var(--highlight-color);
             }
+        }
+
+        @include breakpoint('small') {
+            font-size: 1.3rem;
         }
     }
 
@@ -54,5 +69,6 @@
         font-size: 1rem;
         color: var(--text-color);
         opacity: 0.8;
+        line-height: 1.6;
     }
 }

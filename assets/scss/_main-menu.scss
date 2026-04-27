@@ -1,31 +1,81 @@
-
 .menu-main {
-  display: none;
-  flex: 0;
-  @include breakpoint('medium') {
-    display: block;
-  }
-  > ul {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    > li {
-      margin-right: 10px;
-      > a {
-        display: inline-block;
-        text-decoration: none;
+  }
+  
+  li {
+    position: relative;
+    margin-left: 20px;
+    
+    a {
+      text-decoration: none;
+      color: var(--heading-color);
+      font-weight: 700;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      transition: color 0.3s ease;
+      
+      &:hover {
+        color: var(--highlight-color);
+      }
+    }
+    
+    &.active a {
+      color: var(--highlight-color);
+    }
+
+    /* Dropdown Logic */
+    &.has-children {
+      &:hover .sub-menu {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+      }
+      
+      .dropdown-icon {
+        width: 16px;
+        height: 16px;
+        fill: currentColor;
+      }
+    }
+  }
+
+  .sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--base-offset-color);
+    min-width: 180px;
+    padding: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+    display: block; // Change from flex
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    z-index: 1000;
+    border: 1px solid rgba(156, 163, 175, 0.1);
+
+    li {
+      margin: 0;
+      display: block;
+      
+      a {
+        padding: 10px 20px;
+        font-size: 0.95rem;
+        font-weight: 500;
+        display: block;
+        
         &:hover {
-          text-decoration: underline;
+          background: rgba(156, 163, 175, 0.1);
         }
-      }
-      &.active {
-        > a {
-          display: inline-block;
-          font-weight: bold;
-        }
-      }
-      &:last-of-type {
-        margin-right: 0;
       }
     }
   }

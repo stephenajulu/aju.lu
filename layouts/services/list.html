@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="intro">
+  <h1>{{ .Title }}{{ if site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+  {{ .Content }}
+</div>
+
+<div class="achievements-bar">
+    <div class="achievement-item">
+        <span class="achievement-value">12+</span>
+        <span class="achievement-label">Years Experience</span>
+    </div>
+    <div class="achievement-item">
+        <span class="achievement-value">76+</span>
+        <span class="achievement-label">Projects Completed</span>
+    </div>
+    <div class="achievement-item">
+        <span class="achievement-value">96%</span>
+        <span class="achievement-label">Client Satisfaction</span>
+    </div>
+</div>
+
+<div class="services-grid">
+  {{ range .Pages.ByWeight }}
+  <div class="service-card">
+    <div class="service-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+    </div>
+    <h2 class="service-title">{{ .Title }}</h2>
+    <p class="service-description">{{ .Description }}</p>
+    <a href="{{ .RelPermalink }}" class="service-link dramatic">Learn more &rarr;</a>
+  </div>
+  {{ end }}
+</div>
+
+<div class="services-cta">
+    <h2 class="dramatic">Ready to start a project?</h2>
+    <p>Let's collaborate to build something impactful and sovereign.</p>
+    <a href="/contact/" class="btn-primary">Get in Touch</a>
+</div>
+{{ end }}

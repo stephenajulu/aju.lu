@@ -1,5 +1,6 @@
 ---
 title: "Contact"
+url: "/contact/"
 description: "Get in touch or book a consultation."
 layout: "contact"
 ---

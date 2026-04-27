@@ -80,7 +80,7 @@ mediatype = "application/json"
   enableGoogleFonts = true 
   location = "Nairobi, Kenya"
   enableGitInfo = true
-  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" #https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap
+  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
   fontFamilyHeading = "Fraunces"
   fontFamilyParagraph = "Poppins"
   fontFamilyMonospace = "monospace"
@@ -116,22 +116,31 @@ mediatype = "application/json"
     weight = 3
     url = "/notes/"
   [[menu.main]]
-    name = "Portfolio"
-    identifier = "portfolio"
-    weight = 4
-    url = "/projects/"
-  [[menu.main]]
     name = "Search"
     identifier = "search"
-    weight = 5
+    weight = 4
     url = "/search/"
   [[menu.main]]
+    name = "More"
+    identifier = "more"
+    weight = 5
+  [[menu.main]]
+    name = "Portfolio"
+    parent = "more"
+    weight = 1
+    url = "/projects/"
+  [[menu.main]]
+    name = "Services"
+    parent = "more"
+    weight = 2
+    url = "/services/"
+  [[menu.main]]
     name = "Contact"
-    identifier = "contact"
-    weight = 6
+    parent = "more"
+    weight = 3
     url = "/contact/"
   [[menu.main]]
     name = "About"
     identifier = "about"
-    weight = 7
+    weight = 6
     url = "/About/"

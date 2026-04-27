@@ -3,12 +3,20 @@
     padding: 60px 20px;
     max-width: 600px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; // Vertical centering for children
+    justify-content: center;
 
     .intro {
         margin-bottom: 40px;
+        width: 100%;
+        text-align: center;
+
         h1 {
             font-size: 5rem;
-            margin-bottom: 10px;
+            margin: 0 0 10px 0;
+            line-height: 1;
             @include breakpoint('small') {
                 font-size: 8rem;
             }
@@ -22,14 +30,20 @@
 
     .error-image {
         margin-bottom: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
         img {
             max-width: 100%;
             height: auto;
-            /* If the SVG is dark, we can filter it based on theme if needed */
         }
     }
 
     .error-actions {
+        width: 100%;
+        text-align: center;
+
         p {
             font-size: 1.1rem;
             margin-bottom: 30px;

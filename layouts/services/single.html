@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="service-single">
+    <div class="intro">
+        <h1 class="p-name">{{ .Title }}{{ if site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+        <p class="service-tagline dramatic">{{ .Description }}</p>
+    </div>
+
+    <div class="content">
+        {{ .Content }}
+    </div>
+
+    <div class="service-actions">
+        <a href="/contact/" class="btn-primary">Inquire About This Service</a>
+        <a href="/services/" class="btn-secondary">View All Services</a>
+    </div>
+</div>
+{{ end }}
