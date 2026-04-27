@@ -1,5 +1,5 @@
 <header class='header'>
-  <a class="header-logo" href="{{ site.Home.RelPermalink }}">
+  <a class="header-logo" href="{{ .Site.Home.RelPermalink }}">
     {{ partial "logo.html" . }}
   </a>
 
@@ -7,7 +7,7 @@
     <nav class="menu-main" aria-label="Main navigation">
       <ul style="font-family: Fraunces;">
         {{ $currentPage := . }}
-        {{ range site.Menus.main }}
+        {{ range .Site.Menus.main }}
           {{ if .HasChildren }}
             <li class="menu-item-{{ .Name | lower }} has-children">
               <a href="#" aria-haspopup="true" aria-expanded="false">
@@ -50,3 +50,8 @@
     </div>
   </div>
 </header>
+
+
+
+
+

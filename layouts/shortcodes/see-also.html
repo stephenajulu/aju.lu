@@ -1,13 +1,13 @@
 {{ $path := .Get "src" }}
-{{ $page := site.GetPage $path }}
+{{ $page := .Site.GetPage $path }}
 
 {{/* If not found, try stripping .md and adding /posts/ prefix if missing */}}
 {{ if not $page }}
     {{ $path = strings.TrimSuffix ".md" $path }}
     {{ if not (strings.HasPrefix $path "posts/") }}
-        {{ $page = site.GetPage (printf "posts/%s" $path) }}
+        {{ $page = .Site.GetPage (printf "posts/%s" $path) }}
     {{ else }}
-        {{ $page = site.GetPage $path }}
+        {{ $page = .Site.GetPage $path }}
     {{ end }}
 {{ end }}
 
@@ -20,3 +20,8 @@
 {{ else }}
     {{ warnf "see-also shortcode: could not find page at path %q" (.Get "src") }}
 {{ end }}
+
+
+
+
+

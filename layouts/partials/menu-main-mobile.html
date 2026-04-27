@@ -1,7 +1,7 @@
 <div id="menu-main-mobile" class="menu-main-mobile">
     <ul class="menu">
         {{ $currentPage := . }}
-        {{ range site.Menus.main }}
+        {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
                 <li class="menu-item-{{ .Name | lower }} has-children">
                     <a href="#">{{ .Name }}</a>
@@ -23,3 +23,8 @@
         {{end}}
     </ul>
 </div>
+
+
+
+
+

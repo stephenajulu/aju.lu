@@ -8,7 +8,7 @@
 
 {{ "<!-- RSS Link-->" | safeHTML}}
 {{ range .AlternativeOutputFormats -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}} 
 
 <script defer src="https://analytics.eu.umami.is/script.js" data-website-id="a067997a-8c1a-43c3-a83c-89d42bf923e8"></script>
@@ -23,7 +23,7 @@
 
 
 {{ "<!-- IndieAuth Socials -->" | safeHTML }}
-{{ with site.Params.author.name }}<meta name="author" content="{{ . }}">{{ end }}
+{{ with $.Site.Params.author.name }}<meta name="author" content="{{ . }}">{{ end }}
 <link href="mailto:alunje73@gmail.com" rel="me">
 <link href="https://twitter.com/stephenajulu" rel="me">
 <link href="https://github.com/stephenajulu" rel="me">
@@ -34,7 +34,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="application-name" content="{{ .Title }}">
-<meta name="apple-mobile-web-app-title" content="{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} - {{ site.Title }}{{ end }}">
+<meta name="apple-mobile-web-app-title" content="{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} - {{ $.Site.Title }}{{ end }}">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="msapplication-starturl" content="/?utm_source=homescreen">
 <link href="favicon.ico" rel="shortcut icon">
@@ -84,8 +84,8 @@
     })(window, document, "clarity", "script", "l6c0c3iona");
     </script>
 
-{{ "<!-- Webmention Script -->" | safeHTML }}
-    <script src="https://stephenajulu.com/js/webmention.min.js" async></script>
-
 {{- /* Head custom content area end */ -}}
+
+
+
 

@@ -1,3 +1,8 @@
-{{$page := site.GetPage (.Get 0)}}
+{{$page := .Site.GetPage (.Get 0)}}
 <h5 class="additionalreading">Also Read: <a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h5>
+
+
+
+
+
 

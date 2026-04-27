@@ -13,7 +13,7 @@
       }
     })();
   </script>
-  <title>{{ if .IsHome }}{{ site.Title}}{{ else }}{{ block "title" . }}{{ .Title }} | {{ site.Title }}{{ end }}{{ end }}</title>
+  <title>{{ if .IsHome }}{{ .Site.Title}}{{ else }}{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}{{ end }}</title>
 
   {{ "<!--Favicon -->" | safeHTML }}
   <link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}" type="image/x-icon" />
@@ -21,7 +21,7 @@
 
   <link rel="canonical" href="{{ .Permalink }}" />
 
-  {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+  {{- if hugo.IsProduction | or (eq .Site.Params.env "production") }}
     {{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" false) }}
     {{ $extended := (resources.Match "css/extended/*.css") | resources.Concat "assets/css/extended.css" }}
     <link rel="stylesheet" href="{{ ($style | minify | fingerprint).RelPermalink }}">
@@ -36,19 +36,19 @@
   {{ block "meta_tags" . }}
     {{ $description := .Description | default (.Summary | plainify | truncate 160) }}
     <meta name="description" content="{{ $description }}"/>
-    <meta property="og:title" content="{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} - {{ site.Title }}{{ end }}"/>
+    <meta property="og:title" content="{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}"/>
     <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}"/>
     <meta property="og:url" content="{{ .Permalink }}"/>
     <meta property="og:description" content="{{ $description }}"/>
     {{ if .Params.image }}<meta property="og:image" content="{{ .Params.image | absURL }}"/>{{ end }}
     <meta name="twitter:card" content="summary_large_image"/>
-    {{ if site.Params.twitter_handle }}<meta name="twitter:site" content="{{ site.Params.twitter_handle }}"/>{{ end }}
-    {{ if site.Params.twitter_handle }}<meta name="twitter:creator" content="{{ site.Params.twitter_handle }}"/>{{ end }}
+    {{ if .Site.Params.twitter_handle }}<meta name="twitter:site" content="{{ .Site.Params.twitter_handle }}"/>{{ end }}
+    {{ if .Site.Params.twitter_handle }}<meta name="twitter:creator" content="{{ .Site.Params.twitter_handle }}"/>{{ end }}
   {{ end }}
 
-  {{ if and site.Params.googleFontsUrl site.Params.enableGoogleFonts }}
+  {{ if and .Site.Params.googleFontsUrl .Site.Params.enableGoogleFonts }}
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="{{ site.Params.googleFontsUrl }}" rel="stylesheet">
+    <link href="{{ .Site.Params.googleFontsUrl }}" rel="stylesheet">
   {{ end }}
 
   {{ partial "schema.html" . }}
@@ -56,7 +56,7 @@
 </head>
 
 {{ $themeStyle := slice "" }}
-{{ if eq site.Params.addFrame true }}{{ $themeStyle = $themeStyle | append "frame" }}{{ end }}
+{{ if eq .Site.Params.addFrame true }}{{ $themeStyle = $themeStyle | append "frame" }}{{ end }}
 
 <body class='page{{ delimit $themeStyle " " }} {{ block "body_classes" . }}{{ end }}'>
   <div id="reading-progress"></div>
@@ -80,7 +80,7 @@
 
   {{ $js := slice $fuse $zoom $scripts | resources.Concat "js/bundle.js" }}
 
-  {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+  {{- if hugo.IsProduction | or (eq .Site.Params.env "production") }}
     <script type="text/javascript" src="{{ ($js | minify | fingerprint).RelPermalink }}"></script>
   {{ else }}
     <script type="text/javascript" src="{{ $js.RelPermalink }}"></script>

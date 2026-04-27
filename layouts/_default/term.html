@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="intro">
     <div class="taxonomy-label">{{ .Data.Singular | humanize }}</div>
-    <h1 class="p-name"><span class="dramatic">#</span>{{ .Title }}{{ if site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+    <h1 class="p-name"><span class="dramatic">#</span>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
     <p>Showing all posts filed under this {{ .Data.Singular }}.</p>
 </div>
 
@@ -13,3 +13,8 @@
 
 {{ partial "paginator.html" . }}
 {{ end }}
+
+
+
+
+

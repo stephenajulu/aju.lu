@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="service-single">
     <div class="intro">
-        <h1 class="p-name">{{ .Title }}{{ if site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+        <h1 class="p-name">{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
         <p class="service-tagline dramatic">{{ .Description }}</p>
     </div>
 
@@ -15,3 +15,8 @@
     </div>
 </div>
 {{ end }}
+
+
+
+
+

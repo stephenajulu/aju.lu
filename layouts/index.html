@@ -2,34 +2,34 @@
 
 {{ define "main" }}
 
-  {{ if site.Params.showAuthorOnHomepage }}
+  {{ if .Site.Params.showAuthorOnHomepage }}
     {{ partial "author-large.html" . }}
   {{ end }}
 <br>
   <div class="intro">
-    <h1>{{ .Title }}{{ if site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
-    {{ if site.Params.showIntroContentOnHomepage}}
+    <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+    {{ if .Site.Params.showIntroContentOnHomepage}}
       <div class="intro-content">{{ .Content }}</div>
     {{ end }}
   </div>
 
-  {{ if site.Params.showPostsOnHomepage }}
+  {{ if .Site.Params.showPostsOnHomepage }}
 
     {{ $pages := where .Site.RegularPages "Type" "posts" }}
     {{ $sorted := ($pages.ByParam "date").Reverse }}
-    {{ if site.Params.sortPostsByDateOldestFirst }}
+    {{ if .Site.Params.sortPostsByDateOldestFirst }}
       {{ $sorted = $pages.ByParam "date" }}
     {{ end }}
 
     {{ $paginator := .Paginate $sorted }}
 
-    {{ if site.Params.usePaginationOnHomepage }}
+    {{ if .Site.Params.usePaginationOnHomepage }}
       {{ range $paginator.Pages }}
         {{ .Render "summary" }}
       {{ end }}
       {{ partial "paginator" . }}
     {{ else }}
-      {{ $limit := site.Params.limitPostsOnHomepage | default 3 }}
+      {{ $limit := .Site.Params.limitPostsOnHomepage | default 3 }}
       {{ range first $limit $sorted}}
         {{ .Render "summary" }}
       {{ end }}
@@ -41,4 +41,9 @@
 
 {{ define "footer_js" }}
 {{ end }}
+
+
+
+
+
 

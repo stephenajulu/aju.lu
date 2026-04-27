@@ -3,13 +3,13 @@
   "@context": "https://schema.org",
   {{ if .IsHome -}}
   "@type": "Person",
-  "name": {{ site.Params.author.name | jsonify }},
-  "url": {{ site.BaseURL | jsonify }},
-  "image": {{ site.Params.author.image | absURL | jsonify }},
-  "jobTitle": {{ site.Params.author.title | default "Tech Professional" | jsonify }},
-  "description": {{ site.Params.author.description | jsonify }},
+  "name": {{ .Site.Params.author.name | jsonify }},
+  "url": {{ .Site.BaseURL | jsonify }},
+  "image": {{ .Site.Params.author.image | absURL | jsonify }},
+  "jobTitle": {{ .Site.Params.author.title | default "Tech Professional" | jsonify }},
+  "description": {{ .Site.Params.author.description | jsonify }},
   "sameAs": [
-    {{- range $index, $link := site.Data.social.links -}}
+    {{- range $index, $link := .Site.Data.social.links -}}
       {{- if $index -}},{{- end -}}
       {{ $link.url | jsonify }}
     {{- end -}}
@@ -21,11 +21,11 @@
   "dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | jsonify }},
   "author": {
     "@type": "Person",
-    "name": {{ site.Params.author.name | jsonify }},
-    "url": {{ site.BaseURL | jsonify }}
+    "name": {{ .Site.Params.author.name | jsonify }},
+    "url": {{ .Site.BaseURL | jsonify }}
   },
   "description": {{ .Description | default (.Summary | plainify | truncate 160) | jsonify }},
-  "image": {{ if .Params.image }}{{ .Params.image | absURL | jsonify }}{{ else }}{{ site.Params.image | absURL | jsonify }}{{ end }},
+  "image": {{ if .Params.image }}{{ .Params.image | absURL | jsonify }}{{ else }}{{ .Site.Params.image | absURL | jsonify }}{{ end }},
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": {{ .Permalink | jsonify }}
@@ -43,14 +43,14 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": {{ site.BaseURL | jsonify }}
+      "item": {{ .Site.BaseURL | jsonify }}
     }
     {{- if not .IsHome -}}
     ,{
       "@type": "ListItem",
       "position": 2,
       "name": {{ .Section | humanize | jsonify }},
-      "item": {{ (printf "%s%s/" site.BaseURL .Section) | jsonify }}
+      "item": {{ (printf "%s%s/" .Site.BaseURL .Section) | jsonify }}
     },
     {
       "@type": "ListItem",
@@ -62,3 +62,8 @@
   ]
 }
 </script>
+
+
+
+
+

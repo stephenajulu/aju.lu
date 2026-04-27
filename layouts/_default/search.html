@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="intro">
-    <h1>Search{{ if site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+    <h1>Search{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
     <p>Press <kbd>/</kbd> to focus search.</p>
 </div>
 
@@ -79,3 +79,8 @@
     initSearch();
 </script>
 {{ end }}
+
+
+
+
+
