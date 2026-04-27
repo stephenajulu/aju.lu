@@ -9,7 +9,7 @@
   "jobTitle": {{ .Site.Params.author.title | default "Tech Professional" | jsonify }},
   "description": {{ .Site.Params.author.description | jsonify }},
   "sameAs": [
-    {{- range $index, $link := .Site.Data.social.links -}}
+    {{- range $index, $link := hugo.Data.social.links -}}
       {{- if $index -}},{{- end -}}
       {{ $link.url | jsonify }}
     {{- end -}}
