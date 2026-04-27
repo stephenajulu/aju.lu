@@ -1,7 +1,6 @@
 ---
 title: The Transfer
-date: 2026-04-23
-description: Moving articles to this new site
+date: '2026-04-23'
 draft: false
 ---
 

@@ -1,0 +1,58 @@
+{{ define "main" }}
+<div class="intro">
+    <h1>{{ .Title }}{{ if site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+    {{ .Content }}
+</div>
+
+<div class="contact-grid">
+    <div class="contact-form-section">
+        <h2 class="section-title">Send a Message</h2>
+        <form name="contact" data-netlify="true" class="themed-form">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="e.g. John Doe" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="companyname">Your Company</label>
+                <input type="text" id="companyname" name="companyname" placeholder="e.g. ABC Company">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="e.g. you@email.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="purpose">Purpose</label>
+                <select id="purpose" name="purpose">
+                    <option value="advertise">Advertise/Become a Sponsor🤝</option>
+                    <option value="opinion">Voice an opinion 🗣</option>
+                    <option value="opinion">Become a guest writer 😎</option>
+                    <option value="feature">Feature us(Hooray!)🎉</option>
+                    <option value="issue">Report an issue/bug 🙁🐛</option>
+                    <option value="research">Request coverage on a topic 🤩</option>
+                    <option value="legal">Copyright and Legal 👮‍♂️</option>
+                    <option value="hi" selected>Just saying hi 👋</option>
+                    <option value="newsletter">Join Our Newsletter 📨</option>
+                    <option value="other">Other 😃</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="Write your message here..." style="height:150px"></textarea>
+            </div>
+
+            <input type="submit" value="Send Message" class="submit-btn">
+        </form>
+    </div>
+
+    <div class="contact-booking-section">
+        <h2 class="section-title">Book a Consultation</h2>
+        <div class="booking-container">
+            {{ partial "shortcodes/consult.html" . }}
+        </div>
+    </div>
+</div>
+{{ end }}

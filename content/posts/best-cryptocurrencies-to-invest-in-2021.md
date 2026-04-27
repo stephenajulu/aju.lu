@@ -1,0 +1,26 @@
+---
+title: Best Cryptocurrencies to Invest in 2021
+date: '2021-04-20 06:45:00+00:00'
+image: /images/cryptocurrencies.jpg
+draft: false
+---
+
+Hi everyone, so today, I'd like to talk about Crypto. In this post, I'll cover 5 cryptocurrencies that I think you should invest in if you are starting out.
+
+## 1. Bitcoin(BTC)
+
+## 2. Ethereum(ETH)
+
+## 3. Dogecoin(DOGE)
+
+## 4. TetherUS(USDT)
+
+## 5. Ripple(XRP)
+
+Go check them out, especially with Dogecoin. Implement the HODL technique. This drop and rise so don't be afraid and only invest money you don't mind losing.
+
+To buy these I suggest you try Binance using this link, you'll get **5%:** [**Binance**](https://accounts.binance.com/en/register?ref=CL2JFAB6)
+
+See you next time. Stay safe!
+
+<a href="https://unstoppabledomains.com/?ref=d066811aa8ea4f2"><img src="/images/unstoppabledomainsad.webp" style="width: 100%; height: auto;"></a>

@@ -1,8 +1,20 @@
 {{ $scratch := newScratch }}
-{{ range (where .Site.RegularPages "Type" "in" (slice "posts")) }}
-{{ $scratch.Add "fullwordcount" .WordCount }}
+{{ $posts := where site.RegularPages "Type" "in" (slice "posts") }}
+{{ range $posts }}
+  {{ $scratch.Add "fullwordcount" .WordCount }}
 {{ end }}
 
-<h4>Here's a little bit of info:</h4>
-
-{{ len (where .Site.RegularPages "Section" "=" "posts") }} posts ({{ $scratch.Get "fullwordcount" | lang.NumFmt 0 }} words) have been published on [Stephen Ajulu](https://ajulu.netlify.app)
+<div class="stats-dashboard">
+    <div class="stats-item">
+        <span class="stats-value">{{ len $posts }}</span>
+        <span class="stats-label">Posts Published</span>
+    </div>
+    <div class="stats-item">
+        <span class="stats-value">{{ $scratch.Get "fullwordcount" | lang.NumFmt 0 }}</span>
+        <span class="stats-label">Total Words</span>
+    </div>
+    <div class="stats-item">
+        <span class="stats-value">{{ len (where site.RegularPages "Section" "projects") }}</span>
+        <span class="stats-label">Projects</span>
+    </div>
+</div>

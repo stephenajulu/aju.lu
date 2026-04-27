@@ -1,0 +1,14 @@
+{{ define "main" }}
+<article class="note-item h-entry single-note">
+  <div class="note-content e-content">
+    {{ .Content }}
+  </div>
+  <div class="note-meta">
+    <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+      {{ .Date.Format "Jan 2, 2006 • 15:04" }}
+    </time>
+  </div>
+  {{ partial "backlinks.html" (dict "page" .) }}
+  {{ partial "webmention.html" . }}
+</article>
+{{ end }}

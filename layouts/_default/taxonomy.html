@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="intro">
+    <h1>All {{ .Data.Plural | humanize }}{{ if site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+    <p>Browse content by topic and classification.</p>
+</div>
+
+<div class="taxonomy-cloud">
+    {{ range .Data.Terms.ByCount }}
+    <a href="{{ .Page.RelPermalink }}" class="taxonomy-cloud-item">
+        {{ .Page.Title }} <span class="count">{{ .Count }}</span>
+    </a>
+    {{ end }}
+</div>
+{{ end }}

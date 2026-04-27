@@ -1,0 +1,106 @@
+.notes-feed {
+  margin-top: 40px;
+}
+
+.note-item {
+  margin-bottom: 60px;
+  padding: 30px;
+  background: var(--base-offset-color);
+  border-radius: 8px;
+  border-left: 4px solid var(--highlight-color);
+  position: relative;
+  transition: background 0.3s ease;
+
+  &.single-note {
+    background: transparent;
+    padding: 0;
+    margin-top: 40px;
+    border-left: none;
+  }
+
+  .note-content {
+    font-family: var(--font-family-paragraph);
+    font-size: 1.1rem;
+    line-height: 1.6;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    a {
+        color: var(--highlight-color);
+        text-decoration: underline;
+        font-weight: 500;
+    }
+
+    img, video {
+        max-width: 100%;
+        height: auto;
+        border-radius: 4px;
+        margin: 20px 0;
+        display: block;
+    }
+
+    h1, h2, h3, h4 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: var(--heading-color);
+    }
+
+    ul, ol {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        list-style: disc;
+        li {
+            list-style: inherit;
+            margin-bottom: 5px;
+        }
+    }
+  }
+
+  .note-meta {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(156, 163, 175, 0.2);
+    font-size: 0.85rem;
+    
+    a {
+        color: var(--meta-color);
+        text-decoration: none;
+        &:hover {
+            color: var(--highlight-color);
+        }
+    }
+    
+    time {
+      color: var(--meta-color);
+    }
+  }
+}
+
+/* Footnotes Styling */
+.footnotes {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid var(--base-offset-color);
+    font-size: 0.9rem;
+    color: var(--meta-color);
+
+    hr {
+        display: none;
+    }
+}
+
+sup {
+    line-height: 0;
+    a {
+        color: var(--highlight-color);
+        font-weight: 700;
+        text-decoration: none;
+        padding: 0 2px;
+        
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="intro">
+  <h1>{{ .Title }}{{ if site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+  {{ .Content }}
+</div>
+
+<div class="notes-feed">
+  {{ range .Paginator.Pages }}
+  <article class="note-item h-entry">
+    <div class="note-content e-content">
+      {{ .Content }}
+    </div>
+    <div class="note-meta">
+      <a href="{{ .RelPermalink }}" class="u-url">
+        <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+          {{ .Date.Format "Jan 2, 2006 • 15:04" }}
+        </time>
+      </a>
+    </div>
+  </article>
+  {{ end }}
+</div>
+
+{{ partial "paginator.html" . }}
+{{ end }}

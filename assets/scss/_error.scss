@@ -1,0 +1,58 @@
+.error-404 {
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+
+    .intro {
+        margin-bottom: 40px;
+        h1 {
+            font-size: 5rem;
+            margin-bottom: 10px;
+            @include breakpoint('small') {
+                font-size: 8rem;
+            }
+        }
+        h2 {
+            font-size: 1.5rem;
+            opacity: 0.8;
+            margin: 0;
+        }
+    }
+
+    .error-image {
+        margin-bottom: 50px;
+        img {
+            max-width: 100%;
+            height: auto;
+            /* If the SVG is dark, we can filter it based on theme if needed */
+        }
+    }
+
+    .error-actions {
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            color: var(--text-color);
+            opacity: 0.7;
+        }
+
+        .error-links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            font-weight: 700;
+
+            .divider {
+                color: var(--meta-color);
+                opacity: 0.3;
+            }
+
+            a {
+                font-size: 1.1rem;
+                text-decoration: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default (.Get "src") }}
+{{ $class := .Get "class" }}
+
+{{ if (strings.HasPrefix $src "http") }}
+  {{/* External Image */}}
+  <img src="{{ $src | safeURL }}" alt="{{ $alt }}" {{ with $class }}class="{{ . }}"{{ end }} loading="lazy">
+{{ else }}
+  {{/* Internal Asset */}}
+  {{ $img := resources.Get $src }}
+  {{ if $img }}
+    {{ $small := $img.Resize "480x" }}
+    {{ $medium := $img.Resize "800x" }}
+    {{ $large := $img.Resize "1200x" }}
+    {{ $webp := $img.Resize "800x webp" }}
+    
+    <picture>
+      <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
+      <img 
+        src="{{ $medium.RelPermalink }}" 
+        srcset="{{ $small.RelPermalink }} 480w, {{ $medium.RelPermalink }} 800w, {{ $large.RelPermalink }} 1200w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        alt="{{ $alt }}" 
+        {{ with $class }}class="{{ . }}"{{ end }}
+        loading="lazy"
+        width="{{ $img.Width }}"
+        height="{{ $img.Height }}">
+    </picture>
+  {{ else }}
+    <img src="{{ $src | relURL }}" alt="{{ $alt }}" {{ with $class }}class="{{ . }}"{{ end }} loading="lazy">
+  {{ end }}
+{{ end }}

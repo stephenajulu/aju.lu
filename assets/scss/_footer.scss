@@ -16,5 +16,16 @@
         }
       }
     }
+    img {
+        /* Default is dark mode, so invert black icons to white */
+        filter: invert(1);
+        transition: filter 0.3s ease;
+    }
   }
-  
+
+  body.light-mode {
+    .social-icon img {
+        /* Revert to black for light mode */
+        filter: invert(0);
+    }
+  }

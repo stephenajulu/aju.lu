@@ -1,10 +1,21 @@
-{{ define "main"}}
-      <div>
-        <h2 style="text-align:center;">Oops, Page Not Found!</h2>
-<center><img src="images/404.svg" alt="404" width="404px" align="center" style="align:center;text-align:center;"></center>
-<br>
-        <h2 style="text-align:center;">
-            <a href="{{ "/" | relURL }}">Go Back Home</a>
-        </h2>
-      </div>
+{{ define "main" }}
+<div class="error-404">
+    <div class="intro">
+        <h1>404{{ if site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+        <h2>Oops, Page Not Found!</h2>
+    </div>
+    
+    <div class="error-image">
+        <img src="{{ "images/404.svg" | relURL }}" alt="Page not found" width="404">
+    </div>
+
+    <div class="error-actions">
+        <p>The page you are looking for might have been moved, renamed, or is temporarily unavailable.</p>
+        <div class="error-links">
+            <a href="{{ site.BaseURL }}" class="dramatic">Go Back Home</a>
+            <span class="divider">|</span>
+            <a href="{{ "search/" | relLangURL }}" class="dramatic">Search the Site</a>
+        </div>
+    </div>
+</div>
 {{ end }}

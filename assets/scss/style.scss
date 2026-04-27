@@ -1,13 +1,76 @@
 :root {
-  --font-family-heading: {{ .Site.Params.fontFamilyHeading | default "'Poppins', sans-serif" }};
-  --font-family-paragraph: {{ .Site.Params.fontFamilyParagraph | default "'Helvetica', sans-serif" }};
-  --font-family-monospace: {{ .Site.Params.fontFamilyMonospace | default "monospace" }};
-  --base-color: {{ .Site.Params.baseColor | default "#ffffff" }};
-  --base-offset-color: {{ .Site.Params.baseOffsetColor | default "#eaeaea" }};
-  --highlight-color: {{ .Site.Params.highlightColor | default "#7b16ff" }};
-  --heading-color: {{ .Site.Params.headingColor | default "#1c1b1d" }};
-  --text-color: {{ .Site.Params.textColor | default "#4e5157" }};
-  --dot-color: {{ .Site.Params.dotColor | default "#7b16ff" }};
+  --font-family-heading: {{ site.Params.fontFamilyHeading | default "'Poppins', sans-serif" }};
+  --font-family-paragraph: {{ site.Params.fontFamilyParagraph | default "'Helvetica', sans-serif" }};
+  --font-family-monospace: {{ site.Params.fontFamilyMonospace | default "monospace" }};
+  
+  /* Default (Dark Mode) */
+  --base-color: {{ site.Params.baseColor | default "#030712" }};
+  --base-offset-color: #111827;
+  --highlight-color: {{ site.Params.highlightColor | default "#6320d6" }};
+  --heading-color: #ffffff;
+  --text-color: #ffffff;
+  --dot-color: {{ site.Params.dotColor | default "#6320d6" }};
+  --meta-color: #9ca3af;
+
+  /* Syntax Highlighting (Dark) */
+  --code-bg: #111827;
+  --code-color: #e5e7eb;
+  --code-hll: #374151;
+  --code-comment: #9ca3af;
+  --code-keyword: #a78bfa;
+  --code-operator: #f9fafb;
+  --code-type: #60a5fa;
+  --code-number: #fbbf24;
+  --code-string: #34d399;
+  --code-attribute: #818cf8;
+  --code-builtin: #2dd4bf;
+  --code-class: #60a5fa;
+  --code-constant: #fbbf24;
+  --code-decorator: #f472b6;
+  --code-entity: #c084fc;
+  --code-exception: #f87171;
+  --code-function: #60a5fa;
+  --code-label: #f472b6;
+  --code-namespace: #9ca3af;
+  --code-tag: #a78bfa;
+  --code-variable: #e5e7eb;
+  --code-string-regex: #34d399;
+  --code-string-symbol: #fb7185;
+  --code-builtin-pseudo: #9ca3af;
+}
+
+.light-mode {
+  --base-color: #ffffff;
+  --base-offset-color: #f3f4f6;
+  --heading-color: #111827;
+  --text-color: #374151;
+  --meta-color: #6b7280;
+
+  /* Syntax Highlighting (Light) */
+  --code-bg: #f9fafb;
+  --code-color: #111827;
+  --code-hll: #f3f4f6;
+  --code-comment: #6b7280;
+  --code-keyword: #6320d6;
+  --code-operator: #111827;
+  --code-type: #2563eb;
+  --code-number: #d97706;
+  --code-string: #059669;
+  --code-attribute: #4f46e5;
+  --code-builtin: #0891b2;
+  --code-class: #2563eb;
+  --code-constant: #d97706;
+  --code-decorator: #db2777;
+  --code-entity: #9333ea;
+  --code-exception: #dc2626;
+  --code-function: #2563eb;
+  --code-label: #db2777;
+  --code-namespace: #4b5563;
+  --code-tag: #6320d6;
+  --code-variable: #111827;
+  --code-string-regex: #059669;
+  --code-string-symbol: #e11d48;
+  --code-builtin-pseudo: #6b7280;
 }
 
 $breakpoints: (
@@ -27,7 +90,17 @@ $breakpoints: (
 @import 'pagination';
 @import 'main-menu';
 @import 'main-menu-mobile';
-@import 'pygments/github';
+@import 'portfolio';
+@import 'search';
+@import 'webmentions';
+@import 'notes';
+@import 'reading-experience';
+@import 'archive';
+@import 'contact-page';
+@import 'taxonomies';
+@import 'back-to-top';
+@import 'error';
+@import 'chroma/github';
 
 html, body {
   box-sizing: border-box;
@@ -40,6 +113,7 @@ body {
   margin: 0;
   padding: 20px;
   overflow-x: hidden;
+  transition: background 0.3s ease, color 0.3s ease;
   @include breakpoint('small') {
     padding: 50px;
   }
@@ -52,4 +126,25 @@ body {
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  color: var(--heading-color);
+  cursor: pointer;
+  padding: 0;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease;
+  &:hover {
+    color: var(--highlight-color);
+  }
+  svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
 }

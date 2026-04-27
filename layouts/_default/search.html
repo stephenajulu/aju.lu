@@ -1,0 +1,73 @@
+{{ define "main" }}
+<div class="intro">
+    <h1>Search{{ if site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+</div>
+
+<div class="search-container">
+    <input type="text" id="search-input" placeholder="Type to search..." autocomplete="off">
+    <div id="search-results"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script>
+    let fuse;
+    const searchInput = document.getElementById('search-input');
+    const searchResults = document.getElementById('search-results');
+
+    async function initSearch() {
+        try {
+            const response = await fetch('/index.json');
+            if (!response.ok) throw new Error('Network response was not ok');
+            const data = await response.json();
+            
+            fuse = new Fuse(data, {
+                keys: [
+                    { name: 'title', weight: 0.7 },
+                    { name: 'summary', weight: 0.3 },
+                    { name: 'content', weight: 0.1 }
+                ],
+                threshold: 0.3,
+                includeMatches: true,
+                minMatchCharLength: 2
+            });
+        } catch (e) {
+            console.error('Failed to load search index', e);
+            searchResults.innerHTML = '<p>Search is currently unavailable. Please try again later.</p>';
+        }
+    }
+
+    searchInput.addEventListener('input', () => {
+        const query = searchInput.value.trim();
+        if (!fuse || query.length < 2) {
+            searchResults.innerHTML = '';
+            return;
+        }
+        
+        const results = fuse.search(query);
+        displayResults(results);
+    });
+
+    function displayResults(results) {
+        searchResults.innerHTML = '';
+        
+        if (results.length === 0) {
+            searchResults.innerHTML = '<p>No results found for "' + searchInput.value + '".</p>';
+            return;
+        }
+
+        results.forEach(result => {
+            const item = result.item;
+            const article = document.createElement('article');
+            article.className = 'search-result-item';
+            article.innerHTML = `
+                <h3><a href="${item.permalink}">${item.title}</a></h3>
+                <div class="search-result-meta">${item.date}</div>
+                <p>${item.summary}</p>
+            `;
+            searchResults.appendChild(article);
+        });
+    }
+
+    initSearch();
+</script>
+{{ end }}

@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="intro">
+    <div class="taxonomy-label">{{ .Data.Singular | humanize }}</div>
+    <h1 class="p-name"><span class="dramatic">#</span>{{ .Title }}{{ if site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+    <p>Showing all posts filed under this {{ .Data.Singular }}.</p>
+</div>
+
+<div class="posts-list">
+    {{ range .Paginator.Pages }}
+        {{ partial "summary.html" . }}
+    {{ end }}
+</div>
+
+{{ partial "paginator.html" . }}
+{{ end }}
