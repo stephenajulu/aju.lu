@@ -1,4 +1,10 @@
 .menu-main {
+  display: none; // Hidden on mobile by default
+  
+  @include breakpoint('medium') {
+    display: block;
+  }
+
   ul {
     list-style: none;
     margin: 0;
@@ -55,7 +61,7 @@
     padding: 10px 0;
     border-radius: 8px;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
-    display: block; // Change from flex
+    display: block;
     opacity: 0;
     visibility: hidden;
     transform: translateY(10px);
