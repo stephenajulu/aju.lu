@@ -1,14 +1,14 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Stephen Ajulu"
-paginate = 6
+paginate = 12
 copyright= "Stephen Ajulu."
 
 [outputs]
 home = ["HTML", "RSS", "JSON", "SEARCH_JSON"]
 section = ["HTML", "RSS", "JSON"]
-taxonomy = ["HTML", "RSS"]
-term = ["HTML", "RSS"]
+taxonomy = ["HTML", "RSS", "JSON"]
+term = ["HTML", "RSS", "JSON"]
 
 [mediaTypes]
   [mediaTypes."application/feed+json"]
@@ -30,7 +30,7 @@ mediatype = "application/json"
   [markup.highlight]
     codeFences = true
     guessSyntax = true
-    lineNos = false
+    lineNos = true
     style = "github"
     noClasses = false
   [markup.goldmark]
@@ -41,14 +41,21 @@ mediatype = "application/json"
 
 [related]
   threshold = 80
-  includeNewer = false
-  toLower = true
+  includeNewer = true
+  toLower = false
+  
   [[related.indices]]
     name = "tags"
     weight = 100
   [[related.indices]]
     name = "categories"
     weight = 80
+  [[related.indices]]
+    name = "description"
+    weight = 30
+  [[related.indices]]
+    name = "title"
+    weight = 20
   [[related.indices]]
     name = "date"
     weight = 10
