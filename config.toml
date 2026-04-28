@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Stephen Ajulu"
-paginate = 12
+paginate = 24
 copyright= "Stephen Ajulu."
 
 [outputs]
@@ -104,7 +104,7 @@ mediatype = "application/json"
     email  = "ajulu.b22uf@aleeas.com"
     url = "https://stephenajulu.com"
     image = "images/me.jpg"
-    description = "Hello, I'm Stephen Ajulu, a seasoned tech expert, writer, and consultant with over a decade of experience. I build impactful products and solutions by using technology, design, and engineering  strategically."
+    description = "Hello, I'm Stephen Ajulu, a seasoned multidisciplinary tech professional, writer, and consultant with over a decade of experience. I build impactful products, brands, and solutions using design, tech, and engineering in the pursuit of impact."
 
 [menu]
   [[menu.main]]
