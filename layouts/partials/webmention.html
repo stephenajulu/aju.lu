@@ -1,25 +1,63 @@
-<div class="container">
-  <div id="webmentions"></div>
-</div>
+<div id="webmentions"></div>
 
 <script>
-Webmention.renderWebmentions("https://stephenajulu.com", {
-    template: function(props) {
-        return `
-            <div class="webmention">
-                <div class="author">
-                    <img src="${props.author.photo}" alt="${props.author.name}">
-                    <span>${props.author.name}</span>
-                </div>
-                <div class="content">
-                    ${props.content}
-                </div>
-                <a href="${props.url}">View Comment</a>
-            </div>
-        `;
-    }
+document.addEventListener('DOMContentLoaded', function() {
+    const container = document.getElementById('webmentions');
+    if (!container) return;
+
+    const url = window.location.href;
+    const api = `https://webmention.io/api/mentions.jf2?target=${encodeURIComponent(url)}`;
+
+    fetch(api)
+        .then(response => response.json())
+        .then(data => {
+            if (data.children && data.children.length > 0) {
+                let html = '<h2>Interactions</h2><ul class="webmentions-list">';
+                
+                // Group by type
+                const likes = data.children.filter(m => m['wm-property'] === 'like-of');
+                const replies = data.children.filter(m => m['wm-property'] === 'in-reply-to' || m['wm-property'] === 'mention-of');
+
+                if (likes.length > 0) {
+                    html += '<div class="webmention-links">';
+                    likes.forEach(like => {
+                        const author = like.author;
+                        html += `
+                            <a href="${author.url}" class="webmention-link" title="${author.name} liked this">
+                                <img src="${author.photo}" alt="${author.name}" loading="lazy">
+                            </a>
+                        `;
+                    });
+                    html += '</div>';
+                }
+
+                replies.forEach(mention => {
+                    const author = mention.author;
+                    const date = new Date(mention.published || mention['wm-received']);
+                    const content = mention.content ? mention.content.html : 'Mentioned this post';
+
+                    html += `
+                        <li class="webmention h-cite">
+                            <img src="${author.photo}" class="webmention-author-photo u-photo" alt="${author.name}" loading="lazy">
+                            <div class="webmention-content">
+                                <a href="${author.url}" class="webmention-author-name p-author u-url">${author.name}</a>
+                                <div class="webmention-meta">
+                                    <time class="dt-published">${date.toLocaleDateString()} at ${date.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}</time>
+                                    <span> • </span>
+                                    <a href="${mention.url}" target="_blank" rel="nofollow">Source</a>
+                                </div>
+                                <div class="webmention-body p-content p-name">
+                                    ${content}
+                                </div>
+                            </div>
+                        </li>
+                    `;
+                });
+
+                html += '</ul>';
+                container.innerHTML = html;
+            }
+        })
+        .catch(err => console.error('Error fetching webmentions:', err));
 });
 </script>
-
-
-
