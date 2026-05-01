@@ -23,6 +23,7 @@
       {{ .Content }}
     
       {{ partial "related.html" . }}
+      <hr>
     </div>
 
     {{ if .Params.tags }}
@@ -36,7 +37,7 @@
 
     <div class="blog-footer">
       <div class="footer-actions">
-        <button id="copy-link" class="btn-copy" data-url="{{ .Permalink }}">Copy Permalink</button>
+        <button id="copy-link" class="btn-copy" data-url="{{ .Permalink }}">Copy Link</button>
         {{ partial "share.html" . }}
       </div>
       <br>
