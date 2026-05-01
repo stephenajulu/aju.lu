@@ -1,8 +1,18 @@
 ---
 title: Potential Causes of Cancer and Cancerous Cells
 date: '2023-01-18 21:20:00+03:00'
-image: /images/national-cancer-institute-yg1zayn0few-unsplash.jpg
+image: images/national-cancer-institute-yg1zayn0few-unsplash.jpg
 draft: false
+tags:
+- health
+- lifestyle
+- cancer
+- tumor
+- cancerous
+categories:
+- Lifestyle
+description: Here are some potential causes of cancer backed with excerpts from legitimate
+  websites and research papers.
 ---
 
 Today, I'll cover some potential cancer causes that you should avoid or limit. My aim is to provide in-depth and credible information that could help you prevent, lessen or cure cancer if these products are eradicated. I suggest you go through the sites linked below and not base your decisions on excerpts that could be taken out of context. Feel free to open them in a new tab as you read.

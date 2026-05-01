@@ -1,8 +1,19 @@
 ---
 title: Cryptocurrencies I'm Buying in 2022
 date: '2021-12-29 13:00:00+03:00'
-image: /images/cryptoinvesting_gettyimages-1250405669-c29a42e2fe774133ad64e6f3cc17d74a.jpg
+image: images/cryptoinvesting_gettyimages-1250405669-c29a42e2fe774133ad64e6f3cc17d74a.jpg
 draft: false
+tags:
+- investments
+- investing
+- invest
+- finance
+- crypto
+- cryptocurrencies
+- cryptocurrency
+categories:
+- Finance
+description: Here are all the cryptocurrencies i'm buying or buying more.
 ---
 
 Here are the cryptocurrencies I'm investing in this 2022. I believe these have potential.

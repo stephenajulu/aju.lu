@@ -1,8 +1,15 @@
 ---
 title: My Morning Routine
 date: '2021-11-26 07:48:00+03:00'
-image: /images/diego-lozano-qghnk7eis0k-unsplash.jpg
+image: images/diego-lozano-qghnk7eis0k-unsplash.jpg
 draft: false
+tags:
+- self improvement
+- routines
+categories:
+- self improvement
+description: Here's the morning routine I formulated that will help me achieve my
+  4 month plan for self improvement
 ---
 
 Hello!

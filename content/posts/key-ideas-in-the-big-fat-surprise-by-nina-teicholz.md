@@ -1,8 +1,17 @@
 ---
 title: Key Ideas In "The Big Fat Surprise" by Nina Teicholz
 date: '2021-06-27 15:23:00+03:00'
-image: /images/thebigfatsuprisekeyideas.png
+image: images/thebigfatsuprisekeyideas.png
 draft: false
+tags:
+- fat
+- health
+- lifestyle
+categories:
+- health
+- lifestyle
+description: A breakdown and listing of points found in "The Big Fat Surprise by Nina
+  Teicholz
 ---
 
 ## The Big Fat Surprise Key Idea #1: Not all fats are created equal

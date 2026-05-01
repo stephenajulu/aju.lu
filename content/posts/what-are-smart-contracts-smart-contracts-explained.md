@@ -1,8 +1,24 @@
 ---
 title: What are Smart Contracts? How Do They Work? Smart Contracts Explained
 date: '2021-12-09 11:00:00+03:00'
-image: /images/smart-contract-featured-image.png
+image: images/smart-contract-featured-image.png
 draft: false
+tags:
+- technology
+- smart contracts
+- blockchain
+- decentralized
+- ledger
+- hyperledger
+- digital ledger
+- cryptocurrencies
+- crypto
+- bitcoin
+- ethereum
+categories:
+- Technology
+description: What are smart contracts? How do they work? Here i explain what smart
+  contracts are and how they work.
 ---
 
 A **smart contract** is a computer program or a transaction protocol that is intended to automatically execute, control, or document legally relevant events and actions according to the terms of a contract or an agreement. The objectives of smart contracts are the reduction of need in trusted intermediates, arbitrations, and enforcement costs, fraud losses, as well as the reduction of malicious and accidental exceptions.

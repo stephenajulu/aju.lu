@@ -1,8 +1,16 @@
 ---
 title: Introversion Sucks, But....
 date: '2021-06-26 18:30:00+03:00'
-image: /images/introversion-sucks-but.png
+image: images/introversion-sucks-but.png
 draft: false
+tags:
+- mental health
+- introversion
+- introvert
+categories:
+- Mental Health
+- Introversion
+description: Here i talk about my curse which is also a blessing
 ---
 
 Hi there, twice in one row, yea! yea!

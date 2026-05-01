@@ -1,8 +1,21 @@
 ---
 title: Decentralized Finance Defined
 date: '2021-11-27 15:48:00+03:00'
-image: /images/defi-finance-decentralisee.jpg
+image: images/defi-finance-decentralisee.jpg
 draft: false
+tags:
+- decentralized finance
+- finance
+- blockchain
+- cryptocurrencies
+- crypto
+- cryptocurrency
+- dapps
+- ethereum
+categories:
+- Finance
+- Technology
+description: Here is the definition of decentralized finance
 ---
 
 Decentralized Finance (DeFi) refers to the financial transactions that eradicate intermediaries between participants. It uses cryptocurrency and blockchain technology to eliminate central authorities and provide peer-to-peer facilities to carry out financial services such as banking, loans, mortgages, and more. The primary purpose here is to establish an open-source, transparent, and permissionless ecosystem without any central authority owning the power over financial transactions. It allows participants to control their assets, efficiently conduct peer-to-peer exchanges and build decentralized applications (dApps).

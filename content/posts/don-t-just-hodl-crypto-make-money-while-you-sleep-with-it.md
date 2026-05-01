@@ -1,8 +1,31 @@
 ---
 title: Don't Just HODL Crypto Make Money While You Sleep With It
 date: '2021-12-09 14:53:00+03:00'
-image: /images/1_cc8xg5pc8lf5id8u_vu0fw.jpeg
+image: images/1_cc8xg5pc8lf5id8u_vu0fw.jpeg
 draft: false
+tags:
+- finance
+- technology
+- staking
+- lending
+- lenders
+- cryptocurrencies
+- crypto
+- cryptocurrency
+- passive income
+- fire
+- financial freedom
+- assets
+- defi
+- decentralizedfinance
+- mining
+- yield farming
+categories:
+- Finance
+- Technology
+description: Earning interest on your idle crypto assets is a great way of making
+  your money work for you. Here are 6 ways you can generate passive income while holding
+  crypto.
 ---
 
 Passive income is money generated from ventures in which an individual is not actively involved. For the most part, all you need to do is invest your money or digital assets in a particular crypto investment strategy or platform and watch it generate profit. In some cases, the earnings are fixed and predictable. In others, several factors beyond your control may come into play.

@@ -1,8 +1,36 @@
 ---
 title: Must Have Eye Wear
 date: '2021-02-09 04:45:00+00:00'
-image: /images/more-color_1800x.jpg
+image: images/more-color_1800x.jpg
 draft: false
+tags:
+- glasses
+- eyewear
+- bluelight
+- uv rays
+- uv light
+- harmful dangers of uv light
+- harmful uv
+- harmful bluelight
+- blue light
+- ultraviolet
+- eye wear
+- must have
+- jade black
+- jadeblack
+- sunglasses
+- digital protection
+- bluelight protection
+- prism
+- commanders
+- generals
+- bellas
+- health
+- lifestyle
+categories:
+- health
+description: Here we take a look at the important types of eye wear to have that will
+  not only enhance your looks but prove to be practical to have
 ---
 
 Hi everyone, welcome back. Today, I'll be talking about the importance of having at least 2 different types of eyewear.

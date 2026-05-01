@@ -1,8 +1,24 @@
 ---
 title: 'Developing for the Web 3: The Basics'
 date: '2023-01-27 19:24:00+03:00'
-image: /images/shutterstock_2021164787.jpg
+image: images/shutterstock_2021164787.jpg
 draft: false
+tags:
+- web3
+- decentralized web
+- blockchain
+- solidity
+- rust
+- ethereum
+- dApps
+- smart contracts
+- web 3 development
+- web 3 protocols
+- web3 infrastructure
+categories:
+- Technology
+description: Learn about the technical foundations of the Web 3 ecosystem, including
+  decentralized networks and smart contracts.
 ---
 
 Web 3, also known as the decentralized web, is the next iteration of the internet, enabled by blockchain technology. Unlike the traditional web, where data and applications are controlled by a centralized authority, Web 3 allows for the creation of decentralized networks and applications (dApps). This new decentralized infrastructure allows for greater security, transparency, and autonomy in the digital world.

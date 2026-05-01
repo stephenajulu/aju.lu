@@ -1,8 +1,16 @@
 ---
 title: Get Your Health and Life Back While Also Reversing Diseases
 date: '2022-07-06 15:16:00+03:00'
-image: /images/christopher-campbell-kfcdflbu6za-unsplash.jpg
+image: images/christopher-campbell-kfcdflbu6za-unsplash.jpg
 draft: false
+tags:
+- lifestyle
+- health
+- longevitity
+categories:
+- Lifestyle
+description: Here are the exact things you need to eat, cook with and make in order
+  to live healthy and disease free.
 ---
 
 Hello, to begin I'd like to inform you that 90% of all diseases man experiences are man-made.

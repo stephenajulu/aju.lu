@@ -1,8 +1,19 @@
 ---
-title: 'Outlier Male Series: Who is an outlier male? What''''''''''''''''s the male advantage?'
+title: 'Outlier Male Series: Who is an outlier male? What''''''''''''''''s the male
+  advantage?'
 date: '2023-01-02 16:00:00+03:00'
-image: /images/photo-nic-khhukoxqo4k-unsplash.jpg
+image: images/photo-nic-khhukoxqo4k-unsplash.jpg
 draft: false
+tags:
+- male advantage
+- 1stman
+- masculinity
+- growth
+- self improvement
+categories:
+- lifestyle
+- masculinity
+description: Here I explain what the male advantage is and how to reach it.
 ---
 
 I gotta thank [Kris from 1STMAN](https://www.youtube.com/c/1STMAN) for introducing me to the concept of [The Male Advantage](https://www.amazon.in/Male-Advantage-women-resist-Outlier-ebook/dp/B013TDV738) → How every man can _drastically_ increase his sexual market value through years of self-improvement.

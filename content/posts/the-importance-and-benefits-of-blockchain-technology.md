@@ -1,8 +1,15 @@
 ---
 title: The Importance and Benefits of Blockchain Technology
 date: '2022-08-21 19:00:00+03:00'
-image: /images/retina_display-646399094.jpg
+image: images/retina_display-646399094.jpg
 draft: false
+tags:
+- blockchain
+- blockchain technology
+categories:
+- Technology
+- Tech
+description: The Importance and Benefits of Blockchain Technology
 ---
 
 ## What is blockchain?

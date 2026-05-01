@@ -1,8 +1,21 @@
 ---
 title: What are CBDCs? Central Bank Digital Currency Defined
 date: '2021-12-09 12:31:00+03:00'
-image: /images/cbdc.jpeg
+image: images/cbdc.jpeg
 draft: false
+tags:
+- technology
+- finance
+- cbdc
+- central bank
+- central banks
+- central bank digital currency
+- stablecoin
+- digital currency
+categories:
+- Technology
+- Finance
+description: Why Countries are rushing to create their own central bank digital currency.
 ---
 
 The future is digital and virtual.

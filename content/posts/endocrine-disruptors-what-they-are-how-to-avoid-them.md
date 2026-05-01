@@ -1,8 +1,26 @@
 ---
 title: 'Endocrine Disruptors: What They Are & How To Avoid Them'
 date: '2022-06-15 21:03:00+03:00'
-image: /images/benjamin-lehman-gkz-k3xf25w-unsplash.jpg
+image: images/benjamin-lehman-gkz-k3xf25w-unsplash.jpg
 draft: false
+tags:
+- endocrinology
+- endocrine
+- endocrine system
+- hormonal therapy
+- ' testosterone'
+- progesterone
+- estrogen
+- hormones
+- hormonal
+- lifestyle
+- endocrine disruptors
+- endocrine disruptor
+- disruptor
+categories:
+- Lifestyle
+description: In this article we will cover endocrine disruptors, what they are, what
+  they do and how to avoid them
 ---
 
 In this article, I will go over endocrine disruptors that disrupt normal hormonal health. Let's first start with the definition and work of the endocrine system.

@@ -1,8 +1,26 @@
 ---
 title: Coins Likely To 100x In The Next 2 Years
 date: '2022-05-25 10:00:00+03:00'
-image: /images/ferhat-deniz-fors-yocdd-d4oom-unsplash.jpg
+image: images/ferhat-deniz-fors-yocdd-d4oom-unsplash.jpg
 draft: false
+tags:
+- finance
+- cryptocurrency
+- crypto
+- cryptocurrencies
+- 100x
+- potentialtokens
+- tokens
+- coins
+- verasity
+- gmt
+- green metaverse token
+- green life energy
+- pac man frog
+categories:
+- Finance
+- Cryptocurrency
+description: Here are coins likely to 100x in just a few years maybe even months
 ---
 
 Do further research by yourself.

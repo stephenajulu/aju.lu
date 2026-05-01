@@ -1,8 +1,9 @@
 ---
 title: 'App of The Week #1'
 date: '2021-04-10 11:30:00+00:00'
-image: /images/app-of-the-week-1.png
+image: images/app-of-the-week-1.png
 draft: false
+description: Here's the app of the week
 ---
 
 Hi! Starting another series on "Android App of The Week". Here's this week's app.

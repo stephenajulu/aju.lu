@@ -1,8 +1,24 @@
 ---
 title: 'Red Meat: Friend or Foe'
 date: '2023-01-28 08:45:00+03:00'
-image: /images/photo-1555265399-48aa9c11d869.jpeg
+image: images/photo-1555265399-48aa9c11d869.jpeg
 draft: false
+tags:
+- red meat
+- meat
+- research
+- chronic disease
+- carnivore
+- lipivore
+- health
+- lifestyle
+- bioavailability
+categories:
+- Lifestyle
+- Health
+description: Is red meat a friend or a foe? In this article we look at new research
+  that seems to be indicating that red meat is actually healthy contrary to popular
+  belief.
 ---
 
 Red meat, including beef, pork, and lamb, has long been considered a dietary villain due to its association with an increased risk of chronic diseases such as cancer, diabetes, and heart disease. However, recent research has shown that these claims may not be entirely accurate and that red meat can actually be a key healthy component of a balanced diet.

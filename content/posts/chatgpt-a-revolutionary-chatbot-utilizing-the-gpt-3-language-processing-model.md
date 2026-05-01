@@ -1,8 +1,20 @@
 ---
 title: 'ChatGPT: A Revolutionary Chatbot Utilizing the GPT-3 Language Processing Model'
 date: '2023-01-06 14:00:00+03:00'
-image: /images/chatgpt.png
+image: images/chatgpt.png
 draft: false
+tags:
+- ChatGPT
+- Chatbot
+- Language processing
+- GPT-3
+- Natural language understanding
+categories:
+- Technology
+- tech
+description: ChatGPT is a chatbot that utilizes the GPT-3 language processing model
+  developed by OpenAI. The GPT-3 model is a state-of-the-art language processing neural
+  network that is able to generate human-like text.
 ---
 
 ChatGPT is a chatbot that utilizes the advanced GPT-3 language processing model developed by OpenAI. This chatbot is able to hold natural conversations with users, making it an ideal choice for customer service, e-learning, healthcare, and a variety of other industries.

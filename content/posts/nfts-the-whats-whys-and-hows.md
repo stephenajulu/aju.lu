@@ -1,8 +1,16 @@
 ---
 title: 'NFTs: The What, Why and How'
 date: '2022-04-30 12:01:00+03:00'
-image: /images/istock-1363842094.jpg
+image: images/istock-1363842094.jpg
 draft: false
+tags:
+- nfts
+- non fungible tokens
+- cryptocurrencies
+categories:
+- nfts
+- cryptocurrencies
+description: Learn all about NFTs
 ---
 
 So you’ve been hearing more and more about this mysterious [NFT topic](https://www.fundz.net/blog/nft-startups-storming-the-stage-past-future-and-earnings), and you’re ready to find out what it’s all really about. You’re in the right place! We’re going to go over the basics of NFTs and demystify some common areas of confusion and misconception. Ready?

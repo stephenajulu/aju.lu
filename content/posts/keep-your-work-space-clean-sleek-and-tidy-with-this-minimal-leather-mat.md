@@ -1,8 +1,24 @@
 ---
 title: Keep Your Work Space Clean, Sleek and Tidy with This Minimal Leather Mat
 date: '2022-07-10 11:12:00+03:00'
-image: /images/deskmat-black_094239d3-0925-49a9-9577-7b82fdf942ad_1680x.webp
+image: images/deskmat-black_094239d3-0925-49a9-9577-7b82fdf942ad_1680x.webp
 draft: false
+tags:
+- gear
+- layout
+- setup
+- laptop setup
+- workspace
+- desk mats
+- desk mat
+- ULX Store
+- leather
+- leather desk mat
+categories:
+- Tech
+description: So if you’re looking to up your work-from-home game, head to ULX Store
+  to check out the minimalist desk mats. These work in the office as well. Just roll
+  it and pack it!
 ---
 
 If you work from home then you’ve got to be making sure your workspace is as sleek and productive as possible.

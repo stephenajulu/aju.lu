@@ -1,8 +1,40 @@
 ---
 title: 'Personal Branding 101: Creating Your Own Niche: Combining Interests, Experience'
 date: '2023-02-10 14:50:00+03:00'
-image: /images/photo-1548094990-c16ca90f1f0d.jpeg
+image: images/photo-1548094990-c16ca90f1f0d.jpeg
 draft: false
+tags:
+- niche
+- online presence
+- dan koe
+- creator economy
+- one person business
+- twitter
+- instagram
+- podcast
+- youtube
+- newsletter
+- linkedin
+- digital products
+- cohorts
+- courses
+- community
+- Dan Koe
+- marketing
+- digital marketing
+- online business
+- passion
+- purpose
+- creation
+- content creator
+categories:
+- Branding
+description: Learn how to create your own niche by combining your interests, experience,
+  expertise, and skills. In this article, we explore how to scale your niche to popular
+  platforms such as Twitter, Instagram, Podcast, YouTube, Newsletter, and LinkedIn
+  with monetization options such as digital products, cohorts, courses, and community.
+  Get valuable tips on building a thriving online business. Get started on your niche
+  journey today!
 ---
 
 In the world of online entrepreneurship, one of the most important decisions you will make is to identify your niche. Your niche is essentially the combination of interests, experiences, expertise, and skills that make you unique and sets you apart from others. By identifying and honing in on your niche, you can build a brand that resonates with your target audience and positions you as an authority in your field.

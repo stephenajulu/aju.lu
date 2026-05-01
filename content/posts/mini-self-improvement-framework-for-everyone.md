@@ -1,8 +1,13 @@
 ---
 title: Mini Self Improvement Framework For Everyone
 date: '2021-08-20 17:25:00+03:00'
-image: /images/danielle-macinnes-iulgi9pwetu-unsplash.jpg
+image: images/danielle-macinnes-iulgi9pwetu-unsplash.jpg
 draft: false
+tags:
+- self improvement
+categories:
+- self improvement
+description: Here are ways you can improve yourself and the people around you.
 ---
 
 Hi! How are you?

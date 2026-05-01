@@ -1,8 +1,15 @@
 ---
 title: Benefits of Security in DevSecOps
 date: '2022-11-26 14:10:00+03:00'
-image: /images/security-protection-anti-virus-software-60504.jpeg
+image: images/security-protection-anti-virus-software-60504.jpeg
 draft: false
+tags:
+- devops
+- devsecops
+categories:
+- Technology
+description: Learn about the benefits of security in DevSecOps and how it can help
+  your organization build better software more effectively and securely.
 ---
 
 If you're running a business, there's a good chance you've heard of DevOps. This is a set of practices that automates the processes between software development and IT teams. This way, they can build, test, and release software faster and more reliably. In DevOps, "Dev" refers to development while "Ops" refers to operations.

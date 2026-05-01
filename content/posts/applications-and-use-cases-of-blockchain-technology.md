@@ -1,8 +1,36 @@
 ---
 title: Applications and Use Cases of Blockchain Technology
 date: '2021-12-09 13:01:00+03:00'
-image: /images/mit-algorand-01.jpg
+image: images/mit-algorand-01.jpg
 draft: false
+tags:
+- technology
+- finance
+- blockchain
+- hyperledger
+- ledger
+- blockchains
+- blocks
+- decentralized
+- decentralized finance
+- cryptography
+- cryptocurrencies
+- cryptocurrency
+- crypto
+- gamefi
+- nft
+- non fungible tokens
+- blockchain technology
+- dao
+- defi
+- digitization
+- finance and economy
+- fintech
+- financial technology
+categories:
+- Technology
+- Finance
+description: Here are Some Applications and Use Cases of Blockchain Technology
 ---
 
 ### **1. Money transfers**

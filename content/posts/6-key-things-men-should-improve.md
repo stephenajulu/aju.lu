@@ -1,8 +1,17 @@
 ---
 title: 6 Key Things Men Should Improve
 date: '2021-08-11 16:00:00+03:00'
-image: /images/luigi-estuye-lucreative-uih-y7kmaee-unsplash.jpg
+image: images/luigi-estuye-lucreative-uih-y7kmaee-unsplash.jpg
 draft: false
+tags:
+- men
+- self improvement
+- high value
+categories:
+- men
+- self improvement
+- high value
+description: Here are The 6 Key Things Men Should Improve Upon
 ---
 
 ### Status

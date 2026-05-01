@@ -1,8 +1,10 @@
 ---
 title: Share on Facebook
 date: '2021-06-14 14:26:00+03:00'
-image: /images/share1img.png
+image: images/share1img.png
 draft: false
+description: Do you have a hugo blog? Need some share buttons? Here are some i made
+  and use.
 ---
 
 Here's code for ordinary social share buttons. Can be copied as is.

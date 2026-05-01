@@ -1,8 +1,9 @@
 ---
 title: Markdown Formatting Demo
 date: '2020-09-13 12:49:27+06:00'
-image: images/single-blog/feature-image.jpg
+image: images/feature-image.jpg
 draft: false
+description: Markdown Formatting Demo Example Page
 ---
 
 ***

@@ -1,8 +1,17 @@
 ---
 title: The Art of War(Listed)
 date: '2021-08-09 16:19:00+03:00'
-image: /images/theartofwar.jpg
+image: images/theartofwar.jpg
 draft: false
+tags:
+- self improvement
+- books
+- art of war
+categories:
+- self improvement
+- books
+- art of war
+description: Here's the art of war by sun tzu listed.
 ---
 
 * “According as circumstances are favorable, one should modify one’s plans.”

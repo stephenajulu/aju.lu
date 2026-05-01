@@ -1,8 +1,18 @@
 ---
 title: Top Cryptocurrency Exchanges
 date: '2021-12-01 14:35:00+03:00'
-image: /images/top-5-crypto-exchanges-to-trade-cryptos-in-2021.jpg
+image: images/top-5-crypto-exchanges-to-trade-cryptos-in-2021.jpg
 draft: false
+tags:
+- finance
+- technology
+- cryptocurrency
+- cryptocurrencies
+- cryptocurrency exchange
+categories:
+- Technology
+- Finance
+description: Here a the top cryptocurrency exchanges listed based on transaction volume
 ---
 
 1. Binance: [Register here](https://accounts.binance.com/en/register?ref=CL2JFAB6)

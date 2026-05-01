@@ -1,8 +1,19 @@
 ---
 title: The Testosterone Pandemic
 date: '2022-08-16 21:32:00+03:00'
-image: /images/800px-gigachad.png
+image: images/800px-gigachad.png
 draft: false
+tags:
+- testosterone
+- androgen
+- pandemic
+- men
+- endocrine
+- endocrinology
+categories:
+- Health
+description: Testosterone has been dropping each year by 1% since 1950. Men are becoming
+  less manly, not only in behavior and appearance but also in their biological makeup.
 ---
 
 Testosterone has been dropping each year by 1% since 1950.

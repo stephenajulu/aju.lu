@@ -1,8 +1,19 @@
 ---
 title: 'Personal Branding 101: How to Present Yourself in Social Media Including Cover'
 date: '2023-03-03 12:09:00+03:00'
-image: /images/photo-1554774853-aae0a22c8aa4.jpeg
+image: images/photo-1554774853-aae0a22c8aa4.jpeg
 draft: false
+tags:
+- personal brand
+- personal branding
+- instagram
+- facebook
+- twitter
+categories:
+- Personal Branding
+description: In today's world, social media platforms have become the go-to place
+  for individuals to present themselves to the world. Personal branding has become
+  an essential aspect of creating a lasting impression on people.
 ---
 
 Personal Branding 101: How to Present Yourself in Social Media Including Cover Images, Bio Optimization, and Presentation

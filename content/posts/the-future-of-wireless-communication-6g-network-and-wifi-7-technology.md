@@ -1,8 +1,30 @@
 ---
 title: 'The Future of Wireless Communication: 6G Network and WiFi 7 Technology'
 date: '2023-02-17 10:14:00+03:00'
-image: /images/spectrum-regulator-industry-2.jpg
+image: images/spectrum-regulator-industry-2.jpg
 draft: false
+tags:
+- 6g
+- 5g
+- 4g
+- wifi 6
+- wifi 6e
+- wifi 7
+- wireless communication
+- technology
+- data speed
+- latency
+- connectivity
+- healthcare
+- transportation
+- manufacturing
+categories:
+- Technology
+- Tech
+- Lifestyle
+description: Learn about the latest developments in wireless communication with 6G
+  network and Wi-Fi 7 technology. Discover how these advancements will transform industries
+  and our daily lives, and what we can expect from the future of wireless communication.
 ---
 
 Wireless communication has revolutionized the way we connect and interact with each other, and as technology continues to advance, we can expect even faster and more reliable networks in the future. In this article, we will discuss the latest developments in wireless technology, specifically the emergence of 6G network and WiFi 7. We will explore the potential benefits of these technologies and how they will shape the future of wireless communication.

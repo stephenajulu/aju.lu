@@ -1,8 +1,25 @@
 ---
 title: 8 Basic Laws Of Men
 date: '2022-11-10 21:30:00+03:00'
-image: /images/jens-lindner-dp6g1yjwqca-unsplash.jpg
+image: images/jens-lindner-dp6g1yjwqca-unsplash.jpg
 draft: false
+tags:
+- masculinity
+- masculine
+- men
+- man
+- laws of men
+- laws for men
+- self improvement
+- self mastery
+- personal development
+- lifestyle
+- mensday
+- excellence
+categories:
+- Self Improvement
+- Lifestyle
+description: A framework to properly navigate your life as a man of excellence
 ---
 
 ### **Law 1: Build Your Foundation**

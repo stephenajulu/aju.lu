@@ -1,8 +1,16 @@
 ---
 title: Laptop Buying Guide
 date: '2022-07-08 10:40:00+03:00'
-image: /images/joshua-woroniecki-lzh3hptjz9c-unsplash.jpg
+image: images/joshua-woroniecki-lzh3hptjz9c-unsplash.jpg
 draft: false
+tags:
+- laptop
+- laptops
+- buying guide
+- guide
+categories:
+- Tech
+description: Here's all you need to know when it comes to buying a laptop
 ---
 
 First, before making any decision in relation to specs and all, you'll need to decide, do you want a new laptop, refurbished or second-hand/used. Once you make your decision then proceed.

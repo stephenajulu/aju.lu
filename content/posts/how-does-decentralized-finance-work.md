@@ -1,8 +1,18 @@
 ---
 title: How Does Decentralized Finance Work?
 date: '2021-12-03 14:09:00+03:00'
-image: /images/defi.png
+image: images/defi.png
 draft: false
+tags:
+- finance
+- technology
+- decentralized
+- decentralizedfinance
+- defi
+categories:
+- Finance
+- Technology
+description: Here's how decentralized finance works as sourced from the Ethereum website
 ---
 
 DeFi uses cryptocurrencies and smart contracts to provide services that don't need intermediaries. In today's financial world, financial institutions act as guarantors of transactions. This gives these institutions immense power because your money flows through them. Plus billions of people around the world can't even access a bank account.

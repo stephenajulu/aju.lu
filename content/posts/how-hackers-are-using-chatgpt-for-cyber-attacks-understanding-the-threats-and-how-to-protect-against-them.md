@@ -1,8 +1,37 @@
 ---
 title: 'How Hackers are Using ChatGPT for Cyber Attacks: Understanding the Threats'
 date: '2023-01-19 17:25:00+03:00'
-image: /images/chatgpt.png
+image: images/chatgpt.png
 draft: false
+tags:
+- chatgpt
+- hackers
+- cyber attacks
+- phishing
+- social engineering
+- credential stuffing
+- protection
+- phishing scams
+- social engineering attacks
+- AI model
+- language model
+- cyber security
+- openai
+- ai
+- cybercrime
+- cyber threat
+- online security
+- data protection
+- machine learning
+- natural language processing
+- gpt
+- cyber safety
+- neural networks
+categories:
+- Technology
+description: Learn about the ways in which hackers are using ChatGPT for phishing
+  scams, social engineering attacks, and credential stuffing. Understand the potential
+  threats and how to protect yourself and your organization from these attacks.
 ---
 
 As the capabilities of large language models like ChatGPT continue to advance, they are also becoming a tool for hackers to use in their attacks.

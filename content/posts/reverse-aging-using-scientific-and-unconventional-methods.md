@@ -1,8 +1,22 @@
 ---
 title: Reverse Aging Using Scientific and Unconventional Methods
 date: '2022-08-24 15:08:00+03:00'
-image: /images/lady-with-anti-aging-genes.jpg
+image: images/lady-with-anti-aging-genes.jpg
 draft: false
+tags:
+- aging
+- age
+- reverse aging
+- fasting
+- omad
+- if
+- diet
+- younger
+- look younger
+categories:
+- ' Health'
+- Lifestyle
+description: Here are proven ways to reverse aging
 ---
 
 Hello there! Welcome.

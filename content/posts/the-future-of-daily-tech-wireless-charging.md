@@ -1,8 +1,19 @@
 ---
 title: 'The Future of Daily Tech: Wireless Charging'
 date: '2023-02-09 00:00:00+03:00'
-image: /images/wireless-charging.png
+image: images/wireless-charging.png
 draft: false
+tags:
+- future of tech
+- contactless charging
+- mobility
+- charging
+- tech
+categories:
+- Tech
+description: Stay ahead of the curve with our in-depth guide to wireless contactless
+  charging. Learn about the benefits, limitations, and technology advancements driving
+  the future of daily tech. Optimize your charging experience today!
 ---
 
 The world of technology is constantly evolving and advancing, and the way we charge our devices is no exception. The traditional method of charging, which involves plugging a cable into an outlet and connecting it to our device, is becoming outdated. The future of daily tech is wireless and contactless, and it is rapidly changing the way we power our devices. In this article, we will discuss the advancements in wireless charging technology and how it is transforming the way we live and work.

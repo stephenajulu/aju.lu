@@ -1,8 +1,17 @@
 ---
 title: How To Add Schema JSON-LD to Your Hugo Blog/Site
 date: '2021-06-26 17:53:00+03:00'
-image: /images/generative-social-image-1.png
+image: images/generative-social-image-1.png
 draft: false
+tags:
+- schema
+- jsonld
+- schema markup
+- search engine optimization
+categories:
+- SEO
+description: Here's a simple way to add schema json-ld markup to your hugo blog or
+  site
 ---
 
 Here's the code:

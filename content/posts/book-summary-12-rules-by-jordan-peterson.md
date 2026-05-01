@@ -1,8 +1,24 @@
 ---
 title: '12 Rules for Life: An Antidote to Chaos by Jordan B Peterson - Digested Book'
 date: '2022-11-10 20:50:00+03:00'
-image: /images/book_nrd_20180319_french.webp
+image: images/book_nrd_20180319_french.webp
 draft: false
+tags:
+- 12 rules for life
+- jordan peterson
+- an antidote to chaos
+- book
+- book summary
+- jordan b peterson
+- digested read
+- read
+- self improvement
+- Personal development
+- lifestyle
+categories:
+- Self Improvement
+- Lifestyle
+description: Book Summary of 12 Rules For Life, An Antidote To Chaos by Jordan Peterson
 ---
 
 > **J**ust a few years ago, I was an unknown professor writing academic books that nobody read. Then, with God’s help, I decided to stop feeling sorry for myself and develop my potential. Pinkos and wishy-washy liberals had cornered the market in cod psychology, so I guessed there must be a huge hunger for a self-help book, backed up with religion, mythology, CAPITAL LETTERS, and stating the obvious – one directed at responsible, socially minded conservatives craving some pseudointellectual ideology to prop up their beliefs. And bingo! Here are my 12 Rules for Life.

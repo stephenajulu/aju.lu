@@ -1,8 +1,18 @@
 ---
 title: Decentralized(DeFi) vs Traditional Finance
 date: '2021-12-03 11:17:00+03:00'
-image: /images/defi.png
+image: images/defi.png
 draft: false
+tags:
+- finance
+- technology
+- decentralized
+- decentralized finance
+- defi
+categories:
+- Finance
+- Technology
+description: Here i cover the differences between DeFi and traditional finance
 ---
 
 One of the best ways to see the potential of DeFi is to understand the problems that exist today.

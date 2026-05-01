@@ -1,8 +1,17 @@
 ---
 title: Wallpaper of The Week 1
 date: '2022-07-11 12:38:00+03:00'
-image: /images/alain-bonnardeaux-tlxgw_its7k-unsplash.jpg
+image: images/alain-bonnardeaux-tlxgw_its7k-unsplash.jpg
 draft: false
+tags:
+- wallpaper
+- wallpapers
+- desktop wallpapers
+categories:
+- Design
+description: Every week, I'll share with you a new wallpaper that you can use to refresh
+  your desktop. Let me know what you think of this week’s one, and if you have a wallpaper
+  of your own that you think I should share, put it in the comments.
 ---
 
 Every week, I'll share with you a new wallpaper that you can use to refresh your desktop. Let me know what you think of this week’s one, and if you have a wallpaper of your own that you think I should share, put it in the comments.

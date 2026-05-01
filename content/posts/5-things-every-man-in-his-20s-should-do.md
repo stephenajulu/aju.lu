@@ -1,8 +1,29 @@
 ---
 title: 5 Things Every Man In His 20s Should Do
 date: '2021-11-22 05:26:00+03:00'
-image: /images/matheus-ferrero-tkrrvwxjb_8.jpg
+image: images/matheus-ferrero-tkrrvwxjb_8.jpg
 draft: false
+tags:
+- Masculinity
+- self improvement
+- self mastery
+- Growth
+- Masculine
+- Man
+- manhood
+- Men
+- Level up
+- Personal development
+categories:
+- Masculinity
+- Self improvement
+- Self Mastery
+- Growth
+- Masculine
+- Man
+- Men
+description: Here are 5 things that will set a man in his 20s apart from the rest
+  of the pack.
 ---
 
 Hi men! 

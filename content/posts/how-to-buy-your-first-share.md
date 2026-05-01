@@ -1,8 +1,16 @@
 ---
 title: How to Buy Your First Share
 date: '2021-02-08 03:20:00+00:00'
-image: /images/buy-shares-in-kenya.jpg
+image: images/buy-shares-in-kenya.jpg
 draft: false
+tags:
+- shares
+- trading
+- stocks
+categories:
+- finance
+description: Your first share is a milestone and today i am going to teach you how
+  to go about buying it.
 ---
 
 Hi, how are you? It's been long huh!

@@ -1,8 +1,9 @@
 ---
 title: On Becoming a High Value Man
 date: '2021-04-21 09:41:00+00:00'
-image: /images/maxresdefault.jpg
+image: images/maxresdefault.jpg
 draft: false
+description: Today I'll explain the steps to becoming a high value man
 ---
 
 Hi guys! How are you? Today I'd like to help you(and i) start our journey to being high-value men. These are not my insights rather the insights of great men and women. 

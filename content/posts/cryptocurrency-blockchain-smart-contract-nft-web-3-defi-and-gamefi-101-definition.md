@@ -1,8 +1,23 @@
 ---
 title: 'Cryptocurrency, Blockchain, Smart Contract, NFT, Web 3, DeFi and GameFi 101:'
 date: '2021-12-16 07:15:00+03:00'
-image: /images/newhype101definition.png
+image: images/newhype101definition.png
 draft: false
+tags:
+- cryptocurrency
+- blockchain
+- smart contract
+- nft
+- web3
+- nonfungibletoken
+- decentralizedfinance
+- defi
+- gamefi
+- gamefinance
+categories:
+- Technology
+description: Cryptocurrencies, Blockchain, Smart Contracts, Non Fungible Tokens, Web
+  3, Decentralized Finance and Game Finance Explained
 ---
 
 ### What is a cryptocurrency?

@@ -1,8 +1,16 @@
 ---
 title: How Shell Is Using Web3 And Blockchain For Sustainability And Energy Transition
 date: '2022-08-12 00:00:00+03:00'
-image: /images/1659425395046.jpeg
+image: images/1659425395046.jpeg
 draft: false
+tags:
+- blochain
+- web3
+- shell
+categories:
+- tech
+description: How Shell Is Using Web3 And Blockchain For Sustainability And Energy
+  Transition
 ---
 
 Shell is one of the largest energy companies in the world. Although many of us may associate it primarily with oil and gas, it has embarked on an ambitious energy transition agenda in a bid to move away from the use of fossil fuels toward green and sustainable energy.

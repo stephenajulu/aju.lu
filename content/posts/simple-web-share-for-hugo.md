@@ -1,8 +1,12 @@
 ---
 title: Share This Post
 date: '2021-06-17 05:57:00+03:00'
-image: /images/web-share-api-small.png
+image: images/web-share-api-small.png
 draft: false
+tags: []
+categories: []
+description: Are you a blogger using hugo? Then here's how you can add a native share
+  button built using the Web Share API simply
 ---
 
 Hi guys, if you are a blogger using gohugo. This is for you!

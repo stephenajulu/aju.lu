@@ -1,8 +1,20 @@
 ---
 title: Young Men, Focus On These Key Things
 date: '2021-11-24 17:18:00+03:00'
-image: /images/bruce-mars-8yg31xn4dsw-unsplash.jpg
+image: images/bruce-mars-8yg31xn4dsw-unsplash.jpg
 draft: false
+tags:
+- self improvement
+- men
+- man
+- self mastery
+- success
+- fitness
+- investment
+- intelligence
+categories:
+- self improvement
+description: Here are the 5 things you should focus on for massive success and prosperity
 ---
 
 Hi men, here are 5 things you should focus on and commit to doing every day for MASSIVE success.

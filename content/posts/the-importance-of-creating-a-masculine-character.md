@@ -1,8 +1,26 @@
 ---
 title: The Importance of Building Your Masculinity
 date: '2021-12-11 09:51:00+03:00'
-image: /images/simone-pellegrini-l3qg_oblut0-unsplash.jpg
+image: images/simone-pellegrini-l3qg_oblut0-unsplash.jpg
 draft: false
+tags:
+- masculinity
+- masculine
+- manhood
+- man
+- men
+- guys
+- life
+- self improvement
+- Personal development
+- masculinity saturday
+categories:
+- Life
+- Masculinity
+- Personal Development
+- Self Improvement
+description: Here I outline the benefits of creating a masculine character and working
+  towards becoming this character.
 ---
 
 Hi guys, how are you doing?

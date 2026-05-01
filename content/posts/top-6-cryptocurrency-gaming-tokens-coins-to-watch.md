@@ -1,8 +1,36 @@
 ---
 title: Top 6 Cryptocurrency Gaming Tokens/Coins To Watch
 date: '2021-12-02 11:35:00+03:00'
-image: /images/nft-crypto-gaming-developers.jpg
+image: images/nft-crypto-gaming-developers.jpg
 draft: false
+tags:
+- finance
+- technology
+- gaming
+- cryptocurrencies
+- cryptocurrency
+- tokens
+- gaming tokens
+- gaming coins
+- cryptocurrency gaming tokens
+- cryptocurrency gaming coins
+- cryptocurrency tokens
+- cryptocurrency coins
+- axie infinity
+- axs
+- enj
+- enjin
+- gala
+- sand
+- sandbox
+- ilv
+- illuvium
+categories:
+- Finance
+- Technology
+- Gaming
+description: Here's my top 6 gaming token recommendation list with their price as
+  seen during the writing of this article.
 ---
 
 Here are my top 6 gaming tokens listed with their price as seen during the writing of this article.

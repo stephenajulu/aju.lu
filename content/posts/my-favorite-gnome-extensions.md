@@ -1,8 +1,17 @@
 ---
 title: My Favorite Gnome Extensions
 date: '2021-10-30 12:30:00+03:00'
-image: /images/2021-10-30_11-44.png
+image: images/2021-10-30_11-44.png
 draft: false
+tags:
+- gnome
+- linux
+- gnome extensions
+categories:
+- linux
+- gnome
+- gnome extensions
+description: Here are my favorite gnome extensions
 ---
 
 Hi there, it's been a while. Today I'll be sharing the top gnome extensions that I've liked since switching to Linux, specifically Zorin 16 OS.

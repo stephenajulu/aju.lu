@@ -1,8 +1,19 @@
 ---
 title: Decentralized Insurance Built on the Blockchain is a Game Changer
 date: '2022-08-21 18:15:00+03:00'
-image: /images/blockchain-interoperability-water-850x478-jpeg-optimal.jpeg
+image: images/blockchain-interoperability-water-850x478-jpeg-optimal.jpeg
 draft: false
+tags:
+- dein
+- decentralized insurance
+- insurance
+- blockchain
+- tech
+categories:
+- Tech
+description: Decentralized insurance built on a transparent, blazingly fast, and efficient
+  blockchain with the community in mind is something to think about, says Adam Hofmann,
+  the CEO of Nimble.
 ---
 
 Let’s face it – [crypto](https://stephenajulu.com/blog/6-use-cases-for-cryptocurrency/), [Web3](https://stephenajulu.com/blog/web-3.0-explained-part-1/), [blockchain](https://stephenajulu.com/blog/what-is-blockchain-how-does-it-work-blockchain-explained/), whatever you want to call it – is growing fast. As a result, there are concerns and skepticism around the **volatility** and safety of digital assets, including investor funds. Would you put your hard earned money into _anything_ without some sense of safety and **security**?

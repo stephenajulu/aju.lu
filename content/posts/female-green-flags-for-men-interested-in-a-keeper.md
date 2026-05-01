@@ -1,8 +1,17 @@
 ---
 title: Green Flags For Men Interested In A Keeper
 date: '2022-01-27 13:04:00+03:00'
-image: /images/sasha-freemind-nxo2zskhthg-unsplash.jpg
+image: images/sasha-freemind-nxo2zskhthg-unsplash.jpg
 draft: false
+tags:
+- dating
+- women
+- green flags
+- ' red flags'
+categories:
+- Dating
+- Women
+description: Men, these green flags make her a keeper
 ---
 
 Hello there! How are you? With no second to waste let's jump right in. But before that remember that you have to first put in work on yourself. Improve yourself first. Be worthy of seeking out these high-quality women.

@@ -1,8 +1,16 @@
 ---
 title: Health Tips That Will Reverse Hypertension, High Blood Sugar and Other Illnesses
 date: '2022-05-17 12:00:00+03:00'
-image: /images/hush-naidoo-jade-photography-pa0uoltkwao-unsplash.jpg
+image: images/hush-naidoo-jade-photography-pa0uoltkwao-unsplash.jpg
 draft: false
+tags:
+- lifestyle
+- health
+categories:
+- lifestyle
+- health
+description: Health Tips That Will Reverse Hypertension, High Blood Sugar, Cancer,
+  Metabolic Syndrome, Type 2 Diabetics and Other Illnesses
 ---
 
 Here are health tips that will reverse hypertension, high blood sugar, cancer, metabolic syndrome, type 2 diabetes, and other illnesses.

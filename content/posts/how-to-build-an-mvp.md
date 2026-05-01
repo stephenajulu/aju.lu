@@ -1,8 +1,11 @@
 ---
 title: How To Build An MVP
 date: '2021-03-09 07:00:00+00:00'
-image: /images/mvp-mobile-app-step.jpg
+image: images/mvp-mobile-app-step.jpg
 draft: false
+description: Do you have an idea? Don't know programming? Do you want to test it?
+  Today i answer all these questions and help you build your minimal viable product
+  of your idea and test it's performance in the actual market for FREE!
 ---
 
 Do you have an idea? Don't know programming? Do you want to test it? Today i answer all these questions and help you build your minimal viable product of your idea and test it's performance in the actual market for FREE!

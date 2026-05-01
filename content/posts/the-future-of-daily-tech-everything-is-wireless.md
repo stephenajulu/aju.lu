@@ -1,8 +1,26 @@
 ---
 title: 'The Future of Daily Tech: Everything is Wireless'
 date: '2023-02-14 15:30:00+03:00'
-image: /images/lowres-wireless-charging-header-jpg_729188885.jpg
+image: images/lowres-wireless-charging-header-jpg_729188885.jpg
 draft: false
+tags:
+- tech
+- technology
+- wireless tech
+- technology
+- contactless technology
+- charging
+- data transfer
+- wireless charging
+- innovations
+categories:
+- Technology
+- .Tech
+description: The world of daily technology is changing rapidly, with wireless and
+  contactless technologies quickly becoming the norm. This comprehensive guide explores
+  the latest innovations in wireless tech, from charging to data transfer to controllers
+  and electric car charging. Discover the possibilities of a world where everything
+  is wireless.
 ---
 
 As technology evolves, the world is moving towards a future where everything is wireless. From charging to data transfer to controllers to electric car charging to the insides of electrical devices, the need for cords and cables is becoming obsolete. In this article, we will explore the latest advancements in wireless technology and how they will shape the future of daily tech.

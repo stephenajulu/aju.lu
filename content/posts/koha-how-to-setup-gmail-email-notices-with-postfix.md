@@ -1,8 +1,27 @@
 ---
 title: 'Koha: How To Setup Gmail Email Notices with Postfix'
 date: '2022-11-10 19:00:00+03:00'
-image: /images/koha-user.jpg
+image: images/koha-user.jpg
 draft: false
+tags:
+- koha
+- postfix
+- email notices
+- smtp
+- koha smtp
+- koha email
+- koha postfix
+- email
+- mail
+- library
+- libraries
+- tech
+- technologies
+- technology
+categories:
+- Technology
+- Library
+description: Configure gmail with postfix to send email notices from Koha
 ---
 
 ## **1. Installation of postfix mail server**

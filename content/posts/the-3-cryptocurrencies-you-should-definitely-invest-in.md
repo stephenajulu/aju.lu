@@ -1,8 +1,33 @@
 ---
 title: The 3 Cryptocurrencies You Should Definitely Invest In and More
 date: '2021-11-20 14:36:00+03:00'
-image: /images/executium-ltazfutkcl8-unsplash.jpg
+image: images/executium-ltazfutkcl8-unsplash.jpg
 draft: false
+tags:
+- investment
+- investments
+- cryptocurrencies
+- crypto
+- cryptocurrency
+- ethereum
+- eth
+- btc
+- bitcoin
+- metaverse
+- metaverse index token
+- mvi
+- defi
+- web 3.0
+- ethereum naming service
+- defi
+- decentralized finance
+categories:
+- investments
+- investment
+- cryptocurrencies
+- crypto
+description: Here are 3 cryptocurrencies I believe you should invest in right now
+  before the end of 2021
 ---
 
 Hi there, here are 3 cryptocurrencies I believe you should invest in right now before the end of 2021

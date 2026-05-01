@@ -1,8 +1,19 @@
 ---
 title: What The Hell Happened To Men?
 date: '2022-08-25 10:30:00+03:00'
-image: /images/kari-shea-hsstk47vwvk-unsplash.jpg
+image: images/kari-shea-hsstk47vwvk-unsplash.jpg
 draft: false
+tags:
+- men
+- masculinity
+- toxic masculinity
+- masculinity saturday
+- masculine
+- man
+- manhood
+categories:
+- Lifestyle
+description: What The Hell Happened To Men?
 ---
 
 What happened to men? We used to be conquerors, protectors, and providers. 

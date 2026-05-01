@@ -1,8 +1,23 @@
 ---
 title: Best Cryptocurrency Wallets 2022
 date: '2022-05-26 21:05:00+03:00'
-image: /images/olieman-eth-evqnygt1pwg-unsplash.jpg
+image: images/olieman-eth-evqnygt1pwg-unsplash.jpg
 draft: false
+tags:
+- finance
+- technology
+- cryptocurrencies
+- wallets
+- tokens
+- cryptocurrency
+- token
+- wallet
+- bitcoin
+- ethereum
+categories:
+- Finance
+- Technology
+description: Get your cryptocurrencies off exchanges and into wallets now!
 ---
 
 According to this tweet:

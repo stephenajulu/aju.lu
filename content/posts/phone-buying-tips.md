@@ -1,8 +1,27 @@
 ---
 title: Phone Buying Tips
 date: '2022-06-11 20:00:00+03:00'
-image: /images/youssef-sarhan-sdth9wydmre-unsplash.jpg
+image: images/youssef-sarhan-sdth9wydmre-unsplash.jpg
 draft: false
+tags:
+- tech
+- phones
+- smartphones
+- android
+- iphone
+- ios
+- tecno
+- xiaomi
+- redmi
+- oppo
+- oneplus
+- samsung
+- vivo
+- itel
+- infinix
+categories:
+- Tech
+description: Phone buying tips that will help you
 ---
 
 Let's jump right in.

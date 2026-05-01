@@ -1,8 +1,27 @@
 ---
 title: My Investment Portfolio
 date: '2021-11-12 10:40:00+03:00'
-image: /images/invest.jpg
+image: images/invest.jpg
 draft: false
+tags:
+- invest
+- investment
+- crypto
+- stocks
+- investments
+- cryptocurrencies
+- stock
+- shares
+- share
+- binance
+- portfolio
+- investment portfolio
+categories:
+- invest
+- investment
+- crypto
+- stocks
+description: Revealing my current investment portfolio and potential invest list
 ---
 
 Hi, how are you?

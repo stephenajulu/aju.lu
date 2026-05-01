@@ -1,8 +1,27 @@
 ---
 title: 'The Future of Daily Tech: Everything is Modular'
 date: '2023-02-14 15:14:00+03:00'
-image: /images/phone-project-ara-modular-smart-phone-google-alphabet-design-technology-news_dezeen_ban_0.jpg
+image: images/phone-project-ara-modular-smart-phone-google-alphabet-design-technology-news_dezeen_ban_0.jpg
 draft: false
+tags:
+- modular technology
+- daily tech
+- electronic waste
+- customization
+- modular
+- smartphones
+- laptop
+- ' household appliances'
+- electric vehicles
+- environmental impact
+categories:
+- Technology
+- Tech
+description: Discover the future of daily tech and how everything is becoming modular.
+  Explore the benefits of modularity, including extended device lifespan, reduced
+  electronic waste, and greater customization options. Learn about the different types
+  of devices that are becoming modular, from smartphones and laptops to household
+  appliances and electric vehicles.
 ---
 
 As technology advances, the way we use and interact with it is constantly evolving. One trend that is rapidly gaining popularity in the tech world is modularity. Modularity refers to the ability of technology to be easily broken down into separate, interchangeable components. In this article, we will explore the future of daily tech and how everything is becoming modular.

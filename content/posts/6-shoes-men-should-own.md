@@ -1,8 +1,17 @@
 ---
 title: 6 Shoes Men Should Own
 date: '2021-08-09 21:07:00+03:00'
-image: /images/clem-onojeghuo-ouxpfti70i0-unsplash.jpg
+image: images/clem-onojeghuo-ouxpfti70i0-unsplash.jpg
 draft: false
+tags:
+- fashion
+- men
+- style
+categories:
+- fashion
+- men
+- style
+description: Here are the 6 shoes men should own for usefulness, reliability and comfort
 ---
 
 Here are the 6 shoes men should own for usefulness, reliability and comfort

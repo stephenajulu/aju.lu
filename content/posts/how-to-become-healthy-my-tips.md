@@ -1,8 +1,16 @@
 ---
 title: How to Become Healthy + My Tips
 date: '2021-06-27 13:25:00+03:00'
-image: /images/healthytips.png
+image: images/healthytips.png
 draft: false
+tags:
+- health
+- meat
+- lifestyle
+categories:
+- health
+description: Here are simple and easy to integrate tips that I believe will help you
+  get your health back and keep it
 ---
 
 Hi there!

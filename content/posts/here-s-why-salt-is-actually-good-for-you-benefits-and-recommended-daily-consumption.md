@@ -1,8 +1,23 @@
 ---
-title: 'Here''''''''''''''''s Why Salt is Actually Good For You: Benefits and Recommended Daily'
+title: 'Here''''''''''''''''s Why Salt is Actually Good For You: Benefits and Recommended
+  Daily'
 date: '2022-06-06 15:54:00+03:00'
-image: /images/maksym-sirman-mutyusmedss-unsplash.jpg
+image: images/maksym-sirman-mutyusmedss-unsplash.jpg
 draft: false
+tags:
+- health
+- salt
+- sodium chloride
+- insulin sensitivity
+- thyroid function
+- metabolism
+- lifestyle
+categories:
+- Lifestye
+description: Salt(Sodium Chloride) is one the most important electrolytes. In fact
+  it's been shown to be a master electrolyte that balances others. Science also shows
+  it boosts thyroid function, metabolism, improves insulin sensitivity and many more.
+  Find out here.
 ---
 
 1. **Salt aids blood sugar control by improving insulin sensitivity**. A low-salt diet **increases insulin resistance** and even moderate dietary salt restriction is shown to cause systemic insulin resistance (study [**#1**](http://www.metabolismjournal.com/article/S0026-0495(10)00329-X/abstract) and [**#2**](http://www.ncbi.nlm.nih.gov/pubmed/10371376)).

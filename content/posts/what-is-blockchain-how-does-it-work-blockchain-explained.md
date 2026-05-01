@@ -1,8 +1,14 @@
 ---
 title: What is Blockchain? How Does It Work? Blockchain Explained
 date: '2021-12-08 16:59:00+03:00'
-image: /images/blockchain-technology-trends.jpg
+image: images/blockchain-technology-trends.jpg
 draft: false
+tags:
+- blockchain
+- technology
+categories:
+- Technology
+description: What is Blockchain? How Does It Work? Blockchain Explained
 ---
 
 A blockchain is a distributed database that is shared among the nodes of a computer network. As a database, a blockchain stores information electronically in digital format. Blockchains are best known for their crucial role in cryptocurrency systems, such as Bitcoin, for maintaining a secure and decentralized record of transactions. The innovation with a blockchain is that it guarantees the fidelity and security of a record of data and generates trust without the need for a trusted third party.

@@ -1,8 +1,21 @@
 ---
 title: The Key to Healthier and Smoother Skin
 date: '2022-04-16 13:00:00+03:00'
-image: /images/lesly-juarez-1ahgngkuhr0-unsplash.jpg
+image: images/lesly-juarez-1ahgngkuhr0-unsplash.jpg
 draft: false
+tags:
+- health
+- beauty
+- self improvement
+- skin
+- youth
+- healthy skin
+categories:
+- health
+- beauty
+- self improvement
+description: Here's the key to healthier and smoother skin that can make you look
+  youthful like me.
 ---
 
 #### 1. It all starts with your gut.

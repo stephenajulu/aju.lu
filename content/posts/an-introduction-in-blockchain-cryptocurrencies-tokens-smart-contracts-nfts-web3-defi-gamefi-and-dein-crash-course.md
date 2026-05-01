@@ -1,8 +1,32 @@
 ---
 title: An Introduction in Blockchain, Cryptocurrencies, Tokens, Smart Contracts
 date: '2022-08-21 18:20:00+03:00'
-image: /images/1644357966865.png
+image: images/1644357966865.png
 draft: false
+tags:
+- blockchain
+- cryptocurrency
+- token
+- smart contract
+- non fungible token
+- web3
+- decentralized finance
+- game finance
+- decentralized insuarance
+- crypto
+- nft
+- defi
+- gamefi
+- dein
+- cryptocurrencies
+- tokens
+- tokenomics
+categories:
+- Technology
+- Tech
+description: Here i'll cover surface level facts about the blockchain, cryptocurrency,
+  token, smart contract, non fungible token, web3, decentralized finance, game finance
+  and decentralized insurance technologies
 ---
 
 Hello there, today I'll be covering definitions:

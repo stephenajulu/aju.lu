@@ -1,8 +1,14 @@
 ---
 title: My Favorite Fonts
 date: '2022-07-09 10:00:00+03:00'
-image: /images/brett-jordan-92-mtyj5ogs-unsplash.jpg
+image: images/brett-jordan-92-mtyj5ogs-unsplash.jpg
 draft: false
+tags:
+- design
+- fonts
+categories:
+- Design
+description: Here are my favorite fonts of all time
 ---
 
 1. [Playfair Display](https://fonts.google.com/specimen/Playfair+Display)

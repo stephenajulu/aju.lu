@@ -1,8 +1,21 @@
 ---
 title: 6 Compounding Habits
 date: '2021-11-21 16:53:00+03:00'
-image: /images/aziz-acharki-u3c79seha7k-unsplash.jpg
+image: images/aziz-acharki-u3c79seha7k-unsplash.jpg
 draft: false
+tags:
+- self improvement
+- self mastery
+- growth
+- mindset
+- habits
+categories:
+- self improvement
+- growth
+- mindset
+- habits
+description: The 1% implement these 6 habits for massive success. So should you. They
+  have a compounding effect on you and they are easy.
 ---
 
 1. Constant Self Education & Reading Books

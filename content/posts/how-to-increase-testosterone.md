@@ -1,8 +1,18 @@
 ---
 title: How to Increase Testosterone
 date: '2021-08-06 17:45:00+03:00'
-image: /images/abby-savage-9urds43o8c-unsplash.jpg
+image: images/abby-savage-9urds43o8c-unsplash.jpg
 draft: false
+tags:
+- man
+- manhood
+- testosterone
+categories:
+- man
+- manhood
+- testosterone
+description: Can you believe that our fathers and grand fathers had 5 times the testosterone
+  we have. Here's how to increase it.
 ---
 
 Can you believe that our fathers and grandfathers had 10 times the testosterone we have today? Today I'll show you how to increase it.

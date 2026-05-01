@@ -1,8 +1,47 @@
 ---
 title: 6 Metaverse Tokens You Could Invest In
 date: '2021-11-07 15:47:34+03:00'
-image: /images/metaverse-1200x900.jpg
+image: images/metaverse-1200x900.jpg
 draft: false
+tags:
+- metaverse
+- tokens
+- crypto
+- vr
+- cryptocurrencies
+- digital land
+- virtual reality
+- augmented reality
+- extended reality
+- ar
+- xr
+- ready player one
+- sword art online
+- tron
+- ethereum
+- decentraland
+- mana
+- axie infinity
+- axs
+- axies
+- enjin
+- enj
+- sandbox
+- the sandbox
+- sand
+- star atlas
+- atlas
+- metaverse index
+- mvi
+- ERC20
+- nft
+- etf
+categories:
+- metaverse
+- tokens
+- crypto
+- cryptocurrencies
+description: Here Are 6 Metaverse Tokens You Could Invest In
 ---
 
 Ready, Player One? The metaverse is coming.

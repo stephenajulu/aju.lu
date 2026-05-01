@@ -1,8 +1,20 @@
 ---
 title: What Causes Alzheimer’s? Scientists Are Rethinking the Answer.
 date: '2022-12-24 10:00:00+03:00'
-image: /images/alzheimer-byharolbustos-lede-scaled-1.webp
+image: images/alzheimer-byharolbustos-lede-scaled-1.webp
 draft: false
+tags:
+- alzheimers
+- dementia
+- brain
+- the brain
+categories:
+- Health
+description: It’s often subtle at first. A lost phone. A forgotten word. A missed
+  appointment. By the time a person walks into a doctor’s office, worried about signs
+  of forgetfulness or failing cognition, the changes to their brain have been long
+  underway — changes that we don’t yet know how to stop or reverse. Alzheimer’s disease,
+  the most common form of dementia, has no cure.
 ---
 
 It’s often subtle at first. A lost phone. A forgotten word. A missed appointment. By the time a person walks into a doctor’s office, worried about signs of forgetfulness or failing cognition, the changes to their brain have been long underway — changes that we don’t yet know how to stop or reverse. Alzheimer’s disease, the most common form of dementia, has no cure.

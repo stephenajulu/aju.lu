@@ -1,8 +1,35 @@
 ---
 title: Conversations with ChatGPT - Exploring the Science Behind Nutrition
 date: '2023-02-01 15:49:00+03:00'
-image: /images/maxresdefault-1.jpg
+image: images/maxresdefault-1.jpg
 draft: false
+tags:
+- nutrition
+- diet
+- health
+- wellness
+- ' AI'
+- ' myths'
+- facts
+- raw eggs
+- animal fats
+- phytotoxins
+- testosterone
+- hormones
+- vegan
+- vegetables
+- grains
+- processed foods
+- oxidative stress
+- hearthealth
+- chatgpt
+- carnivore
+categories:
+- Technology
+- Lifestyle
+description: Get the latest research-based information on nutrition, health and wellness
+  from a knowledgeable AI. Clearing up misconceptions on diet, from raw eggs to animal
+  fats and more.
 ---
 
 **Stephen:** Question, isn't cholesterol important for hormone synthesis?

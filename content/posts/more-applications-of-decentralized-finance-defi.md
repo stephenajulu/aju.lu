@@ -1,8 +1,21 @@
 ---
 title: More Applications of Decentralized Finance(DeFi)
 date: '2021-11-29 10:48:00+03:00'
-image: /images/10-defi-coins.jpg
+image: images/10-defi-coins.jpg
 draft: false
+tags:
+- defi
+- decentralized finance
+- finance
+- technology
+- tech
+- financial technology
+- fintech
+- blockchain
+categories:
+- Technology
+- Finance
+description: Here are a few more applications and use cases of Decentralized Finance
 ---
 
 ### Refresher:

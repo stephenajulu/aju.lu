@@ -1,8 +1,14 @@
 ---
 title: How to Build Your First Blog Part 2
 date: '2021-02-08 06:20:00+00:00'
-image: /images/blog.jpg
+image: images/blog.jpg
 draft: false
+tags:
+- blogging
+categories:
+- life
+description: Learn how to build your first blog with Wordpress(paid), ghost(paid)
+  and how to build your own JAMstack Serverless version.
 ---
 
 Recap: Today I showed you [how to buy your first share](https://ajulusthoughts.stephenajulu.com/post/how-to-buy-your-first-share/) and simple free ways to [build your first blog](https://ajulusthoughts.netlify.app/post/how-to-build-your-first-blog/).

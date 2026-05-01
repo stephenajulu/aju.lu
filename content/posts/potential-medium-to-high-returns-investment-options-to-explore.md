@@ -1,8 +1,30 @@
 ---
 title: Potential Medium to High Returns Investment Options To Explore
 date: '2023-02-28 16:22:00+03:00'
-image: /images/photo-1580519542036-c47de6196ba5.jpeg
+image: images/photo-1580519542036-c47de6196ba5.jpeg
 draft: false
+tags:
+- investment
+- investments
+- investing
+- invest
+- portfolio
+- investment portfolio
+- investment options
+- high returns
+- high risk
+- real estate
+- stocks
+- cryptocurrencies
+- p2p lending
+- lending
+- risk management
+- wealth
+categories:
+- Lifestyle
+description: Discover the best potential medium to high returns investment options
+  in this comprehensive guide. Learn about real estate investments, stocks, cryptocurrencies,
+  P2P lending, and more.
 ---
 
 Investing is one of the best ways to grow your wealth over time. While there are no guarantees in investing, some investments offer a higher potential for returns than others. In this article, we'll explore some of the potential medium to high returns investment options available to investors.

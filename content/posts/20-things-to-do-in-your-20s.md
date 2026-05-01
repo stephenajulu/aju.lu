@@ -1,8 +1,14 @@
 ---
 title: 20 Things To Do In Your 20s
 date: '2022-04-26 18:35:00+03:00'
-image: /images/wp6604477.webp
+image: images/wp6604477.webp
 draft: false
+tags:
+- self improvement
+categories:
+- Lifestyle
+description: Here are 20 things you should do in your twenties to get ahead ft Jose
+  Zuniga
 ---
 
 ##### 1. Take more risks

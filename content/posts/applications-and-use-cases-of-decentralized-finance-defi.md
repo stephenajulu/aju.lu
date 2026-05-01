@@ -1,8 +1,23 @@
 ---
 title: Applications and Use Cases of Decentralized Finance(DeFi)
 date: '2021-11-28 18:53:00+03:00'
-image: /images/n0hcw35at9m4acjgaqkw_what-is-defi-decentralized-finance-guide.jpe
+image: images/n0hcw35at9m4acjgaqkw_what-is-defi-decentralized-finance-guide.jpe
 draft: false
+tags:
+- defi
+- decentralized
+- decentralized finance
+- finance
+- financial technology
+- fintech
+- blockchain
+- technology
+- dexs
+categories:
+- Technology
+- Finance
+description: Last time, i defined decentralized finance. Today we look at it's use
+  cases and applications.
 ---
 
 Refresher:

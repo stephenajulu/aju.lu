@@ -1,8 +1,38 @@
 ---
 title: Top GameFi Games Right Now
 date: '2021-12-09 16:40:00+03:00'
-image: /images/610c1dd3ee4ef2b5089f768e_playtoearn.jpeg
+image: images/610c1dd3ee4ef2b5089f768e_playtoearn.jpeg
 draft: false
+tags:
+- gamefi
+- computer games
+- game finance
+- crypto
+- cryptocurrencies
+- cryptocurrency
+- play to earn
+- play 2 earn
+- free crypto
+- games
+- gaming
+- nft
+- nfts
+- defi
+- binance
+- binance smart chain
+- binance coin
+- metaverse
+- gameplay
+- gaming
+- online gaming
+- earn
+- game
+- decentralized
+- ethereum
+categories:
+- Technology
+- Gaming
+description: Here are the top GameFi games where you can earn crypto by playing.
 ---
 
 For players looking to get involved in these blockchain-based games and start earning cryptocurrency and NFTs, here is a breakdown of some of the leading[ games](https://dappradar.com/rankings/category/games) currently available.

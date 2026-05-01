@@ -1,8 +1,32 @@
 ---
 title: 'How To Buy Your First NFT Web 3.0 Domain: Ethereum Naming Service'
 date: '2021-12-27 14:11:00+03:00'
-image: /images/0_r24ox8zwoe0gfp1g.png
+image: images/0_r24ox8zwoe0gfp1g.png
 draft: false
+tags:
+- web3
+- technology
+- nft
+- blockchain
+- ethereum
+- cryptocurrencies
+- cryptocurrency
+- domain
+- domains
+- domain-names
+- domain name system
+- nft
+- ethereum naming service
+- eth
+- ether
+- crypto
+- ens
+- rainbowdotme
+- metamask
+categories:
+- Technology
+description: Learn more about NFT domain. What they are? Where to get them and How
+  to buy/use them.
 ---
 
 ### Refresher

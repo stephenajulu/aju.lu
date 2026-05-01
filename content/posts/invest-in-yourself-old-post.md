@@ -1,8 +1,17 @@
 ---
 title: Invest In Yourself(Old Post)
 date: '2021-08-09 05:17:00+03:00'
-image: /images/bronzeman.jpeg
+image: images/bronzeman.jpeg
 draft: false
+tags:
+- life
+- lifestyle
+- self improvement
+categories:
+- life
+- lifestyle
+- self improvement
+description: Here's why and how you should invest in yourself.
 ---
 
 Hey guys, what’s up? It’s your guy, Stephen Ajulu. And today’s topic is Investing in yourself, now I am in no way a certified advise-man, but this is something many self-made recognize and encourage. This is what Warren Buffet said,

@@ -1,8 +1,14 @@
 ---
 title: 'The Future of Daily Tech: Holograms'
 date: '2023-02-02 10:33:00+03:00'
-image: /images/new-technology-makes-real-time-3d-holograms-reality.jpg
+image: images/new-technology-makes-real-time-3d-holograms-reality.jpg
 draft: false
+tags:
+- holograms
+- technology
+categories:
+- Technology
+description: Join us to learn about the future of daily tech, holograms.
 ---
 
 Technology is constantly evolving, and with each passing day, it seems like there is a new and exciting advancement that is just around the corner. One of the most talked-about technological advancements in recent years has been the development of holograms, and how they could change the way we interact with technology in our daily lives. In this article, we will be taking a closer look at what holograms are, how they work, and the potential impact they could have on the future of daily tech.

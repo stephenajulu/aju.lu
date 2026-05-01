@@ -1,8 +1,23 @@
 ---
 title: 20 Things Men Must Do In 2022
 date: '2021-12-27 15:43:00+03:00'
-image: /images/imageedit_27_9513163132.jpg
+image: images/imageedit_27_9513163132.jpg
 draft: false
+tags:
+- men
+- self improvement
+- self mastery
+- masculinity
+- man
+- manhood
+- masculine
+- growth
+- success
+categories:
+- Masculinity
+- Self Improvement
+description: Here are 20 things I believe we(MEN) must do in 2022 for success and
+  fulfillment
 ---
 
 Look, guys, I'm in no way or shape better than you. We are just all men here doing our best to improve ourselves and those around us. Constant self-improvement is key.

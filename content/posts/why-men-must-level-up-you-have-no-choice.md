@@ -1,8 +1,18 @@
 ---
 title: 'Why Men Must Level Up: You Have No Choice'
 date: '2021-08-10 11:37:00+03:00'
-image: /images/tom-pumford-t5lmpsyxnsu-unsplash.jpg
+image: images/tom-pumford-t5lmpsyxnsu-unsplash.jpg
 draft: false
+tags:
+- self improvement
+- suffering
+- manhood
+categories:
+- self improvement
+- suffering
+- manhood
+description: Here's why men have no other choice but to level up and improve up as
+  well
 ---
 
 <br>

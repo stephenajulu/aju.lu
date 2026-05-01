@@ -1,8 +1,18 @@
 ---
 title: 'Interesting Technologies 2022: Part 1'
 date: '2022-09-06 16:00:00+03:00'
-image: /images/fabio-oyxis2kalvg-unsplash.jpg
+image: images/fabio-oyxis2kalvg-unsplash.jpg
 draft: false
+tags:
+- trends
+- technology
+- technologies
+- technology trends
+- tech
+- security
+categories:
+- Technology
+description: Here are some new interesting technologies
 ---
 
 ## Digital Trust

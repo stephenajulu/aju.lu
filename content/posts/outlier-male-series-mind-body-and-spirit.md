@@ -1,8 +1,28 @@
 ---
 title: 'Outlier Male Series: Mind, Body and Spirit'
 date: '2023-01-02 13:00:00+03:00'
-image: /images/photo-nic-khhukoxqo4k-unsplash.jpg
+image: images/photo-nic-khhukoxqo4k-unsplash.jpg
 draft: false
+tags:
+- lifestyle
+- masculinity
+- health
+- life optimization
+- self improvement
+- personal development
+- men
+- man
+- mind
+- body
+- spirit
+- growth
+- skills
+- faith
+categories:
+- lifestyle
+- masculinity
+description: Here we continue to discuss how one can become an outlier male by building
+  the fundamentals, the mind, body and spirit.
 ---
 
 Hello Guys,

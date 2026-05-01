@@ -1,8 +1,16 @@
 ---
 title: Must Have Apps For Linux Users
 date: '2021-12-18 13:57:00+03:00'
-image: /images/musthavelinuxapps.png
+image: images/musthavelinuxapps.png
 draft: false
+tags:
+- Linux
+- Apps
+- Zorin
+- Must Have
+categories:
+- Technology
+description: Here are some must have apps for Linux users to ensure
 ---
 
 Hi, as you know, early this year I made a shift to Linux(Zorin OS 16) and have been using it ever since. Today I'd like to suggest a few apps that I have been using.

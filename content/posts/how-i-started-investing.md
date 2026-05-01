@@ -1,8 +1,18 @@
 ---
 title: How I Started Investing
 date: '2021-02-08 15:00:00+00:00'
-image: /images/investing-1.png
+image: images/investing-1.png
 draft: false
+tags:
+- investment
+- investing
+- finance
+- investing kenya
+- getting stated
+categories:
+- finance
+description: I'll be sharing my investment journey and how you can start yours too.
+  The journey of a million miles begin with 1 step.
 ---
 
 Hi, how are you? 

@@ -1,8 +1,13 @@
 ---
 title: How to Build Your First Blog
 date: '2021-02-08 03:52:00+00:00'
-image: /images/how-to-start-a-blog-illustration-1.jpeg
+image: images/how-to-start-a-blog-illustration-1.jpeg
 draft: false
+tags:
+- blogging
+categories:
+- life
+description: Learn how to build and write your first blog.
 ---
 
 Hi everyone, glad to have you back. Today we've talked about How you can buy your first share, now I'll teach you how you can build your own blog.
