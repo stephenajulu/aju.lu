@@ -1,5 +1,5 @@
 ---
-title: Design, tech, & engineering in the pursuit of impact
+title: Design, tech, and engineering in the pursuit of impact
 description: Hello, I'm Stephen Ajulu, a seasoned multidisciplinary tech professional, writer, and consultant based in Nairobi, Kenya, with over a decade of experience. Design, tech, and engineering in the pursuit of impact.
 ---
 
