@@ -21,6 +21,8 @@
 
     <div class="content e-content">
       {{ .Content }}
+    
+      {{ partial "related.html" . }}
     </div>
 
     {{ if .Params.tags }}
@@ -30,6 +32,7 @@
       {{ end }}
     </div>
     {{ end }}
+    <br>
 
     <div class="blog-footer">
       <div class="footer-actions">
@@ -37,7 +40,7 @@
         {{ partial "share.html" . }}
       </div>
       <br>
-      <a class="dramatic" style="font-family: Newsreader; font-weight: bold; font-style: italics; text-decoration:none;" href="mailto:{{ .Site.Params.author.email }}?subject={{ replace (printf "Re: %s" .Page.Title) "\"" "'" }}">Reply by email</a>
+      <a class="dramatic" style="font-weight: bold; font-style: italics; text-decoration:none;" href="mailto:{{ .Site.Params.author.email }}?subject={{ replace (printf "Re: %s" .Page.Title) "\"" "'" }}">Reply by email</a>
       <br>
       <div id="webmentions-container">
         {{ partial "webmention.html" . }}
@@ -46,7 +49,6 @@
     
     {{ partial "backlinks.html" (dict "page" .) }}
     
-    {{ partial "related.html" . }}
 
     <div class="post-navigation">
       {{ if .PrevInSection }}
