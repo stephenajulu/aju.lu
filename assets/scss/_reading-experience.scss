@@ -67,5 +67,7 @@
     border-top-right-radius: 0 !important;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
+    overflow-x: auto !important;
+    max-width: 100%;
   }
 }
