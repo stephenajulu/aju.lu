@@ -21,11 +21,10 @@
 
     <div class="content e-content">
       {{ .Content }}
-    
-      {{ partial "related.html" . }}
-      <hr>
     </div>
 
+    {{ partial "related.html" . }}
+    
     {{ if .Params.tags }}
     <div class="post-tags">
       {{ range .Params.tags }}
@@ -41,26 +40,32 @@
         {{ partial "share.html" . }}
       </div>
       <br>
-      <a class="dramatic" style="font-weight: bold; font-style: italics; text-decoration:none;" href="mailto:{{ .Site.Params.author.email }}?subject={{ replace (printf "Re: %s" .Page.Title) "\"" "'" }}">Reply by email</a>
+      
+      <a class="dramatic" href="mailto:{{ .Site.Params.author.email }}?subject={{ replace (printf "Re: %s" .Page.Title) "\"" "'" }}">Reply by email</a>
+     
       <br>
+      
       <div id="webmentions-container">
         {{ partial "webmention.html" . }}
       </div>
     </div>
+
+    <br>
     
     {{ partial "backlinks.html" (dict "page" .) }}
     
-
+    <br>
+    
     <div class="post-navigation">
       {{ if .PrevInSection }}
       <div class="post-nav-prev">
-        <span class="nav-label">Previous</span>
+        <span class="nav-label">Previous ←</span>
         <a href="{{ .PrevInSection.RelPermalink }}">{{ .PrevInSection.Title }}</a>
       </div>
       {{ end }}
       {{ if .NextInSection }}
       <div class="post-nav-next">
-        <span class="nav-label">Next</span>
+        <span class="nav-label">Next →</span>
         <a href="{{ .NextInSection.RelPermalink }}">{{ .NextInSection.Title }}</a>
       </div>
       {{ end }}
