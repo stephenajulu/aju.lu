@@ -46,13 +46,10 @@ mediatype = "application/json"
   
   [[related.indices]]
     name = "tags"
-    weight = 60
+    weight = 30
   [[related.indices]]
     name = "categories"
-    weight = 50
-  [[related.indices]]
-    name = "description"
-    weight = 40
+    weight = 10
   [[related.indices]]
     name = "description"
     weight = 30
@@ -62,6 +59,9 @@ mediatype = "application/json"
   [[related.indices]]
     name = "date"
     weight = 10
+  [[related.indices]]
+    name = "keywords"
+    weight = 50
 
 [module]
   [module.hugoVersion]
