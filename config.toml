@@ -46,10 +46,13 @@ mediatype = "application/json"
   
   [[related.indices]]
     name = "tags"
-    weight = 100
+    weight = 60
   [[related.indices]]
     name = "categories"
-    weight = 80
+    weight = 50
+  [[related.indices]]
+    name = "description"
+    weight = 40
   [[related.indices]]
     name = "description"
     weight = 30
