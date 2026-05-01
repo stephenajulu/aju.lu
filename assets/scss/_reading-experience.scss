@@ -15,12 +15,16 @@
 .highlight {
   position: relative;
   margin: 30px 0;
+  max-width: 100%;
+  overflow: hidden; // Contain the pre
+  border-radius: 8px;
+  background: var(--base-offset-color);
   
   .code-top-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--base-offset-color);
+    background: rgba(156, 163, 175, 0.1);
     border-bottom: 1px solid rgba(156, 163, 175, 0.1);
     padding: 8px 16px;
     border-top-left-radius: 8px;
@@ -63,11 +67,28 @@
   
   pre {
     margin: 0 !important;
+    padding: 20px !important;
     border-top-left-radius: 0 !important;
     border-top-right-radius: 0 !important;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     overflow-x: auto !important;
-    max-width: 100%;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    
+    code {
+        white-space: pre; // Keep it as pre to allow scrolling
+        word-wrap: normal;
+        word-break: normal;
+    }
   }
+}
+
+/* Fix for mobile screens where code might still overflow */
+@include breakpoint('small') {
+    .highlight pre {
+        padding: 15px !important;
+        font-size: 14px;
+    }
 }
