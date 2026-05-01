@@ -16,6 +16,8 @@
     width: 80%;
     font-size: 34px;
     line-height: 38px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
     @include breakpoint('small') {
       width: 80%;
       font-size: 52px;

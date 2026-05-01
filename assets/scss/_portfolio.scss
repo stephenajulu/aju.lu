@@ -66,6 +66,8 @@
     line-height: 1.2;
     color: #ffffff !important; /* Always white */
     text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
   }
 
   .portfolio-date {
