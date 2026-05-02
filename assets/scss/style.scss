@@ -44,7 +44,7 @@
   --base-offset-color: #f3f4f6;
   --heading-color: #111827;
   --text-color: #374151;
-  --meta-color: #6b7280;
+  --meta-color: #4b5563; // Improved from #6b7280 for 4.5:1 contrast ratio
 
   /* Syntax Highlighting (Light) */
   --code-bg: #f9fafb;
@@ -149,5 +149,35 @@ body {
     width: 20px;
     height: 20px;
     fill: currentColor;
+  }
+}
+
+/* Accessibility */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background: var(--highlight-color);
+  color: #ffffff;
+  padding: 10px 20px;
+  z-index: 10001;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom-right-radius: 8px;
+  transition: top 0.2s ease;
+
+  &:focus {
+    top: 0;
+    outline: 3px solid var(--dot-color);
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }

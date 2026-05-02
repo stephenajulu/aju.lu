@@ -59,6 +59,7 @@
 {{ if eq .Site.Params.addFrame true }}{{ $themeStyle = $themeStyle | append "frame" }}{{ end }}
 
 <body class='page{{ delimit $themeStyle " " }} {{ block "body_classes" . }}{{ end }}'>
+  <a href="#main" class="skip-link">Skip to main content</a>
   <div id="reading-progress"></div>
   {{ partial "menu-main-mobile.html" . }}
   <div id="wrapper" class="wrapper">
