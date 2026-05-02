@@ -114,9 +114,6 @@ body {
   margin: 0;
   padding: 20px;
   overflow-x: hidden;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  hyphens: auto;
   transition: background 0.3s ease, color 0.3s ease;
   @include breakpoint('small') {
     padding: 50px;

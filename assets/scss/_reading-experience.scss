@@ -16,9 +16,10 @@
   position: relative;
   margin: 30px 0;
   max-width: 100%;
-  overflow: hidden; // Contain the pre
-  border-radius: 8px;
   background: var(--base-offset-color);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
   
   .code-top-bar {
     display: flex;
@@ -29,6 +30,7 @@
     padding: 8px 16px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+    flex-shrink: 0;
     
     .code-lang-label {
       font-size: 0.7rem;
@@ -76,11 +78,17 @@
     display: block;
     width: 100%;
     box-sizing: border-box;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
     
     code {
-        white-space: pre; // Keep it as pre to allow scrolling
-        word-wrap: normal;
+        display: inline-block; // Allows the pre to scroll
+        min-width: 100%;
+        white-space: pre;
         word-break: normal;
+        word-wrap: normal;
     }
   }
 }

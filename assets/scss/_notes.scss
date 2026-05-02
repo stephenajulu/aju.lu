@@ -22,9 +22,6 @@
     font-family: var(--font-family-paragraph);
     font-size: 1.1rem;
     line-height: 1.6;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    hyphens: auto;
 
     p:last-child {
       margin-bottom: 0;
@@ -34,8 +31,6 @@
         color: var(--highlight-color);
         text-decoration: underline;
         font-weight: 500;
-        overflow-wrap: break-word;
-        word-wrap: break-word;
     }
 
     img, video {
@@ -50,16 +45,12 @@
         margin-top: 20px;
         margin-bottom: 10px;
         color: var(--heading-color);
-        overflow-wrap: break-word;
-        word-wrap: break-word;
     }
 
     ul, ol {
         margin-left: 20px;
         margin-bottom: 20px;
         list-style: disc;
-        overflow-wrap: break-word;
-        word-wrap: break-word;
         li {
             list-style: inherit;
             margin-bottom: 5px;
@@ -72,8 +63,6 @@
     padding-top: 15px;
     border-top: 1px solid rgba(156, 163, 175, 0.2);
     font-size: 0.85rem;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
     
     a {
         color: var(--meta-color);
