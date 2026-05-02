@@ -105,6 +105,8 @@ $breakpoints: (
 
 html, body {
   box-sizing: border-box;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 body {

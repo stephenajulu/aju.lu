@@ -18,8 +18,8 @@
   max-width: 100%;
   background: var(--base-offset-color);
   border-radius: 8px;
-  display: flex;
-  flex-direction: column;
+  display: block; // Change to block for containment
+  overflow: hidden;
   
   .code-top-bar {
     display: flex;
@@ -74,21 +74,17 @@
     border-top-right-radius: 0 !important;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    overflow-x: auto !important;
+    overflow-x: auto !important; // Force scroll
     display: block;
     width: 100%;
     box-sizing: border-box;
-    white-space: pre;
-    word-spacing: normal;
-    word-break: normal;
-    word-wrap: normal;
     
     code {
-        display: inline-block; // Allows the pre to scroll
+        display: inline-block; // Important for horizontal scrolling
         min-width: 100%;
         white-space: pre;
-        word-break: normal;
         word-wrap: normal;
+        word-break: normal;
     }
   }
 }
