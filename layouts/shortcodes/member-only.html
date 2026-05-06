@@ -1,6 +1,6 @@
 <div class="member-gate" data-role="premium">
     <div class="unlocked-content" style="display:none;">
-        {{ .Inner }}
+        {{ .Inner | markdownify }}
     </div>
     <div class="locked-message">
         <div class="gate-overlay">
