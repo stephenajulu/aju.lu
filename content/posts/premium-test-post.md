@@ -12,7 +12,7 @@ Below this paragraph, you will see a gated section. If you are a **Premium Membe
 
 ---
 
-{{< member-only >}}
+{{% member-only %}}
 ### 🚀 Secret Roadmap (Premium Only)
 
 Because you are a Premium Member, you are seeing this exclusive content:
@@ -23,7 +23,7 @@ Because you are a Premium Member, you are seeing this exclusive content:
 4.  **Premium Notes:** Raw, unedited thoughts on craft and engineering shared only with our core supporters.
 
 **Thank you for supporting the craft!**
-{{< /member-only >}}
+{{% /member-only %}}
 
 ---
 
