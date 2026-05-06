@@ -5,50 +5,66 @@ exports.handler = async (event) => {
         return { statusCode: 405, body: "Method Not Allowed" };
     }
 
-    const body = JSON.parse(event.body);
+    let body;
+    try {
+        body = JSON.parse(event.body);
+    } catch (e) {
+        return { statusCode: 400, body: "Invalid JSON" };
+    }
 
     // 1. Verify it's a successful payment from Paystack
     if (body.event === 'charge.success' && body.data.status === 'success') {
         const userEmail = body.data.customer.email;
-        console.log(`[Automation] Payment success received for: ${userEmail}`);
+        console.log(`[Automation] 📥 Signal received for: ${userEmail}`);
 
         const NETLIFY_TOKEN = process.env.NETLIFY_AUTH_TOKEN;
-        const SITE_ID = process.env.NETLIFY_SITE_ID; // Updated from SITE_ID to avoid reserved conflict
+        const SITE_ID = process.env.NETLIFY_SITE_ID;
 
         if (!NETLIFY_TOKEN || !SITE_ID) {
-            console.error("[Automation] Error: Missing Environment Variables (NETLIFY_AUTH_TOKEN or NETLIFY_SITE_ID)");
-            return { statusCode: 500, body: "Internal Server Error" };
+            console.error("[Automation] ❌ CRITICAL: Missing ENV vars. Check NETLIFY_AUTH_TOKEN and NETLIFY_SITE_ID.");
+            return { statusCode: 500, body: "Server configuration error" };
         }
 
         try {
-            // 2. Fetch all users from Netlify Identity
+            // 2. Fetch users from Netlify Identity
+            // Note: Netlify returns { users: [...], total: X }
+            console.log(`[Automation] 🔍 Searching for user in Identity...`);
             const usersResponse = await axios.get(
                 `https://api.netlify.com/api/v1/sites/${SITE_ID}/identity/users`,
-                { headers: { Authorization: `Bearer ${NETLIFY_TOKEN}` } }
+                { 
+                    headers: { Authorization: `Bearer ${NETLIFY_TOKEN}` },
+                    params: { filter: userEmail } // Optimization: ask Netlify to filter by email
+                }
             );
 
-            const user = usersResponse.data.find(u => u.email === userEmail);
+            // Access the .users array from the response object
+            const userList = usersResponse.data.users || usersResponse.data;
+            const user = Array.isArray(userList) ? userList.find(u => u.email === userEmail) : null;
 
             if (!user) {
-                console.error(`[Automation] User not found in Identity for email: ${userEmail}`);
-                return { statusCode: 404, body: "User not found" };
+                console.error(`[Automation] ❌ User NOT FOUND in database for email: ${userEmail}`);
+                return { statusCode: 404, body: "User not found in site database" };
             }
 
-            // 3. Add the 'premium' role to the user's account
+            console.log(`[Automation] ✅ Found user: ${user.id}. Upgrading role...`);
+
+            // 3. Add the 'premium' role
             await axios.put(
                 `https://api.netlify.com/api/v1/sites/${SITE_ID}/identity/users/${user.id}`,
                 { app_metadata: { roles: ["premium"] } },
                 { headers: { Authorization: `Bearer ${NETLIFY_TOKEN}` } }
             );
 
-            console.log(`[Automation] SUCCESS: ${userEmail} upgraded to premium.`);
+            console.log(`[Automation] 🚀 SUCCESS: ${userEmail} is now a Premium Member.`);
             return { statusCode: 200, body: JSON.stringify({ message: "Role updated" }) };
 
         } catch (error) {
-            console.error("[Automation] Netlify API Error:", error.response ? error.response.data : error.message);
-            return { statusCode: 500, body: "Error updating user" };
+            const errorMsg = error.response ? JSON.stringify(error.response.data) : error.message;
+            console.error("[Automation] ❌ API Error:", errorMsg);
+            return { statusCode: 500, body: `Internal error: ${error.message}` };
         }
     }
 
+    console.log("[Automation] ⏩ Event ignored (not a successful charge).");
     return { statusCode: 200, body: "Event ignored" };
 };
