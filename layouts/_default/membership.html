@@ -45,7 +45,7 @@
         <h3>Welcome, <span class="user-email"></span></h3>
         <p>Status: <strong>Free Member</strong></p>
         <p>Upgrade to Premium to unlock the full experience.</p>
-        <a href="https://paystack.com/pay/your-link-here" class="btn btn-premium">Upgrade to Premium (M-Pesa)</a>
+        <a id="paystack-link" href="https://paystack.shop/pay/u0tbzutalc" class="btn btn-premium">Upgrade to Premium (M-Pesa)</a>
         <br><br>
         <button class="btn-link" onclick="netlifyIdentity.logout()">Logout</button>
     </div>
@@ -79,6 +79,13 @@
                 const tplId = isPremium ? 'tpl-logged-in-premium' : 'tpl-logged-in-free';
                 const tpl = document.getElementById(tplId).content.cloneNode(true);
                 tpl.querySelector('.user-email').innerText = user.email;
+                
+                // Append email to Paystack link for convenience
+                const payLink = tpl.querySelector('#paystack-link');
+                if (payLink) {
+                    payLink.href += `?email=${encodeURIComponent(user.email)}`;
+                }
+                
                 container.appendChild(tpl);
             }
         }
