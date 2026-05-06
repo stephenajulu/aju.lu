@@ -66,34 +66,68 @@
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         const container = document.getElementById('membership-ui');
-        
-        function updateUI() {
-            const user = netlifyIdentity.currentUser();
+        console.log("Membership UI: Initializing...");
+
+        function updateUI(user) {
+            console.log("Membership UI: Updating for user:", user ? user.email : "Logged Out");
             container.innerHTML = '';
             
             if (!user) {
-                const tpl = document.getElementById('tpl-logged-out').content.cloneNode(true);
-                container.appendChild(tpl);
+                const tpl = document.getElementById('tpl-logged-out');
+                if (tpl) {
+                    container.appendChild(tpl.content.cloneNode(true));
+                } else {
+                    console.error("Membership UI: Template 'tpl-logged-out' not found.");
+                }
             } else {
                 const isPremium = user.app_metadata && user.app_metadata.roles && user.app_metadata.roles.includes('premium');
                 const tplId = isPremium ? 'tpl-logged-in-premium' : 'tpl-logged-in-free';
-                const tpl = document.getElementById(tplId).content.cloneNode(true);
-                tpl.querySelector('.user-email').innerText = user.email;
+                console.log("Membership UI: User is premium:", isPremium);
                 
-                // Append email to Paystack link for convenience
-                const payLink = tpl.querySelector('#paystack-link');
-                if (payLink) {
-                    payLink.href += `?email=${encodeURIComponent(user.email)}`;
+                const tpl = document.getElementById(tplId);
+                if (tpl) {
+                    const clone = tpl.content.cloneNode(true);
+                    const emailSpan = clone.querySelector('.user-email');
+                    if (emailSpan) emailSpan.innerText = user.email;
+                    
+                    const payLink = clone.querySelector('#paystack-link');
+                    if (payLink) {
+                        const separator = payLink.href.includes('?') ? '&' : '?';
+                        payLink.href += `${separator}email=${encodeURIComponent(user.email)}`;
+                    }
+                    container.appendChild(clone);
+                } else {
+                    console.error(`Membership UI: Template '${tplId}' not found.`);
                 }
-                
-                container.appendChild(tpl);
             }
         }
 
-        // Initialize and listen for changes
-        netlifyIdentity.on('init', updateUI);
-        netlifyIdentity.on('login', updateUI);
-        netlifyIdentity.on('logout', updateUI);
+        // Wait for netlifyIdentity to be ready
+        if (window.netlifyIdentity) {
+            console.log("Membership UI: Netlify Identity found.");
+            
+            // Handle initial state
+            updateUI(netlifyIdentity.currentUser());
+
+            // Bind events
+            netlifyIdentity.on('init', user => {
+                console.log("Membership UI: Init event fired");
+                updateUI(user);
+            });
+            netlifyIdentity.on('login', user => {
+                console.log("Membership UI: Login event fired");
+                updateUI(user);
+                netlifyIdentity.close(); // Close modal on success
+            });
+            netlifyIdentity.on('logout', () => {
+                console.log("Membership UI: Logout event fired");
+                updateUI(null);
+            });
+            netlifyIdentity.on('error', err => console.error('Membership UI: Netlify Identity Error:', err));
+        } else {
+            console.error("Membership UI: Netlify Identity widget NOT found. Ensure it's enabled in your dashboard.");
+            container.innerHTML = '<p class="error">Identity service not found. Please refresh or check back later.</p>';
+        }
     });
 </script>
 
