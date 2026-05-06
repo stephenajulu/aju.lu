@@ -18,6 +18,8 @@ The workflow typically follows the **POSSE** principle: **P**ublish (on) **O**wn
 4. **Inbox:** Your site's endpoint (configured via [Webmention.io](https://webmention.io)) receives the mention.
 5. **Display:** Your Hugo templates fetch these mentions via JavaScript and display them at the bottom of your post.
 
+{{< member-only >}}
+
 ## Step-by-Step Implementation
 
 ### 1. Setup your Identity (IndieAuth)
@@ -33,6 +35,8 @@ Log in to Webmention.io with your domain. Add the following to your `extend-head
 
 ### 3. Display the Mentions
 Add a container and a script to your post template. We've already implemented a themed version of this in our `webmention.html` partial, which uses CSS Grid to display likes and a threaded list for replies.
+
+{{< /member-only >}}
 
 ## Why Bother?
 By using Webmentions, you become a first-class citizen of the open web. You aren't just a "user" on a platform; you are a node in a distributed social network.
