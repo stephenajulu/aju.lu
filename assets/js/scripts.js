@@ -176,6 +176,10 @@ document.addEventListener('DOMContentLoaded', () => {
             } catch (err) {
                 console.error('Failed to copy: ', err);
             }
+        });
+    }
+});
+
 // 7. Netlify Identity Integration
 if (window.netlifyIdentity) {
   window.netlifyIdentity.on("init", user => {
@@ -190,4 +194,3 @@ if (window.netlifyIdentity) {
     document.location.href = "/";
   });
 }
-
