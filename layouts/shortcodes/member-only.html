@@ -1,0 +1,77 @@
+<div class="member-gate" data-role="premium">
+    <div class="unlocked-content" style="display:none;">
+        {{ .Inner }}
+    </div>
+    <div class="locked-message">
+        <div class="gate-overlay">
+            <span class="gate-icon">🔒</span>
+            <h3>Premium Insight</h3>
+            <p>This deep-dive is exclusive to <strong>Premium Members</strong>.</p>
+            <div class="gate-actions">
+                <a href="/membership" class="btn">Unlock Access</a>
+                <button class="btn-secondary" onclick="netlifyIdentity.open('login')">Already a member? Log in</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    (function() {
+        function checkAccess() {
+            const user = window.netlifyIdentity && netlifyIdentity.currentUser();
+            const isPremium = user && user.app_metadata && user.app_metadata.roles && user.app_metadata.roles.includes('premium');
+            
+            document.querySelectorAll('.member-gate').forEach(gate => {
+                const unlocked = gate.querySelector('.unlocked-content');
+                const locked = gate.querySelector('.locked-message');
+                if (isPremium) {
+                    unlocked.style.display = 'block';
+                    locked.style.display = 'none';
+                } else {
+                    unlocked.style.display = 'none';
+                    locked.style.display = 'block';
+                }
+            });
+        }
+
+        if (window.netlifyIdentity) {
+            netlifyIdentity.on('init', checkAccess);
+            netlifyIdentity.on('login', checkAccess);
+            netlifyIdentity.on('logout', checkAccess);
+        }
+    })();
+</script>
+
+<style>
+.locked-message {
+    padding: 40px;
+    background: var(--base-offset-color);
+    border-radius: 8px;
+    border: 1px dashed var(--highlight-color);
+    text-align: center;
+    margin: 30px 0;
+}
+
+.gate-icon {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.gate-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 1px solid var(--highlight-color);
+    color: var(--highlight-color);
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+}
+</style>

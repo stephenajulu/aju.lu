@@ -1,0 +1,178 @@
+{{ define "main" }}
+<div class="intro">
+    <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+    <div class="intro-content">
+        {{ .Content }}
+    </div>
+</div>
+
+<div class="membership-dashboard" id="membership-ui">
+    <!-- This will be populated by JS based on login state -->
+    <div class="loading-spinner">Checking membership status...</div>
+</div>
+
+<template id="tpl-logged-out">
+    <div class="plans-grid">
+        <div class="plan-card">
+            <h3>Explorer</h3>
+            <div class="plan-price">Free</div>
+            <ul>
+                <li>Access to all public posts</li>
+                <li>Newsletter subscription</li>
+            </ul>
+            <button class="btn login-trigger" onclick="netlifyIdentity.open('signup')">Create Free Account</button>
+        </div>
+        
+        <div class="plan-card featured">
+            <h3>Premium</h3>
+            <div class="plan-price">KES 1,000<span>/mo</span></div>
+            <ul>
+                <li><strong>All Explorer benefits</strong></li>
+                <li>Member-only deep dives</li>
+                <li>Early access to notes</li>
+                <li>Direct support via M-Pesa</li>
+            </ul>
+            <button class="btn login-trigger" onclick="netlifyIdentity.open('signup')">Unlock with M-Pesa</button>
+        </div>
+    </div>
+    <div style="text-align: center; margin-top: 40px;">
+        <p>Already have an account? <a href="#" onclick="netlifyIdentity.open('login')">Log in here</a></p>
+    </div>
+</template>
+
+<template id="tpl-logged-in-free">
+    <div class="member-status-box">
+        <h3>Welcome, <span class="user-email"></span></h3>
+        <p>Status: <strong>Free Member</strong></p>
+        <p>Upgrade to Premium to unlock the full experience.</p>
+        <a href="https://paystack.com/pay/your-link-here" class="btn btn-premium">Upgrade to Premium (M-Pesa)</a>
+        <br><br>
+        <button class="btn-link" onclick="netlifyIdentity.logout()">Logout</button>
+    </div>
+</template>
+
+<template id="tpl-logged-in-premium">
+    <div class="member-status-box premium">
+        <h3>Welcome back, <span class="user-email"></span></h3>
+        <p>Status: <strong class="badge-premium">⭐ Premium Member</strong></p>
+        <p>You have full access to all content on the site.</p>
+        <div class="premium-actions">
+            <a href="/posts/" class="btn">Read Premium Posts</a>
+            <button class="btn-link" onclick="netlifyIdentity.logout()">Logout</button>
+        </div>
+    </div>
+</template>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const container = document.getElementById('membership-ui');
+        
+        function updateUI() {
+            const user = netlifyIdentity.currentUser();
+            container.innerHTML = '';
+            
+            if (!user) {
+                const tpl = document.getElementById('tpl-logged-out').content.cloneNode(true);
+                container.appendChild(tpl);
+            } else {
+                const isPremium = user.app_metadata && user.app_metadata.roles && user.app_metadata.roles.includes('premium');
+                const tplId = isPremium ? 'tpl-logged-in-premium' : 'tpl-logged-in-free';
+                const tpl = document.getElementById(tplId).content.cloneNode(true);
+                tpl.querySelector('.user-email').innerText = user.email;
+                container.appendChild(tpl);
+            }
+        }
+
+        // Initialize and listen for changes
+        netlifyIdentity.on('init', updateUI);
+        netlifyIdentity.on('login', updateUI);
+        netlifyIdentity.on('logout', updateUI);
+    });
+</script>
+
+<style>
+.plans-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.plan-card {
+    padding: 40px;
+    background: var(--base-offset-color);
+    border-radius: 12px;
+    border: 1px solid rgba(156, 163, 175, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-card.featured {
+    border: 2px solid var(--highlight-color);
+    transform: scale(1.05);
+    background: var(--base-color);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.plan-price {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 20px 0;
+    color: var(--heading-color);
+}
+
+.plan-price span {
+    font-size: 1rem;
+    opacity: 0.7;
+}
+
+.plan-card ul {
+    margin: 0 0 30px 0;
+    padding: 0;
+    list-style: none;
+    flex-grow: 1;
+}
+
+.plan-card li {
+    margin-bottom: 12px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.plan-card li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--highlight-color);
+    font-weight: bold;
+}
+
+.member-status-box {
+    padding: 50px;
+    text-align: center;
+    background: var(--base-offset-color);
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.member-status-box.premium {
+    border: 2px solid var(--highlight-color);
+}
+
+.badge-premium {
+    color: var(--highlight-color);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.btn-link {
+    background: none;
+    border: none;
+    color: var(--meta-color);
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: inherit;
+}
+</style>
+{{ end }}
