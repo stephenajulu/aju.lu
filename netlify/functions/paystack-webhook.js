@@ -12,59 +12,69 @@ exports.handler = async (event) => {
         return { statusCode: 400, body: "Invalid JSON" };
     }
 
-    // 1. Verify it's a successful payment from Paystack
     if (body.event === 'charge.success' && body.data.status === 'success') {
         const userEmail = body.data.customer.email;
-        console.log(`[Automation] 📥 Signal received for: ${userEmail}`);
+        console.log(`[Automation] 📥 Processing payment for: ${userEmail}`);
 
         const NETLIFY_TOKEN = process.env.NETLIFY_AUTH_TOKEN;
         const SITE_ID = process.env.NETLIFY_SITE_ID;
 
+        // Diagnostic logs (safe)
+        console.log(`[Automation] Token present: ${!!NETLIFY_TOKEN}`);
+        console.log(`[Automation] Site ID present: ${!!SITE_ID}`);
+        if (SITE_ID) {
+            console.log(`[Automation] Site ID length: ${SITE_ID.length}`);
+            console.log(`[Automation] Site ID starts with: ${SITE_ID.substring(0, 4)}...`);
+        }
+
         if (!NETLIFY_TOKEN || !SITE_ID) {
-            console.error("[Automation] ❌ CRITICAL: Missing ENV vars. Check NETLIFY_AUTH_TOKEN and NETLIFY_SITE_ID.");
-            return { statusCode: 500, body: "Server configuration error" };
+            console.error("[Automation] ❌ Missing ENV vars. Please set NETLIFY_AUTH_TOKEN and NETLIFY_SITE_ID.");
+            return { statusCode: 500, body: "Config Error" };
         }
 
         try {
-            // 2. Fetch users from Netlify Identity
-            // Note: Netlify returns { users: [...], total: X }
-            console.log(`[Automation] 🔍 Searching for user in Identity...`);
-            const usersResponse = await axios.get(
-                `https://api.netlify.com/api/v1/sites/${SITE_ID}/identity/users`,
-                { 
-                    headers: { Authorization: `Bearer ${NETLIFY_TOKEN}` },
-                    params: { filter: userEmail } // Optimization: ask Netlify to filter by email
-                }
-            );
+            // Official Netlify API endpoint for Identity users
+            const url = `https://api.netlify.com/api/v1/sites/${SITE_ID}/identity/users`;
+            console.log(`[Automation] 🔍 Calling Netlify API...`);
 
-            // Access the .users array from the response object
-            const userList = usersResponse.data.users || usersResponse.data;
-            const user = Array.isArray(userList) ? userList.find(u => u.email === userEmail) : null;
+            const usersResponse = await axios.get(url, { 
+                headers: { Authorization: `Bearer ${NETLIFY_TOKEN}` }
+            });
 
-            if (!user) {
-                console.error(`[Automation] ❌ User NOT FOUND in database for email: ${userEmail}`);
-                return { statusCode: 404, body: "User not found in site database" };
+            // Handle different API response shapes
+            const users = usersResponse.data.users || usersResponse.data;
+            
+            if (!Array.isArray(users)) {
+                console.error("[Automation] ❌ Unexpected API response shape:", typeof users);
+                return { statusCode: 500, body: "API Response Error" };
             }
 
-            console.log(`[Automation] ✅ Found user: ${user.id}. Upgrading role...`);
+            const user = users.find(u => u.email === userEmail);
 
-            // 3. Add the 'premium' role
+            if (!user) {
+                console.error(`[Automation] ❌ User ${userEmail} not found in Identity.`);
+                return { statusCode: 404, body: "User not found" };
+            }
+
+            console.log(`[Automation] ✅ Found user ${user.id}. Upgrading...`);
+
             await axios.put(
                 `https://api.netlify.com/api/v1/sites/${SITE_ID}/identity/users/${user.id}`,
                 { app_metadata: { roles: ["premium"] } },
                 { headers: { Authorization: `Bearer ${NETLIFY_TOKEN}` } }
             );
 
-            console.log(`[Automation] 🚀 SUCCESS: ${userEmail} is now a Premium Member.`);
+            console.log(`[Automation] 🚀 SUCCESS: ${userEmail} is now Premium.`);
             return { statusCode: 200, body: JSON.stringify({ message: "Role updated" }) };
 
         } catch (error) {
-            const errorMsg = error.response ? JSON.stringify(error.response.data) : error.message;
-            console.error("[Automation] ❌ API Error:", errorMsg);
-            return { statusCode: 500, body: `Internal error: ${error.message}` };
+            console.error("[Automation] ❌ API Error Details:", error.response ? JSON.stringify(error.response.data) : error.message);
+            if (error.response && error.response.status === 404) {
+                console.error("[Automation] 💡 HINT: A 404 usually means the NETLIFY_SITE_ID is wrong. Ensure it's the UUID from Site Settings.");
+            }
+            return { statusCode: 500, body: "Internal Server Error" };
         }
     }
 
-    console.log("[Automation] ⏩ Event ignored (not a successful charge).");
-    return { statusCode: 200, body: "Event ignored" };
+    return { statusCode: 200, body: "Ignored" };
 };
