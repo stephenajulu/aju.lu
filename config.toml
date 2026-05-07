@@ -69,7 +69,7 @@ mediatype = "application/json"
     min = "0.125.0"
 
 [params]
-  google_analytics_id = ""
+  google_analytics_id = "G-D12EVXX422"
   twitter_handle = "@stephenajulu"
   creator = "stephenajulu"
   showAuthorOnHomepage = false
