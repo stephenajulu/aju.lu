@@ -4,6 +4,8 @@ A high-performance, IndieWeb-ready personal platform and portfolio built with **
 
 > **Note:** This repository is currently being refactored into a reusable Hugo theme/template.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/038dd485-2b00-42f7-b446-12489e70432e/deploy-status)](https://app.netlify.com/projects/ajulu/deploys)
+
 ## 🚀 Tech Stack & Core Technologies
 
 - **Framework:** [Hugo](https://gohugo.io/) (v0.160.0+)
