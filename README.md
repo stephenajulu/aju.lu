@@ -1,158 +1,70 @@
-# Hugo Winston Theme
+# aju.lu | Sovereign Personal Hub & Portfolio
 
-Hugo Winston is a bold minimal blogging theme.
+A high-performance, IndieWeb-ready personal platform and portfolio built with **Hugo**. This project is designed as a sovereign digital home, emphasizing data ownership, content discoverability, and advanced user experience.
 
-[Live Demo](https://hugo-winston.netlify.app/) |
-[Zerostatic Themes](https://www.zerostatic.io/)
+> **Note:** This repository is currently being refactored into a reusable Hugo theme/template.
 
-![Hugo Winston Theme screenshot](https://www.zerostatic.io/theme/hugo-winston/hugo-winston-screenshot.png)
+## 🚀 Tech Stack & Core Technologies
 
-## Theme features
+- **Framework:** [Hugo](https://gohugo.io/) (v0.160.0+)
+- **Styling:** Modular SCSS with CSS Variables (Theme-aware)
+- **Search:** [Fuse.js](https://fusejs.io/) for high-fidelity client-side search
+- **Auth & Identity:** [Netlify Identity](https://www.netlify.com/products/identity/)
+- **Automation:** Netlify Serverless Functions (Node.js)
+- **Payments:** Paystack Integration (M-Pesa & Cards)
+- **PWA:** Full Progressive Web App capability with Service Workers & Manifest
+- **IndieWeb:** JF2 Webmentions, IndieAuth, and JF2/Microformats2 compliance
 
-- Posts (Markdown)
-- Basic Page (Markdown)
-- SCSS (Hugo Pipelines)
-- Responsive design
-- 100/100 Google Lighthouse speed score
-- 100/100 Google Lighthouse SEO score
-- 100/100 Google Lighthouse accessibility score
-- Google analytics configured in `config.toml`
-- Configure GID using env variable HUGO_GOOGLE_ANALYTICS_ID, compatible with Netlify.
-- Title, meta description and meta tags automatically generated for every page
-- OG Meta data for Facebook and Twitter
-- Semantic HTML document structure
+## ✨ Key Features & Strategies
 
-## Installation
+### 1. Sovereign Content & Gating
+- **Localized Memberships:** Integrated Netlify Identity with Paystack webhooks to automate role-based access for Premium Members (KES pricing).
+- **Content Gating:** A custom `{{< member-only >}}` shortcode to protect high-value insights.
 
-**1. Install Hugo**
+### 2. Reading Experience (UX)
+- **Theme Persistence:** Dark/Light mode toggle with `localStorage` and FOUC (Flash of Unstyled Content) prevention.
+- **Reading Tools:** Adaptive progress bar, code block top-bars (language labels + copy), and Medium-style image zoom.
+- **Typography:** Sophisticated heading hierarchy using *Fraunces* and *Poppins*.
 
-To use this theme you will first need to have Hugo installed. Please follow the official [installation guide](https://gohugo.io/getting-started/installing/)
+### 3. Discoverability & SEO
+- **Fuzzy Search:** Instant search results with a `/` keyboard shortcut.
+- **Taxonomy Archives:** Automated, grouped yearly archives with site-wide statistics (word counts, post counts).
+- **Structured Data:** Built-in JSON-LD for Articles, Persons, and Breadcrumbs.
 
-> ⚠️ **Note:** Check your Hugo version - **Hugo Extended** is required!
+### 4. IndieWeb Integration
+- **POSSE Ready:** Built to support "Publish (on) Own Site, Syndicate Elsewhere."
+- **Webmentions:** Automated "likes" and "replies" fetching from the open web using Webmention.io and Bridgy.
 
-This theme uses [Hugo Pipes](https://gohugo.io/hugo-pipes/scss-sass/) to compile SCSS and minify assets which means if you are not using the Hugo extended version this theme will not work. To check your version of Hugo, run `hugo version`. Make sure you see **/extended** after the version number, for example _Hugo Static Site Generator v0.51/extended darwin/amd64 BuildDate: unknown_ You do not need to use version v0.51 specifically, it just needs to have the _/extended_ part.
+## 🛠 Development & Deployment
 
-**2. Create a new Hugo site**
+### Development Mode
+To run the site locally with draft content and live-reload:
 
-This will create a fresh Hugo site in the folder `mynewsite`.
-
-```
-hugo new site mynewsite
-```
-
-**3. Install the theme**
-
-Download or git clone this theme into the sites themes folder `mynewsite/themes`. You should end up with the following folder structure `mynewsite/themes/hugo-winston-theme`
-
-```
-cd mynewsite
-git clone https://github.com/zerostaticthemes/hugo-winston-theme.git themes/hugo-winston-theme
+```powershell
+hugo server -D
 ```
 
-**4. Copy the example content**
+### Production Build
+To generate the minified static files in the `public/` directory:
 
-Copy the entire contents of the `mynewsite/themes/hugo-winston-theme/exampleSite/` folder to root folder of your Hugo site, ie `mynewsite/`. To copy the files using terminal, make sure you are still in the projects root, ie the `mynewsite` folder.
-
-```
-cp -a themes/hugo-winston-theme/exampleSite/. .
-```
-
-**6. Run Hugo**
-
-After installing the theme for the first time, generate the Hugo site.
-
-You run this command from the root folder of your Hugo site ie `mynewsite`
-
-```
-hugo
+```powershell
+hugo --minify
 ```
 
-For local development run Hugo's built-in local server.
+### Deployment (Netlify)
+The site is optimized for Netlify. Deployments are triggered automatically via Git.
+- **Branch:** `master`
+- **Build Command:** `hugo --minify`
+- **Publish Directory:** `public`
 
-```
-hugo server
-```
+#### Required Environment Variables (for Membership Automation):
+- `NETLIFY_AUTH_TOKEN`: Personal Access Token from Netlify User Settings.
+- `NETLIFY_SITE_ID`: The API ID from Site Details.
 
-Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
+## 📜 Design Principles
+1. **Performance First:** Minimal JavaScript, local-bundled assets, and optimized image pipelines.
+2. **Accessibility (WCAG 2.2):** Full keyboard navigation support, skip-links, and high-contrast theme enforcement.
+3. **Data Sovereignty:** Own your content, your members, and your interactions.
 
-# Localhost inside exampleSite
-
-You can run this site without installing it as a hugo theme using the following command. I use this for theme development.
-
-```
-hugo server --source=exampleSite --theme=../..
-```
-
-# Configuration
-
-### Config options
-
-```toml
-# config.toml
-[params]
-  google_analytics_id = ""
-  twitter_handle = "@zerostaticio"
-  showAuthorOnHomepage = true
-  showAuthorOnPosts = false
-  showIntroContentOnHomepage = true
-  showPostsOnHomepage = true
-  usePaginationOnHomepage = false
-  limitPostsOnHomepage = 3 # only used if usePaginationOnHomepage is false
-  sortPostsByDateOldestFirst = false
-  addDot = true
-  addFrame = true
-  highlightColor = '#7b16ff'
-  baseColor = "#ffffff"
-  baseOffsetColor = "#eaeaea"
-  headingColor = "#1c1b1d"
-  textColor = "#4e5157"
-  dotColor = "#7b16ff"
-  enableGoogleFonts = true 
-  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-  fontFamilyHeading = "Poppins"
-  fontFamilyParagraph = "Helvetica"
-  fontFamilyMonospace = "monospace"
-```
-
-### Google Analytics
-
-Add your google analytics ID to the `config.toml`
-
-```toml
-# config.toml
-[params]
-  google_analytics_id="UA-132398315-1"
-```
-
-### Plausible Analytics
-
-Add your plausible analytics domain to the `config.toml`.
-This is `data-domain` in your [tracking script code](https://plausible.io/docs/plausible-script).
-
-```toml
-# config.toml
-[params]
-  plausible_analytics_domain = "example.com"
-```
-
-# Deploying to Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zerostaticthemes/hugo-winston-theme)
-
-This theme includes a `netlify.toml` which is [configured to deploy to Netlify](https://discourse.gohugo.io/t/deploy-your-theme-to-netlify/15508) from the `exampleSite` folder. If you have installed this theme into a new Hugo site and the exampleSite folder was copied or removed, you should delete the `netlify.toml` file.
-
-
-### More Hugo Themes by Zerostatic
-
-- [Hugo Hero](https://github.com/zerostaticthemes/hugo-hero-theme) - Open-source business theme
-- [Hugo Whisper](https://github.com/zerostaticthemes/hugo-whisper-theme) - Open-source documentation theme
-- [Hugo Serif](https://github.com/zerostaticthemes/hugo-serif-theme) - Open-source business theme
-- [Hugo Winston](https://github.com/zerostaticthemes/hugo-winston-theme) - Open-source blog theme
-- [Hugo Advance](https://www.zerostatic.io/theme/hugo-advance/) - Premium advanced multi page business & marketing theme
-- [Hugo Paradigm](https://www.zerostatic.io/theme/hugo-paradigm/) - Premium landing page + site builder theme
-- [Hugo Lever](https://www.zerostatic.io/theme/hugo-lever/) - Premium personal / bio theme
-- [Hugo Shard](https://www.zerostatic.io/theme/hugo-lever/) - Premium SAAS / landing page theme
-
-### Find hundreds more Hugo themes on Built At Lightspeed
-
-[<img alt="Built At Lightspeed Hugo themes directory screenshot" width="400px" src="https://www.zerostatic.io/images/builtatlightspeed-hugo-themes.jpg" />](https://builtatlightspeed.com/category/hugo)
+---
+Created by **Stephen Ajulu**
