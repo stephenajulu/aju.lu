@@ -7,7 +7,7 @@ Huge progress over the last few days. We've officially launched the membership e
 **Highlights:**
 - **Identity & Plans:** Integrated Netlify Identity for secure member accounts.
 - **Localized Payments:** Connected Paystack to automate "Premium" role assignment via M-Pesa.
-- **Content Gating:** Implemented the '{{< member-only >}}' system for exclusive deep-dives.
+- **Content Gating:** Implemented the '{{</* member-only */>}}' system for exclusive deep-dives.
 - **Accessibility:** Conducted a full WCAG 2.2 audit. Added skip-links, fixed color contrast, and implemented reduced-motion support.
 - **Refinement:** Surgical fixes for code block responsiveness and long-text wrapping.
 
