@@ -2,8 +2,13 @@
 {{ $matchFound := false }}
 {{ $mapping := dict }}
 
-{{/* Try to find a match based on tags or categories */}}
-{{ range .Params.tags | append .Params.categories }}
+{{/* Build a combined list of tags and categories */}}
+{{ $taxonomies := slice }}
+{{ with .Params.tags }}{{ $taxonomies = $taxonomies | append . }}{{ end }}
+{{ with .Params.categories }}{{ $taxonomies = $taxonomies | append . }}{{ end }}
+
+{{/* Try to find a match */}}
+{{ range $taxonomies }}
     {{ $tag := . | lower }}
     {{ range site.Data.pillar_map.mappings }}
         {{ if in .keywords $tag }}
