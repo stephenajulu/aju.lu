@@ -4,8 +4,12 @@
 
 {{/* Build a combined list of tags and categories */}}
 {{ $taxonomies := slice }}
-{{ with .Params.tags }}{{ $taxonomies = $taxonomies | append . }}{{ end }}
-{{ with .Params.categories }}{{ $taxonomies = $taxonomies | append . }}{{ end }}
+{{ range .Params.tags }}
+    {{ $taxonomies = $taxonomies | append . }}
+{{ end }}
+{{ range .Params.categories }}
+    {{ $taxonomies = $taxonomies | append . }}
+{{ end }}
 
 {{/* Try to find a match */}}
 {{ range $taxonomies }}
