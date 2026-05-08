@@ -216,8 +216,7 @@ The key message in this book:
 
 Actionable advice:
 
-**Want to lose weight? Try a diet low in carbohydrates.**
-
+## Want to lose weight? Try a diet low in carbohydrates.
 A diet high in “good” fats, like olive oil, and low in carbohydrates, like pasta, has consistently been shown to help you lose weight and keep it off. So if you want to slim down, eating fat won’t make you fat: instead, cut back on bread and other foods high in carbs.
 
 **Suggested** **further** **reading: _Why We Get Fat_ by Gary Taubes**

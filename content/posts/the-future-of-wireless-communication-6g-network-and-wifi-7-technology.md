@@ -41,8 +41,7 @@ One of the key features of WiFi 7 is its ability to operate over higher frequenc
 
 How Will WiFi 7 Benefit the World? WiFi 7 technology has the potential to transform the way we use and interact with wireless networks. With its faster data speeds and improved coverage, WiFi 7 will enable new applications and technologies, such as virtual and augmented reality, that was not possible before. Moreover, WiFi 7 networks will provide more reliable and seamless connectivity, making it easier for people to work and communicate from anywhere.
 
-**FAQs:**
-
+## FAQs:
 1. What is the difference between 5G and 6G networks? 5G network offers faster data speeds and lower latency than the current 4G networks, while 6G network promises to deliver even faster data speeds, lower latency, and greater connectivity than the current 5G networks.
 2. When will 6G network be available? 6G network is still in its early stages of development, and it may take several years before it becomes commercially available.
 3. Will 6G network replace 5G network? It is unlikely that 6G network will replace 5G network entirely, but it will complement and enhance the capabilities of 5G network.

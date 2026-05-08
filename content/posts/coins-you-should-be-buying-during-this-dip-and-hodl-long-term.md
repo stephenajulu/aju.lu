@@ -38,8 +38,7 @@ These coins may hold future technologies or may be used to power amazing things.
 20. Decentraland
 21. Verasity
 
-**NOT FINANCIAL ADVICE**
-
+## NOT FINANCIAL ADVICE
 Part 2 + short term coins coming soon.
 
 To buy any of these cryptocurrencies I suggest you use Binance.

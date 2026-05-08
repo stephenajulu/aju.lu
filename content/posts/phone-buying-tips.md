@@ -45,8 +45,7 @@ Here are some good specs:
 5. 4500mAh+ Battery
 6. Latest Software Updates
 
-**Conclusion:**
-
+## Conclusion:
 Research beforehand, Check the box, get a warranty, get a receipt, check the phone, and trust intuition.
 
 Have a great day!

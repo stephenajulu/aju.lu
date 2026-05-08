@@ -20,15 +20,13 @@ This is a "minimal but gets the job done" note taking app.
 
 It was built by Automattic.
 
-**Pros**
-
+## Pros
 1. Minimal Interface
 2. Supports markdown
 3. Supports exports and backing up
 4. Is cross platform, so you can sync your notes from Android to windows or Mac
 
-**Cons**
-
+## Cons
 1. Doesn't support reminders
 
 And that's it for now, share, subscribe and comment.

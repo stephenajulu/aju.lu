@@ -39,8 +39,7 @@ But as we can see, traditional domains haven’t progressed much beyond displayi
 
 Luckily for us, the tech that powers NFT domains (a.k.a. blockchains) opens up a whole new realm of possibilities for us on the web!
 
-**What is an NFT?**
-
+## What is an NFT?
 _NFT (non-fungible token): a digital certificate of authenticity used to assign and verify ownership of a unique digital or physical asset. Unlike fungible tokens, NFTs are not interchangeable with one another._
 
 ### How Do They Work?
@@ -63,24 +62,19 @@ _Cool, I’m starting to get the power of blockchain but am still not 100% sure 
 
 ### Reasons to get one?
 
-**#1) Zero Renewal Fees**
-
+## #1) Zero Renewal Fees
 Unlike traditional .com domains, you fully own and control your Unstoppable Domain, so you never have to pay renewal fees. Ever. You buy it once, you own it for life!
 
-**#2) Seamless Crypto Payments**
-
+## #2) Seamless Crypto Payments
 No longer fear your payments getting lost in the ether (pun intended). Instead of copy and pasting your wallet address (which is similar to a bank account number and can look like: 0xc6b0562605d35ee710138402b878ffe6f2e23807), use an Unstoppable Domain as your one-stop-shop username to store all of your wallet addresses for sending and receiving crypto.
 
-**#3) Multi-Chain Compatibility**
-
+## #3) Multi-Chain Compatibility
 Your NFT domain comes with the superpower to receive over 275 supported coins and tokens, with many more on the way! Now you can navigate crypto transactions with ease, regardless of the blockchain network. [**Browse the complete list of supported cryptocurrencies here.**](https://support.unstoppabledomains.com/support/solutions/articles/48001185621-what-cryptocurrencies-are-currently-supported-)
 
-**#4) Decentralized Websites**
-
+## #4) Decentralized Websites
 Want to create a website on the decentralized web? [**Create one**](https://support.unstoppabledomains.com/support/solutions/articles/48001181925-build-website) in just a few clicks with our pre-made templates. Own any NFTs? Create a [**gallery-style website**](https://support.unstoppabledomains.com/support/solutions/articles/48001185412-launching-an-nft-gallery) to show off your favorite collectibles as your collection grows. We'll be adding more features and templates in the future, so stay tuned here.
 
-**#5) Own Your Identity on Web3**
-
+## #5) Own Your Identity on Web3
 As the world shifts to web3, it’ll be more important than ever to own your part of the new internet. By owning an Unstoppable Domain, you’ll not only help progress the digital world, you’ll ensure your identity is secured for the next wave of technology.
 
 ### How to get one?

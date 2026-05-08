@@ -153,8 +153,7 @@ It will show you your worth as a man and how to further build it. I rate it 10/1
 
 ### 1. Work out/Exercise
 
-**Principles Of Exercise & Fitness**
-
+## Principles Of Exercise & Fitness
 The basic concepts of fitness are few, but the methods are vast
 
 * **The 9 main concepts of training:**

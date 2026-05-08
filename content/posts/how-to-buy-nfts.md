@@ -64,8 +64,7 @@ NFTs are a novel way to own a piece of digital culture; here's how you can get s
 
 NFTs are blockchain-backed certificates of ownership for digital objects, such as art or video clips. For example, you might purchase a virtual cat from CryptoKitty and then sell it to someone else later on. These tokens represent ownership of whatever they refer to — in this case, the cat — and can be traded on marketplaces like OpenSea or Rarebits for other NFTs or cryptocurrencies like ether (ETH).
 
-**1. Create a Web3 Wallet**
-
+## 1. Create a Web3 Wallet
 {{< articlepreview "/blog/best-cryptocurrency-wallets-2022" >}}
 
 To get started, you’ll need an Ethereum-compatible crypto wallet, in other words, _a web3 wallet_, and fund it with enough ETH. You can use a crypto wallet to purchase, sell, store, and swap crypto assets.
@@ -79,15 +78,13 @@ To get started, you’ll need an Ethereum-compatible crypto wallet, in other wor
 * After this step, you’ll be prompted to confirm your seed phrase by choosing the words that appear on the screen in the same order as they appear in your seed phrase.
 * Your MetaMask download will be completed, and the MetaMask icon will be shown in the top right corner of your browser window.
 
-**2. Connect your MetaMask wallet to OpenSea**
-
+## 2. Connect your MetaMask wallet to OpenSea
 Once your wallet is up and running, head over to [OpenSea.io](http://opensea.io/).
 
 * Click on the wallet icon in the upper right corner and choose MetaMask. You’ll be requested to sign for approval to connect your wallet to OpenSea.
 * You can create a username, write a bio, and add your social channel links when your wallet is connected. But these steps aren’t required to buy NFTs. Connecting a wallet is enough for that.
 
-**3. Fund your Metamask wallet with Ethereum**
-
+## 3. Fund your Metamask wallet with Ethereum
 To buy NFTs, you need Ethereum cryptocurrency. You can buy it on central exchanges like [Binance](https://accounts.binance.com/en/register?ref=CL2JFAB6), [Coinbase](https://www.coinbase.com/join/ajulu_v), or [Kraken](https://www.kraken.com/).
 
 * Creating an account on these exchanges all work in similar ways. You need to undergo a verification process by providing an ID or Passport.
@@ -98,8 +95,7 @@ To buy NFTs, you need Ethereum cryptocurrency. You can buy it on central exchang
 
 Once your wallet is funded with enough ETH, you can search for an NFT to buy on OpenSea.
 
-**3. Search an NFT on OpenSea**
-
+## 3. Search an NFT on OpenSea
 There’re millions of NFTs on OpenSea. It’s a good idea to know about the platform’s searching and filtering options.
 
 * The Explore lists all active NFT categories. You can choose one category to see all NFTs within that category in one place.
@@ -108,8 +104,7 @@ There’re millions of NFTs on OpenSea. It’s a good idea to know about the pla
 
 You can view the results based on the status, price, blockchains, categories, and currencies you can use as payment methods.
 
-**4. Buy NFTs**
-
+## 4. Buy NFTs
 Using search options allows you to find new NFTs based on various criteria. When you’ve found the NFT you want to buy, click on it to get to its own page.
 
 * There are two purchasing choices on each NFT page: Buy Now and Make Offer. To acquire the NFT at the specified price, select “Buy Now” and follow the directions in your wallet. It’s worth noting that OpenSea charges a variety of fees. In effect, this implies you’ll always pay more than the NFT’s retail price.

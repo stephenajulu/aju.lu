@@ -13,7 +13,7 @@ If you check the [order page ](https://www.starlink.com/preorder/)and input a Ke
 
 _“Starlink is targeting coverage in your area in 2022. Availability is limited. Orders will be fulfilled on a first-come, first-served basis.”_
 
-![](/static/images/web-capture_1-3-2021_141730_www-starlink-com.jpeg)
+![](/images/web-capture_1-3-2021_141730_www-starlink-com.jpeg)
 
 The Starlink constellation of satellites is one of the many interesting things that Elon Musk and His Company, SpaceX is working on. Their goal with Starlink is to deliver high speed and low latency broadband internet across the world.
 

@@ -18,16 +18,14 @@ Here's the web tool of the week #2:
 
 This is sort of like an online lite version of photoshop. It's a graphic design tool for when you want to create simple designs as an image or short video. Aside from helping you create short videos/gifs and posters, it can also help you make longer videos, thumbnails, cover images, and more.
 
-**Pros**
-
+## Pros
 1. Simple UI
 2. Little learning curve
 3. Lot's of free and paid templates
 4. Good list of free fonts
 5. Available on The Web and Android
 
-**Cons**
-
+## Cons
 1. Limited fonts on the free version(understandable)
 2. Limited customization
 3. Limited features(understandable, so buy the paid version)

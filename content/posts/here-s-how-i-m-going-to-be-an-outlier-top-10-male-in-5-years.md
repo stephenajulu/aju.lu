@@ -48,12 +48,9 @@ My first focus will be on Health/Body, Mind & Faith/Spirituality. But along the 
 
 We have 5 years. I've broken this into:
 
-**Year 1 & 2: Body, Mind, and Spirit**
-
-**Year 3 & 4: Wealth, Style & Others**
-
-**Year 5: Life setup & Relationships**
-
+## Year 1 & 2: Body, Mind, and Spirit
+## Year 3 & 4: Wealth, Style & Others
+## Year 5: Life setup & Relationships
 Here's how I think about it.
 
 You can't have a nice house and a hot chick if you don't have money or relationship skills, you can't have money. if you don't have the skills.

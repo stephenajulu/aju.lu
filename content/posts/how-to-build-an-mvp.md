@@ -30,9 +30,9 @@ After answering all those questions, create a priority list of the features it s
 
 For example, I am building a custom signature MVP where one can get a custom signature like the ones(one is white for my dark mode users while the other one is black for my light mode users) below.
 
-![](/static/images/image.png)
+![](/images/image.png)
 
-![](/static/images/stephen-ajulu-signature-logo-black-thin-i-t-consultant-2.png)
+![](/images/stephen-ajulu-signature-logo-black-thin-i-t-consultant-2.png)
 
 Here's my feature priority list
 

@@ -28,8 +28,7 @@ If you have these you will know what you want & high-level thoughts towards this
 
 Thus you will get very good at it fast. Here's how
 
-**A) Brain deficiency.**
-
+## A) Brain deficiency.
 If your mind is always in a fog. This fog does 2 things.
 
 1\. Makes thinking hard  
@@ -57,8 +56,7 @@ Any diet can work.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/I-xTGAQUCG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**B) Brain addictions**
-
+## B) Brain addictions
 Now that you can THINK/access motivation, your brain must DESIRE what will move you forward.
 
 It cannot do this if you DESIRE other stuff.
@@ -95,8 +93,7 @@ I removed all sources of dopamine from my life.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/868BlSS8Wg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**C) Life complexity**
-
+## C) Life complexity
 Now you have motivation, clarity, and desire.
 
 The last thing is life complexity.

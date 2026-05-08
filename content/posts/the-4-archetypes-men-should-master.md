@@ -63,7 +63,7 @@ And again, say the authors:
 > but boyishly brash remarks.  
 > Rather than being assigned a mission for which his true talent qualified him {to head the Allied invasion of Europe, for instance). He was sidelined precisely because he was a hero and not fully a warrior.
 
-**My Note: Eye-opening, stay away from gratuitous meanness**  
+## My Note: Eye-opening, stay away from gratuitous meanness
 This was truly deep and insightful.   
 Be careful of men who are too mean and aggressive towards other people’s faults and weaknesses. Not only are they potentially hiding insecurities, but they are often poor leaders.
 
@@ -118,7 +118,7 @@ Say the authors:
 > Their wives and girlfriends often feel alienated and rejected, competing hopelessly with the man’s “true love,” his work.  
 > In addition these men, true to the Warrior’s sexual attitudes, often have affairs with their nurses, staffers, receptionists, secretaries, and other women who admire from a safe (sometimes not so safe) distance their masculine Warrior proficiency and dedication.
 
-**My Note: Great analysis, but flawed on the sexual side**  
+## My Note: Great analysis, but flawed on the sexual side
 Very, very good analysis.   
 Yet, it’s also flawed when it comes to sexual dynamics. The authors fail to realize that those men developed a drive to hard work _because_ of the more sexual opportunities that the fruit of their work awarded them with.
 

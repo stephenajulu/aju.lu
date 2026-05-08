@@ -23,16 +23,11 @@ description: Here's my investment strategy and how i diversify
 
 Here's my simple investment strategy
 
-**Blue Chip Stocks: 20%**
-
-**Other Stocks + Remaining NSE 25 Share Index: 15%**
-
-**Mutual Funds: 30%**
-
-**Cryptocurrencies: 30%**
-
-**Others(REITS and additional): 5%**
-
+## Blue Chip Stocks: 20%
+## Other Stocks + Remaining NSE 25 Share Index: 15%
+## Mutual Funds: 30%
+## Cryptocurrencies: 30%
+## Others(REITS and additional): 5%
 I currently don't own any real estate investments aside from Stanlib Fahari I-REIT but I'll soon start investing directly in Real Estate which would total up to 35% I'd then use mutual funds for savings instead of investing.
 
 I'm also looking forward to buying Ugandan and American stocks soon, so index funds will be joining the list in which I'll allocate 20% and then move a few of the others down.

@@ -185,8 +185,7 @@ There are many dietary and lifestyle strategies we can implement with our patien
 
 **Eat an antioxidant-rich, whole-foods diet.** This type of diet supplies the body with the antioxidants and cofactors it needs to combat oxidative stress.
 
-**Stop smoking.**
-
+## Stop smoking.
 [**Emphasize the importance of daily stress-reduction practices**](https://kresserinstitute.com/health-coaching-and-stress-management/)**.** Meditation, yoga, spending time in nature, and taking “technology breaks” alleviate chronic stress, which causes oxidative stress when allowed to continue unabated.
 
 **Strategies to help you reduce your environmental toxin exposure.** Stop using pesticides on your lawns and gardens. Buy organic food as often as possible, avoid storing food in plastic containers and handling receipts, safely eliminate sources of heavy metal exposure such as dental amalgams, and filter drinking and bathing water.

@@ -45,8 +45,7 @@ Hey guys? We are back again this time i want to share with you the tools i used 
 
 #### CODE EDITOR: [**VISUAL STUDIO CODE**](https://code.visualstudio.com/)
 
-**Go check out these awesome blogs for more awesome content:**
-
+## Go check out these awesome blogs for more awesome content:
 * [**TechKnow Africa**](https://techknow.co.ke)
 * [**Stream254**](https://stream254.com)
 * [**TMJ**](https://tmj.home.blog)

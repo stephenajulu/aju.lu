@@ -23,8 +23,7 @@ In the coordinated move, the institutions were acting on information that tech-s
 
 It is during that period that Barclays Bank lost Sh11 million from their ATM's.
 
-**Estates for Tech-Savvy Millionaires**
-
+## Estates for Tech-Savvy Millionaires
 With this knowledge, Kenya has now become a hotspot for cyber fraudsters and criminals who will stop at nothing to make the money.
 
 The paper reports that in 2018 and 2019, cybercriminals made away with at least Sh2.6 billion and this could get worse with the tech-savvy teams expanding beyond Kenya. By spreading their tentacles, the IT graduates in their mid-to-late-20s could only foment their heists.

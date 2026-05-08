@@ -22,7 +22,7 @@ Because you are a Premium Member, you are seeing this exclusive content:
 3.  **Early Access:** You will receive full-length tech deep-dives 7 days before they go public.
 4.  **Premium Notes:** Raw, unedited thoughts on craft and engineering shared only with our core supporters.
 
-**Thank you for supporting the craft!**
+## Thank you for supporting the craft!
 {{< /member-only >}}
 
 ---

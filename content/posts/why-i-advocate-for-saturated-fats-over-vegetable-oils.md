@@ -102,8 +102,7 @@ Here's a compiled list of the dangers of PUFA and Trans fats:
 * **Digestion / Immune System** - PUFAs can impair protein digestion. Digestion problems are rampant in this day and age, and eliminating PUFAs is an often overlooked and very effective way of supporting digestion. Your immune system is closely linked to your digestive system, a problem with digestion almost guarantees a poorly functioning immune system.
 * **Detoxification** - The liver plays a major role in detoxification, PUFAs can overburden the liver. That sluggish feeling you feel after eating out? You may have just consumed PUFAs.
 
-**Plan of Action**
-
+## Plan of Action
 * Avoid PUFA oils completely, especially for cooking.
 * Always use heat-stable fats for cooking (i.e. coconut oil, olive oil, ghee, butter, tallow).
 * Limit the number of times per week you eat out and follow the eating out tips below.

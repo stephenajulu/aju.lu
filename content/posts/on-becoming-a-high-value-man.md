@@ -14,8 +14,7 @@ A high-value man fully embraces his **natural masculine role** in the world, _ch
 
 He is a man who chooses, first and foremost, to pursue a greater purpose in life, and to make life better and more successful for not just himself, but also for his tribe.
 
-**Why is this important?**
-
+## Why is this important?
 You want to be successful.
 
 You want to win with women.

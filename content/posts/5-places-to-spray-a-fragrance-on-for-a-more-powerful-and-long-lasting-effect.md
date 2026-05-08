@@ -71,12 +71,12 @@ Your everyday fragrance. Something that isn't too empowering but, when notices, 
 
 Follow these guides
 
-![](/static/images/areas-to-apply-fragrance-pulse-points.png)
+![](/images/areas-to-apply-fragrance-pulse-points.png)
 
-![](/static/images/areas-to-apply-fragrance-best-way-to-apply-to-wrist.png)
+![](/images/areas-to-apply-fragrance-best-way-to-apply-to-wrist.png)
 
-![](/static/images/areas-to-apply-fragrance-unconventional-areas.png)
+![](/images/areas-to-apply-fragrance-unconventional-areas.png)
 
-![](/static/images/waystoapplyperfumes.png)
+![](/images/waystoapplyperfumes.png)
 
-![](/static/images/how-to-apply-cologne-2.png)
+![](/images/how-to-apply-cologne-2.png)
