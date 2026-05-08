@@ -2,12 +2,20 @@
 title: About me
 url: /about/
 image: images/me.jpg
+description: "Meet Stephen Ajulu, a multidisciplinary architect and technologist with over 12 years of experience building sovereign digital infrastructure."
 ---
 ### About Ajulu
 
 #### I am a multidisciplinary architect, technologist, and strategic advisor based in Nairobi, Kenya. 
 
-With over a decade of hands-on experience bridging technology, engineering, design, and business, I architect and engineer systems that solve complex operational problems. My work is rooted in a single principle: replacing fragmented technology with unified, self-sustaining ecosystems.
+With over a decade of hands-on experience bridging technology, engineering, design, and business, I architect and engineer systems that solve complex operational problems. My work is rooted in a single principle: **replacing fragmented technology with unified, self-sustaining ecosystems.**
+
+### 🏆 Proven Track Record (E-E-A-T)
+
+*   **12+ Years in Technology:** From core systems administration to high-level strategic advisory.
+*   **76+ Impactful Projects:** Successfully delivered products ranging from custom ERP implementations to sovereign cloud architectures.
+*   **National Impact:** Currently modernizing Kenya’s national knowledge repositories as an ICT Officer at the Kenya National Library Service.
+*   **Digital Sovereignty Pioneer:** Founder of [Julz Insight](https://julzinsight.com), a firm dedicated to managed open-source infrastructure for African enterprises.
 
 ### Systematic Exploration
 
@@ -37,9 +45,6 @@ Writing is my mechanism for synthesizing complex ideas into clear knowledge. Thi
 
 > "Write about what fascinates you. You don't need to be an expert. Curiosity leads to expertise."
 > **— James Clear**
-
-Subscribe to my newsletter:
-{{< newsletter >}}
 
 ### Analog Pursuits
 
@@ -76,13 +81,9 @@ My commitment to building self-sustaining ecosystems extends beyond the digital 
 
   Julz Insight is an active B2B technology consulting firm focused on deploying digital sovereignty solutions for enterprises today. JULZ is the parent R&D holding entity focused on the long-term future, multidisciplinary innovation, and building experimental Solarpunk infrastructure.
 
-* **How do you operate across multiple massive ventures simultaneously?**
-
-  Through extreme discipline and modular execution. My role as an ICT Officer at the Kenya National Library Service grounds me in the realities of large-scale public infrastructure. Outside of those hours, I operate within highly compressed, high-leverage execution windows to build the JULZ ecosystem. I design my ventures to be self-sustaining systems, not manual labor traps. In short, it is by The Grace of God.
-
 ### Colophon
 
-* This site is built using [Hugo](https://gohugo.io), a static site generator based on GoLang and follows the principles of JAMstack, hosted in [GitHub](https://github.com) and deployed to [Netlify](https://netlify.com) automatically upon change. It uses [Formspree](https://formspree.io) for static form handling, [Umami Cloud](https://umami.is) for Web Analytics, and supports Web Monetization and IndieWeb.
+* This site is built using [Hugo](https://gohugo.io), a static site generator based on GoLang and follows the principles of JAMstack. It is hosted in [GitHub](https://github.com) and deployed to [Netlify](https://netlify.com) automatically. It uses [Formspree](https://formspree.io) for static form handling, [Umami Cloud](https://umami.is) for Web Analytics, and supports Web Monetization and IndieWeb.
 
 ### Book a call
 

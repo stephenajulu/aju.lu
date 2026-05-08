@@ -30,9 +30,66 @@
     "@type": "WebPage",
     "@id": {{ .Permalink | jsonify }}
   }
+  {{- else if eq .Section "services" -}}
+  "@type": "Service",
+  "serviceType": {{ .Title | jsonify }},
+  "provider": {
+    "@type": "Person",
+    "name": {{ .Site.Params.author.name | jsonify }}
+  },
+  "description": {{ .Description | default (.Summary | plainify | truncate 160) | jsonify }},
+  "areaServed": "Global",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Professional Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": {{ .Title | jsonify }}
+        }
+      }
+    ]
+  }
   {{- end }}
 }
 </script>
+
+{{- if eq .Title "About me" -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What exactly do your advisory services entail?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "I provide high-level technical consulting, systems architecture planning, and strategic direction for businesses looking to modernize their infrastructure or build new technical products."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What do you mean by Digital Sovereignty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Digital sovereignty is the operational independence of a business. Relying entirely on rented, proprietary cloud ecosystems creates vulnerability and vendor lock-in."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is the ideal client for Julz Insight?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We partner with progressive African enterprises, forward-thinking SMEs, and operational leaders (CIOs, CTOs) who are ready to abandon fragmented, proprietary, and/or legacy systems."
+      }
+    }
+  ]
+}
+</script>
+{{- end -}}
 
 <script type="application/ld+json">
 {
