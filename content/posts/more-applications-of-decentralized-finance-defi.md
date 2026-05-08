@@ -126,7 +126,6 @@ Different decentralized finance (DeFi) projects have taken the opportunity to in
 
 #
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
 ### Tokenization
 
 Asset tokenization is one of the core features of the DeFi ecosystem. Tokenization is the process of — creating, issuing, and managing digital assets on a blockchain network. As any kind of asset could be tokenized and stored on a blockchain, it is essentially creating a new form of economy.

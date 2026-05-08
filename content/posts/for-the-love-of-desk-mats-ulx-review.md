@@ -55,7 +55,6 @@ Buy it from here and get 10% off: [ULX Minimalist Desk Mat | Black (ulxstore.com
 
 #
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Product Design And Development ](/services/product-design-and-development/){{< /bold >}}
 ### Colors: Black and Cognac Brown
 
 Made from full-grain leather, this is the highest-grade leather available in the world. Designed to be clean and minimal and suit any desk. It will protect your desk whilst also making it easier to use your mouse.

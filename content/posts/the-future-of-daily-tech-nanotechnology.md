@@ -89,4 +89,3 @@ Tags: nanotechnology, daily tech, future tech, medicine, energy, electronics, co
 
 Hashtags: #nanotechnology #dailytech #futuretech #medicine #energy #electronics #computing #nanomaterials #innovation #technology #science #research #ethics
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Product Design And Development ](/services/product-design-and-development/){{< /bold >}}

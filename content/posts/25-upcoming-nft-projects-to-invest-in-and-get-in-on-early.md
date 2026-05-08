@@ -239,7 +239,6 @@ The team will be giving away 0.2 ETH for the first 90 days following the release
 
 
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Managed Open Source Sovereign Business Infrastructure ](/services/managed-open-source-sovereign-business-infrastructure/){{< /bold >}}
 ### #25 [MekaRim](https://mekarim.com/?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
 
 For those that enjoy [play-to-earn](https://learn.bybit.com/crypto/top-nft-games?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) games like [Axie Infinity](https://learn.bybit.com/altcoins/what-is-axie-infinity-axs?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) or [Gods Unchained](https://learn.bybit.com/altcoins/what-is-gods-unchained-gods?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), MekaRim is an upcoming Transformers and Gundam-inspired, play-to-earn game expected to release in Q4 of 2023. The collection includes 10,000 3D robots with over 100 traits available for presale mint at 0.15 ETH on July 16th, 2022. Following this, two public sales will be held for those who missed the whitelist mint.

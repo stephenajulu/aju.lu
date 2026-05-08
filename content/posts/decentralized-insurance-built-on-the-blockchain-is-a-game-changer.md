@@ -82,4 +82,3 @@ A decentralized insurance system with traditional insurance risk models, project
 
 **_Source:_** [**_BeinCrypto_**](https://beincrypto.com/decentralized-insurance-built-blockchain-game-changer/)
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}

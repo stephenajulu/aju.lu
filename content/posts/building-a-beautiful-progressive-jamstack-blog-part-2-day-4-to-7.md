@@ -94,7 +94,6 @@ TTT, First Meaningful Paint, First Contentful Paint, First CPU idle: 0.5 seconds
 
 
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
 ### [**Ajulu’s Thoughts**](https://ajulusthoughts.wordpress.com) – Delivering Quality Tech, Cybersecurity & Dev Content Since November 2016
 
 Hey Devs? Found anything wrong with this info? Kindly write your comment down below on what to change.

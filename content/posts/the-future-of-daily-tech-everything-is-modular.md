@@ -64,4 +64,3 @@ Q: How does modularity improve device lifespan? A: Modularity increases the life
 
 The future of daily tech is modular, and as technology continues to evolve, we will see more and more devices designed with modularity in mind. Modularity not only benefits the environment by reducing electronic waste but also provides greater customization options and extends the lifespan of devices. With its many advantages, it's likely that modularity will become the norm in the tech industry in the coming years.
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Product Design And Development ](/services/product-design-and-development/){{< /bold >}}

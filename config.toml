@@ -40,28 +40,28 @@ mediatype = "application/json"
       xhtml = false
 
 [related]
-  threshold = 80
+  threshold = 50
   includeNewer = true
-  toLower = false
+  toLower = true
   
   [[related.indices]]
+    name = "keywords"
+    weight = 100
+  [[related.indices]]
     name = "tags"
-    weight = 30
+    weight = 80
   [[related.indices]]
     name = "categories"
-    weight = 10
+    weight = 60
   [[related.indices]]
     name = "description"
-    weight = 30
+    weight = 40
   [[related.indices]]
     name = "title"
     weight = 20
   [[related.indices]]
     name = "date"
     weight = 10
-  [[related.indices]]
-    name = "keywords"
-    weight = 50
 
 [module]
   [module.hugoVersion]

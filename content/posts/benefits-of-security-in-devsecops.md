@@ -80,7 +80,6 @@ Agility refers to an organization's ability to rapidly adapt to change. By autom
 
 
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
 ### Greater Visibility
 
 Finally, by integrating [security](https://www.vanta.com/resources/security-reviews-for-startups-how-to-navigate-questionnaires-third-party-audits) into every stage of the process, DevSecOps can help organizations track their progress and identify potential problems early on. This visibility can help organizations to make better decisions about their development process and avoid costly mistakes further down the line.

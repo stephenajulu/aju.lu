@@ -79,7 +79,6 @@ Because there is no "mining" involved in PoS, PoS networks often start with a "p
 
 ##
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
 ### **SUMMARY**
 
 * Proof of Stake (PoS) is a consensus protocol - or a set of rules or system of agreement - that's used to validate cryptocurrency transactions.

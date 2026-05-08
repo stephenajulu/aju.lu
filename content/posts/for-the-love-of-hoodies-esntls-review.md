@@ -84,7 +84,6 @@ Buy it using this link to get 10% off [Heavy Weight Zip Up Hoodie – ESNTLS](ht
 
 #
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Product Design And Development ](/services/product-design-and-development/){{< /bold >}}
 ### Color: Washed Grey, Brown, Black, Blue, and Hunter Green
 
 ![](/images/untitleddesign-2021-08-26t095421-377_398f2640-4d9a-4f2a-bf82-6c7bef69ef60_600x.png)

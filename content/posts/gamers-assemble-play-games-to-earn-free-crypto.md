@@ -65,7 +65,6 @@ In order to take part in any of these play-to-earn games, users will need to do 
 
 
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Managed Open Source Sovereign Business Infrastructure ](/services/managed-open-source-sovereign-business-infrastructure/){{< /bold >}}
 ### Where did GameFi come from?
 
 The emergence of GameFi comes from a combination of factors that dates back to 2017 and the emergence of the NFT phenomenon [CryptoKitties](https://www.coindesk.com/markets/2019/09/12/cryptokitties-creator-raises-11-million-from-warner-a16z-to-launch-blockchain/). The digital collectibles economy proved a viral success, with CryptoKitties amassing over [14,914 users a day](https://www.coindesk.com/business/2020/03/05/the-team-behind-cryptokitties-is-one-step-closer-to-leaving-ethereum/) at its peak. CryptoPunks, a collection of 10,000 pixelated NFT characters also built on Ethereum, enjoyed similar success, surpassing[ $1 billion in sales ](https://techcrunch.com/2018/03/20/cryptokitties-raises-12m-from-andreessen-horowitz-and-union-square-ventures/)over 2018.

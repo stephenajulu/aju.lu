@@ -140,7 +140,6 @@ One of the most important rules in life is for you to _“Invest in yourself”_
 
 #
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
 ### If you are a man then you must absolutely do this as the world demands it. We are called to be builders and providers.
 
 So invest in yourself, because your future depends on it. R

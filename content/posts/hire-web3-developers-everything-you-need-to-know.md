@@ -359,7 +359,6 @@ Don't forget to keep the mood light and friendly!
 
 
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
 ### **Web3 Coding Challenges**
 
 No matter how well the interview went and how experienced the candidate claims to be, it all comes down to their skill.

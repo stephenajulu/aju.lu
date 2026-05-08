@@ -113,7 +113,6 @@ The faster your organization can detect and respond to a data breach or even sec
 
 ###
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
 ### To avoid all of this, an incident response plan should be developed that includes the following actions:
 
 * Have a quality monitoring system in place

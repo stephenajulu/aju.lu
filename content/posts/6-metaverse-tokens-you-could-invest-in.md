@@ -124,7 +124,6 @@ Binance is a cryptocurrency exchange that is currently the largest exchange in t
 
 #
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}
 ### Register by visiting this link: [**Binance**](https://accounts.binance.com/en/register?ref=CL2JFAB6)
 
 <a href="https://unstoppabledomains.pxf.io/qnXOv5"><img src="/images/unstoppabledomainsad.webp" style="width: 100%; height: auto;"></a>

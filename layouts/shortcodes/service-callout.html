@@ -1,0 +1,5 @@
+{{ $name := .Get "name" }}
+{{ $url := .Get "url" }}
+<div class="service-callout">
+    <p>Looking for professional assistance? Check out my service: <a href="{{ $url | relURL }}"><strong>{{ $name }}</strong></a></p>
+</div>

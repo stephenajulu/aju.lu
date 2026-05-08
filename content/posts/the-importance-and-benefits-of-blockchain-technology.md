@@ -104,7 +104,6 @@ Deploying blockchain technology in real estate increases the speed of the convey
 
 
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
 ### Identity and credential blockchain benefits
 
 Identification and credentials are easier for everyone to work with when they’re digital: vaccination cards, academic qualifications, occupational licenses, employee ID, and more. But this highly personal information must remain private and secure.

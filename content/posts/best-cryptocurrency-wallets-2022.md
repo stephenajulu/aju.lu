@@ -22,7 +22,6 @@ description: Get your cryptocurrencies off exchanges and into wallets now!
 
 According to this tweet:
 
-
 We should all remove our coins, tokens, and crypto from exchanges and into secure wallets where only the user has the private key and can access the wallet.
 
 Here are some great wallets for holding your crypto:

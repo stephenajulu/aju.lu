@@ -51,5 +51,4 @@ Only data can’t help you get rich, but the way you understand data and the way
 
 ##
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}
 ### _To conclude: The world’s most valuable resource is no longer oil or gold, but processed and analyzed data._

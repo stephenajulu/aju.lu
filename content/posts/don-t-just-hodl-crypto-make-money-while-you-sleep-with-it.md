@@ -86,7 +86,6 @@ Certain tokens offer holders a fraction of the revenue of the company that issue
 
 
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Cloud Engineering ](/services/cloud-engineering/){{< /bold >}}
 ### Yield farming
 
 [Yield farming](https://www.coindesk.com/defi-yield-farming-comp-token-explained) is another decentralized, or [DeFi, ](https://stephenajulu.com/blog/decentralized-finance-defined/)method of earning passive crypto income. This is made possible by the dynamic operations of decentralized exchanges, which are basically trading platforms where users rely on the combination of smart contracts (programmable and self-executing computer contracts) and investors for the liquidity necessary to execute trades. Here, users do not trade against brokers or other traders. Instead, they trade against funds deposited by investors – known as liquidity providers – into special smart contracts known as liquidity pools. In turn, liquidity providers receive a proportional amount of trading fees from the pool.

@@ -21,7 +21,6 @@ Currently it is on beta and they claim that users can expect to see data speeds 
 
 In order to use Starlink, you will need equipment to connect to the Starlink satellites in space. The Starlink kit has the Starlink dish, mounting tripod, Wi-Fi router, power supply and cables. The dish, which they call the Starlink terminal is of particular interest since as per Elon Musk’s tweet, 
 
-
 it has motors to self orient for optical view angle with satellites.
 
 If the 2022 deployment of Starlink is true, this may be a gamechanger worldwide. Elon Musk said that Starlink will serve the hardest to serve customers that telecommunications companies otherwise have trouble doing with landlines. This could be a better bet for governments to serve the underserved, like in Kenya with the failed Google Loon.

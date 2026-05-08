@@ -147,7 +147,6 @@ Then these oils are extracted and refined using carcinogenic _hexane_ (two carbo
 
 #
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}
 ### Did you know: That margarine is one molecule away from plastic? Well, now you do!
 
 This article is a compilation of my thoughts, research, investigations, and excerpts from credible sources.

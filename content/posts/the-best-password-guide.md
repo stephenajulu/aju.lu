@@ -92,4 +92,3 @@ Hope you learned something.
 
 Have a great day/night.
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}

@@ -368,6 +368,27 @@ ul {
     }
 }
 
+.service-callout {
+    margin: 40px 0;
+    padding: 20px 25px;
+    background: var(--base-offset-color);
+    border-radius: 8px;
+    border-left: 4px solid var(--highlight-color);
+    font-size: 1.1rem;
+    
+    p {
+        margin: 0 !important;
+    }
+
+    a {
+        color: var(--highlight-color);
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
 .blog-footer {
     .footer-actions {
         display: flex;

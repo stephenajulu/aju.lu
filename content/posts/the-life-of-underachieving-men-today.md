@@ -53,7 +53,6 @@ Another important factor in overcoming underachievement is to develop the necess
 
 
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}
 ### Actionable Steps
 
 If you're an underachieving man looking to improve yourself and reach your full potential, there are several actionable steps you can take. Here are some solid strategies to consider:

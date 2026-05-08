@@ -102,4 +102,3 @@ Clean energy technologies such as solar, wind, and hydropower are becoming incre
 
 In conclusion, these 10 emerging technologies have the potential to greatly impact and shape the future. It will be exciting to see how they evolve and revolutionize various industries in the years to come.
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}

@@ -79,7 +79,6 @@ As the world shifts to web3, it’ll be more important than ever to own your par
 
 
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
 ### How to get one?
 
 1. To buy one visit this link and follow the prompts: [**Register for Unstoppable Domains**](https://unstoppabledomains.pxf.io/qnXOv5)**.**

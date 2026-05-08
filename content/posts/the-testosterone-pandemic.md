@@ -113,7 +113,6 @@ Though too much cardio can have the opposite effect by actually reducing testost
 
 
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}
 ### Sex and Pornography
 
 Pornography and masturbation have been shown to decrease testosterone.

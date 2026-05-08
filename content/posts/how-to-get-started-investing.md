@@ -81,7 +81,6 @@ Here is a list of some cryptocurrencies
 
 
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
 ### 6. Forex <sup>High Risk</sup>
 
 Basically investing/trading in other currencies eg USD.

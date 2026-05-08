@@ -112,7 +112,6 @@ Here's code for ordinary social share buttons. Can be copied as is.
   // Avoid flash of white box if rendered for any reason.
   textArea.style.background = 'transparent';
 
-
   textArea.value = text;
 
   document.body.appendChild(textArea);
@@ -136,4 +135,3 @@ function CopyLink() {
   </script>
 ```
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}

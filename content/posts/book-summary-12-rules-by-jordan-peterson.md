@@ -73,7 +73,6 @@ This is the rule that’s the real catnip for right-wingers everywhere. Want to 
 
 
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}
 ### **12 Pet a cat when you encounter one in the street**
 
 OK. So I really am scraping the barrel now. We’re all going to die. Probably painfully. So just make the best of what you’ve got. If you see a cat, stroke it. You might feel better. Though probably not. And if there are no cats, pet something else. Like a dog.

@@ -49,7 +49,6 @@ When it comes to personal branding, choosing the right platform is critical. Wit
 
 
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}
 ### Choosing the Right Content Format
 
 Once you have chosen your platform, the next step is to determine the best content format for your personal brand. Here are some of the most popular content formats to consider:

@@ -111,4 +111,3 @@ These prompts are designed to generate a variety of types of content and can be 
 
 In conclusion, AI has the potential to provide valuable insights, automate tedious tasks, and improve the overall efficiency of businesses. By leveraging AI tools such as CopyAI, ChatGPT, Github CoPilot, and others, businesses can gain a competitive edge in their respective industries.
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Product Design And Development ](/services/product-design-and-development/){{< /bold >}}

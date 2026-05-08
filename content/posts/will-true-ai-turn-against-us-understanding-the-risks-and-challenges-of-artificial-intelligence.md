@@ -40,7 +40,6 @@ description: Explore the question of whether true artificial intelligence (AI) w
 
 ##
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
 ### This is a sobering thought to anyone laughing off the thought of robot overlords.
 
 The question of whether true artificial intelligence (AI) will turn against us has been a topic of debate and concern in the field of AI for many years. While the possibility of AI turning against humans is a popular topic in science fiction, some experts believe that it could become a reality if we are not careful in how we design and implement AI systems.

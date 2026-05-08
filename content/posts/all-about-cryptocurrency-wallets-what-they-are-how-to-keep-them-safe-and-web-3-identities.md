@@ -235,4 +235,3 @@ Speaking of Web3 Identities, Unstoppable Domains is on a mission to create the b
 * [Digital Risks in Blockchain and Web3](https://conteudo.axur.com/en/ebook-digital-risks-blockchain-and-web3) (Axur — Free Ebook)
 * [Digital risks in the Metaverse](https://uxdesign.cc/digital-risks-in-the-metaverse-3bf8f0eda201) (Medium)
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}

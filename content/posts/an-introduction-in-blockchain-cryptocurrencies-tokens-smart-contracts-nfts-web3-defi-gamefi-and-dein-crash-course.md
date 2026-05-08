@@ -85,7 +85,6 @@ Decentralized Insurance also known as DeIn or DeFi Insurance is where rather tha
 
 
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
 ### Conclusion
 
 I am a follower of the above simply because of how much disruption of traditional methods blockchain can create. In one way or the other blockchain technology is the future of processing. Currently, as of writing this post, there are Decentralized Supply Chain Management, Decentralized Full Proof Voting, Decentralized Real Estate, Decentralized Data Protection, and Decentralized Loyalty + Royalty Programs.

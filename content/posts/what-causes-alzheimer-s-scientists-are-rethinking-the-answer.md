@@ -485,4 +485,3 @@ Carol wasn’t bothered that disease-altering treatments didn’t arrive in time
 
 ## Source: [Quanta Magazine](https://www.quantamagazine.org/what-causes-alzheimers-scientists-are-rethinking-the-answer-20221208/)
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Cloud Engineering ](/services/cloud-engineering/){{< /bold >}}

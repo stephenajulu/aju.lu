@@ -53,4 +53,3 @@ But to get there, we'll need to work together. We'll need to invest in the right
 
 The future of daily life is a thrilling and awe-inspiring vision of what's possible. It's a world where anything is possible, and where we're empowered to create a future that's better than anything we've known before. So let's take the first steps toward this future, and work together to make it a reality. The future is waiting for us, and it's time to embrace it with open arms.
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Product Design And Development ](/services/product-design-and-development/){{< /bold >}}

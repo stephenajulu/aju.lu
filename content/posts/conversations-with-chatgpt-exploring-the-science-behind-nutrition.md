@@ -218,4 +218,3 @@ In terms of why raw milk is demonized, it is primarily due to the health risks a
 
 **ChatGPT:** Phytotoxins are naturally occurring toxic compounds found in certain plants, including some whole grains and vegetables. They can have negative effects on human health if consumed in large amounts, although the risk of this depends on the specific toxin, the type and amount of plant consumed, and the individual's susceptibility. Some phytotoxins can interfere with nutrient absorption, disrupt hormones, cause oxidative stress, and potentially lead to chronic diseases. However, it is important to note that these compounds also play a role in plant defense and can have beneficial effects in small amounts, including antioxidant activity and potential cancer-fighting properties.
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}

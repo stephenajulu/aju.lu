@@ -54,7 +54,6 @@ In conclusion, a meat-only diet may have several health benefits, including weig
 
 
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}
 ### References:
 
 * Klement RJ, Kämmerer U. Is there a role for carbohydrate restriction in the treatment and prevention of cancer?. Nutr Metab (Lond). 2011;8:75. Published 2011 Oct 26. doi:10.1186/1743-7075-8-75

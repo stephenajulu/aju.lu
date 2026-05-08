@@ -66,7 +66,6 @@ AR technology is constantly evolving, and there have been many exciting developm
 
 
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Product Design And Development ](/services/product-design-and-development/){{< /bold >}}
 ### FAQs
 
 Q: Is augmented reality the same as virtual reality? A: No, they are different technologies. Virtual reality creates a completely immersive environment, while augmented reality overlays digital information onto the real world.

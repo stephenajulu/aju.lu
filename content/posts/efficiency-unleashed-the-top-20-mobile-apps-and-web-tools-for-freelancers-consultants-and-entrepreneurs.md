@@ -83,4 +83,3 @@ Anyway, that's it for today.
 
 Enjoy!
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Cloud Engineering ](/services/cloud-engineering/){{< /bold >}}

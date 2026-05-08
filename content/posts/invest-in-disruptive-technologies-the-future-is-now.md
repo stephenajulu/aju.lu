@@ -198,7 +198,6 @@ Smart Home Technology is disrupting the home automation industry by enabling the
 
 
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
 ### Advanced Manufacturing:
 
 * GE Additive (General Electric)

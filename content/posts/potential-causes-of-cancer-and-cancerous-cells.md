@@ -200,4 +200,3 @@ There are many dietary and lifestyle strategies we can implement with our patien
 
 **Try** [**Intermittent Fasting**](https://www.healthline.com/nutrition/intermittent-fasting-guide)**,** [**OMAD**](https://www.healthline.com/health/one-meal-a-day) **or** [**2MAD**](https://2mealday.com/article/intermittent-fasting-omad-vs-2mad-which-is-better/). As shown above, frequent eating increases your chance of becoming obese which is then correlated with an increase in cancer.
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Product Design And Development ](/services/product-design-and-development/){{< /bold >}}

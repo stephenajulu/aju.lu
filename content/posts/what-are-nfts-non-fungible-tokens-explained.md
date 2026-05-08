@@ -97,7 +97,6 @@ Even celebrities like Snoop Dogg and Lindsay Lohan are jumping on the NFT bandwa
 
 
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Product Design And Development ](/services/product-design-and-development/){{< /bold >}}
 ### How to Buy NFTs
 
 If you’re keen to start your own NFT collection, you’ll need to acquire some key items:

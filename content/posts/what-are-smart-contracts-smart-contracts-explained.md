@@ -58,7 +58,6 @@ Some common ways of using smart contracts are:
 
 
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
 ### Examples of [blockchain platforms](https://stephenajulu.com/blog/6-cryptocurrencies-blockchains-with-massive-potential/) supporting smart contracts
 
 * **Bitcoin:** Provides a Turing-incomplete script language that allows the creation of custom smart contracts on top of Bitcoin like multisignature accounts, payment channels, escrows, time locks, atomic cross-chain trading, oracles, or multi-party lottery with no operator.

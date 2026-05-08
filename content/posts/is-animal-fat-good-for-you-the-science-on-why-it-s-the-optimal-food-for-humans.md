@@ -271,7 +271,6 @@ Explore more about the health [benefits of saturated fats here](https://www.doct
 
 #
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}
 ### Article Sources
 
 * 

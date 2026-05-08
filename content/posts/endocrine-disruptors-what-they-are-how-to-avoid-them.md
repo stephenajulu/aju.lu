@@ -145,7 +145,6 @@ Some chemicals can act on the endocrine system to disturb the homeostatic mechan
 
 #
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}
 ### How to Avoid Endocrine Disruptors
 
 You can't eliminate all contact with endocrine disruptors, but you can reduce your contact. Try these strategies when cleaning or cooking:

@@ -97,7 +97,6 @@ The gambling industry can use blockchain to provide several benefits to players.
 
 
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
 ### Blockchain is in its infancy
 
 Blockchain technology has only been around for a dozen years, and businesses are still exploring new ways to apply the technology to support their operations. With the growing amount of digital data used in our lives, there's a growing need for the data security, access, transparency, and integrity blockchain can provide.

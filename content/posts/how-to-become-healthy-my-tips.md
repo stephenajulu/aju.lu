@@ -91,7 +91,6 @@ The red dye is used in "mabuyus", ice cream, among others. Linked to ADHD, Aller
 
 
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}
 ### What is MSG?
 
 Full Name: MONOSODIUM GLUTAMATE

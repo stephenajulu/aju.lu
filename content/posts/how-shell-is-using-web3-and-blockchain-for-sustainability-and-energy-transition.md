@@ -61,4 +61,3 @@ Jeavons says, "This is what my team is so excited about – the potential to do 
 
 Source: [LinkedIn](https://www.linkedin.com/pulse/how-shell-using-web3-blockchain-sustainability-energy-bernard-marr/)
 
-{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
