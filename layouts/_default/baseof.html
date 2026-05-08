@@ -21,10 +21,18 @@
 
   <link rel="canonical" href="{{ .Permalink }}" />
 
+  {{ "<!-- Preloads -->" | safeHTML }}
+  <link rel="preload" as="image" href="{{ hugo.Data.author.image | relURL }}">
+  {{ if .Params.image }}
+  <link rel="preload" as="image" href="{{ .Params.image | relURL }}" fetchpriority="high">
+  {{ end }}
+
   {{- if hugo.IsProduction | or (eq .Site.Params.env "production") }}
     {{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" false) }}
     {{ $extended := (resources.Match "css/extended/*.css") | resources.Concat "assets/css/extended.css" }}
-    <link rel="stylesheet" href="{{ ($style | minify | fingerprint).RelPermalink }}">
+    {{ $style_f := $style | minify | fingerprint }}
+    <link rel="preload" as="style" href="{{ $style_f.RelPermalink }}">
+    <link rel="stylesheet" href="{{ $style_f.RelPermalink }}">
     <link rel="stylesheet" href="{{ ($extended | minify | fingerprint).RelPermalink }}">
   {{- else }}
     {{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) }}
@@ -48,11 +56,26 @@
 
   {{ if and .Site.Params.googleFontsUrl .Site.Params.enableGoogleFonts }}
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="{{ .Site.Params.googleFontsUrl }}" rel="stylesheet">
+    <link rel="preload" as="style" href="{{ .Site.Params.googleFontsUrl }}">
+    <link rel="stylesheet" href="{{ .Site.Params.googleFontsUrl }}" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="{{ .Site.Params.googleFontsUrl }}"></noscript>
   {{ end }}
 
   {{ partial "schema.html" . }}
   {{ partial "extend-head.html" . }}
+
+  {{ $scripts := resources.Get "js/scripts.js" }}
+  {{ $fuse := resources.Get "js/fuse.min.js" }}
+  {{ $zoom := resources.Get "js/medium-zoom.min.js" }}
+  {{ $js := slice $fuse $zoom $scripts | resources.Concat "js/bundle.js" }}
+
+  {{- if hugo.IsProduction | or (eq .Site.Params.env "production") }}
+    {{ $js_f := $js | minify | fingerprint }}
+    <link rel="preload" as="script" href="{{ $js_f.RelPermalink }}">
+    <script type="text/javascript" src="{{ $js_f.RelPermalink }}" defer></script>
+  {{ else }}
+    <script type="text/javascript" src="{{ $js.RelPermalink }}" defer></script>
+  {{ end }}
 </head>
 
 {{ $themeStyle := slice "" }}
@@ -74,18 +97,6 @@
   <button id="back-to-top" class="back-to-top" aria-label="Back to top">
     <svg viewBox="0 0 24 24"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
   </button>
-
-  {{ $scripts := resources.Get "js/scripts.js" }}
-  {{ $fuse := resources.Get "js/fuse.min.js" }}
-  {{ $zoom := resources.Get "js/medium-zoom.min.js" }}
-
-  {{ $js := slice $fuse $zoom $scripts | resources.Concat "js/bundle.js" }}
-
-  {{- if hugo.IsProduction | or (eq .Site.Params.env "production") }}
-    <script type="text/javascript" src="{{ ($js | minify | fingerprint).RelPermalink }}"></script>
-  {{ else }}
-    <script type="text/javascript" src="{{ $js.RelPermalink }}"></script>
-  {{ end }}
 
   {{ block "footer_js" . }}
   {{ end }}

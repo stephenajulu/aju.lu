@@ -15,7 +15,7 @@
     <div class="intro">
       <h1 class="p-name">{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
       {{ if .Params.image }}
-      <img class="u-featured" alt="{{.Params.imageAltAttribute | default "Article hero image"}}" src="{{ .Params.image | relURL }}" />
+        {{ partial "responsive-image.html" (dict "src" .Params.image "alt" (.Params.imageAltAttribute | default .Title) "class" "u-featured" "loading" "eager" "fetchpriority" "high") }}
       {{ end }}
     </div>
 
