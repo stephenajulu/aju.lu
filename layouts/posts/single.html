@@ -23,8 +23,6 @@
       {{ .Content }}
     </div>
 
-    {{ partial "expertise-callout.html" . }}
-
     {{ partial "related.html" . }}
     
     {{ if .Params.tags }}
@@ -51,10 +49,6 @@
         {{ partial "webmention.html" . }}
       </div>
     </div>
-
-    <br>
-    
-    {{ partial "backlinks.html" (dict "page" .) }}
     
     <br>
     
