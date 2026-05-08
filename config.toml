@@ -150,6 +150,11 @@ mediatype = "application/json"
     weight = 3
     url = "/contact/"
   [[menu.main]]
+    name = "CV / Resume"
+    parent = "more"
+    weight = 4
+    url = "/cv/"
+  [[menu.main]]
     name = "About"
     identifier = "about"
     weight = 6
