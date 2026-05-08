@@ -111,6 +111,9 @@ Journaling allows you to organize your thoughts, document your goals, make life 
 
 Although many men may scoff at the thought of keeping a journal, many of the greatest visionaries in history had journals: Leonardo Da Vinci, Albert Einstein, Nikola Tesla, and Ernest Hemingway to name a few. Not to mention the numerous benefits from journaling are well-documented.
 
+
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}
 ### Benefits of journaling 
 
 Here are some benefits of journaling

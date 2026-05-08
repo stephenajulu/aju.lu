@@ -144,6 +144,9 @@ Another aspect of covering one’s tracks would be to make sure that **any syste
 
 #### How to Protect Yourself and Your Organization in/from Each Step Coming Soon! Stay Tuned!
 
+
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
 ### [**SOURCE**](https://hackingpress.com/phases-of-hacking/)
 
 I will appreciate it, if you take 10 seconds of your time to check out my donations page and donate to the blog and other causes. 40% of the donation goes to buying this blog an official domain name, the rest goes to charity for example the Australian Bush Fire. Any amount received will be shown, from whom and to where it went. I will also include screenshots of inflow and outflow. So go check it out: [**Donations**](https://ajulusthoughts.wordpress.com/donate/) and donate! You can also buy me something via the wishing list. Thank you and have a wonderful day.

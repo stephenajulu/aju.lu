@@ -49,4 +49,7 @@ With the use of data-driven marketing and consumer engagement through a range of
 
 Only data can’t help you get rich, but the way you understand data and the way you organize it and manage it is very important. The process on how you manage your data is crucial and if you get that right, you can gain higher value and turn your business into huge profits. The data that you get commercially or which is freely available is majorly unprocessed and noisy. Noisy meaning, the data contains null values, values which might harm the overall system and other spam values too. So to overcome this, data management is really very important.
 
-##### _To conclude: The world’s most valuable resource is no longer oil or gold, but processed and analyzed data._
+##
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}
+### _To conclude: The world’s most valuable resource is no longer oil or gold, but processed and analyzed data._

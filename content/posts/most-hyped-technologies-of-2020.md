@@ -180,7 +180,10 @@ Filtration is one of graphene’s most obvious uses, and MIT engineers have made
 
 In theory, this process allows for large sheets of graphene to be formed in a relatively short amount of time, which is crucial for commercial applications. Researchers had to fine-tune the process to get the graphene to form perfectly, and interestingly, the imperfect attempts along the way proved useful later on. As the MIT team tried to create pores in graphene, they started by using oxygen plasma to carve them out. As this process proved time-consuming, they wanted something faster and looked to their previous experiments for solutions. By lowering the temperature during the graphene’s growth, they got pores to appear. What appeared as defects during the development process ended up being a useful way to create porous graphene.
 
-##### Superconductivity
+##
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
+### Superconductivity
 
 Not long after [scientists at Cambridge demonstrated](https://www.digitaltrends.com/cool-tech/graphene-superconductor/) that graphene can act as a superconductor (a material with no electrical resistance) when paired with praseodymium cerium copper oxide, researchers at MIT [discovered](https://www.nature.com/articles/d41586-018-02773-w) another astounding property: It can apparently function as a superconductor alone, in the right configuration. The researchers stacked two slices of graphene, but offset them by an angle of 1.1 degrees. According to a report published in Nature, “Physicist Pablo Jarillo-Herrero at the Massachusetts Institute of Technology (MIT) in Cambridge and his team weren’t looking for superconductivity when they set up their experiment. Instead, they were exploring how the orientation dubbed the magic angle might affect graphene.”
 

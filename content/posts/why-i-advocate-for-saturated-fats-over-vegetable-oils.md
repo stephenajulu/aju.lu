@@ -145,7 +145,10 @@ Yellow seed oils are brand new to humankind, and they only exist because the che
 
 Then these oils are extracted and refined using carcinogenic _hexane_ (two carbon atoms short of octane—as in gasoline!) and are then finally _bleached_ and _deodorized_ to disguise their rancidity. The final product is not only essentially bad for you but it is also contaminated with traces of several highly toxic petrochemicals.
 
-#### Did you know: That margarine is one molecule away from plastic? Well, now you do!
+#
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}
+### Did you know: That margarine is one molecule away from plastic? Well, now you do!
 
 This article is a compilation of my thoughts, research, investigations, and excerpts from credible sources.
 

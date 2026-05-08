@@ -83,7 +83,10 @@ You will then need to [create a user account and password for your new Linux dis
 
 ![Ubuntu unpacking in the Windows console](https://docs.microsoft.com/en-us/windows/wsl/media/ubuntuinstall.png)
 
-#### Set your distribution version to WSL 1 or WSL 2
+#
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}
+### Set your distribution version to WSL 1 or WSL 2
 
 You can check the WSL version assigned to each of the Linux distributions you have installed by opening the PowerShell command line and entering the command (only available in [Windows Build 19041 or higher](https://ajulusthoughts.wordpress.com/2020/07/09/how-to-create-a-dev-environment-in-windows-10-part-1/windowsupdate)): _`wsl -l -v`_ PowerShell
 

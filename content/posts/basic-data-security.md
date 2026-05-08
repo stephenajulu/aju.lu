@@ -111,7 +111,10 @@ Incident response strategies and plans layout what defines a breach, the roles a
 
 The faster your organization can detect and respond to a data breach or even security incidents the less likely it will have a significant impact on your data, customer trust, reputation, and a potential loss in revenue. If your organization doesn’t have an incident response process in place, consider leveraging a third-party managed security services provider to implement a customized approach for your business.
 
-###### To avoid all of this, an incident response plan should be developed that includes the following actions:
+###
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
+### To avoid all of this, an incident response plan should be developed that includes the following actions:
 
 * Have a quality monitoring system in place
 * Identify the potential incident

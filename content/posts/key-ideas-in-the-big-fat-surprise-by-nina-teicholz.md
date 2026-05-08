@@ -208,6 +208,9 @@ Diets low in carbohydrates have been proven to be beneficial, similarly as diets
 
 It turns out that fat has an important place in a healthy diet after all!
 
+
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}
 ### In Review: The Big Fat Surprise Book Summary
 
 The key message in this book:

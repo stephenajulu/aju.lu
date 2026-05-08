@@ -91,3 +91,5 @@ Subscribe to the blog for more posts on security, privacy and anonymity.
 Hope you learned something.
 
 Have a great day/night.
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}

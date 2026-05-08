@@ -269,7 +269,10 @@ Explore more about the health [benefits of saturated fats here](https://www.doct
 
 ### Original Source: [Is Animal Fat Good for You? The Science on Why it's The Optimal Food for Humans - Dr. Robert Kiltz (doctorkiltz.com)](https://www.doctorkiltz.com/is-animal-fat-good-for-you/)
 
-#### Article Sources
+#
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}
+### Article Sources
 
 * 
   1. [Chronic Inflammation](https://www.ncbi.nlm.nih.gov/books/NBK493173/)

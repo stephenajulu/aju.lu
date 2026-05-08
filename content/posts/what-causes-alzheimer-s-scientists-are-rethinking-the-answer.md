@@ -484,3 +484,5 @@ Maybe in those moments some part of her was back onstage lecturing about Alzheim
 Carol wasn’t bothered that disease-altering treatments didn’t arrive in time to help her — to her, that was a small point. “Carol’s always worked on the principle that it’s for the children and for the next generations,” Stuart said.
 
 ## Source: [Quanta Magazine](https://www.quantamagazine.org/what-causes-alzheimers-scientists-are-rethinking-the-answer-20221208/)
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Cloud Engineering ](/services/cloud-engineering/){{< /bold >}}

@@ -95,6 +95,9 @@ Nyan Cat, a 2011-era GIF of a cat with a pop-tart body, sold for nearly [$600,00
 
 Even celebrities like Snoop Dogg and Lindsay Lohan are jumping on the NFT bandwagon, releasing unique memories, artwork and moments as securitized NFTs.
 
+
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Product Design And Development ](/services/product-design-and-development/){{< /bold >}}
 ### How to Buy NFTs
 
 If you’re keen to start your own NFT collection, you’ll need to acquire some key items:

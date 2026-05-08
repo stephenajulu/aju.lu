@@ -56,6 +56,9 @@ Some common ways of using smart contracts are:
 * **Provide the third party**: Similar to how a software library works, smart contracts can work with other smart contracts in a chain.
 * **Storage**: Store information about an application, such as domain registration information or membership records. Storage in a blockchain like Ethereum is unique in that the data is immutable and can't be erased.
 
+
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
 ### Examples of [blockchain platforms](https://stephenajulu.com/blog/6-cryptocurrencies-blockchains-with-massive-potential/) supporting smart contracts
 
 * **Bitcoin:** Provides a Turing-incomplete script language that allows the creation of custom smart contracts on top of Bitcoin like multisignature accounts, payment channels, escrows, time locks, atomic cross-chain trading, oracles, or multi-party lottery with no operator.

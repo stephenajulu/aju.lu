@@ -199,3 +199,5 @@ There are many dietary and lifestyle strategies we can implement with our patien
 **Address iron overload.** Iron overload is a complex topic, and there are many ways to go about treating this condition. Briefly, curcumin and green tea are two options for attenuating iron overload-induced oxidative damage. ([**27**](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134156), [**28**](https://www.sciencedirect.com/science/article/pii/S1319562X17302127))
 
 **Try** [**Intermittent Fasting**](https://www.healthline.com/nutrition/intermittent-fasting-guide)**,** [**OMAD**](https://www.healthline.com/health/one-meal-a-day) **or** [**2MAD**](https://2mealday.com/article/intermittent-fasting-omad-vs-2mad-which-is-better/). As shown above, frequent eating increases your chance of becoming obese which is then correlated with an increase in cancer.
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Product Design And Development ](/services/product-design-and-development/){{< /bold >}}

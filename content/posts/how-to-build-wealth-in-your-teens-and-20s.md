@@ -99,6 +99,9 @@ I know, I know, you are in your teens and twenties, you think you are still youn
 
 Gambling is a bad habit and could cost you everything.
 
+
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Product Design And Development ](/services/product-design-and-development/){{< /bold >}}
 ### 11. Take responsibility for your life and finances
 
 That's the end of this post.

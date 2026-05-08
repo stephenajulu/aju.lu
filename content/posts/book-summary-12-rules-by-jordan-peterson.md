@@ -71,6 +71,9 @@ Confront the chaos of Being. Don’t try to beat about the bush. Things are goin
 
 This is the rule that’s the real catnip for right-wingers everywhere. Want to know why the world is falling apart? It’s because liberals are turning boys into girlies with their namby-pamby ways. Let boys do boy things and girls do girl things. Nowhere in the Bible does God say anything about this trans nonsense. There’s nothing wrong with men having all the best jobs and women staying home to look after the kids. So back off, ladies, and give us men a break.
 
+
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}
 ### **12 Pet a cat when you encounter one in the street**
 
 OK. So I really am scraping the barrel now. We’re all going to die. Probably painfully. So just make the best of what you’ve got. If you see a cat, stroke it. You might feel better. Though probably not. And if there are no cats, pet something else. Like a dog.

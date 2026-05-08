@@ -79,6 +79,9 @@ Here is a list of some cryptocurrencies
 4. Bitcoin Cash at 56,694.36 Kenyan Shillings
 5. Monero at 16,504.40 Kenyan Shillings
 
+
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
 ### 6. Forex <sup>High Risk</sup>
 
 Basically investing/trading in other currencies eg USD.

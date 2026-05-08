@@ -196,6 +196,9 @@ Electric Vehicles (EVs) are disrupting the automotive industry by providing cost
 
 Smart Home Technology is disrupting the home automation industry by enabling the integration and control of home appliances and systems through a centralized platform, improving comfort, convenience, and security.
 
+
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
 ### Advanced Manufacturing:
 
 * GE Additive (General Electric)

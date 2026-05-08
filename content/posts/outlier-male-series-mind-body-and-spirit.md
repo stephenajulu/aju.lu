@@ -246,6 +246,9 @@ This will help you chain your thoughts to the physical realm.
 
 It will help you plan out life and it will be a reminder of all you haven't achieved.
 
+
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Cloud Engineering ](/services/cloud-engineering/){{< /bold >}}
 ### 5. Help others
 
 This will bring you down to earth and help you stay humble.

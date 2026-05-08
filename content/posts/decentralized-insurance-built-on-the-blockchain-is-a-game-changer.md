@@ -81,3 +81,5 @@ The reality is that even in a utopian traditional insurance world where insuranc
 A decentralized insurance system with traditional insurance risk models, projections, and underwriting data _built on_ a transparent, blazingly fast, and efficient blockchain with the community in mind – well, that’s a game changer.
 
 **_Source:_** [**_BeinCrypto_**](https://beincrypto.com/decentralized-insurance-built-blockchain-game-changer/)
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}

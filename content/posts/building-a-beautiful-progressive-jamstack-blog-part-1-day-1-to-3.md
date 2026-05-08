@@ -103,6 +103,9 @@ TTT, First Meaningful Paint, First Contentful Paint, First CPU idle: 0.7 seconds
 **_Our Goal is 98 or 99_**  
 Sadly Day 4 will start tomorrow as i am working on fixing the hiccup we encountered myself, no response on the issue.
 
+
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
 ### [**Ajulu’s Thoughts**](https://ajulusthoughts.wordpress.com) – Delivering Quality Tech, Cybersecurity & Dev Content Since November 2016
 
 Hey Devs? Found anything wrong with this info? Kindly write your comment down below on what to change.

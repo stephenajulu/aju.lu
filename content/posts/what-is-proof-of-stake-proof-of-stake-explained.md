@@ -77,7 +77,10 @@ Tezos is designed to allow for the creation and trading of security tokens.
 
 Because there is no "mining" involved in PoS, PoS networks often start with a "pre-mine," where the entire supply of tokens is brought into existence at once.
 
-##### **SUMMARY**
+##
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
+### **SUMMARY**
 
 * Proof of Stake (PoS) is a consensus protocol - or a set of rules or system of agreement - that's used to validate cryptocurrency transactions.
 * PoS redefines how blockchain nodes agree on which record of crypto transactions is accurate and improves upon the Proof of Work (PoW) system.

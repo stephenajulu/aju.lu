@@ -37,7 +37,10 @@ Hugo users, kindly check this [article](https://stephenajulu.com/blog/how-to-add
 
 Slow Site=Low Engagement & Interaction.
 
-##### **Shameless Plug**: I offer Web Optimization where I optimize your site and make it faster. [**Contact me**](mailto:alunje73@gmail.com?subject=Web%20Optimization&body=Site%3A%0D%0AHost%3A%0D%0APlatform%2FProgramming%20Language%3A%0D%0ABody%3A)
+##
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}
+### **Shameless Plug**: I offer Web Optimization where I optimize your site and make it faster. [**Contact me**](mailto:alunje73@gmail.com?subject=Web%20Optimization&body=Site%3A%0D%0AHost%3A%0D%0APlatform%2FProgramming%20Language%3A%0D%0ABody%3A)
 
 ## **SEO Glossary**
 

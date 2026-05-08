@@ -84,6 +84,9 @@ As exciting as this sounds, it comes with lots of risks. [Cloud mining](https://
 
 Certain tokens offer holders a fraction of the revenue of the company that issued them. All you need to do is hold the token, and you are automatically eligible to receive a certain percentage of the company’s revenue. The number of tokens you own determines the share of the revenue you would receive. An example of this is KuCoin Shares (KCS), where holders receive a daily share of transaction fees accrued by the KuCoin blockchain asset [exchange](https://www.coindesk.com/markets/2021/08/25/kucoin-launches-proof-of-work-mining-pool/). The amount received is proportional to the amount of KCS tokens each holder stakes.
 
+
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Cloud Engineering ](/services/cloud-engineering/){{< /bold >}}
 ### Yield farming
 
 [Yield farming](https://www.coindesk.com/defi-yield-farming-comp-token-explained) is another decentralized, or [DeFi, ](https://stephenajulu.com/blog/decentralized-finance-defined/)method of earning passive crypto income. This is made possible by the dynamic operations of decentralized exchanges, which are basically trading platforms where users rely on the combination of smart contracts (programmable and self-executing computer contracts) and investors for the liquidity necessary to execute trades. Here, users do not trade against brokers or other traders. Instead, they trade against funds deposited by investors – known as liquidity providers – into special smart contracts known as liquidity pools. In turn, liquidity providers receive a proportional amount of trading fees from the pool.

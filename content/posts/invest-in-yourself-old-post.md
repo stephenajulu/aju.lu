@@ -138,7 +138,10 @@ One of the most important rules in life is for you to _“Invest in yourself”_
 
 **_Be yourself, and do what you can to make yourself the best you can be._**
 
-#### If you are a man then you must absolutely do this as the world demands it. We are called to be builders and providers.
+#
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Strategic It Advisory ](/services/strategic-it-advisory/){{< /bold >}}
+### If you are a man then you must absolutely do this as the world demands it. We are called to be builders and providers.
 
 So invest in yourself, because your future depends on it. R
 

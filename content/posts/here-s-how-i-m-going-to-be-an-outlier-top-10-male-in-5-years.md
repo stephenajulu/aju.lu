@@ -81,6 +81,9 @@ Remember the goal is to become a truly top-tier man by the time 5 years a done.
 
 For those who want to join in on this. By next week, I'll have set up a group where we can keep each other accountable and help each other.
 
+
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}
 ### Now remember, we are all beginners, even me. I don't know more than you and I'm not in a better position than you. I just have good mentors and have stolen bits and pieces from their word and have made this so you don't have to watch 100 self improvement videos and read 10 books. So relax, let's take this step by step.
 
 Thank you and have a good one.

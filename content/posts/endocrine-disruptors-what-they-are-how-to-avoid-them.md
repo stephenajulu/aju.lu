@@ -143,7 +143,10 @@ Some chemicals can act on the endocrine system to disturb the homeostatic mechan
 * Exposure to estrogen or androgen mimicking EDCs can promote breast and prostate cancer growth and/or interfere with hormonal cancer therapy
 * Prenatal exposure to some EDCs may after mammary gland development and increase breast cancer risk later-in-life
 
-#### How to Avoid Endocrine Disruptors
+#
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}
+### How to Avoid Endocrine Disruptors
 
 You can't eliminate all contact with endocrine disruptors, but you can reduce your contact. Try these strategies when cleaning or cooking:
 

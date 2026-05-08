@@ -91,7 +91,10 @@ It needs masculine role models willing to take the lead.
 
 I am working on myself, constantly trying to put to death the less desirable traits within me. It's a battle. But it's one that I know I can win.
 
-#### What about you?
+#
+
+{{< bold >}}Looking for professional assistance? Check out my service: [ Web Development ](/services/web-development/){{< /bold >}}
+### What about you?
 
 I'd like to end with a quote: "Strong Men and Feminine Women Create Good Times, Good Times Create Soft Men and Masculine Women, Soft Men and Masculine Women Create Hard Times, and Repeat" It's a modification of the original quote. Gender roles were created for a purpose. Find out what that purpose is and integrate. We are experiencing gender role reversal and it's causing damage. 
 
