@@ -1,0 +1,27 @@
+{{ $currentPage := . }}
+{{ $matchFound := false }}
+{{ $mapping := dict }}
+
+{{/* Try to find a match based on tags or categories */}}
+{{ range .Params.tags | append .Params.categories }}
+    {{ $tag := . | lower }}
+    {{ range site.Data.pillar_map.mappings }}
+        {{ if in .keywords $tag }}
+            {{ $matchFound = true }}
+            {{ $mapping = . }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+{{ if $matchFound }}
+<div class="expertise-callout">
+    <div class="callout-icon">{{ $mapping.icon }}</div>
+    <div class="callout-content">
+        <span class="callout-label">{{ $mapping.label }}</span>
+        <h4 class="callout-cta">{{ $mapping.cta }}</h4>
+    </div>
+    <div class="callout-action">
+        <a href="{{ $mapping.service_url }}" class="btn-callout">View Service</a>
+    </div>
+</div>
+{{ end }}

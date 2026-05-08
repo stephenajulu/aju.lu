@@ -1,0 +1,39 @@
+{
+  "mappings": [
+    {
+      "keywords": ["cybersecurity", "security", "privacy", "anonymity", "encryption"],
+      "service_url": "/services/strategic-it-advisory/",
+      "label": "Strategic IT Advisory",
+      "cta": "Need a security audit or strategic roadmap?",
+      "icon": "🛡️"
+    },
+    {
+      "keywords": ["cloud", "infrastructure", "devops", "server", "automation", "open-source"],
+      "service_url": "/services/managed-open-source-sovereign-business-infrastructure/",
+      "label": "Sovereign Infrastructure",
+      "cta": "Ready to own your digital infrastructure?",
+      "icon": "☁️"
+    },
+    {
+      "keywords": ["web3", "blockchain", "nft", "crypto", "decentralized"],
+      "service_url": "/services/digital-data-sovereignty/",
+      "label": "Data Sovereignty",
+      "cta": "Architecting the future of decentralized data.",
+      "icon": "⛓️"
+    },
+    {
+      "keywords": ["design", "ui", "ux", "brand", "identity", "logo"],
+      "service_url": "/services/product-design-and-development/",
+      "label": "Product Design",
+      "cta": "Building impactful brands and digital experiences.",
+      "icon": "🎨"
+    },
+    {
+      "keywords": ["development", "web", "app", "software", "engineering", "jamstack"],
+      "service_url": "/services/web-development/",
+      "label": "Web Development",
+      "cta": "Engineering high-performance digital real estate.",
+      "icon": "💻"
+    }
+  ]
+}
