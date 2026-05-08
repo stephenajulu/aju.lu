@@ -8,7 +8,6 @@
       {{ .Date.Format "Jan 2, 2006 • 15:04" }}
     </time>
   </div>
-  {{ partial "backlinks.html" (dict "page" .) }}
   {{ partial "webmention.html" . }}
 </article>
 {{ end }}
