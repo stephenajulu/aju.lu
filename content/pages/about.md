@@ -10,10 +10,10 @@ description: "Meet Stephen Ajulu, a multidisciplinary architect and technologist
 
 With over a decade of hands-on experience bridging technology, engineering, design, and business, I architect and engineer systems that solve complex operational problems. My work is rooted in a single principle: **replacing fragmented technology with unified, self-sustaining ecosystems.**
 
-### 🏆 Proven Track Record (E-E-A-T)
+### Proven Track Record
 
 *   **12+ Years in Technology:** From core systems administration to high-level strategic advisory.
-*   **76+ Impactful Projects:** Successfully delivered products ranging from custom ERP implementations to sovereign cloud architectures.
+*   **76+ Impactful Projects:** Successfully delivered products ranging from contemporary branding and custom ERP implementations to sovereign cloud architectures and open source customization.
 *   **National Impact:** Currently modernizing Kenya’s national knowledge repositories as an ICT Officer at the Kenya National Library Service.
 *   **Digital Sovereignty Pioneer:** Founder of [Julz Insight](https://julzinsight.com), a firm dedicated to managed open-source infrastructure for African enterprises.
 
