@@ -1,27 +1,21 @@
-{{ $path := .Get "src" }}
-{{ $page := .Site.GetPage $path }}
-
-{{/* If not found, try stripping .md and adding /posts/ prefix if missing */}}
-{{ if not $page }}
-    {{ $path = strings.TrimSuffix ".md" $path }}
-    {{ if not (strings.HasPrefix $path "posts/") }}
-        {{ $page = .Site.GetPage (printf "posts/%s" $path) }}
-    {{ else }}
-        {{ $page = .Site.GetPage $path }}
-    {{ end }}
-{{ end }}
+{{ $id := .Get "id" }}
+{{ $page := site.GetPage (printf "posts/%s" $id) }}
 
 {{ if $page }}
-<div class="see-also-callout">
-    <div class="see-also-label">See Also</div>
-    <h4 class="see-also-title"><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></h4>
-    <p class="see-also-description">{{ $page.Description | default ($page.Summary | plainify | truncate 120) }}</p>
+<div class="see-also-preview">
+    <div class="see-also-label">Recommended Read</div>
+    <div class="see-also-body">
+        {{ if $page.Params.image }}
+        <div class="see-also-image">
+            <img src="{{ $page.Params.image | relURL }}" alt="{{ $page.Title }}" width="120" height="80">
+        </div>
+        {{ end }}
+        <div class="see-also-text">
+            <h4 class="see-also-title"><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></h4>
+            <p class="see-also-summary">{{ $page.Summary | plainify | truncate 120 }}</p>
+        </div>
+    </div>
 </div>
 {{ else }}
-    {{ warnf "see-also shortcode: could not find page at path %q" (.Get "src") }}
+    {{ warnf "See Also shortcode could not find page with id: %s" $id }}
 {{ end }}
-
-
-
-
-

@@ -368,6 +368,122 @@ ul {
     }
 }
 
+.breadcrumb {
+    margin-bottom: 25px;
+    font-size: 0.85rem;
+    color: var(--meta-color);
+
+    ol {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+
+        &:not(:last-child)::after {
+            content: "/";
+            margin: 0 10px;
+            opacity: 0.5;
+        }
+
+        a {
+            color: var(--meta-color);
+            text-decoration: none;
+            &:hover {
+                color: var(--highlight-color);
+            }
+        }
+
+        &[aria-current="page"] {
+            color: var(--text-color);
+            font-weight: 600;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 200px;
+        }
+    }
+}
+
+.see-also-preview {
+    margin: 40px 0;
+    padding: 20px;
+    background: var(--base-offset-color);
+    border-radius: 12px;
+    border: 1px solid rgba(156, 163, 175, 0.1);
+    
+    .see-also-label {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        color: var(--highlight-color);
+        font-weight: 800;
+        margin-bottom: 15px;
+    }
+
+    .see-also-body {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    .see-also-image {
+        flex-shrink: 0;
+        width: 120px;
+        height: 80px;
+        border-radius: 8px;
+        overflow: hidden;
+        
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            margin: 0 !important;
+        }
+    }
+
+    .see-also-text {
+        flex-grow: 1;
+
+        .see-also-title {
+            margin: 0 0 5px 0;
+            font-size: 1.1rem;
+            line-height: 1.3;
+            
+            a {
+                color: var(--heading-color);
+                text-decoration: none !important;
+                &:hover {
+                    color: var(--highlight-color);
+                }
+            }
+        }
+
+        .see-also-summary {
+            margin: 0;
+            font-size: 0.85rem;
+            line-height: 1.4;
+            opacity: 0.8;
+            color: var(--text-color);
+        }
+    }
+
+    @include breakpoint('small') {
+        .see-also-body {
+            flex-direction: column;
+        }
+        .see-also-image {
+            width: 100%;
+            height: 150px;
+        }
+    }
+}
+
 .service-callout {
     margin: 40px 0;
     padding: 20px 25px;
