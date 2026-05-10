@@ -70,6 +70,11 @@
     {{ with .Site.Params.author.name }}<meta name="author" content="{{ . }}">{{ end }}
     <link href="https://github.com/{{ .Site.Params.creator }}" rel="me">
     <link href="https://twitter.com/{{ replace .Site.Params.twitter_handle "@" "" }}" rel="me">
+    
+    {{/* Fix thin content/taxonomy bloat for SEO */}}
+    {{ if or (eq .Kind "taxonomy") (eq .Kind "term") }}
+      <meta name="robots" content="noindex, follow">
+    {{ end }}
   {{ end }}
 
   {{ if and .Site.Params.googleFontsUrl .Site.Params.enableGoogleFonts }}
