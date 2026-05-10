@@ -56,7 +56,7 @@ If _`wsl --set-default-version`_ results as an invalid command, enter _`wsl --he
 
 #### Install your Linux distribution of choice
 
-1. Open the [Microsoft Store](https://aka.ms/wslstore) and select your favorite Linux distribution. ![View of Linux distributions in the Microsoft Store](https://docs.microsoft.com/en-us/windows/wsl/media/store.png) The following links will open the Microsoft store page for each distribution:
+1. Open the [Microsoft Store](https://aka.ms/wslstore) and select your favorite Linux distribution. ![View of Linux distributions in the Microsoft Store](https://docs.microsoft.com/en-us/windows/wsl/media/store.webp) The following links will open the Microsoft store page for each distribution:
    * [Ubuntu 16.04 LTS](https://www.microsoft.com/store/apps/9pjn388hp8c9)
    * [Ubuntu 18.04 LTS](https://www.microsoft.com/store/apps/9N9TNGVNDL3Q)
    * [Ubuntu 20.04 LTS](https://www.microsoft.com/store/apps/9n6svws3rx71)
@@ -72,7 +72,7 @@ If _`wsl --set-default-version`_ results as an invalid command, enter _`wsl --he
 
 For a development environment i recommend [**Ubuntu**](https://www.microsoft.com/store/apps/9n6svws3rx71) and for Hacking i recommend [**Kali Linux**](https://www.microsoft.com/store/apps/9PKR34TNCV07). But feel free to choose any you like. Linux is linux and we will be working mostly on the terminal.
 
-1. From the distribution’s page, select “Get”. ![Linux distributions in the Microsoft store](https://docs.microsoft.com/en-us/windows/wsl/media/ubuntustore.png)
+1. From the distribution’s page, select “Get”. ![Linux distributions in the Microsoft store](https://docs.microsoft.com/en-us/windows/wsl/media/ubuntustore.webp)
 
 #### Set up a new distribution
 
@@ -80,7 +80,7 @@ The first time you launch a newly installed Linux distribution, a console window
 
 You will then need to [create a user account and password for your new Linux distribution](https://docs.microsoft.com/en-us/windows/wsl/user-support).
 
-![Ubuntu unpacking in the Windows console](https://docs.microsoft.com/en-us/windows/wsl/media/ubuntuinstall.png)
+![Ubuntu unpacking in the Windows console](https://docs.microsoft.com/en-us/windows/wsl/media/ubuntuinstall.webp)
 
 #
 

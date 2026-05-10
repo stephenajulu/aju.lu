@@ -20,17 +20,17 @@ To keep your site fast and achieve high scores on Google PageSpeed Insights, you
 Instead of standard Markdown like `![Alt](path)`, use this:
 
 ```markdown
-{{< img src="images/me.jpg" alt="Stephen Ajulu" >}}
+{{< img src="images/me.webp" alt="Stephen Ajulu" >}}
 ```
 
 *Note: The `src` path should be relative to the `assets/` or `static/` directory depending on where you store them, but it works best with images in `assets/` for full processing.*
 
 ## Example in Action
 
-{{< img src="images/me.jpg" alt="Stephen Ajulu" class="author-demo" >}}
+{{< img src="images/me.webp" alt="Stephen Ajulu" class="author-demo" >}}
 
 You can also pass a custom CSS class:
 
 ```markdown
-{{< img src="images/me.jpg" alt="Alt text" class="my-custom-class" >}}
+{{< img src="images/me.webp" alt="Alt text" class="my-custom-class" >}}
 ```

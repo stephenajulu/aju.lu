@@ -24,7 +24,7 @@ Here's the code:
         "name": "Ajulu's Thoughts",
         "url": "https://ajulusthoughts.stephenajulu.com",
         "description": "Tech, Lifestyle, Cybersecurity, Finance, Design, Dev Among Other Thoughts with Ajulu.",
-        "thumbnailUrl": "https://ajulusthoughts.stephenajulu.com/logo.png"
+        "thumbnailUrl": "https://ajulusthoughts.stephenajulu.com/logo.webp"
     }
     </script>
     {{ end }}
@@ -70,7 +70,7 @@ Here's the code:
     			"url": "https://ajulusthoughts.stephenajulu.com",
     			"logo": {
     				"@type": "ImageObject",
-    				"url": "https://ajulusthoughts2-1.netlify.app/logo.png",
+    				"url": "https://ajulusthoughts2-1.netlify.app/logo.webp",
     			}
     		},
     		"mainEntityOfPage": "True",

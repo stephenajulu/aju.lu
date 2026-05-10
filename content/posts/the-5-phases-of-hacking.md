@@ -66,7 +66,7 @@ You could possibly leave your mark behind by doing that which could lead you to 
 
 ## **2. Scanning**
 
-![](https://hackingpress.com/wp-content/uploads/2018/07/scanning-discovering-more-useful-inforamtion-300x248.jpg)
+![](https://hackingpress.com/wp-content/uploads/2018/07/scanning-discovering-more-useful-inforamtion-300x248.webp)
 
 Now based on the information that we gather via our reconnaissance our **next phase is scanning.** In the scanning phase, we use different tools to gather more information about the target.
 
@@ -90,7 +90,7 @@ The result of this phase is that we get to know the entire **network infrastruct
 
 ## **3. Gaining Access**
 
-![](https://hackingpress.com/wp-content/uploads/2018/07/getting-into-the-syste-gaining-access-300x198.jpg)
+![](https://hackingpress.com/wp-content/uploads/2018/07/getting-into-the-syste-gaining-access-300x198.webp)
 
 So this is the **phase were real hacking takes place.** In this phase, we try to get into the system using the vulnerabilities discovered during the scanning phase. As an attacker, we try to figure out a path for getting into the network infrastructure to take control of our hands.
 
@@ -110,7 +110,7 @@ We can then use those vulnerabilities to gain access to the system and complete 
 
 ## **4. Maintaining Access**
 
-![](https://hackingpress.com/wp-content/uploads/2018/07/maintaining-access-to-the-system-300x210.jpg)
+![](https://hackingpress.com/wp-content/uploads/2018/07/maintaining-access-to-the-system-300x210.webp)
 
 After penetrating into the network and gaining the access to a system; we now try to **maintain that access.**
 
@@ -128,7 +128,7 @@ _Some examples of tools:_
 
 ## **5. Clearing Tracks**
 
-![](https://hackingpress.com/wp-content/uploads/2018/07/clearing-or-covering-tracks-300x193.jpg)
+![](https://hackingpress.com/wp-content/uploads/2018/07/clearing-or-covering-tracks-300x193.webp)
 
 This is the **last phase of hacking**—covering or **clearing our tracks.** The goal of this phase is to not be noticed by the IT professionals of the target network.
 
@@ -140,7 +140,7 @@ Another aspect of covering one’s tracks would be to make sure that **any syste
 
 **Now one thing to note is that all hackers use this procedure, be it black hat hackers, grey hat hackers and white hat hackers.** **The only exception is that when the hacker already knows the target or if the hacker is a** [**script kiddie**](https://ajulusthoughts.wordpress.com/2019/01/05/types-of-hackers-which-hat-fits-you/). **Post on the steps/procedure commonly used by ethical/white hat hackers coming soon.**
 
-![](https://ajulusthoughts.files.wordpress.com/2020/03/five-phases-hacking.w1456.jpg?w=548)
+![](https://ajulusthoughts.files.wordpress.com/2020/03/five-phases-hacking.w1456.webp?w=548)
 
 #### How to Protect Yourself and Your Organization in/from Each Step Coming Soon! Stay Tuned!
 

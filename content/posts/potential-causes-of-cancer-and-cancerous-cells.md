@@ -21,7 +21,7 @@ Today, I'll cover some potential cancer causes that you should avoid or limit. M
 
 We already know that seed oils especially canola, sunflower, safflower, cottonseed, rapeseed, soybean, and similar are unstable. They go through a long process; the end result is what most people use for cooking.
 
-![](https://www.sunfloweroilextractionmachine.com/uploads/allimg/181120/1-1Q1201J242K2.jpg)
+![](https://www.sunfloweroilextractionmachine.com/uploads/allimg/181120/1-1Q1201J242K2.webp)
 
 Here's an excerpt from the [National Library of Medicine](https://pubmed.ncbi.nlm.nih.gov/28925728/) on the reason why seed oils could possibly be a cause of cancer:
 
@@ -75,7 +75,7 @@ Excerpt from [Kesser Institute](https://kresserinstitute.com/what-really-causes-
 >
 > However, omega-6 in and of itself may not be the problem; it’s the way omega-6 fatty acids are handled during processing and cooking that cause them to become damaged and pro-inflammatory. We needn’t vilify all forms of omega-6 fatty acids. While it is best to avoid industrial vegetable oils entirely, fresh, whole foods high in omega-6, such as poultry, avocados, and nuts, can be part of a healthy diet. For more information on omega-6 fatty acids, see my previous blog post “[**An Update on Omega-6 PUFAs**](https://chriskresser.com/an-update-on-omega-6-pufas/).”
 
-![](https://uploads-ssl.webflow.com/5e20f576d0e9d12be5abc763/5eb443eea10ed68224543608_1*XWZ8PCsS1-qnWhWXo7vwUQ.png)
+![](https://uploads-ssl.webflow.com/5e20f576d0e9d12be5abc763/5eb443eea10ed68224543608_1*XWZ8PCsS1-qnWhWXo7vwUQ.webp)
 
 I'd suggest you switch to Butter, Ghee, Lard, Avocado, and/or Olive oil.
 

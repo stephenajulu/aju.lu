@@ -18,7 +18,7 @@ DevOps is an approach to software development that emphasizes communication, col
 
 <img src="https://lh5.googleusercontent.com/McOnwyGo1rd2OzZ6281Tu5Tf8wCJBo7yGCe5Wk1gpm82jvKpAnFG3aDHxjfSJmArLS_uPNUuydZdu1EjaWpF-YEtWXJLpmxupqexU_Qqbi46pKhbGKiJDtzHAeVryVcBl85fItHF5q7licTpZ-4msB8M63hBdEly2Fe-OpGhWNO_uIZLJyc3Keq1QNHg" width="624px">
 
-[Image Source](https://media.kasperskycontenthub.com/wp-content/uploads/sites/103/2021/07/14123107/devsecops2.png)
+[Image Source](https://media.kasperskycontenthub.com/wp-content/uploads/sites/103/2021/07/14123107/devsecops2.webp)
 
 DevSecOps, being an extension of the DevOps philosophy, places an emphasis on security. In other words, DevSecOps integrates security into the software development life cycle. By doing so, security risks can be identified and mitigated early on—before they cause major problems.
 
@@ -36,7 +36,7 @@ In today's increasingly interconnected world, data breaches are becoming more an
 
 <img src="https://lh6.googleusercontent.com/xeZXJjoxVh4UDqG_Q3XwubicMTSQoCETf-B2YtrXTW39ZyHzBL6_fzAJ1OHvdoLN4ix2Ht4FsGa5p9dCNUVVys5QB1L_tSjkQbo-BDW-Rvrq723FLcg7MOp9_fVqP28uS5hBaRc2SJ-hxwWrmrK5zT4evxknOxp40p2IdGhvlKBaI8DBSgHM848kLHzC" width="624">
 
-[Image Source](https://www.gannett-cdn.com/-mm-/0f85d771f147779145e2684ebfe0b1a34b94bc38/c=0-284-4365-2750/local/-/media/2017/09/15/USATODAY/USATODAY/636410796461382080-EQUIFAX-NYSE.JPG?width=660&height=373&fit=crop&format=pjpg&auto=webp)
+[Image Source](https://www.gannett-cdn.com/-mm-/0f85d771f147779145e2684ebfe0b1a34b94bc38/c=0-284-4365-2750/local/-/media/2017/09/15/USATODAY/USATODAY/636410796461382080-EQUIFAX-NYSE.webp?width=660&height=373&fit=crop&format=pjpg&auto=webp)
 
 By implementing a DevSecOps approach to software development, businesses can help mitigate the risk of data breaches by building security into their applications from the ground up. By taking a proactive approach to cybersecurity, businesses can protect themselves—and their customers—from costly data breaches.
 

@@ -42,7 +42,7 @@ The effort you put into consistently investing in yourself will also play a larg
 
 The surest way to achieve a better quality life, to be successful, productive, and satisfied is to place a priority on investing in both personal and professional growth. The effort you put into consistently investing in yourself plays a large role in determining the quality of your life now and in the future.
 
-![](https://ajulusthoughts.files.wordpress.com/2019/07/bronzeman.jpeg)
+![](https://ajulusthoughts.files.wordpress.com/2019/07/bronzeman.webp)
 
 Consider these:-
 

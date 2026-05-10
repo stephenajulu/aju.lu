@@ -66,7 +66,7 @@ Our modern bodies bare the genetic inheritance of our “[lipivore](https://www.
 
 In the context of human [dietary evolution](https://www.doctorkiltz.com/keto-diet-and-evolution/), it was our scavenging of fatty bone meats and brains leftover from the kills of other predators that directly fueled our rapid brain development. [\[3\]](https://www.doctorkiltz.com/is-animal-fat-good-for-you/#origins-of-the-human-predatory-pattern-the-transition-to-large-animal-exploitation-by-early-hominins "Origins of the Human Predatory Pattern: The Transition to Large-Animal Exploitation by Early Hominins")
 
-_![percussive tool and bone meats](https://www.doctorkiltz.com/wp-content/uploads/2022/05/Screen-Shot-2022-05-13-at-11.37.53-AM-1030x563.png =1030x563)_
+_![percussive tool and bone meats](https://www.doctorkiltz.com/wp-content/uploads/2022/05/Screen-Shot-2022-05-13-at-11.37.53-AM-1030x563.webp =1030x563)_
 
 Source: Amber O’Hearn
 
@@ -74,7 +74,7 @@ Our massive, fat-fueled brains are what separates us from our primate ancestors.
 
 **Our ability to prioritize fat as a primary fuel source and feed our brains is, from a metabolic perspective, what makes us human.**
 
-![Figure-1-Human-brain-Dr.-Miki-Ben-Dor-1536x689](https://www.doctorkiltz.com/wp-content/uploads/2022/06/Figure-1-Human-brain-Dr.-Miki-Ben-Dor-1536x689-1-1030x462.jpg =1030x462)
+![Figure-1-Human-brain-Dr.-Miki-Ben-Dor-1536x689](https://www.doctorkiltz.com/wp-content/uploads/2022/06/Figure-1-Human-brain-Dr.-Miki-Ben-Dor-1536x689-1-1030x462.webp =1030x462)
 
 From this historical dietary perspective, animal fat is good for you. To vilify animal fats would be oddly suspicious of the body in the context of dietary evolution.
 
@@ -213,7 +213,7 @@ Ever since the 1960’s animal fat has been public health enemy number one. This
 
 When heart disease was on the rise, the American public was seduced by Keys’ career-defining hypothesis that heart disease rates correlated with the consumption of saturated fats mainly from animal foods. Upon publication of his study, he was rewarded with a Time Magazine cover.
 
-![Ansel Keys time magaize cover image](https://www.doctorkiltz.com/wp-content/uploads/2022/06/keys-1024x768-1.jpg =1024x768)
+![Ansel Keys time magaize cover image](https://www.doctorkiltz.com/wp-content/uploads/2022/06/keys-1024x768-1.webp =1024x768)
 
 Source: [Dr. Cate Shanahan](https://drcate.com/why-cholesterol-is-good/)
 
@@ -221,25 +221,25 @@ Keys’ study with its demonization of animal fat and its recommendation to repl
 
 You can [learn more about why vegetable oil is bad for you here](https://www.doctorkiltz.com/is-vegetable-oil-bad-for-you/).
 
-![chart showing countries included and omitted in ansel keys seven countries study](https://www.doctorkiltz.com/wp-content/uploads/2022/05/Screen-Shot-2022-05-28-at-11.54.16-AM-1030x858.png =1030x858)
+![chart showing countries included and omitted in ansel keys seven countries study](https://www.doctorkiltz.com/wp-content/uploads/2022/05/Screen-Shot-2022-05-28-at-11.54.16-AM-1030x858.webp =1030x858)
 
 One major problem with Keys’ study is that it omitted countries (and traditional cultures studied by pioneering researcher [Weston A. Price](https://www.doctorkiltz.com/weston-a-price-diet/)) that consumed high amounts of animal fats and had very low incidences of heart disease.
 
 The red dots in the chart below represent the traditional Tokelau, Masai, and Inuit populations who consume “extremely” high percentages of saturated fat yet have extremely low rates of heart disease, cancer, stroke, and diabetes.
 
-![chart of ansel keys study including Tokelau, Masai, and Inuit](https://www.doctorkiltz.com/wp-content/uploads/2022/05/Screen-Shot-2022-05-28-at-11.55.52-AM-1030x653.png =1030x653)  
-![is animal fat good for you chart of countries who consume more animal fat](https://www.doctorkiltz.com/wp-content/uploads/2022/06/Screen-Shot-2022-06-02-at-7.26.52-PM-1030x820.png =1030x820)  
+![chart of ansel keys study including Tokelau, Masai, and Inuit](https://www.doctorkiltz.com/wp-content/uploads/2022/05/Screen-Shot-2022-05-28-at-11.55.52-AM-1030x653.webp =1030x653)  
+![is animal fat good for you chart of countries who consume more animal fat](https://www.doctorkiltz.com/wp-content/uploads/2022/06/Screen-Shot-2022-06-02-at-7.26.52-PM-1030x820.webp =1030x820)  
 As you can see from the modern data when looking at the European continent the more animal fat populations consume the less heart disease they suffer.[ \[33\]](https://www.doctorkiltz.com/is-animal-fat-good-for-you/#further-response-from-hoenselaar-published-online-by-cambridge-university-press-01-march-2012 "Further response from Hoenselaar Published online by Cambridge University Press: 01 March 2012")
 
 Suffice it to say, popular media and the American Heart Association (funded in part by Crisco!) ran with Keys’ hypothesis, and his recommendations have brainwashed generations of Americans to fear healthy animal fats. And the results have been catastrophic.
 
 In the graphs below you can chart a correlation between the reduction in animal fat intake over the last century, the substitution of PUFA from vegetable and seed oils, and a spike in the diseases of civilization.
 
-![graph showing reduction in animal fat intake](https://www.doctorkiltz.com/wp-content/uploads/2022/06/croissant_animal.png =430x313)
+![graph showing reduction in animal fat intake](https://www.doctorkiltz.com/wp-content/uploads/2022/06/croissant_animal.webp =430x313)
 
-![graph showing increase in PUFA intake](https://www.doctorkiltz.com/wp-content/uploads/2022/06/croissant_pufa.png =417x356)
+![graph showing increase in PUFA intake](https://www.doctorkiltz.com/wp-content/uploads/2022/06/croissant_pufa.webp =417x356)
 
-![graph showing changing disease types over time in America](https://www.doctorkiltz.com/wp-content/uploads/2022/06/Screen-Shot-2021-12-04-at-12.20.36-PM-1030x593-1.png =1030x593)
+![graph showing changing disease types over time in America](https://www.doctorkiltz.com/wp-content/uploads/2022/06/Screen-Shot-2021-12-04-at-12.20.36-PM-1030x593-1.webp =1030x593)
 
 ## Modern Science on Animal Fat and Health
 
@@ -247,19 +247,19 @@ In the graphs below you can chart a correlation between the reduction in animal 
 
 Current studies with over 1 million participants have determined that for the average person, [saturated fat](https://www.doctorkiltz.com/saturated-fat/) from mostly animal sources is not associated with heart disease, cancer, stroke, diabetes, and death from a heart attack [\[34\]](https://www.doctorkiltz.com/is-animal-fat-good-for-you/#reduction-in-saturated-fat-intake-for-cardiovascular-disease "Reduction in saturated fat intake for cardiovascular disease") [\[35\]](https://www.doctorkiltz.com/is-animal-fat-good-for-you/#intake-of-saturated-and-trans-unsaturated-fatty-acids-and-risk-of-all-cause-mortality-cardiovascular-disease-and-type-2-diabetes-systematic-review-and-meta-analysis-of-observational-studies "Intake of saturated and trans unsaturated fatty acids and risk of all cause mortality, cardiovascular disease, and type 2 diabetes: systematic review and meta-analysis of observational studies") [\[36\]](https://www.doctorkiltz.com/is-animal-fat-good-for-you/#meta-analysis-of-prospective-cohort-studies-evaluating-the-association-of-saturated-fat-with-cardiovascular-disease12345 "Meta-analysis of prospective cohort studies evaluating the association of saturated fat with cardiovascular disease1,2,3,4,5") [\[37\]](https://www.doctorkiltz.com/is-animal-fat-good-for-you/#association-of-dietary-circulating-and-supplement-fatty-acids-with-coronary-risk-a-systematic-review-and-meta-analysis " Association of dietary, circulating, and supplement fatty acids with coronary risk: a systematic review and meta-analysis") [\[38\]](https://www.doctorkiltz.com/is-animal-fat-good-for-you/#effect-of-the-amount-and-type-of-dietary-fat-on-cardiometabolic-risk-factors-and-risk-of-developing-type-2-diabetes-cardiovascular-diseases-and-cancer-a-systematic-review "Effect of the amount and type of dietary fat on cardiometabolic risk factors and risk of developing type 2 diabetes, cardiovascular diseases, and cancer: a systematic review")
 
-![title of study on reassessment of guidelines on consuming animal fats](https://www.doctorkiltz.com/wp-content/uploads/2022/06/Screen-Shot-2022-06-02-at-10.03.33-PM-1030x586.png =1030x586)
+![title of study on reassessment of guidelines on consuming animal fats](https://www.doctorkiltz.com/wp-content/uploads/2022/06/Screen-Shot-2022-06-02-at-10.03.33-PM-1030x586.webp =1030x586)
 
 This 2020 study co-authored by researchers from leading medical schools around the world found that “Although intake of processed meat has been associated with increased risk of CHD, intake of unprocessed[ red meat](https://www.doctorkiltz.com/is-red-meat-bad-for-you/) is not, which indicates that the saturated fat content of meat is unlikely to be responsible for this association”.[ \[39\]](https://www.doctorkiltz.com/is-animal-fat-good-for-you/#saturated-fats-and-health-a-reassessment-and-proposal-for-food-based-recommendations-jacc-state-of-the-art-review "Saturated Fats and Health: A Reassessment and Proposal for Food-Based Recommendations: JACC State-of-the-Art Review")
 
 “Whole-fat dairy, unprocessed meat, and dark chocolate are SFA-rich foods with a complex matrix (of nutrients) that are not associated with an increased risk of CVD. “The totality of available evidence does not support further limiting the intake of such foods.”
 
-![title of study showing negative impacts of substituting lean meat for meat high in animal fats](https://www.doctorkiltz.com/wp-content/uploads/2022/06/Screen-Shot-2022-06-02-at-10.07.34-PM.png =950x410)
+![title of study showing negative impacts of substituting lean meat for meat high in animal fats](https://www.doctorkiltz.com/wp-content/uploads/2022/06/Screen-Shot-2022-06-02-at-10.07.34-PM.webp =950x410)
 
 This Dutch study from 2016 found that though total saturated fat intake is not related to incidences of heart disease, substituting animal protein for animal fat may increase your risk of heart disease.[ \[40\]](https://www.doctorkiltz.com/is-animal-fat-good-for-you/#dietary-saturated-fatty-acids-and-coronary-heart-disease-risk-in-a-dutch-middle-aged-and-elderly-population "Dietary Saturated Fatty Acids and Coronary Heart Disease Risk in a Dutch Middle-Aged and Elderly Population")
 
 As you can see below, unfortunately, people have been heading guidelines to eat leaner meat.
 
-![graph showing total types of meat consumption in america](https://www.doctorkiltz.com/wp-content/uploads/2022/06/total-meat-consumption.png =545x500)
+![graph showing total types of meat consumption in america](https://www.doctorkiltz.com/wp-content/uploads/2022/06/total-meat-consumption.webp =545x500)
 
 ## Is Animal Fat Good For You: The Takeaway
 

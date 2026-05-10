@@ -179,7 +179,7 @@ According to [Glassdoor](https://www.glassdoor.ca/Salaries/san-francisco-smart-c
 
 As their name suggests, smart contract developers are responsible for developing smart contracts for blockchain platforms. They use various programming languages, such as Solidity and Vyper, to create smart contracts, which, as we covered above, are blockchain programs that automatically run when conditions are met.
 
-![](https://assets-global.website-files.com/60f5b6738a95b57fe76faba5/62bb49ce59a5e780a8dcfe2d_Hire%20Web3%20Developers%20Salary%2C%20Skills%20and%20More.png)
+![](https://assets-global.website-files.com/60f5b6738a95b57fe76faba5/62bb49ce59a5e780a8dcfe2d_Hire%20Web3%20Developers%20Salary%2C%20Skills%20and%20More.webp)
 
 Unlike blockchain software developers who create dApps as well as smart contracts, smart contract developers are only responsible for designing and building smart contracts architecture and related tasks. As such, they have fewer responsibilities and lower salaries.
 

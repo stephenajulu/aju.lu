@@ -7,9 +7,9 @@ draft: false
 
 It’s 2020, new technologies are emerging and the most hyped technologies of 2019 that failed have been set up to succeed this year.
 
-![](https://ajulusthoughts.files.wordpress.com/2020/01/2018-gartner-hype-cycle.png?w=850)
+![](https://ajulusthoughts.files.wordpress.com/2020/01/2018-gartner-hype-cycle.webp?w=850)
 
-![](https://ajulusthoughts.files.wordpress.com/2020/01/2019-garnter-hype-cycle-a.png?w=850)
+![](https://ajulusthoughts.files.wordpress.com/2020/01/2019-garnter-hype-cycle-a.webp?w=850)
 
 We are amidst the 4th Industrial Revolution, and technology is evolving faster than ever.
 
@@ -27,7 +27,7 @@ The 5th generation of mobile internet connectivity is going to give us super-fas
 
 Safaricom was recently seen testing 5G thanks to Huawei. You can read more about this here: [**Safaricom Planning To Launch 5G**](https://techweez.com/2020/01/14/safaricom-spotted-testing-5g-kenya/)
 
-![](https://ajulusthoughts.files.wordpress.com/2020/01/safaricom-huawei-5g.png?w=540)
+![](https://ajulusthoughts.files.wordpress.com/2020/01/safaricom-huawei-5g.webp?w=540)
 
 Super-fast data networks will not only give us the ability to stream movies and music at higher quality when we’re on the move. The greatly increased speeds mean that mobile networks will become more usable even than the wired networks running into our homes and businesses. Companies must consider the business implications of having super-fast and stable internet access anywhere. The increased bandwidth will enable machines, robots, and autonomous vehicles to collect and transfer more data than ever, leading to advances in the area of the Internet of Things (IoT) and smart machinery.
 
@@ -53,7 +53,7 @@ Here are the versions of Wi-Fi you’ll be seeing:
 
 While announcing its snapdragon 865 SoC chips, Qualcomm promises that the chip will enable smartphone cameras to record up to 8K videos. Since the chips will be released in the first quarter of 2020, it is likely that android phones manufacturers will rush to use the chip. Current Constraints however tell us that 8K isn’t really needed since average users cant differentiate between 8K and 4K. Let’s not forget the storage needs. But we hope this will be the basis for 8K VR and AR.
 
-![](https://ajulusthoughts.files.wordpress.com/2020/01/djiasfhji.jpg?w=300)
+![](https://ajulusthoughts.files.wordpress.com/2020/01/djiasfhji.webp?w=300)
 
 ### Autonomous Driving
 
@@ -63,7 +63,7 @@ Tesla chief Elon Musk has [said](https://www.wired.com/story/elon-musk-tesla-ful
 
 It won’t just be cars, of course – trucking and shipping are becoming more autonomous, and breakthroughs in this space are likely to continue to hit the headlines throughout 2020.
 
-![](https://ajulusthoughts.files.wordpress.com/2020/01/p90276442_highres_bmwi-vision-dynamics.jpg?w=850)
+![](https://ajulusthoughts.files.wordpress.com/2020/01/p90276442_highres_bmwi-vision-dynamics.webp?w=850)
 
 With the maturing of autonomous driving technology, we will also increasingly hear about the measures that will be taken by regulators, legislators, and authorities. Changes to laws, existing infrastructure, and social attitudes are all likely to be required before autonomous driving becomes a practical reality for most of us. During 2020, it’s likely we will start to see the debate around autonomous driving spread outside of the tech world, as more and more people come round to the idea that the question is not “if,” but “when,” it will become a reality.
 
@@ -75,7 +75,7 @@ New sensor technologies and tracking technologies such as SLAM are making wheele
 
 Of course cargo drones will take another year to finally reach Kenya but as a country let’s embrace manufacturing and it’s many forms eg Small Scale Home Manufacturing(Post coming soon on this). Over the decades we’ve seen Kenyans create Passenger Drones, hopefully we are not far from Jumia, KiliMall and other from delivering using drones.
 
-![](https://ajulusthoughts.files.wordpress.com/2020/01/jkhferds.jpg?w=1024)
+![](https://ajulusthoughts.files.wordpress.com/2020/01/jkhferds.webp?w=1024)
 
 ### **Nanoscale 3D Printing**
 
@@ -114,7 +114,7 @@ I will soon divulge deeper into this topic. So expect a blockchain article very 
 
 ### AI for Everyone
 
-![](https://ajulusthoughts.files.wordpress.com/2020/01/nvidia-titan-v.jpg?w=850)
+![](https://ajulusthoughts.files.wordpress.com/2020/01/nvidia-titan-v.webp?w=850)
 
 The top identified trend by Gartner was “Democratized AI”—essentially, artificial intelligence made widely available. Advancements in robotics, cloud computing, AI Platform as a Service (PaaS), and of course autonomous driving are all driving this trend. According to Mike J. Walker, research vice president at Gartner, “Technologies representing democratized AI populate three out of five sections on the Hype Cycle, and some of them, such as deep neural nets and virtual assistants, will reach mainstream adoption in the next two to five years…Other emerging technologies of that category, such as smart robots or AI PaaS, are also moving rapidly through the Hype Cycle, approaching the peak, and will soon have crossed it.” No doubt the emergence of dedicated processors [optimized for AI](https://www.designnews.com/electronics-test/battle-ai-processors-begins-2018/212131505757984) applications, such as the Titan GPUs offered by Nvidia (shown), is playing a big role here.
 
@@ -138,7 +138,7 @@ If graphene had merely one of its many superlative traits, it would be the subje
 
 ##### Flexible electronics
 
-[![grapheneflexible](https://img.digitaltrends.com/image/grapheneflexible-640x640.png)](https://icdn7.digitaltrends.com/image/digitaltrends/grapheneflexible-838x559.png)BONNINSTUDIO / Shutterstock
+[![grapheneflexible](https://img.digitaltrends.com/image/grapheneflexible-640x640.webp)](https://icdn7.digitaltrends.com/image/digitaltrends/grapheneflexible-838x559.webp)BONNINSTUDIO / Shutterstock
 
 In addition to its powerful electrical properties, graphene is also highly flexible and transparent. This makes it attractive for use in portable electronics. Smartphones and tablets could become much more durable using graphene, and perhaps could even be folded up like paper. Wearable electronic devices have been growing in popularity recently. With graphene, these devices could be made even more useful, designed to fit snugly around limbs and bending to accommodate various forms of exercise.
 
@@ -146,7 +146,7 @@ Graphene’s flexibility and microscopic width provide opportunities beyond mere
 
 ##### Solar cells/photovoltaics
 
-[![solarpanelsexample](https://img.digitaltrends.com/image/solarpanelsexample-640x640.jpg)](https://icdn8.digitaltrends.com/image/digitaltrends/solarpanelsexample-998x665.jpg)Pedrosala / Shutterstock
+[![solarpanelsexample](https://img.digitaltrends.com/image/solarpanelsexample-640x640.webp)](https://icdn8.digitaltrends.com/image/digitaltrends/solarpanelsexample-998x665.webp)Pedrosala / Shutterstock
 
 Graphene is both highly conductive and transparent. As such, it has great potential as a material in solar cells. Typically, solar cells use silicon, which produces a charge when a photon hits the materials, knocking loose a free electron. Silicon only releases one electron per photon that hits it. Research has indicated that graphene can release multiple electrons for each photon that hits it. As such, graphene could be far better at converting solar energy. Before long, cheaper, more powerful graphene cells could produce a massive surge in renewable energy.
 
@@ -154,7 +154,7 @@ Graphene’s photovoltaic properties also mean that it could be used to develop 
 
 ##### Semiconductors
 
-[![semiconductor example](https://img.digitaltrends.com/image/semiconductor-example-640x640.png)](https://icdn9.digitaltrends.com/image/digitaltrends/semiconductor-example-997x665.png)Torsak Thammachote / Shutterstock
+[![semiconductor example](https://img.digitaltrends.com/image/semiconductor-example-640x640.webp)](https://icdn9.digitaltrends.com/image/digitaltrends/semiconductor-example-997x665.webp)Torsak Thammachote / Shutterstock
 
 Due to its high conductivity, graphene could be used in semiconductors to greatly increase the speed at which information travels. Recently the Department of Energy conducted tests that demonstrated that semi-conductive polymers conduct electricity much faster when placed atop a layer of graphene than a layer of silicon. This holds true even if the polymer is thicker. A polymer 50-nanometers thick, when placed on top of a graphene layer, conducted a charge better than a 10-nanometer layer of the polymer. This flew in the face of previous wisdom which held that the thinner a polymer is, the better it can conduct charge.
 
@@ -164,7 +164,7 @@ Researchers have been testing a variety of methods to give graphene a band gap; 
 
 ##### Water filtration
 
-[![waterfiltration](https://img.digitaltrends.com/image/waterfiltration-640x640.jpg)](https://icdn1.digitaltrends.com/image/digitaltrends/waterfiltration-1000x667.jpg)A_Lesik / Shutterstock
+[![waterfiltration](https://img.digitaltrends.com/image/waterfiltration-640x640.webp)](https://icdn1.digitaltrends.com/image/digitaltrends/waterfiltration-1000x667.webp)A_Lesik / Shutterstock
 
 A_Lesik / Shutterstock
 

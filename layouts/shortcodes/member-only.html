@@ -21,6 +21,8 @@
             const user = window.netlifyIdentity && netlifyIdentity.currentUser();
             const isPremium = user && user.app_metadata && user.app_metadata.roles && user.app_metadata.roles.includes('premium');
             
+            console.log("Member Gate: Checking access. User:", user ? user.email : "Logged Out", "Premium:", isPremium);
+
             document.querySelectorAll('.member-gate').forEach(gate => {
                 const unlocked = gate.querySelector('.unlocked-content');
                 const locked = gate.querySelector('.locked-message');
@@ -34,10 +36,20 @@
             });
         }
 
+        // Run immediately if possible
         if (window.netlifyIdentity) {
+            checkAccess();
             netlifyIdentity.on('init', checkAccess);
             netlifyIdentity.on('login', checkAccess);
             netlifyIdentity.on('logout', checkAccess);
+        } else {
+            // Wait for it to load
+            document.addEventListener('DOMContentLoaded', () => {
+                if (window.netlifyIdentity) {
+                    checkAccess();
+                    netlifyIdentity.on('init', checkAccess);
+                }
+            });
         }
     })();
 </script>

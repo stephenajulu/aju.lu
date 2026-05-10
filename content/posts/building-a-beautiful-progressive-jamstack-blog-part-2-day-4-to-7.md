@@ -50,9 +50,9 @@ Here’s where the knowledge of Day 4 come to play.
 
 Now to the good relationship i have discovered between hugo shortcodes and forestry snippets.
 
-![github hugo shortcodes](https://ajulusthoughts.files.wordpress.com/2020/04/screenshot_2020-04-05-stephenajulu-ajulusthoughts1-hugo-shortcodes.png?w=1012 "Hugo Shortcodes")
+![github hugo shortcodes](https://ajulusthoughts.files.wordpress.com/2020/04/screenshot_2020-04-05-stephenajulu-ajulusthoughts1-hugo-shortcodes.webp?w=1012 "Hugo Shortcodes")
 
-![github forestry snippets](https://ajulusthoughts.files.wordpress.com/2020/04/screenshot_2020-04-05-stephenajulu-ajulusthoughts1-forestry-snippets.png?w=1012 "Forestry Snippet")
+![github forestry snippets](https://ajulusthoughts.files.wordpress.com/2020/04/screenshot_2020-04-05-stephenajulu-ajulusthoughts1-forestry-snippets.webp?w=1012 "Forestry Snippet")
 
 As you can see for every shortcode there’s a snippet, that’s because shortcodes usually have a small piece of code to embed in the page you want it to be activated.
 

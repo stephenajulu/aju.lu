@@ -34,7 +34,7 @@ Chemicals are an essential component of our daily lives. But some chemicals, kno
 ### What are some of the known endocrine disruptors found in cosmetic and grooming products?
 
 {{% figure
-src="https://www.intechopen.com/media/chapter/72654/media/Table2.png"
+src="https://www.intechopen.com/media/chapter/72654/media/Table2.webp"
 alt="Most common endocrine disrupting chemicals in cosmetics and personal care products"
 caption="Most common endocrine disrupting chemicals in cosmetics and personal care products. Trade name, CAS number and demonstrated hormonal activities."
 %}}
@@ -104,13 +104,13 @@ caption="Most common endocrine disrupting chemicals in cosmetics and personal ca
 **_Deltamethrin_**
 
 {{% figure
-src="https://www.intechopen.com/media/chapter/72654/media/Table3.png"
+src="https://www.intechopen.com/media/chapter/72654/media/Table3.webp"
 alt="Some adverse effects of EDCs in humans."
 caption="Some adverse effects of EDCs in humans."
 %}}
 
 {{% figure
-src="https://www.intechopen.com/media/chapter/72654/media/Table4.png"
+src="https://www.intechopen.com/media/chapter/72654/media/Table4.webp"
 alt="Studies exploring associations between exposure to cosmetics- and PCPs-released EDCs and endometriosis."
 caption="Studies exploring associations between exposure to cosmetics- and PCPs-released EDCs and endometriosis."
 %}}

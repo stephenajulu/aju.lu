@@ -24,7 +24,7 @@ As I’ve said before, the term SMV is highly misleading, it should be called ju
 
 Rollo’s Sexual Market Value (SMV) graph for men vs women illustrates the Male Advantage (MA) beautifully.
 
-![](https://miro.medium.com/max/875/0*smZM4aRG0WX_olh-.jpeg =700x344)
+![](https://miro.medium.com/max/875/0*smZM4aRG0WX_olh-.webp =700x344)
 
 As the name suggests, women don’t have the MA → their SMV, standing, and “value” in society are largely dependent on their looks.
 
