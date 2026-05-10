@@ -1,7 +1,7 @@
 ---
 title: 'NFTs: The What, Why and How'
 date: '2022-04-30 12:01:00+03:00'
-image: images/istock-1363842094.jpg
+image: images/istock-1363842094.webp
 draft: false
 tags:
 - nfts
@@ -23,7 +23,7 @@ Next, let’s talk about how NFTs are created and why they’re secure. If you�
 
 # Where Do NFTs Get Bought Or Sold?
 
-<img src="https://porch.com/advice/wp-content/uploads/2022/02/iStock-1367730766.jpg" width="788" height="443">
+<img src="https://porch.com/advice/wp-content/uploads/2022/02/iStock-1367730766.webp" width="788" height="443">
 
 Non-Fungible Token (Non-fungible Token) – NFT – Digital Art Stored on Digital Ledger (Blockchain) – Conceptual Illustration
 
@@ -39,7 +39,7 @@ All of the platforms mentioned here require you to purchase [NFTs with cryptocur
 
 # Why Are NFTs So Talked About Right Now?
 
-<img src="https://porch.com/advice/wp-content/uploads/2022/02/shubham-dhage-Xnf4XmmaRZ8-unsplash.jpg" width="640" height="360">
+<img src="https://porch.com/advice/wp-content/uploads/2022/02/shubham-dhage-Xnf4XmmaRZ8-unsplash.webp" width="640" height="360">
 
 More and more of our daily lives are moving online, including how we perceive value. Remember way back when, in the days that digital music was first coming out, how inconceivable it seemed then that you would pay money, like real money, never to get a physical copy of your music? Crazy! Why would anyone ever pay for something they’ll never really have, right? Cut to today, where most of us have online libraries of music the size of which we’d never have had the space to store, and it comes with us right in our pockets.
 
@@ -47,7 +47,7 @@ This is the type of pivot point we’re getting to with NFTs. There are an incre
 
 # 3 Main NFT Categories
 
-<img src="https://porch.com/advice/wp-content/uploads/2022/02/iStock-1358821701.jpg" width="782" height="447">
+<img src="https://porch.com/advice/wp-content/uploads/2022/02/iStock-1358821701.webp" width="782" height="447">
 
 Anything digital that can be tokenized can be made into an NFT, but some main categories have been established, and some have, albeit short, track records.
 
@@ -73,7 +73,7 @@ Another significant way the NFTs show up in gaming is in wearables, like sneaker
 
 # What About Music NFTs?
 
-<img src="https://porch.com/advice/wp-content/uploads/2022/02/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg" width="640" height="427">
+<img src="https://porch.com/advice/wp-content/uploads/2022/02/marcela-laskoski-YrtFlrLo2DQ-unsplash.webp" width="640" height="427">
 
 NFTs in music are a potentially game-changing swing in the industry for musicians. By tokenizing their work, artists can monetize their songs while at the same time bringing fans on board for the journey of that piece of work. An additional benefit is that an NFT can be created or “minted” with programming that automatically gives the musician a royalty each time the NFT is sold. Given the significant challenge that digital music has presented artists with over the past two decades, tokenizing their work could be a great way to help ensure our favorite musicians are getting paid for their work.
 

@@ -1,7 +1,7 @@
 ---
 title: Simple Search Engine Optimization(SEO) Guide
 date: '2021-08-01 17:45:00+03:00'
-image: images/stephen-phillips-hostreviews-co-uk-shr_xn8s8qu-unsplash.jpg
+image: images/stephen-phillips-hostreviews-co-uk-shr_xn8s8qu-unsplash.webp
 draft: false
 tags:
 - seo

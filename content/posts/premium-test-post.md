@@ -2,7 +2,7 @@
 title: "Premium Member Test: The Future of aju.lu"
 date: 2026-05-02
 description: "An exclusive look at the upcoming roadmap for our sovereign digital community."
-image: "images/hero.png"
+image: images/hero.webp
 tags: ["membership", "premium", "roadmap"]
 ---
 

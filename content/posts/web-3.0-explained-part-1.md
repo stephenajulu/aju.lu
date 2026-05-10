@@ -1,7 +1,7 @@
 ---
 title: Web 3.0 Explained Part 1
 date: '2021-11-25 10:24:00+03:00'
-image: images/1_xdx6fonpgn2sq0fnmdqh8w.jpeg
+image: images/1_xdx6fonpgn2sq0fnmdqh8w.webp
 draft: false
 tags:
 - web3

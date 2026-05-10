@@ -1,7 +1,7 @@
 ---
 title: The Importance of Testosterone for Men's Life and Health
 date: '2023-03-02 13:57:00+03:00'
-image: images/sean-s-bety64gbsyy-unsplash.jpg
+image: images/sean-s-bety64gbsyy-unsplash.webp
 draft: false
 tags:
 - testosterone

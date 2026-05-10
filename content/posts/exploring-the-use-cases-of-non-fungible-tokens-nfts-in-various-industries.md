@@ -1,7 +1,7 @@
 ---
 title: Exploring the Use Cases of Non-Fungible Tokens (NFTs) in Various Industries
 date: '2023-01-19 20:53:00+03:00'
-image: images/nfts-in-museums.png
+image: images/nfts-in-museums.webp
 draft: false
 tags:
 - nfts

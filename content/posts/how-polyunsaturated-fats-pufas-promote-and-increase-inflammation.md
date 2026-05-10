@@ -1,7 +1,7 @@
 ---
 title: How Polyunsaturated Fats(PUFAs) Promote and Increase Inflammation
 date: '2023-03-09 08:20:00+03:00'
-image: images/photo-1597160394325-310e117dc000.jpeg
+image: images/photo-1597160394325-310e117dc000.webp
 draft: false
 tags:
 - pufas

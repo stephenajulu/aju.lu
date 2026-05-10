@@ -1,7 +1,7 @@
 ---
 title: Tanzania is Planning To Launch Their Own Central Bank Digital Currency(CBDC)
 date: '2021-12-01 12:38:00+03:00'
-image: images/tanzania-purportedly-planning-to-launch-cbdc-1600x900.jpg
+image: images/tanzania-purportedly-planning-to-launch-cbdc-1600x900.webp
 draft: false
 tags:
 - finance

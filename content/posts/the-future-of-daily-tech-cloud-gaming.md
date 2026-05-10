@@ -1,7 +1,7 @@
 ---
 title: 'The Future of Daily Tech: Cloud Gaming'
 date: '2023-02-09 13:20:00+03:00'
-image: images/230644aluffke7hkj26hbt-1.png
+image: images/230644aluffke7hkj26hbt-1.webp
 draft: false
 tags:
 - tech

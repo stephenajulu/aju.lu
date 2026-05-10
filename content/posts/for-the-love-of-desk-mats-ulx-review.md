@@ -1,7 +1,7 @@
 ---
 title: 'For The Love of Desk Mats: ULX Review'
 date: '2023-02-10 10:00:00+03:00'
-image: images/photo-1576697010744-a40aedd2dcca.jpeg
+image: images/photo-1576697010744-a40aedd2dcca.webp
 draft: false
 tags:
 - ULX

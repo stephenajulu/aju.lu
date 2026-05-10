@@ -1,7 +1,7 @@
 ---
 title: 'The Future of Wireless Communication: 6G Network and WiFi 7 Technology'
 date: '2023-02-17 10:14:00+03:00'
-image: images/spectrum-regulator-industry-2.jpg
+image: images/spectrum-regulator-industry-2.webp
 draft: false
 tags:
 - 6g

@@ -1,7 +1,7 @@
 ---
 title: The 48 Laws of Power(Listed)
 date: '2021-08-09 16:07:00+03:00'
-image: images/48lawsof-power.jpg
+image: images/48lawsof-power.webp
 draft: false
 tags:
 - self improvement

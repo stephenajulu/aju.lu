@@ -1,7 +1,7 @@
 ---
 title: Coins You Should Be Buying During This Dip and HODL Long Term
 date: '2022-05-17 12:22:00+03:00'
-image: images/quantitatives-hio84a6fnvw-unsplash.jpg
+image: images/quantitatives-hio84a6fnvw-unsplash.webp
 draft: false
 tags:
 - investing

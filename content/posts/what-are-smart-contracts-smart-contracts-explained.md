@@ -1,7 +1,7 @@
 ---
 title: What are Smart Contracts? How Do They Work? Smart Contracts Explained
 date: '2021-12-09 11:00:00+03:00'
-image: images/smart-contract-featured-image.png
+image: images/smart-contract-featured-image.webp
 draft: false
 tags:
 - technology

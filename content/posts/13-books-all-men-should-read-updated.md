@@ -1,7 +1,7 @@
 ---
 title: 13 Books All Men Should Read(Updated)
 date: '2021-08-08 15:23:00+03:00'
-image: images/thought-catalog-o0qqw21-0ni-unsplash.jpg
+image: images/thought-catalog-o0qqw21-0ni-unsplash.webp
 draft: false
 tags:
 - men

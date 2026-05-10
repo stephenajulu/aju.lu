@@ -1,7 +1,7 @@
 ---
 title: 'Red Meat: Friend or Foe'
 date: '2023-01-28 08:45:00+03:00'
-image: images/photo-1555265399-48aa9c11d869.jpeg
+image: images/photo-1555265399-48aa9c11d869.webp
 draft: false
 tags:
 - red meat

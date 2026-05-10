@@ -1,7 +1,7 @@
 ---
 title: The Best Oils and Fats For Cooking
 date: '2022-05-16 15:33:00+03:00'
-image: images/megumi-nachev-xhounxvvb6s-unsplash.jpg
+image: images/megumi-nachev-xhounxvvb6s-unsplash.webp
 draft: false
 tags:
 - lifestyle

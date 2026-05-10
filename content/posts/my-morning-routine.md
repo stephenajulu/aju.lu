@@ -1,7 +1,7 @@
 ---
 title: My Morning Routine
 date: '2021-11-26 07:48:00+03:00'
-image: images/diego-lozano-qghnk7eis0k-unsplash.jpg
+image: images/diego-lozano-qghnk7eis0k-unsplash.webp
 draft: false
 tags:
 - self improvement

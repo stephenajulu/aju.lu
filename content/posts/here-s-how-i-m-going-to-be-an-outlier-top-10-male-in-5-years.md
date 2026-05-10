@@ -1,7 +1,7 @@
 ---
 title: 'Outlier Male Series: My Plan to Become an Outlier Male in 5 years'
 date: '2022-12-28 14:00:00+03:00'
-image: images/photo-nic-khhukoxqo4k-unsplash.jpg
+image: images/photo-nic-khhukoxqo4k-unsplash.webp
 draft: false
 tags:
 - lifestyle

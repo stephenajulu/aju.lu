@@ -1,7 +1,7 @@
 ---
 title: 20 Things Men Must Do In 2022
 date: '2021-12-27 15:43:00+03:00'
-image: images/imageedit_27_9513163132.jpg
+image: images/imageedit_27_9513163132.webp
 draft: false
 tags:
 - men

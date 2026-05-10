@@ -1,7 +1,7 @@
 ---
 title: Potential Medium to High Returns Investment Options To Explore
 date: '2023-02-28 16:22:00+03:00'
-image: images/photo-1580519542036-c47de6196ba5.jpeg
+image: images/photo-1580519542036-c47de6196ba5.webp
 draft: false
 tags:
 - investment

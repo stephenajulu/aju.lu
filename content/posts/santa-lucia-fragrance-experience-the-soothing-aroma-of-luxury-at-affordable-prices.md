@@ -1,7 +1,7 @@
 ---
 title: Santa Lucia Fragrance - Experience the Soothing Aroma of Luxury at Affordable
 date: '2023-02-01 12:56:00+03:00'
-image: images/untitled_design_-_2022-02-11t092840-647_c765dbec-e4d0-4bfa-85c4-a6bfb878fee2_x800.png
+image: images/untitled_design_-_2022-02-11t092840-647_c765dbec-e4d0-4bfa-85c4-a6bfb878fee2_x800.webp
 draft: false
 tags:
 - Santa Lucia Fragrance

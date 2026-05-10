@@ -1,7 +1,7 @@
 ---
 title: 'Unleash Your Inner Monk: How to Achieve Ultimate Productivity and Success!'
 date: '2023-02-24 07:49:00+03:00'
-image: images/photo-1496283748916-d4cf2877b269.jpeg
+image: images/photo-1496283748916-d4cf2877b269.webp
 draft: false
 tags:
 - monk mode

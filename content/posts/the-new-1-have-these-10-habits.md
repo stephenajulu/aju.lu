@@ -1,7 +1,7 @@
 ---
 title: 6 Compounding Habits
 date: '2021-11-21 16:53:00+03:00'
-image: images/aziz-acharki-u3c79seha7k-unsplash.jpg
+image: images/aziz-acharki-u3c79seha7k-unsplash.webp
 draft: false
 tags:
 - self improvement

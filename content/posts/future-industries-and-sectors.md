@@ -1,7 +1,7 @@
 ---
 title: Future Industries and Sectors
 date: '2021-11-07 12:18:00+03:00'
-image: images/file-20210806-17-jibbct.jpg
+image: images/file-20210806-17-jibbct.webp
 draft: false
 tags:
 - metaverse

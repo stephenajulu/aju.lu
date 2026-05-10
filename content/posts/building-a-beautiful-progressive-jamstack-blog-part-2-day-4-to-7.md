@@ -56,7 +56,7 @@ Now to the good relationship i have discovered between hugo shortcodes and fores
 
 As you can see for every shortcode there’s a snippet, that’s because shortcodes usually have a small piece of code to embed in the page you want it to be activated.
 
-![](/images/Annotation 2020-04-05 164626-1.jpg)
+![](/images/Annotation 2020-04-05 164626-1.webp)
 
 So the first piece of code goes to the /layouts/shortcodes/shortcodename.html while the last one goes to .forestry/snippets/snippetname.snippet. This ensures that i don’t have to copy the last code everywhere manually, i just access them within forestry cms’s ui like this
 

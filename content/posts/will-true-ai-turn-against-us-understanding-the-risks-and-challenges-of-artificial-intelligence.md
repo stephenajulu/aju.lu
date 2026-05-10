@@ -1,7 +1,7 @@
 ---
 title: Will True AI Turn Against Us? Understanding the Risks and Challenges of Artificial
 date: '2023-01-19 16:00:00+03:00'
-image: images/photo-1634909924531-4daae117dbc1.jpeg
+image: images/photo-1634909924531-4daae117dbc1.webp
 draft: false
 tags:
 - ai

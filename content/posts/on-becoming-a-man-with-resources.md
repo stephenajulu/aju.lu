@@ -1,7 +1,7 @@
 ---
 title: On Becoming a Man With Resources
 date: '2021-04-21 09:43:00+00:00'
-image: images/man-with-resources.png
+image: images/man-with-resources.webp
 draft: false
 description: Here I go deeper explaining what you need to become a man with resources.
   Dive in!

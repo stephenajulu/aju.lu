@@ -1,7 +1,7 @@
 ---
 title: Investment Platforms and Apps for Kenyans
 date: '2022-06-16 16:00:00+03:00'
-image: images/kanchanara-re9vlmvdizi-unsplash.jpg
+image: images/kanchanara-re9vlmvdizi-unsplash.webp
 draft: false
 tags:
 - binance

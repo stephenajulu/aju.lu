@@ -1,7 +1,7 @@
 ---
 title: Best Cryptocurrencies to Invest in 2021
 date: '2021-04-20 06:45:00+00:00'
-image: images/cryptocurrencies.jpg
+image: images/cryptocurrencies.webp
 draft: false
 tags:
 - investment

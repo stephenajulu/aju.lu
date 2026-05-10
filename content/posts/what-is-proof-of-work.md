@@ -1,7 +1,7 @@
 ---
 title: What is Proof of Work?
 date: '2021-12-09 12:10:00+03:00'
-image: images/webp-net-resizeimage.jpg
+image: images/webp-net-resizeimage.webp
 draft: false
 tags:
 - technology

@@ -1,7 +1,7 @@
 ---
 title: On Becoming a High Value Man
 date: '2021-04-21 09:41:00+00:00'
-image: images/maxresdefault.jpg
+image: images/maxresdefault.webp
 draft: false
 description: Today I'll explain the steps to becoming a high value man
 ---

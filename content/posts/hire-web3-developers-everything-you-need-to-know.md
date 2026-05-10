@@ -1,7 +1,7 @@
 ---
 title: 'Hire Web3 Developers: Everything you need to know'
 date: '2022-11-04 09:36:00+03:00'
-image: images/629e4c88792d375fdca6d6a4_5-hire-web3-developers_-everything-you-need-to-know-to-find-top-web3-engineers.png
+image: images/629e4c88792d375fdca6d6a4_5-hire-web3-developers_-everything-you-need-to-know-to-find-top-web3-engineers.webp
 draft: false
 tags:
 - tech

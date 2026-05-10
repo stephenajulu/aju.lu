@@ -1,7 +1,7 @@
 ---
 title: Decentralized Insurance Built on the Blockchain is a Game Changer
 date: '2022-08-21 18:15:00+03:00'
-image: images/blockchain-interoperability-water-850x478-jpeg-optimal.jpeg
+image: images/blockchain-interoperability-water-850x478-jpeg-optimal.webp
 draft: false
 tags:
 - dein

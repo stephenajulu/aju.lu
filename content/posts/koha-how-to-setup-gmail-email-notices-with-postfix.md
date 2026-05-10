@@ -1,7 +1,7 @@
 ---
 title: 'Koha: How To Setup Gmail Email Notices with Postfix'
 date: '2022-11-10 19:00:00+03:00'
-image: images/koha-user.jpg
+image: images/koha-user.webp
 draft: false
 tags:
 - koha
@@ -105,13 +105,13 @@ Execute the following command in a terminal
 **Koha > Administration > Patron categories > Overdue notice required > Yes**  
 \[Check for each patron category\]
 
-<img src="https://1.bp.blogspot.com/-X6HmNV23Gc0/WEGrylqX5NI/AAAAAAAAT74/r6TEsZN0mAAHVVxWNskVfnJWZIz39bFlACLcB/s640/Koha%2B%25E2%2580%25BA%2BAdministration%2B%25E2%2580%25BA%2BPatron%2Bcategories%2B%25E2%2580%25BA%2BMessaging%2Bpreferences.png" style="max-width:100%;height:auto;">
+<img src="https://1.bp.blogspot.com/-X6HmNV23Gc0/WEGrylqX5NI/AAAAAAAAT74/r6TEsZN0mAAHVVxWNskVfnJWZIz39bFlACLcB/s640/Koha%2B%25E2%2580%25BA%2BAdministration%2B%25E2%2580%25BA%2BPatron%2Bcategories%2B%25E2%2580%25BA%2BMessaging%2Bpreferences.webp" style="max-width:100%;height:auto;">
 
 **Koha Administration > Global System Preferences > Patrons > Enhancedmessagingpreferences > Allow**
 
 Set **Koha** > **Tools** > [**Overdue Notice/status triggers**]
 
-<img src="https://1.bp.blogspot.com/-nika5CdbheM/WEGrO2reR_I/AAAAAAAAT70/TRcK_LeVDog6m7mFP6YdSZiBVaU_0ZoPwCLcB/s640/Koha%2B%25E2%2580%25BA%2BTools%2B%25E2%2580%25BA%2BNotice%2Btriggers.png" style="max-width:100%;height:auto;">
+<img src="https://1.bp.blogspot.com/-nika5CdbheM/WEGrO2reR_I/AAAAAAAAT70/TRcK_LeVDog6m7mFP6YdSZiBVaU_0ZoPwCLcB/s640/Koha%2B%25E2%2580%25BA%2BTools%2B%25E2%2580%25BA%2BNotice%2Btriggers.webp" style="max-width:100%;height:auto;">
 
 ## **14. Additional SMTP Setup**
 

@@ -1,7 +1,7 @@
 ---
 title: 'My 5 Month Self Improvement Action Plan: August'
 date: '2021-08-07 15:35:00+03:00'
-image: images/troy-spoelma-03mi51amhoe-unsplash.jpg
+image: images/troy-spoelma-03mi51amhoe-unsplash.webp
 draft: false
 tags:
 - self improvement

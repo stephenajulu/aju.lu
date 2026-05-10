@@ -1,7 +1,7 @@
 ---
 title: Investment Opportunities
 date: '2021-06-27 14:01:00+03:00'
-image: images/investmentopportunites.png
+image: images/investmentopportunites.webp
 draft: false
 tags:
 - personal finance

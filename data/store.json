@@ -1,0 +1,24 @@
+{
+    "products": [
+        {
+            "id": "sovereign-infrastructure-blueprint",
+            "name": "Sovereign Infrastructure Blueprint",
+            "description": "Complete technical roadmap for deploying managed open-source business systems.",
+            "price": "5,000",
+            "currency": "KES",
+            "image": "images/hero.webp",
+            "paystack_url": "https://paystack.shop/pay/your-link",
+            "category": "Blueprint"
+        },
+        {
+            "id": "indieweb-hugo-template",
+            "name": "aju.hub IndieWeb Template",
+            "description": "The exact Hugo engine behind this site. Optimized for performance and SEO.",
+            "price": "12,000",
+            "currency": "KES",
+            "image": "images/me.webp",
+            "paystack_url": "https://paystack.shop/pay/your-link",
+            "category": "Theme"
+        }
+    ]
+}

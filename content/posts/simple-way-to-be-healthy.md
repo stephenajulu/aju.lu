@@ -1,7 +1,7 @@
 ---
 title: Simple Way To Be Healthy
 date: '2021-09-02 12:49:00+03:00'
-image: images/jenny-hill-io2zgb3_kdk-unsplash.jpg
+image: images/jenny-hill-io2zgb3_kdk-unsplash.webp
 draft: false
 tags:
 - health

@@ -1,7 +1,7 @@
 ---
 title: Top GameFi Games Right Now
 date: '2021-12-09 16:40:00+03:00'
-image: images/610c1dd3ee4ef2b5089f768e_playtoearn.jpeg
+image: images/610c1dd3ee4ef2b5089f768e_playtoearn.webp
 draft: false
 tags:
 - gamefi

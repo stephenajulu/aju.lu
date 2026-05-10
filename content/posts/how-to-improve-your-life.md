@@ -1,7 +1,7 @@
 ---
 title: How To Improve Your Life
 date: '2022-04-23 20:26:00+03:00'
-image: images/mohamed-nohassi-odxb5oig_ia-unsplash.jpg
+image: images/mohamed-nohassi-odxb5oig_ia-unsplash.webp
 draft: false
 tags:
 - life

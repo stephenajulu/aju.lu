@@ -1,7 +1,7 @@
 ---
 title: The Testosterone Pandemic
 date: '2022-08-16 21:32:00+03:00'
-image: images/800px-gigachad.png
+image: images/800px-gigachad.webp
 draft: false
 tags:
 - testosterone

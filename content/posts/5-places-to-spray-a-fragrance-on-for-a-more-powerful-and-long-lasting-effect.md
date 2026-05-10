@@ -1,7 +1,7 @@
 ---
 title: 5 Places To Spray A Fragrance On For A More Powerful and Long Lasting Effect
 date: '2021-04-11 10:05:00+00:00'
-image: images/how-to-apply-cologne-2.png
+image: images/how-to-apply-cologne-2.webp
 draft: false
 description: Here I'll tell you 6 places to spray or apply a fragrance eg Perfume
   and why you  should spray them in these locations

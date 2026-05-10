@@ -1,7 +1,7 @@
 ---
 title: 'The Future of Daily Tech: Augmented Reality'
 date: '2023-02-15 15:41:00+03:00'
-image: images/adobestock_305628750-scaled.jpeg
+image: images/adobestock_305628750-scaled.webp
 draft: false
 tags:
 - AR

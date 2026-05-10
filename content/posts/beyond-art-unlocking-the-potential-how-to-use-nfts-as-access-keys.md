@@ -1,7 +1,7 @@
 ---
 title: 'Beyond Art - Unlocking the Potential: How to Use NFTs as Access Keys'
 date: '2023-01-19 21:01:00+03:00'
-image: images/nfts-in-museums.png
+image: images/nfts-in-museums.webp
 draft: false
 tags:
 - nfts

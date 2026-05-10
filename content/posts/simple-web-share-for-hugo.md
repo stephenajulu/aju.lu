@@ -1,7 +1,7 @@
 ---
 title: Share This Post
 date: '2021-06-17 05:57:00+03:00'
-image: images/web-share-api-small.png
+image: images/web-share-api-small.webp
 draft: false
 tags: []
 categories: []

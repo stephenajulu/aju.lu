@@ -1,7 +1,7 @@
 ---
 title: Benefits of A Cold Shower/Bath
 date: '2022-01-31 08:51:00+03:00'
-image: images/seth-doyle-ji6lmwtghf4-unsplash.jpg
+image: images/seth-doyle-ji6lmwtghf4-unsplash.webp
 draft: false
 tags:
 - cold showers

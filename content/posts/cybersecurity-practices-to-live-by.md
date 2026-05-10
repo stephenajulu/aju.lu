@@ -1,7 +1,7 @@
 ---
 title: Cybersecurity Practices to Live By
 date: '2021-01-30'
-image: images/safety-online-training.png
+image: images/safety-online-training.webp
 draft: false
 tags:
 - cybersecurity

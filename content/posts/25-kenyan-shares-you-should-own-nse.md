@@ -1,7 +1,7 @@
 ---
 title: 25 Kenyan Shares You Should Own(NSE)
 date: '2021-07-31 16:18:00+03:00'
-image: images/ishant-mishra-uxejdx4sqde-unsplash.jpg
+image: images/ishant-mishra-uxejdx4sqde-unsplash.webp
 draft: false
 tags:
 - investment

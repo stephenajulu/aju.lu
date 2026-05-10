@@ -1,7 +1,7 @@
 ---
 title: Introversion Sucks, But....
 date: '2021-06-26 18:30:00+03:00'
-image: images/introversion-sucks-but.png
+image: images/introversion-sucks-but.webp
 draft: false
 tags:
 - mental health

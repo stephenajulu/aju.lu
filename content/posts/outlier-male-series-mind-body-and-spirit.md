@@ -1,7 +1,7 @@
 ---
 title: 'Outlier Male Series: Mind, Body and Spirit'
 date: '2023-01-02 13:00:00+03:00'
-image: images/photo-nic-khhukoxqo4k-unsplash.jpg
+image: images/photo-nic-khhukoxqo4k-unsplash.webp
 draft: false
 tags:
 - lifestyle

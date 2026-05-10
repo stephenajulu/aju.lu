@@ -2,7 +2,7 @@
 title: "How to Use Optimized Images"
 date: 2026-04-25T10:00:00Z
 description: "A guide on using the new image optimization shortcode for better performance and Core Web Vitals."
-image: "images/me.jpg"
+image: images/me.webp
 tags: ["tech", "hugo", "optimization"]
 ---
 

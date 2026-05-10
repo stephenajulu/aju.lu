@@ -1,7 +1,7 @@
 ---
 title: Key Ideas In "The Big Fat Surprise" by Nina Teicholz
 date: '2021-06-27 15:23:00+03:00'
-image: images/thebigfatsuprisekeyideas.png
+image: images/thebigfatsuprisekeyideas.webp
 draft: false
 tags:
 - fat

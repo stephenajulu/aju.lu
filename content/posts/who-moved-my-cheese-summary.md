@@ -1,7 +1,7 @@
 ---
 title: Who Moved My Cheese Summary
 date: '2021-08-09 16:27:00+03:00'
-image: images/whomovedmycheese.jpg
+image: images/whomovedmycheese.webp
 draft: false
 tags:
 - self improvement

@@ -1,7 +1,7 @@
 ---
 title: Step-by-Step Guide to Improving Your Search Engine Ranking
 date: '2023-01-19 13:40:00+03:00'
-image: images/luke-chesser-jkutrj4vk00-unsplash.jpg
+image: images/luke-chesser-jkutrj4vk00-unsplash.webp
 draft: false
 tags:
 - improve search engine ranking

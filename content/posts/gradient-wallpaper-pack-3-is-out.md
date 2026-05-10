@@ -1,7 +1,7 @@
 ---
 title: Gradient Wallpaper Pack 3 is Out
 date: '2021-09-02 19:02:00+03:00'
-image: images/gradient-wallpapers-3-0-8k-cover.png
+image: images/gradient-wallpapers-3-0-8k-cover.webp
 draft: false
 tags:
 - Wallpapers

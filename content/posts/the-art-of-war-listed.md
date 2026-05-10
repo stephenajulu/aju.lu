@@ -1,7 +1,7 @@
 ---
 title: The Art of War(Listed)
 date: '2021-08-09 16:19:00+03:00'
-image: images/theartofwar.jpg
+image: images/theartofwar.webp
 draft: false
 tags:
 - self improvement

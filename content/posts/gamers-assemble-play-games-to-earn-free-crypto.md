@@ -1,7 +1,7 @@
 ---
 title: 'Gamers Assemble: Play Games To Earn Crypto! GameFi Explained'
 date: '2021-12-09 16:35:00+03:00'
-image: images/gamefi.jpg
+image: images/gamefi.webp
 draft: false
 tags:
 - technology

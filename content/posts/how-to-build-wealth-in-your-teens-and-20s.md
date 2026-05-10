@@ -1,7 +1,7 @@
 ---
 title: How To Build Wealth in Your Teens and 20s(Updated)
 date: '2021-09-02 12:07:00+03:00'
-image: images/morgan-housel-pcdggex9-ja-unsplash.jpg
+image: images/morgan-housel-pcdggex9-ja-unsplash.webp
 draft: false
 tags:
 - wealth

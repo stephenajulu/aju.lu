@@ -1,7 +1,7 @@
 ---
 title: The Best Investments To Own Before A Recession (UPDATED)
 date: '2022-06-17 16:00:00+03:00'
-image: images/christian-wiediger-poovzgc3y6k-unsplash.jpg
+image: images/christian-wiediger-poovzgc3y6k-unsplash.webp
 draft: false
 tags:
 - investments

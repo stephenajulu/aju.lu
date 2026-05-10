@@ -1,7 +1,7 @@
 ---
 title: Best Cryptocurrency Wallets 2022
 date: '2022-05-26 21:05:00+03:00'
-image: images/olieman-eth-evqnygt1pwg-unsplash.jpg
+image: images/olieman-eth-evqnygt1pwg-unsplash.webp
 draft: false
 tags:
 - finance

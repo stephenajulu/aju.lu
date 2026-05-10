@@ -1,7 +1,7 @@
 ---
 title: Ajulu's Thoughts Tech Stack
 date: '2021-06-27 16:00:00+03:00'
-image: images/ajulusthoughtswebcapture.jpeg
+image: images/ajulusthoughtswebcapture.webp
 draft: false
 tags:
 - blog

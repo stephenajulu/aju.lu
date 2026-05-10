@@ -1,7 +1,7 @@
 ---
 title: The Life of Underachieving Men Today
 date: '2023-02-24 08:43:00+03:00'
-image: images/photo-1593075826385-75cdecda064c.jpeg
+image: images/photo-1593075826385-75cdecda064c.webp
 draft: false
 tags:
 - underachievement

@@ -1,0 +1,135 @@
+{{ define "main" }}
+<div class="intro">
+    <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+    <div class="intro-content">
+        {{ .Content }}
+    </div>
+</div>
+
+<div class="store-grid">
+    {{ range site.Data.store.products }}
+    <div class="product-card">
+        <div class="product-image">
+            {{ partial "responsive-image.html" (dict "src" .image "alt" .name "class" "store-img") }}
+        </div>
+        <div class="product-info">
+            <span class="product-category">{{ .category }}</span>
+            <h3 class="product-title">{{ .name }}</h3>
+            <p class="product-desc">{{ .description }}</p>
+            <div class="product-footer">
+                <div class="product-price">
+                    <span class="currency">{{ .currency }}</span>
+                    <span class="amount">{{ .price }}</span>
+                </div>
+                <a href="{{ .paystack_url }}" class="btn btn-buy" target="_blank">Get Access</a>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</div>
+
+<style>
+.store-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 40px;
+    margin: 60px 0;
+}
+
+.product-card {
+    background: var(--base-offset-color);
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid rgba(156, 163, 175, 0.1);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.product-image {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0 !important;
+}
+
+.product-info {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.product-category {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--highlight-color);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.product-title {
+    margin: 0 0 15px 0;
+    font-size: 1.5rem;
+    color: var(--heading-color);
+}
+
+.product-desc {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    opacity: 0.8;
+    margin-bottom: 25px;
+    flex-grow: 1;
+}
+
+.product-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-top: 1px solid rgba(156, 163, 175, 0.1);
+}
+
+.product-price {
+    font-weight: 800;
+    color: var(--heading-color);
+}
+
+.product-price .currency {
+    font-size: 0.9rem;
+    margin-right: 2px;
+}
+
+.product-price .amount {
+    font-size: 1.6rem;
+}
+
+.btn-buy {
+    background: var(--highlight-color);
+    color: #ffffff !important;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none !important;
+    transition: opacity 0.2s ease;
+}
+
+@include breakpoint('small') {
+    .store-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+{{ end }}

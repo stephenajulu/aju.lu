@@ -1,7 +1,7 @@
 ---
 title: 10 Cybersecurity Tips That Might Save Your Life and Your Data
 date: '2021-06-20 13:20:00+03:00'
-image: images/cyber-featured.png
+image: images/cyber-featured.webp
 draft: false
 tags:
 - cybersecurity

@@ -1,7 +1,7 @@
 ---
 title: My Favorite Android Apps 2021
 date: '2021-03-29 14:30:00+00:00'
-image: images/androidpit-best-free-android-apps-hero-2.jpg
+image: images/androidpit-best-free-android-apps-hero-2.webp
 draft: false
 description: Hi there, here are my favorite android apps of 2021 that I use on a regular
   basis

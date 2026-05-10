@@ -1,7 +1,7 @@
 ---
 title: My Investment Strategy
 date: '2021-11-13 12:24:00+03:00'
-image: images/adeolu-eletu-unrkg2jh1j0-unsplash.jpg
+image: images/adeolu-eletu-unrkg2jh1j0-unsplash.webp
 draft: false
 tags:
 - investments

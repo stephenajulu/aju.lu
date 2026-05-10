@@ -1,7 +1,7 @@
 ---
 title: 5 Things Every Man In His 20s Should Do
 date: '2021-11-22 05:26:00+03:00'
-image: images/matheus-ferrero-tkrrvwxjb_8.jpg
+image: images/matheus-ferrero-tkrrvwxjb_8.webp
 draft: false
 tags:
 - Masculinity

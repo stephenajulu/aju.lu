@@ -1,7 +1,7 @@
 ---
 title: What is Proof of Stake? Proof Of Stake Explained
 date: '2021-12-09 11:47:00+03:00'
-image: images/proof-of-stake.jpg
+image: images/proof-of-stake.webp
 draft: false
 tags:
 - proof of stake

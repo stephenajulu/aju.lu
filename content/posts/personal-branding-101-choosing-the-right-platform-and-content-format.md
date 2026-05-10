@@ -1,7 +1,7 @@
 ---
 title: 'Personal Branding 101: Choosing the Right Platform and Content Format'
 date: '2023-02-24 09:06:00+03:00'
-image: images/photo-1579869847557-1f67382cc158.jpeg
+image: images/photo-1579869847557-1f67382cc158.webp
 draft: false
 tags:
 - personal branding

@@ -1,7 +1,7 @@
 ---
 title: 'For The Love of Hoodies: ESNTLS Review'
 date: '2023-02-10 10:00:00+03:00'
-image: images/photo-1502547645797-4d2b434459af.jpeg
+image: images/photo-1502547645797-4d2b434459af.webp
 draft: false
 tags:
 - esntls

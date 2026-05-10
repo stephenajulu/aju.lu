@@ -1,7 +1,7 @@
 ---
 title: High Value In-Demand Skills
 date: '2021-09-02 12:28:00+03:00'
-image: images/priscilla-du-preez-xkkcui44im0-unsplash.jpg
+image: images/priscilla-du-preez-xkkcui44im0-unsplash.webp
 draft: false
 tags:
 - skill

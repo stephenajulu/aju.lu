@@ -1,7 +1,7 @@
 ---
 title: 'Understanding the Power of GPT-4: The Future of AI Language Models'
 date: '2023-02-24 09:38:00+03:00'
-image: images/photo-1675557009285-b55f562641b9.jpeg
+image: images/photo-1675557009285-b55f562641b9.webp
 draft: false
 tags:
 - GPT 4

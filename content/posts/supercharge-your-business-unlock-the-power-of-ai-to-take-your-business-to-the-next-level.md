@@ -1,7 +1,7 @@
 ---
 title: 'Supercharge Your Business: Unlock the Power of AI to Take Your Business to'
 date: '2023-01-21 11:20:00+03:00'
-image: images/pexels-kindel-media-8566472.jpg
+image: images/pexels-kindel-media-8566472.webp
 draft: false
 tags:
 - AI

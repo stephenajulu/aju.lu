@@ -1,7 +1,7 @@
 ---
 title: My Automatic Feed Item URL Shortener and Sender to Email
 date: '2021-06-17 08:00:00+03:00'
-image: images/afiussg.jpeg
+image: images/afiussg.webp
 draft: false
 description: "Yes, that's it's name \U0001F601. Made a tool i can't use. Come, read
   what this is about."

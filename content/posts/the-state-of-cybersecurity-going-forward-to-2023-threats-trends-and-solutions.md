@@ -1,7 +1,7 @@
 ---
 title: 'The State of Cybersecurity Going Forward to 2023: Threats, Trends, and Solutions'
 date: '2023-01-06 14:30:00+03:00'
-image: images/the-state-of-cybersecurity-has-improved-but-is-hardly-flawless.jpg
+image: images/the-state-of-cybersecurity-has-improved-but-is-hardly-flawless.webp
 draft: false
 tags:
 - Cybersecurity threats

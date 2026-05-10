@@ -1,7 +1,7 @@
 ---
 title: What is a Stable Coin?
 date: '2021-12-10 14:20:00+03:00'
-image: images/597b2c80-707d-439c-a801-374b634c033e_what-is-a-stablecoin-article-main.jpg
+image: images/597b2c80-707d-439c-a801-374b634c033e_what-is-a-stablecoin-article-main.webp
 draft: false
 tags:
 - technology

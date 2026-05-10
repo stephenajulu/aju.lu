@@ -1,7 +1,7 @@
 ---
 title: Top Tech Gadgets Under ksh. 5,000 (Kenya Version)
 date: '2022-06-09 06:48:00+03:00'
-image: images/onur-binay-_rppmkqtttg-unsplash.jpg
+image: images/onur-binay-_rppmkqtttg-unsplash.webp
 draft: false
 tags:
 - tech

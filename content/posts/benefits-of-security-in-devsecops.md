@@ -1,7 +1,7 @@
 ---
 title: Benefits of Security in DevSecOps
 date: '2022-11-26 14:10:00+03:00'
-image: images/security-protection-anti-virus-software-60504.jpeg
+image: images/security-protection-anti-virus-software-60504.webp
 draft: false
 tags:
 - devops

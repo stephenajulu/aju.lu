@@ -1,7 +1,7 @@
 ---
 title: Cryptocurrencies You Should Watch 2021
 date: '2021-11-18 16:41:00+03:00'
-image: images/executium-7gz3fj0h51e-unsplash.jpg
+image: images/executium-7gz3fj0h51e-unsplash.webp
 draft: false
 tags:
 - cryptocurrencies

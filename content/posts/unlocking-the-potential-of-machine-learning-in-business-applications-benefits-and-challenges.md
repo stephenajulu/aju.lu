@@ -1,7 +1,7 @@
 ---
 title: 'Unlocking the Potential of Machine Learning in Business: Applications, Benefits'
 date: '2023-01-19 14:25:00+03:00'
-image: images/istock-1313024657-scaled.jpg
+image: images/istock-1313024657-scaled.webp
 draft: false
 tags:
 - AI

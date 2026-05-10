@@ -1,7 +1,7 @@
 ---
 title: Top 6 Cryptocurrency Gaming Tokens/Coins To Watch
 date: '2021-12-02 11:35:00+03:00'
-image: images/nft-crypto-gaming-developers.jpg
+image: images/nft-crypto-gaming-developers.webp
 draft: false
 tags:
 - finance

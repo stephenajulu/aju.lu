@@ -1,7 +1,7 @@
 ---
 title: 'All About Cryptocurrency Wallets: What They Are, How To Keep Them Safe and'
 date: '2022-07-08 09:10:00+03:00'
-image: images/piggybank-3akqgjoowvi-unsplash.jpg
+image: images/piggybank-3akqgjoowvi-unsplash.webp
 draft: false
 tags:
 - tech
@@ -42,7 +42,7 @@ This article answers these questions, with the goal of educating users about one
 
 # Wallets or keychains?
 
-<img src="https://miro.medium.com/max/1400/1*z_bALl_urb57HQa0su3FcQ.png" style="width:100%; height: auto;">
+<img src="https://miro.medium.com/max/1400/1*z_bALl_urb57HQa0su3FcQ.webp" style="width:100%; height: auto;">
 
 In the context of blockchain and Web3, a “wallet” is essentially a **_cryptographic key management system_** that doubles as a **_user interface_** allowing you to interact with network applications and services by reading and/or modifying the state of the blockchain. It is in this sense, therefore, that we will use the term “wallet” from now on.
 

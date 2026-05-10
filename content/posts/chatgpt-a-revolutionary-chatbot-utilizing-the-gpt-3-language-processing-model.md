@@ -1,7 +1,7 @@
 ---
 title: 'ChatGPT: A Revolutionary Chatbot Utilizing the GPT-3 Language Processing Model'
 date: '2023-01-06 14:00:00+03:00'
-image: images/chatgpt.png
+image: images/chatgpt.webp
 draft: false
 tags:
 - ChatGPT

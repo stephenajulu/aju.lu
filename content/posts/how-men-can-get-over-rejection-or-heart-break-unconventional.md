@@ -1,7 +1,7 @@
 ---
 title: 'How Men Can Get Over Rejection or Heart Break: Unconventional'
 date: '2023-02-24 14:42:00+03:00'
-image: images/photo-1591602672136-b205b9e92d12-1.jpeg
+image: images/photo-1591602672136-b205b9e92d12-1.webp
 draft: false
 tags:
 - heart break

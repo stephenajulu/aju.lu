@@ -1,7 +1,7 @@
 ---
 title: 'The Future of Virtual Reality: Predictions and Possibilities'
 date: '2023-01-06 14:44:00+03:00'
-image: images/vr-and-ar-technologies.png
+image: images/vr-and-ar-technologies.webp
 draft: false
 tags:
 - Virtual reality

@@ -1,7 +1,7 @@
 ---
 title: Men, Here Are 20 Characteristics Of The Women to Avoid
 date: '2022-01-10 13:25:00+03:00'
-image: images/olga-solodilova-2hwdnsti2zw-unsplash.jpg
+image: images/olga-solodilova-2hwdnsti2zw-unsplash.webp
 draft: false
 tags:
 - dating

@@ -1,7 +1,7 @@
 ---
 title: Efficiency Unleashed - The Top 20 Mobile Apps and Web Tools for Freelancers
 date: '2023-01-25 18:00:00+03:00'
-image: images/the-jopwell-collection-4wtb4tr45jq-unsplash-1.jpg
+image: images/the-jopwell-collection-4wtb4tr45jq-unsplash-1.webp
 draft: false
 tags:
 - productivity

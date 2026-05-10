@@ -1,7 +1,7 @@
 ---
 title: 'Unlocking the Potential of Smart Contracts Across Industries: From Supply'
 date: '2023-01-19 21:21:00+03:00'
-image: images/learn_illustration_what_is_a_smart_contract__1_.png
+image: images/learn_illustration_what_is_a_smart_contract__1_.webp
 draft: false
 tags:
 - smart contracts

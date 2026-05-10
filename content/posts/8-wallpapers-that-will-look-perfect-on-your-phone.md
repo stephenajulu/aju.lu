@@ -1,7 +1,7 @@
 ---
 title: 8 Wallpapers That Will Look Perfect On Your Phone
 date: '2022-07-09 11:00:00+03:00'
-image: images/aedrian-5h1zb0nwfqe-unsplash.jpg
+image: images/aedrian-5h1zb0nwfqe-unsplash.webp
 draft: false
 tags:
 - design

@@ -1,7 +1,7 @@
 ---
 title: Young Men, Focus On These Key Things
 date: '2021-11-24 17:18:00+03:00'
-image: images/bruce-mars-8yg31xn4dsw-unsplash.jpg
+image: images/bruce-mars-8yg31xn4dsw-unsplash.webp
 draft: false
 tags:
 - self improvement

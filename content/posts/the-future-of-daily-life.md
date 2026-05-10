@@ -1,7 +1,7 @@
 ---
 title: The Future of Daily Life
 date: '2023-02-16 14:35:00+03:00'
-image: images/wp8380764.jpg
+image: images/wp8380764.webp
 draft: false
 tags:
 - intersection of life and technology

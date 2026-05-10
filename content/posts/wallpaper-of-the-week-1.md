@@ -1,7 +1,7 @@
 ---
 title: Wallpaper of The Week 1
 date: '2022-07-11 12:38:00+03:00'
-image: images/alain-bonnardeaux-tlxgw_its7k-unsplash.jpg
+image: images/alain-bonnardeaux-tlxgw_its7k-unsplash.webp
 draft: false
 tags:
 - wallpaper

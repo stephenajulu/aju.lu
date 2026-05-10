@@ -1,7 +1,7 @@
 ---
 title: 'Cryptocurrency, Blockchain, Smart Contract, NFT, Web 3, DeFi and GameFi 101:'
 date: '2021-12-16 07:15:00+03:00'
-image: images/newhype101definition.png
+image: images/newhype101definition.webp
 draft: false
 tags:
 - cryptocurrency

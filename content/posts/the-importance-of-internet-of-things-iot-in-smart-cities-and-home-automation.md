@@ -1,7 +1,7 @@
 ---
 title: The Importance of Internet of Things (IoT) in Smart Cities and Home Automation
 date: '2023-01-19 15:00:00+03:00'
-image: images/design-tech-homes-best-of-high-tech-homes-and-smart-home-technology-of-design-tech-homes-min.jpg
+image: images/design-tech-homes-best-of-high-tech-homes-and-smart-home-technology-of-design-tech-homes-min.webp
 draft: false
 tags:
 - internet of things

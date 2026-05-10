@@ -1,7 +1,7 @@
 ---
 title: Top Cryptocurrency Exchanges
 date: '2021-12-01 14:35:00+03:00'
-image: images/top-5-crypto-exchanges-to-trade-cryptos-in-2021.jpg
+image: images/top-5-crypto-exchanges-to-trade-cryptos-in-2021.webp
 draft: false
 tags:
 - finance

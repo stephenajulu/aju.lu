@@ -1,7 +1,7 @@
 ---
 title: My Investment Portfolio
 date: '2021-11-12 10:40:00+03:00'
-image: images/invest.jpg
+image: images/invest.webp
 draft: false
 tags:
 - invest

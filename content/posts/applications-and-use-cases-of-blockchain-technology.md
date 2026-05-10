@@ -1,7 +1,7 @@
 ---
 title: Applications and Use Cases of Blockchain Technology
 date: '2021-12-09 13:01:00+03:00'
-image: images/mit-algorand-01.jpg
+image: images/mit-algorand-01.webp
 draft: false
 tags:
 - technology

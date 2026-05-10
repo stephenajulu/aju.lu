@@ -1,7 +1,7 @@
 ---
 title: Coins Likely To 100x In The Next 2 Years
 date: '2022-05-25 10:00:00+03:00'
-image: images/ferhat-deniz-fors-yocdd-d4oom-unsplash.jpg
+image: images/ferhat-deniz-fors-yocdd-d4oom-unsplash.webp
 draft: false
 tags:
 - finance

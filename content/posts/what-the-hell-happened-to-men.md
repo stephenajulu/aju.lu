@@ -1,7 +1,7 @@
 ---
 title: What The Hell Happened To Men?
 date: '2022-08-25 10:30:00+03:00'
-image: images/kari-shea-hsstk47vwvk-unsplash.jpg
+image: images/kari-shea-hsstk47vwvk-unsplash.webp
 draft: false
 tags:
 - men

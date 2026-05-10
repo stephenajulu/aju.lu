@@ -1,7 +1,7 @@
 ---
 title: 6 Metaverse Tokens You Could Invest In
 date: '2021-11-07 15:47:34+03:00'
-image: images/metaverse-1200x900.jpg
+image: images/metaverse-1200x900.webp
 draft: false
 tags:
 - metaverse

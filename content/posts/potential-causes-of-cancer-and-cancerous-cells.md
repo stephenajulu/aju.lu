@@ -1,7 +1,7 @@
 ---
 title: Potential Causes of Cancer and Cancerous Cells
 date: '2023-01-18 21:20:00+03:00'
-image: images/national-cancer-institute-yg1zayn0few-unsplash.jpg
+image: images/national-cancer-institute-yg1zayn0few-unsplash.webp
 draft: false
 tags:
 - health

@@ -1,7 +1,7 @@
 ---
 title: Solving The Worlds Relationship & Marriage Crisis
 date: '2021-08-02 12:08:00+03:00'
-image: images/djim-loic-hl4mrleyqxu-unsplash.jpg
+image: images/djim-loic-hl4mrleyqxu-unsplash.webp
 draft: false
 tags:
 - Relationships

@@ -1,7 +1,7 @@
 ---
 title: Green Flags For Men Interested In A Keeper
 date: '2022-01-27 13:04:00+03:00'
-image: images/sasha-freemind-nxo2zskhthg-unsplash.jpg
+image: images/sasha-freemind-nxo2zskhthg-unsplash.webp
 draft: false
 tags:
 - dating

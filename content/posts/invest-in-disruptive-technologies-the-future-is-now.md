@@ -1,7 +1,7 @@
 ---
 title: Invest in Disruptive Technologies - The Future is Now
 date: '2023-01-30 00:31:00+03:00'
-image: images/eba250-926051128-1200x800-panorama.jpg
+image: images/eba250-926051128-1200x800-panorama.webp
 draft: false
 tags:
 - investing

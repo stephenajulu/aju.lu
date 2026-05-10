@@ -1,7 +1,7 @@
 ---
 title: Room/Apartment/House Design Inspiration For Men
 date: '2022-07-15 09:30:00+03:00'
-image: images/c428c262c47eb50ceb459d7d5f07ab43.jpg
+image: images/c428c262c47eb50ceb459d7d5f07ab43.webp
 draft: false
 tags:
 - design

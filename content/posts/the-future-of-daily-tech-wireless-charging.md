@@ -1,7 +1,7 @@
 ---
 title: 'The Future of Daily Tech: Wireless Charging'
 date: '2023-02-09 00:00:00+03:00'
-image: images/wireless-charging.png
+image: images/wireless-charging.webp
 draft: false
 tags:
 - future of tech

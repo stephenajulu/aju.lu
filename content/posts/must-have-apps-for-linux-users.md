@@ -1,7 +1,7 @@
 ---
 title: Must Have Apps For Linux Users
 date: '2021-12-18 13:57:00+03:00'
-image: images/musthavelinuxapps.png
+image: images/musthavelinuxapps.webp
 draft: false
 tags:
 - Linux

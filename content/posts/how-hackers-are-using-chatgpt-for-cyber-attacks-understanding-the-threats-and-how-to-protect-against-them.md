@@ -1,7 +1,7 @@
 ---
 title: 'How Hackers are Using ChatGPT for Cyber Attacks: Understanding the Threats'
 date: '2023-01-19 17:25:00+03:00'
-image: images/chatgpt.png
+image: images/chatgpt.webp
 draft: false
 tags:
 - chatgpt

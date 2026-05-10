@@ -1,7 +1,7 @@
 ---
 title: Invest In Web 3.0 By Buying These 5 Cryptocurrencies Now
 date: '2021-12-08 16:13:00+03:00'
-image: images/web-3-0.jpg
+image: images/web-3-0.webp
 draft: false
 tags:
 - technology

@@ -1,7 +1,7 @@
 ---
 title: 'Web Tool of The Week #1'
 date: '2021-04-10 08:00:00+00:00'
-image: images/untitled.png
+image: images/untitled.webp
 draft: false
 description: Starting a weekly series where i post web tools(websites) that can help
   you do a wide variety of things from compressing images to making them transparent

@@ -1,7 +1,7 @@
 ---
 title: My Favorite Android Apps
 date: '2021-03-01 18:02:00+00:00'
-image: images/7xzxqziqbcyvscsmkwq63k.jpg
+image: images/7xzxqziqbcyvscsmkwq63k.webp
 draft: false
 description: We all have those apps that we love and cherish, apps we use on a daily
   basis. Here are some of mine..

@@ -1,7 +1,7 @@
 ---
 title: Cryptocurrencies I'm Buying in 2022
 date: '2021-12-29 13:00:00+03:00'
-image: images/cryptoinvesting_gettyimages-1250405669-c29a42e2fe774133ad64e6f3cc17d74a.jpg
+image: images/cryptoinvesting_gettyimages-1250405669-c29a42e2fe774133ad64e6f3cc17d74a.webp
 draft: false
 tags:
 - investments

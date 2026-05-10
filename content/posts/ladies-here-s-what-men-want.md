@@ -1,7 +1,7 @@
 ---
 title: Ladies, Here's What Men Want and It's Surprisingly Simple
 date: '2021-12-18 14:32:00+03:00'
-image: images/jd-mason-q9rqinia5ou-unsplash.jpg
+image: images/jd-mason-q9rqinia5ou-unsplash.webp
 draft: false
 tags:
 - dating

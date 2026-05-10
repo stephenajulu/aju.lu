@@ -1,7 +1,7 @@
 ---
 title: Why Does A Meat Only Diet Cure So Many Things
 date: '2023-03-09 09:21:00+03:00'
-image: images/photo-1558030089-02acba3c214e.jpeg
+image: images/photo-1558030089-02acba3c214e.webp
 draft: false
 tags:
 - meat

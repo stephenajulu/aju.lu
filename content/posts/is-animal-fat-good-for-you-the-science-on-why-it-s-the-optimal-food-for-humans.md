@@ -1,7 +1,7 @@
 ---
 title: Is Animal Fat Good for You? The Science on Why it’s The Optimal Food for Humans
 date: '2022-12-29 19:00:00+03:00'
-image: images/adobestock_99708835-1030x699.jpeg
+image: images/adobestock_99708835-1030x699.webp
 draft: false
 tags:
 - health

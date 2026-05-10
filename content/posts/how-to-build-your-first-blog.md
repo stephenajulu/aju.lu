@@ -1,7 +1,7 @@
 ---
 title: How to Build Your First Blog
 date: '2021-02-08 03:52:00+00:00'
-image: images/how-to-start-a-blog-illustration-1.jpeg
+image: images/how-to-start-a-blog-illustration-1.webp
 draft: false
 tags:
 - blogging

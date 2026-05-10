@@ -1,7 +1,7 @@
 ---
 title: 14 Powerful and Masculine Perfumes for THE MAN
 date: '2023-03-04 14:01:00+03:00'
-image: images/photo-1644335364661-e83f9eca34f5.jpeg
+image: images/photo-1644335364661-e83f9eca34f5.webp
 draft: false
 tags:
 - masculine perfumes

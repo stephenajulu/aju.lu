@@ -1,7 +1,7 @@
 ---
 title: 'How To Buy Your First NFT Web 3.0 Domain: Unstoppable Domains'
 date: '2021-12-22 13:31:00+03:00'
-image: images/unstoppable-1280x720.png
+image: images/unstoppable-1280x720.webp
 draft: false
 tags:
 - web3

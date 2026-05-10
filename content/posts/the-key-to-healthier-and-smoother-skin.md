@@ -1,7 +1,7 @@
 ---
 title: The Key to Healthier and Smoother Skin
 date: '2022-04-16 13:00:00+03:00'
-image: images/lesly-juarez-1ahgngkuhr0-unsplash.jpg
+image: images/lesly-juarez-1ahgngkuhr0-unsplash.webp
 draft: false
 tags:
 - health

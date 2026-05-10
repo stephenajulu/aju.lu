@@ -1,7 +1,7 @@
 ---
 title: 'The Future of Daily Tech: How NFTs will Impact Your Future'
 date: '2023-03-03 08:16:00+03:00'
-image: images/photo-1643101681441-0c38d714fa14.png
+image: images/photo-1643101681441-0c38d714fa14.webp
 draft: false
 tags:
 - NFTs

@@ -1,7 +1,7 @@
 ---
 title: Mini Self Improvement Framework For Everyone
 date: '2021-08-20 17:25:00+03:00'
-image: images/danielle-macinnes-iulgi9pwetu-unsplash.jpg
+image: images/danielle-macinnes-iulgi9pwetu-unsplash.webp
 draft: false
 tags:
 - self improvement

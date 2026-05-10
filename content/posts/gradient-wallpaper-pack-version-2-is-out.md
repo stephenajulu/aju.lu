@@ -1,7 +1,7 @@
 ---
 title: Gradient Wallpaper Pack Version 2 is Out
 date: '2021-06-30 20:46:00+03:00'
-image: images/gradientwallpaperspackv2.png
+image: images/gradientwallpaperspackv2.webp
 draft: false
 tags:
 - wallpapers

@@ -1,7 +1,7 @@
 ---
 title: A little heart to heart
 date: '2021-11-23 03:02:00+03:00'
-image: images/kelly-sikkema-4le7k9xvyje.jpg
+image: images/kelly-sikkema-4le7k9xvyje.webp
 draft: false
 tags:
 - self improvement

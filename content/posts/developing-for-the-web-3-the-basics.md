@@ -1,7 +1,7 @@
 ---
 title: 'Developing for the Web 3: The Basics'
 date: '2023-01-27 19:24:00+03:00'
-image: images/shutterstock_2021164787.jpg
+image: images/shutterstock_2021164787.webp
 draft: false
 tags:
 - web3

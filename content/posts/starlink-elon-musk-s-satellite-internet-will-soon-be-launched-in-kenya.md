@@ -1,7 +1,7 @@
 ---
 title: Starlink, Elon Musk's Satellite Internet Will Soon Be Launched in Kenya
 date: '2021-03-01 11:21:00+00:00'
-image: images/starlinkcharcoal.jpg
+image: images/starlinkcharcoal.webp
 draft: false
 description: Starlink, SpaceX’s project that involves deploying thousands of satellites
   to space for internet access may be coming to Kenya.

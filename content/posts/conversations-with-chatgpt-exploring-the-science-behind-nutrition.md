@@ -1,7 +1,7 @@
 ---
 title: Conversations with ChatGPT - Exploring the Science Behind Nutrition
 date: '2023-02-01 15:49:00+03:00'
-image: images/maxresdefault-1.jpg
+image: images/maxresdefault-1.webp
 draft: false
 tags:
 - nutrition

@@ -1,7 +1,7 @@
 ---
 title: 6 Shoes Men Should Own
 date: '2021-08-09 21:07:00+03:00'
-image: images/clem-onojeghuo-ouxpfti70i0-unsplash.jpg
+image: images/clem-onojeghuo-ouxpfti70i0-unsplash.webp
 draft: false
 tags:
 - fashion

@@ -1,7 +1,7 @@
 ---
 title: The Potential of Blockchain Technology in Various Industries
 date: '2023-01-01 14:00:00+03:00'
-image: images/shubham-dhage-gc_aoajql2q-unsplash.jpg
+image: images/shubham-dhage-gc_aoajql2q-unsplash.webp
 draft: false
 tags:
 - Blockchain technology

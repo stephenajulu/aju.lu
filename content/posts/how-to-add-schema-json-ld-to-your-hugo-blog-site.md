@@ -1,7 +1,7 @@
 ---
 title: How To Add Schema JSON-LD to Your Hugo Blog/Site
 date: '2021-06-26 17:53:00+03:00'
-image: images/generative-social-image-1.png
+image: images/generative-social-image-1.webp
 draft: false
 tags:
 - schema

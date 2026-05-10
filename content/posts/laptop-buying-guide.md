@@ -1,7 +1,7 @@
 ---
 title: Laptop Buying Guide
 date: '2022-07-08 10:40:00+03:00'
-image: images/joshua-woroniecki-lzh3hptjz9c-unsplash.jpg
+image: images/joshua-woroniecki-lzh3hptjz9c-unsplash.webp
 draft: false
 tags:
 - laptop

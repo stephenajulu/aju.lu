@@ -1,7 +1,7 @@
 ---
 title: Top 100 Most Common Passwords + Precautionary Measures
 date: '2021-06-20 16:13:00+03:00'
-image: images/cpl.png
+image: images/cpl.webp
 draft: false
 tags:
 - passwords

@@ -1,7 +1,7 @@
 ---
 title: How Does Decentralized Finance Work?
 date: '2021-12-03 14:09:00+03:00'
-image: images/defi.png
+image: images/defi.webp
 draft: false
 tags:
 - finance

@@ -1,7 +1,7 @@
 ---
 title: On Becoming a High Value Woman
 date: '2021-08-02 16:04:00+03:00'
-image: images/averie-woodard-4nulm-juyfo-unsplash.jpg
+image: images/averie-woodard-4nulm-juyfo-unsplash.webp
 draft: false
 tags:
 - high value woman

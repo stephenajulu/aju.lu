@@ -1,7 +1,7 @@
 ---
 title: How to Become Healthy + My Tips
 date: '2021-06-27 13:25:00+03:00'
-image: images/healthytips.png
+image: images/healthytips.webp
 draft: false
 tags:
 - health

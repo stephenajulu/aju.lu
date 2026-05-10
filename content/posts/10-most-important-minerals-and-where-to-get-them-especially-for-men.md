@@ -1,7 +1,7 @@
 ---
 title: 10 Most Important Minerals and Where To Get Them (especially for men)
 date: '2022-05-04 09:17:00+03:00'
-image: images/ktryna-wq7verajaae-unsplash.jpg
+image: images/ktryna-wq7verajaae-unsplash.webp
 draft: false
 tags:
 - food

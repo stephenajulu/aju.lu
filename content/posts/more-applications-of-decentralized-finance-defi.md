@@ -1,7 +1,7 @@
 ---
 title: More Applications of Decentralized Finance(DeFi)
 date: '2021-11-29 10:48:00+03:00'
-image: images/10-defi-coins.jpg
+image: images/10-defi-coins.webp
 draft: false
 tags:
 - defi
@@ -134,4 +134,4 @@ For example, the NFTs are tokenizing unique digital assets that hold value based
 
 Source: [101Blockchains](https://101blockchains.com/defi-use-cases/)
 
-<!-- raw html --> <a href="https://101blockchains.com/blockchain-infographics/"><img src="https://101blockchains.com/wp-content/uploads/2021/05/top-defi-use-cases.png" alt="top defi use cases" border='0' width="600px"/> </a>
+<!-- raw html --> <a href="https://101blockchains.com/blockchain-infographics/"><img src="https://101blockchains.com/wp-content/uploads/2021/05/top-defi-use-cases.webp" alt="top defi use cases" border='0' width="600px"/> </a>

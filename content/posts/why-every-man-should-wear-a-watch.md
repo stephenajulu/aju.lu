@@ -1,7 +1,7 @@
 ---
 title: Why EVERY Man Should Wear a Watch
 date: '2021-08-09 17:06:00+03:00'
-image: images/watch1.jpg
+image: images/watch1.webp
 draft: false
 tags:
 - fashion

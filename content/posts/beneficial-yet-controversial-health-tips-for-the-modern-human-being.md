@@ -1,7 +1,7 @@
 ---
 title: Beneficial Yet Controversial Health Tips for The Modern Human Being
 date: '2022-04-16 12:00:00+03:00'
-image: images/emma-simpson-mngaalewep0-unsplash.jpg
+image: images/emma-simpson-mngaalewep0-unsplash.webp
 draft: false
 tags:
 - health

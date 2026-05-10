@@ -1,7 +1,7 @@
 ---
 title: 'Personal Branding 101: Creating Your Own Niche: Combining Interests, Experience'
 date: '2023-02-10 14:50:00+03:00'
-image: images/photo-1548094990-c16ca90f1f0d.jpeg
+image: images/photo-1548094990-c16ca90f1f0d.webp
 draft: false
 tags:
 - niche

@@ -1,7 +1,7 @@
 ---
 title: 'The Future is Now: Emerging Technologies That Will Shape Our World'
 date: '2023-01-30 11:36:00+03:00'
-image: images/digital_disruption.jpg
+image: images/digital_disruption.webp
 draft: false
 tags:
 - emerging technologies

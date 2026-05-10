@@ -1,7 +1,7 @@
 ---
 title: How To Increase Your Testosterone
 date: '2021-12-19 06:28:00+03:00'
-image: images/simone-pellegrini-l3qg_oblut0-unsplash.jpg
+image: images/simone-pellegrini-l3qg_oblut0-unsplash.webp
 draft: false
 tags:
 - health

@@ -1,7 +1,7 @@
 ---
 title: 5 Free Tools For Solopreneurs/Entrepreneurs (Updated)
 date: '2022-06-15 10:28:00+03:00'
-image: images/brooke-lark-nmffl1zjbw4-unsplash.jpg
+image: images/brooke-lark-nmffl1zjbw4-unsplash.webp
 draft: false
 tags:
 - entrepreneurs

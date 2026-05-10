@@ -1,7 +1,7 @@
 ---
 title: 'How To Use The Halo Effect To Your Advantage: The Superficial Matter'
 date: '2023-02-28 12:21:00+03:00'
-image: images/photo-1492633423870-43d1cd2775eb.jpeg
+image: images/photo-1492633423870-43d1cd2775eb.webp
 draft: false
 tags:
 - halo effect

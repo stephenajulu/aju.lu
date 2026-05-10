@@ -1,7 +1,7 @@
 ---
 title: 'Shocking Truth Revealed: Why Fertility is Dropping at an Alarming Rate in'
 date: '2023-02-24 08:05:00+03:00'
-image: images/photo-1515091110873-2a9680d5e323.jpeg
+image: images/photo-1515091110873-2a9680d5e323.webp
 draft: false
 tags:
 - fertility

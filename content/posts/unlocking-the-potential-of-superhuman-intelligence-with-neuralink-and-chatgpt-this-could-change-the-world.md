@@ -1,7 +1,7 @@
 ---
 title: Unlocking the Potential of Superhuman Intelligence with Neuralink and ChatGPT
 date: '2023-01-27 10:52:00+03:00'
-image: images/my-project-1-11.png
+image: images/my-project-1-11.webp
 draft: false
 tags:
 - scifi

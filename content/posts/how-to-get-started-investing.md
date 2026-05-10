@@ -1,7 +1,7 @@
 ---
 title: How To Invest
 date: '2021-02-10 09:00:00+00:00'
-image: images/feature-758x426.jpg
+image: images/feature-758x426.webp
 draft: false
 tags:
 - investment

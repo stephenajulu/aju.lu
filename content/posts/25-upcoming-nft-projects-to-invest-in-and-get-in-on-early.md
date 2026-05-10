@@ -1,7 +1,7 @@
 ---
 title: 25 Upcoming NFT Projects to Invest in and Get In on Early
 date: '2023-02-15 16:02:00+03:00'
-image: images/how-to-buy-and-sell-nfts-aio-bot-1280x720.jpg
+image: images/how-to-buy-and-sell-nfts-aio-bot-1280x720.webp
 draft: false
 tags:
 - nfts

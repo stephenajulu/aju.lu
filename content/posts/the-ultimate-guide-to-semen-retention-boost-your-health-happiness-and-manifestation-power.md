@@ -1,7 +1,7 @@
 ---
 title: 'The Ultimate Guide to Semen Retention: Boost Your Health, Focus, and Manifestation'
 date: '2023-02-24 14:40:00+03:00'
-image: images/photo-1617724054780-ef6bd6b21e17.jpeg
+image: images/photo-1617724054780-ef6bd6b21e17.webp
 draft: false
 tags:
 - law of attraction

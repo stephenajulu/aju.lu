@@ -1,7 +1,7 @@
 ---
 title: How To Buy NFTs
 date: '2022-06-08 14:00:00+03:00'
-image: images/dylan-calluy-e4tbps9k_po-unsplash.jpg
+image: images/dylan-calluy-e4tbps9k_po-unsplash.webp
 draft: false
 tags:
 - technology

@@ -1,7 +1,7 @@
 ---
 title: How To Buy Your First Cryptocurrency
 date: '2021-11-30 13:06:00+03:00'
-image: images/executium-em3btkstjia-unsplash.jpg
+image: images/executium-em3btkstjia-unsplash.webp
 draft: false
 tags:
 - cryptocurrency

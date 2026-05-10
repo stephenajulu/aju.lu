@@ -1,7 +1,7 @@
 ---
 title: Phone Buying Tips
 date: '2022-06-11 20:00:00+03:00'
-image: images/youssef-sarhan-sdth9wydmre-unsplash.jpg
+image: images/youssef-sarhan-sdth9wydmre-unsplash.webp
 draft: false
 tags:
 - tech

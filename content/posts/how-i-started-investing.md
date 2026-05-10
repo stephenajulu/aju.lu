@@ -1,7 +1,7 @@
 ---
 title: How I Started Investing
 date: '2021-02-08 15:00:00+00:00'
-image: images/investing-1.png
+image: images/investing-1.webp
 draft: false
 tags:
 - investment

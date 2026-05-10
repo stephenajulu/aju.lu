@@ -1,7 +1,7 @@
 ---
 title: The New 1% Elite
 date: '2021-11-19 11:08:00+03:00'
-image: images/helena-lopes-uze35tk5uoa-unsplash.jpg
+image: images/helena-lopes-uze35tk5uoa-unsplash.webp
 draft: false
 tags:
 - self improvement

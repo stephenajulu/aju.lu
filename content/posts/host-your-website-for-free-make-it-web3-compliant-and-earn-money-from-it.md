@@ -1,7 +1,7 @@
 ---
 title: Host Your Website For Free, Make It Web3 Compliant and Earn Money From It
 date: '2022-05-26 20:30:00+03:00'
-image: images/le-buzz-kieii2b9gku-unsplash.jpg
+image: images/le-buzz-kieii2b9gku-unsplash.webp
 draft: false
 tags:
 - technology

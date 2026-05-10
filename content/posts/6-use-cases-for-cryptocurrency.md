@@ -1,7 +1,7 @@
 ---
 title: 6 Use Cases for Cryptocurrencies
 date: '2022-08-14 10:35:00+03:00'
-image: images/kanchanara-oqepgkdx3ra-unsplash.jpg
+image: images/kanchanara-oqepgkdx3ra-unsplash.webp
 draft: false
 tags:
 - crypto

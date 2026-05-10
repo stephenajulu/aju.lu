@@ -1,7 +1,7 @@
 ---
 title: How to Build Your First Blog Part 2
 date: '2021-02-08 06:20:00+00:00'
-image: images/blog.jpg
+image: images/blog.webp
 draft: false
 tags:
 - blogging

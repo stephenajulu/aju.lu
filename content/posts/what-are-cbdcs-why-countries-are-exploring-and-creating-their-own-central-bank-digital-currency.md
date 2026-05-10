@@ -1,7 +1,7 @@
 ---
 title: What are CBDCs? Central Bank Digital Currency Defined
 date: '2021-12-09 12:31:00+03:00'
-image: images/cbdc.jpeg
+image: images/cbdc.webp
 draft: false
 tags:
 - technology

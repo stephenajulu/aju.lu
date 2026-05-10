@@ -1,7 +1,7 @@
 ---
 title: 'Web Tool of The Week #2'
 date: '2021-06-27 10:35:00+03:00'
-image: images/webtool2.png
+image: images/webtool2.webp
 draft: false
 tags:
 - Spark post

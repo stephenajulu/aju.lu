@@ -1,7 +1,7 @@
 ---
 title: An Introduction in Blockchain, Cryptocurrencies, Tokens, Smart Contracts
 date: '2022-08-21 18:20:00+03:00'
-image: images/1644357966865.png
+image: images/1644357966865.webp
 draft: false
 tags:
 - blockchain

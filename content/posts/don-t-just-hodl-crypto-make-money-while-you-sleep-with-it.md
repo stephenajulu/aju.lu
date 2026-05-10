@@ -1,7 +1,7 @@
 ---
 title: Don't Just HODL Crypto Make Money While You Sleep With It
 date: '2021-12-09 14:53:00+03:00'
-image: images/1_cc8xg5pc8lf5id8u_vu0fw.jpeg
+image: images/1_cc8xg5pc8lf5id8u_vu0fw.webp
 draft: false
 tags:
 - finance

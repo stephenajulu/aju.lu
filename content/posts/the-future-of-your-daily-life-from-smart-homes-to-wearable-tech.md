@@ -1,7 +1,7 @@
 ---
 title: 'The Future of Your Daily Life: From Smart Homes to Wearable Tech'
 date: '2023-02-15 14:29:00+03:00'
-image: images/1_ipb1wb5ffubowsimo3jfrg.jpeg
+image: images/1_ipb1wb5ffubowsimo3jfrg.webp
 draft: false
 tags:
 - smart home

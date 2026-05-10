@@ -1,7 +1,7 @@
 ---
 title: Get Your Health and Life Back While Also Reversing Diseases
 date: '2022-07-06 15:16:00+03:00'
-image: images/christopher-campbell-kfcdflbu6za-unsplash.jpg
+image: images/christopher-campbell-kfcdflbu6za-unsplash.webp
 draft: false
 tags:
 - lifestyle

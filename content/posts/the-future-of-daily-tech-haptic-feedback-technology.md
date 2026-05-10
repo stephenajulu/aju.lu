@@ -1,7 +1,7 @@
 ---
 title: 'The Future of Daily Tech: Haptic Feedback Technology'
 date: '2023-02-17 15:18:00+03:00'
-image: images/virtual-reality-people_1600x900.jpg
+image: images/virtual-reality-people_1600x900.webp
 draft: false
 tags:
 - haptic feedback

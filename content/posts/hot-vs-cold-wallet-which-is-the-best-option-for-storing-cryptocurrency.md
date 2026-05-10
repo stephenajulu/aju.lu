@@ -1,7 +1,7 @@
 ---
 title: 'Hot vs Cold Wallet: Which is the Best Option for Storing Cryptocurrency?'
 date: '2023-01-28 08:16:00+03:00'
-image: images/university-article-header-banner.png
+image: images/university-article-header-banner.webp
 draft: false
 tags:
 - hot wallet

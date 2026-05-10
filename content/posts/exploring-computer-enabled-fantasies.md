@@ -1,7 +1,7 @@
 ---
 title: Exploring Computer Enabled Fantasies
 date: '2023-02-02 08:33:00+03:00'
-image: images/metaverse-reality-scaled.jpg
+image: images/metaverse-reality-scaled.webp
 draft: false
 tags:
 - computer enabled fantasies

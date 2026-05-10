@@ -1,7 +1,7 @@
 ---
 title: The Importance of Building Your Masculinity
 date: '2021-12-11 09:51:00+03:00'
-image: images/simone-pellegrini-l3qg_oblut0-unsplash.jpg
+image: images/simone-pellegrini-l3qg_oblut0-unsplash.webp
 draft: false
 tags:
 - masculinity

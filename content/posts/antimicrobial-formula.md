@@ -1,7 +1,7 @@
 ---
 title: Antimicrobial Formula(Natural Antibiotic)
 date: '2022-05-17 03:36:00+03:00'
-image: images/dominik-martin-jyfmyif4n70-unsplash.jpg
+image: images/dominik-martin-jyfmyif4n70-unsplash.webp
 draft: false
 tags:
 - health

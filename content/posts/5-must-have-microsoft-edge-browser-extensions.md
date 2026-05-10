@@ -1,7 +1,7 @@
 ---
 title: 5 Must Have Microsoft Edge Browser Extensions
 date: '2021-04-10 19:10:00+00:00'
-image: images/re4ncja.jpeg
+image: images/re4ncja.webp
 draft: false
 description: Here are 5 must have Edge Browser Extensions + a bonus
 ---

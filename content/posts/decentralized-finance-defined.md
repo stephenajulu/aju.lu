@@ -1,7 +1,7 @@
 ---
 title: Decentralized Finance Defined
 date: '2021-11-27 15:48:00+03:00'
-image: images/defi-finance-decentralisee.jpg
+image: images/defi-finance-decentralisee.webp
 draft: false
 tags:
 - decentralized finance

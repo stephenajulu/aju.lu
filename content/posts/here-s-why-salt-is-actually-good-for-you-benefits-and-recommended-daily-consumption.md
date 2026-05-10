@@ -2,7 +2,7 @@
 title: 'Here''''''''''''''''s Why Salt is Actually Good For You: Benefits and Recommended
   Daily'
 date: '2022-06-06 15:54:00+03:00'
-image: images/maksym-sirman-mutyusmedss-unsplash.jpg
+image: images/maksym-sirman-mutyusmedss-unsplash.webp
 draft: false
 tags:
 - health

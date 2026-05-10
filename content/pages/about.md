@@ -1,7 +1,7 @@
 ---
 title: About me
 url: /about/
-image: images/me.jpg
+image: images/me.webp
 description: "Meet Stephen Ajulu, a multidisciplinary architect and technologist with over 12 years of experience building sovereign digital infrastructure."
 ---
 ### About Ajulu

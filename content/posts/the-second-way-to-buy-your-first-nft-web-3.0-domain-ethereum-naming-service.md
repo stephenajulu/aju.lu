@@ -1,7 +1,7 @@
 ---
 title: 'How To Buy Your First NFT Web 3.0 Domain: Ethereum Naming Service'
 date: '2021-12-27 14:11:00+03:00'
-image: images/0_r24ox8zwoe0gfp1g.png
+image: images/0_r24ox8zwoe0gfp1g.webp
 draft: false
 tags:
 - web3

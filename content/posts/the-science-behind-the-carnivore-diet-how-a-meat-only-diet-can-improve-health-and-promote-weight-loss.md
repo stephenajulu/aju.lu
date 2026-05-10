@@ -1,7 +1,7 @@
 ---
 title: 'The Science Behind the Carnivore Diet: How a Meat-Only Diet Can Improve Health'
 date: '2023-01-27 13:24:00+03:00'
-image: images/photo-1529692236671-f1f6cf9683ba.jpeg
+image: images/photo-1529692236671-f1f6cf9683ba.webp
 draft: false
 tags:
 - carnivore diet

@@ -1,7 +1,7 @@
 ---
 title: What are DAOs? Decentralized Autonomous Organizations Explained
 date: '2021-12-03 16:15:00+03:00'
-image: images/de340f456ab84bf89b3f2f12cb423eeb.png
+image: images/de340f456ab84bf89b3f2f12cb423eeb.webp
 draft: false
 tags:
 - technology

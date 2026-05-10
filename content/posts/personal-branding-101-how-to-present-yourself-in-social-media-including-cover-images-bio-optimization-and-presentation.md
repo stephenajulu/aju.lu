@@ -1,7 +1,7 @@
 ---
 title: 'Personal Branding 101: How to Present Yourself in Social Media Including Cover'
 date: '2023-03-03 12:09:00+03:00'
-image: images/photo-1554774853-aae0a22c8aa4.jpeg
+image: images/photo-1554774853-aae0a22c8aa4.webp
 draft: false
 tags:
 - personal brand

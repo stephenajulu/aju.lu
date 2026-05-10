@@ -1,7 +1,7 @@
 ---
 title: 'Brain-Computer Interfaces: The Future of Human-Machine Interaction'
 date: '2023-02-25 10:41:00+03:00'
-image: images/photo-1617791160536-598cf32026fb.jpeg
+image: images/photo-1617791160536-598cf32026fb.webp
 draft: false
 tags:
 - brain computer interface

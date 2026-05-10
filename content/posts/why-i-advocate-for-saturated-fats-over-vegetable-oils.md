@@ -1,7 +1,7 @@
 ---
 title: Why I Advocate For Saturated Fats Over Vegetable Oils(Updated)
 date: '2022-06-15 19:19:00+03:00'
-image: images/ashwini-chaudhary-monty-w0oykevw9n4-unsplash.jpg
+image: images/ashwini-chaudhary-monty-w0oykevw9n4-unsplash.webp
 draft: false
 tags:
 - health
