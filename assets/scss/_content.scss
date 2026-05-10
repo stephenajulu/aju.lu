@@ -372,10 +372,15 @@ ul {
     margin-bottom: 25px;
     font-size: 0.85rem;
     color: var(--meta-color);
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    &::-webkit-scrollbar { display: none; }
 
     ol {
         display: flex;
-        flex-wrap: wrap;
+        align-items: center;
         list-style: none;
         padding: 0;
         margin: 0;
@@ -384,6 +389,7 @@ ul {
     li {
         display: flex;
         align-items: center;
+        flex-shrink: 0;
 
         &:not(:last-child)::after {
             content: "/";
@@ -402,10 +408,6 @@ ul {
         &[aria-current="page"] {
             color: var(--text-color);
             font-weight: 600;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            max-width: 200px;
         }
     }
 }
