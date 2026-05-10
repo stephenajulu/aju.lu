@@ -1,7 +1,7 @@
 ---
 title: End-to-End Supplier Training, Onboarding and Support on eGP
 url: /egp-supplier
-image: https:/stephenajulu.com/images/egp-kenya-banner-3.png
+image: https:/stephenajulu.com/images/egp-kenya-banner-3.webp
 ---
 ## Empowering 2,000+ Kenyan Suppliers to Thrive in the Digital Procurement Era
 

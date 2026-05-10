@@ -52,7 +52,7 @@ Some of their products include:
 
 #### Colors: Black, Blue, Hunter Green, and Brown
 
-![](/images/untitleddesign_5_600x.jpg)
+![](/images/untitleddesign_5_600x.webp)
 
 Buy it using this link to get 10% off [Women's Quarter Zip Hoodie – ESNTLS](https://www.esntls.co/collections/women/products/womens-quarter-zip-hoodie?ref=kuzqn53jomp-)
 
@@ -60,7 +60,7 @@ Buy it using this link to get 10% off [Women's Quarter Zip Hoodie – ESNTLS](ht
 
 #### Colors: Black, Boxing Grey, Dirt, Lead, and Washed Grey
 
-![](/images/untitleddesign-2021-08-26t102237-580_600x.png)
+![](/images/untitleddesign-2021-08-26t102237-580_600x.webp)
 
 Buy it using this link to get 10% off [Women's Heavy Weight Zip Up Hoodie – ESNTLS](https://www.esntls.co/collections/women/products/womens-heavy-weight-zip-up-hoodie?ref=kuzqn53jomp-)
 
@@ -68,7 +68,7 @@ Buy it using this link to get 10% off [Women's Heavy Weight Zip Up Hoodie – ES
 
 #### Colors: Black and Grey
 
-![](/images/10_600x.png)
+![](/images/10_600x.webp)
 
 Buy it using this link to get 10% off [Workout Hoodie – ESNTLS](https://www.esntls.co/collections/shop-all/products/workout-hoodie?ref=kuzqn53jomp-)
 
@@ -76,7 +76,7 @@ Buy it using this link to get 10% off [Workout Hoodie – ESNTLS](https://www.es
 
 #### Colors: Washed Grey, Black, Boxing Grey, Lead, and Brown
 
-![](/images/untitleddesign-2021-08-26t094035-732_ff5c9054-0359-4145-b802-49826fe7e1df_600x.png)
+![](/images/untitleddesign-2021-08-26t094035-732_ff5c9054-0359-4145-b802-49826fe7e1df_600x.webp)
 
 Buy it using this link to get 10% off [Heavy Weight Zip Up Hoodie – ESNTLS](https://www.esntls.co/collections/shop-all/products/heavy-weight-zip-up-hoodie?ref=kuzqn53jomp-)
 
@@ -86,7 +86,7 @@ Buy it using this link to get 10% off [Heavy Weight Zip Up Hoodie – ESNTLS](ht
 
 ### Color: Washed Grey, Brown, Black, Blue, and Hunter Green
 
-![](/images/untitleddesign-2021-08-26t095421-377_398f2640-4d9a-4f2a-bf82-6c7bef69ef60_600x.png)
+![](/images/untitleddesign-2021-08-26t095421-377_398f2640-4d9a-4f2a-bf82-6c7bef69ef60_600x.webp)
 
 Buy it using this link to get 10% off: [Heavy Weight Hoodie – ESNTLS](https://www.esntls.co/collections/shop-all/products/copy-of-heavy-weight-hoodie?ref=kuzqn53jomp-)
 

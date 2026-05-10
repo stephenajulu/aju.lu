@@ -32,7 +32,7 @@ If you have ever asked someone to make you a logo and they failed to give you on
 
 The photo below is a sample I made, I used Lunapic's transparency tool then cropped it using a circle crop.
 
-![](/images/me3.png)
+![](/images/me3.webp)
 
 #### Pros
 

@@ -27,7 +27,7 @@ According to Wikipedia, It is
 
 ## Benefits of Testosterone
 
-![](/images/testosterone_infographic_0_crop.png)
+![](/images/testosterone_infographic_0_crop.webp)
 
 ## How to Increase Testosterone
 

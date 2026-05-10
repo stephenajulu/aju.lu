@@ -47,7 +47,7 @@ One of their most popular products, bought by thousands worldwide. Made from veg
   
 They are used by people from Apple, Amazon, Google, Netflix, and many more. Upgrade your workspace, as many others have.
 
-![](/images/deskmat-black_094239d3-0925-49a9-9577-7b82fdf942ad_576x.jpg)
+![](/images/deskmat-black_094239d3-0925-49a9-9577-7b82fdf942ad_576x.webp)
 
 Buy it from here and get 10% off: [ULX Minimalist Desk Mat | Black (ulxstore.com)](https://ulxstore.com/products/black-leather-desk-mat?ref=kuzqn53jomp-)
 
@@ -65,7 +65,7 @@ They are used by people from Apple, Amazon, Google, Netflix, and many more. Upgr
 
 * 60cm x 35cm
 
-![](/images/dsc00036_576x.jpg)
+![](/images/dsc00036_576x.webp)
 
 Buy it from here and get 15% off: [ULX Full Grain Leather Desk Mat - Black (ulxstore.com)](https://ulxstore.com/products/leather-desk-mat-black?ref=kuzqn53jomp-)
 

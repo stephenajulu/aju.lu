@@ -43,7 +43,7 @@ However, creating your own niche can be a daunting task, especially if you have 
 
 In this article, we’ll explore the steps you can take to create your own niche and how to effectively monetize it through a variety of platforms such as Twitter, Instagram, Podcast, Youtube, Newsletter, and LinkedIn. We’ll also share content and tips from online marketing expert, Dan Koe, on how to build a thriving online business.
 
-![](/images/318185066_199536639228205_3347918203346184619_n.jpg)
+![](/images/318185066_199536639228205_3347918203346184619_n.webp)
 
 ## Step 1: Identifying Your Interests
 

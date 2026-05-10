@@ -16,7 +16,7 @@ description: Every week, I'll share with you a new wallpaper that you can use to
 
 Every week, I'll share with you a new wallpaper that you can use to refresh your desktop. Let me know what you think of this week’s one, and if you have a wallpaper of your own that you think I should share, put it in the comments.
 
-[DOWNLOAD IT!](https://stephenajulu.com/images/alain-bonnardeaux-tlxgw_its7k-unsplash.jpg)
+[DOWNLOAD IT!](https://stephenajulu.com/images/alain-bonnardeaux-tlxgw_its7k-unsplash.webp)
 
-{{% figure src="https://stephenajulu.com/images/alain-bonnardeaux-tlxgw_its7k-unsplash.jpg" caption="Photo by Alain Bonnardeaux on Unsplash"
+{{% figure src="https://stephenajulu.com/images/alain-bonnardeaux-tlxgw_its7k-unsplash.webp" caption="Photo by Alain Bonnardeaux on Unsplash"
 %}}

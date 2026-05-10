@@ -61,7 +61,7 @@ It is important to note that the carnivore diet is not for everyone, and it is i
 
 Diagram:
 
-![](/images/mermaid-diagram-2023-01-27-164447.png)
+![](/images/mermaid-diagram-2023-01-27-164447.webp)
 
 In conclusion, the carnivore diet may be a great option for those looking to improve their health and lose weight, but it should be approached with caution and under the guidance of a healthcare professional.
 

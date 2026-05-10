@@ -1,7 +1,7 @@
 ---
 title: Metaverse, VR, AR and more
 date: '2021-10-29T02:57:00Z'
-image: /images/file-20210806-17-jibbct.jpg
+image: /images/file-20210806-17-jibbct.webp
 draft: false
 ---
 

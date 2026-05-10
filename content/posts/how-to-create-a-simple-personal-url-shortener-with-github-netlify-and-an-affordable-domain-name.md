@@ -15,7 +15,7 @@ Today I’d like to help you build an URL shortener with GitHub, Netlify and an 
  4. Name the file _redirects.
  5. Now create links like this
 
-    ![](/images/screenshot_2020-07-14-stephenajulu-links2.png)
+    ![](/images/screenshot_2020-07-14-stephenajulu-links2.webp)
  6. Feel free to use TAB to properly space it otherwise use 5 spaces.
  7. Commit the file
  8. Now go to our Netlify Dashboard and import your url shortener links repository.

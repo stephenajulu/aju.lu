@@ -29,7 +29,7 @@ In this article, I will go over endocrine disruptors that disrupt normal hormona
 
 The endocrine system is a complex network of glands, hormones, and receptors. It provides the key communication and control link between the nervous system and bodily functions such as reproduction, immunity, metabolism, and behavior.
 
-![](https://ec.europa.eu/environment/chemicals/endocrine/images/picture_body.jpg)
+![](https://ec.europa.eu/environment/chemicals/endocrine/images/picture_body.webp)
 
 In nearly all complex multicellular animals, there are two main systems controlling and coordinating the processes within the body:
 

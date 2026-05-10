@@ -23,7 +23,7 @@ Today I'd like to show you how i bought my first share and how you can too for l
 4. 2 days have passed and you have received your confirmation via email, congrats! You can now call yourself an inve.... Not so fast, you haven't bought any stocks. They will provide login details or if you registered through the app like me, you'll be able to login.
 5. Now find an investment option, and click shares or stocks or equities. It may be one of those. Once there, you should be greeted with a list of stocks like this one 
 
-   ![](/images/1612763559417.jpg)
+   ![](/images/1612763559417.webp)
 6. Deposit and buy 100 shares or more, minimum is 100 shares, now remember all shares are different, some sell for 1.38 per share others at 1,000 per share, choose according to how much you have and diversify your portfolio. That's it. You are a share holder and a proud investor. Keep watching the market. You can become a billionaire just by trading stocks like Warren Buffet for example.
 
 Have a wonderful day
