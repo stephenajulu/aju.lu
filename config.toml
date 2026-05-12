@@ -135,27 +135,32 @@ mediatype = "application/json"
     identifier = "more"
     weight = 5
   [[menu.main]]
-    name = "Portfolio"
+    name = "About"
     parent = "more"
     weight = 1
+    url = "/About/"
+  [[menu.main]]
+    name = "Portfolio"
+    parent = "more"
+    weight = 2
     url = "/projects/"
   [[menu.main]]
     name = "Services"
     parent = "more"
-    weight = 2
+    weight = 3
     url = "/services/"
   [[menu.main]]
     name = "Contact"
     parent = "more"
-    weight = 3
+    weight = 4
     url = "/contact/"
   [[menu.main]]
     name = "CV / Resume"
     parent = "more"
-    weight = 4
+    weight = 5
     url = "/cv/"
   [[menu.main]]
     name = "About"
-    identifier = "about"
-    weight = 6
+    parent = "more"
+    weight = 
     url = "/About/"
