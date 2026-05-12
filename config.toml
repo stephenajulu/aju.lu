@@ -159,8 +159,3 @@ mediatype = "application/json"
     parent = "more"
     weight = 5
     url = "/cv/"
-  [[menu.main]]
-    name = "About"
-    parent = "more"
-    weight = 
-    url = "/About/"
