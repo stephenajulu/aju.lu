@@ -6,7 +6,7 @@
 
 <div class="portfolio-grid {{ if .Params.mosaic }}mosaic{{ end }}">
   {{ range .Pages }}
-  <a href="{{ .RelPermalink }}" class="portfolio-item {{ if .Params.tall }}tall{{ end }} {{ if .Params.wide }}wide{{ end }}">
+  <a href="{{ .RelPermalink }}" class="portfolio-item reveal {{ if .Params.tall }}tall{{ end }} {{ if .Params.wide }}wide{{ end }}">
     {{ if .Params.image }}
     <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" loading="lazy">
     {{ else }}

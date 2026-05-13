@@ -1,12 +1,20 @@
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
-  margin-bottom: 30px;
+  padding: 15px 20px;
+  margin: 0 -20px 30px -20px;
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--glass-border);
   
   @include breakpoint('small') {
-    margin-bottom: 50px;
+    padding: 20px 50px;
+    margin: 0 -50px 50px -50px;
   }
 
   .header-logo {

@@ -15,25 +15,46 @@
   
   li {
     position: relative;
-    margin-left: 20px;
+    margin-left: 25px;
     
     a {
       text-decoration: none;
       color: var(--heading-color);
       font-weight: 700;
-      font-size: 1.1rem;
+      font-size: 1.05rem;
       display: flex;
       align-items: center;
       gap: 5px;
-      transition: color 0.3s ease;
+      transition: var(--transition-fast);
+      padding: 5px 0;
       
       &:hover {
         color: var(--highlight-color);
+      }
+
+      // Animated underline for nav
+      &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: var(--highlight-color);
+        transform-origin: bottom right;
+        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      &:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
       }
     }
     
     &.active a {
       color: var(--highlight-color);
+      &::after { transform: scaleX(1); }
     }
 
     /* Dropdown Logic */

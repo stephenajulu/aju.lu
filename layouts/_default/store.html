@@ -21,12 +21,29 @@
                     <span class="currency">{{ .currency }}</span>
                     <span class="amount">{{ .price }}</span>
                 </div>
-                <a href="{{ .paystack_url }}" class="btn btn-buy" target="_blank">Get Access</a>
+                <a href="{{ .paystack_url }}" class="btn btn-buy btn-purchase" target="_blank">Get Access</a>
             </div>
         </div>
     </div>
     {{ end }}
 </div>
+
+<script>
+document.querySelectorAll('.btn-purchase').forEach(btn => {
+    btn.addEventListener('click', function() {
+        const originalText = this.innerText;
+        this.innerText = 'Opening...';
+        this.style.opacity = '0.7';
+        this.style.pointerEvents = 'none';
+        
+        setTimeout(() => {
+            this.innerText = originalText;
+            this.style.opacity = '1';
+            this.style.pointerEvents = 'auto';
+        }, 3000);
+    });
+});
+</script>
 
 <style>
 .store-grid {

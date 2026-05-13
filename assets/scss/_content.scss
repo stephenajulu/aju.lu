@@ -1,25 +1,52 @@
 a {
   color: var(--highlight-color);
   text-decoration: none;
+  position: relative;
+  transition: var(--transition-fast);
+
   &:hover {
-    text-decoration: underline;
+    color: var(--heading-color);
+  }
+
+  // Sophisticated animated underline
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-color: var(--highlight-color);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
   }
 }
 
 h1,
 h2,
 h3 {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
   color: var(--heading-color);
   font-family: var(--font-family-heading);
-  overflow-wrap: break-word; // Smart wrap
+  overflow-wrap: break-word;
+  letter-spacing: -0.03em; // Tightened further for impact
+  line-height: 1.15;
 }
+
 p {
   color: var(--text-color);
   font-family: var(--font-family-paragraph);
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 1.15rem; // Slightly larger for readability
+  line-height: 1.75; // More breathing room
+  margin-bottom: 1.75rem;
+  letter-spacing: 0.015em; // Slightly wider for elegance
 }
 
 ol,
@@ -150,6 +177,7 @@ ul {
 
 .dot {
   color: var(--dot-color);
+  text-shadow: 0 0 10px rgba(99, 32, 214, 0.4); // Subtle bloom
 }
 
 .footnotes {

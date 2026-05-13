@@ -194,3 +194,28 @@ if (window.netlifyIdentity) {
     document.location.href = "/";
   });
 }
+
+// 8. Scroll Reveal Animations
+document.addEventListener('DOMContentLoaded', () => {
+  const revealCallback = (entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+        observer.unobserve(entry.target); // Reveal only once
+      }
+    });
+  };
+
+  const revealObserver = new IntersectionObserver(revealCallback, {
+    threshold: 0.1,
+    rootMargin: "0px 0px -50px 0px"
+  });
+
+  const revealElements = document.querySelectorAll('.reveal');
+  revealElements.forEach(el => revealObserver.observe(el));
+});
+
+// 9. Smooth Page Entrance
+window.addEventListener('load', () => {
+    body.classList.add('page-loaded');
+});

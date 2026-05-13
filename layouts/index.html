@@ -12,7 +12,7 @@
     {{ partial "author-large.html" . }}
   {{ end }}
 <br>
-  <section class="intro">
+  <section class="intro animate-entrance">
     <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
     {{ if .Site.Params.showIntroContentOnHomepage}}
       <div class="intro-content">{{ .Content }}</div>
@@ -31,7 +31,7 @@
         {{ range first $limit $sorted}}
             {{ .Render "summary" }}
         {{ end }}
-        <a class="view-more" href="/posts">More Posts</a>
+        <a class="view-more reveal" href="/posts">More Posts</a>
         {{ end }}
     </section>
   {{ end }}
