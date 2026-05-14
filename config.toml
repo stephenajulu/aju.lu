@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Stephen Ajulu"
 paginate = 24
 copyright= "Stephen Ajulu."
+timeZone = "Africa/Nairobi"
 
 [outputs]
 home = ["HTML", "RSS", "JSON", "SEARCH_JSON"]
