@@ -1,6 +1,6 @@
 ---
 title: "On Reading: Content Diet"
-date: 2026-05-14T11:00+03:00
+date: 2026-05-14T11:00:00+03:00
 ---
 Found a very interesting and true quote:
 
