@@ -2,7 +2,7 @@
 title: "On Reading: Content Diet"
 date: 2026-05-14T11:00:00+03:00
 ---
-Found a very interesting and true quote:
+Found some interesting quotes from an interesting blog. Have a read:
 
 > "You Are What You Read, Even If You Don’t Always Remember It."
 
