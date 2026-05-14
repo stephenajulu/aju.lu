@@ -8,7 +8,7 @@
 
 <div class="store-grid">
     {{ range site.Data.store.products }}
-    <div class="product-card">
+    <div class="product-card reveal">
         <div class="product-image">
             {{ partial "responsive-image.html" (dict "src" .image "alt" .name "class" "store-img") }}
         </div>

@@ -211,7 +211,7 @@ document.addEventListener('DOMContentLoaded', () => {
     rootMargin: "0px 0px -50px 0px"
   });
 
-  const revealElements = document.querySelectorAll('.reveal');
+  const revealElements = document.querySelectorAll('.reveal, .dramatic');
   revealElements.forEach(el => revealObserver.observe(el));
 });
 
