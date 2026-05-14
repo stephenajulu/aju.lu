@@ -1,6 +1,6 @@
 ---
 title: "On Reading: Content Diet"
-date: 2026-05-14T11:00:00Z
+date: 2026-05-14
 ---
 > You Are What You Read, Even If You Don’t Always Remember It
 > [An interesting post I found online](https://blog.jim-nielsen.com/2024/you-are-what-you-read/)
