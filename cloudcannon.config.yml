@@ -15,34 +15,65 @@ paths:
 collections_config:
   pages:
     path: content
-    output: true
-    filter: strict
-    parse_branch_index: true
     icon: notes
+    disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   posts:
     path: content/posts
-    output: true
     icon: notes
+    disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   projects:
     path: content/projects
-    output: true
     icon: notes
+    disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   data:
     path: data
-    output: false
     icon: notes
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  source:
+    path: ''
+    icon: package_2
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  content_pages:
+    path: content/pages
+    glob:
+      - '!_index.md'
+    icon: contact_page
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  notes:
+    path: content/notes
+    glob:
+      - '!_index.md'
+    icon: notes
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  services:
+    path: content/services
+    glob:
+      - '!_index.md'
+    icon: devices
+    disable_url: false
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
 base_url: https://stephenajulu.com
-data_config: {}
 timezone: Etc/UTC
