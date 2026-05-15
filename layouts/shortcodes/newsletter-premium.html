@@ -1,0 +1,97 @@
+<div class="newsletter-container reveal">
+    <div class="newsletter-content">
+        <h3 class="newsletter-title">Join the Inner Circle</h3>
+        <p class="newsletter-desc">Deep-dives on sovereign technology, architecture, and personal growth delivered straight to your inbox.</p>
+    </div>
+    <form action="https://buttondown.com/api/emails/embed-subscribe/ajulu" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/ajulu', 'popupwindow')" class="newsletter-form">
+        <input type="email" name="email" id="bd-email" placeholder="Email address" required aria-label="Email address">
+        <button type="submit">Subscribe</button>
+    </form>
+</div>
+
+<style>
+.newsletter-container {
+    margin: 60px 0;
+    padding: 40px;
+    background: var(--base-offset-color);
+    border-radius: 20px;
+    border: 1px solid var(--glass-border);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: var(--heading-color);
+}
+
+.newsletter-desc {
+    font-size: 1rem;
+    opacity: 0.8;
+    margin-bottom: 30px;
+    max-width: 450px;
+}
+
+.newsletter-form {
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    background: var(--base-color);
+    padding: 6px;
+    border-radius: 12px;
+    border: 1px solid var(--glass-border);
+    transition: focus-within 0.3s ease;
+}
+
+.newsletter-form:focus-within {
+    border-color: var(--highlight-color);
+    box-shadow: 0 0 0 3px rgba(99, 32, 214, 0.1);
+}
+
+.newsletter-form input[type="email"] {
+    flex: 1;
+    background: transparent;
+    border: none;
+    padding: 12px 15px;
+    color: var(--text-color);
+    font-size: 1rem;
+    outline: none;
+}
+
+.newsletter-form button {
+    background: var(--highlight-color);
+    color: #ffffff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.newsletter-form button:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+    .newsletter-form {
+        flex-direction: column;
+        background: transparent;
+        border: none;
+        padding: 0;
+        gap: 10px;
+    }
+    .newsletter-form input[type="email"] {
+        background: var(--base-color);
+        border: 1px solid var(--glass-border);
+        border-radius: 10px;
+    }
+    .newsletter-form button {
+        width: 100%;
+    }
+}
+</style>

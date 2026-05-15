@@ -35,28 +35,37 @@
   --code-tag: #a78bfa;
   --code-variable: #e5e7eb;
   --code-string-regex: #34d399;
-  --code-string-symbol: #fb7185;
+  /* Syntax Highlighting (Dark) */
+  ...
   --code-builtin-pseudo: #9ca3af;
 
-  /* Sophistication & Motion Variables */
-  --transition-main: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  --glass-bg: rgba(3, 7, 18, 0.7);
-  --glass-border: rgba(255, 255, 255, 0.1);
-}
+  /* Fluid UI Architecture (Master Level) */
+  --step-0: clamp(1.00rem, 0.95rem + 0.25vw, 1.15rem); // Body
+  --step-1: clamp(1.20rem, 1.08rem + 0.61vw, 1.50rem); // H3
+  --step-2: clamp(1.44rem, 1.23rem + 1.05vw, 1.95rem); // H2
+  --step-3: clamp(1.73rem, 1.39rem + 1.69vw, 2.55rem); // H1
+  --step-4: clamp(2.07rem, 1.56rem + 2.59vw, 3.35rem); // Intro Titles
 
-.light-mode {
+  --space-m: clamp(1.50rem, 1.25rem + 1.25vw, 2.50rem); // Modern spacing
+
+  /* Sophistication & Motion Variables */
+  --transition-main: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --glass-bg: rgba(2, 6, 23, 0.75);
+  --glass-border: rgba(148, 163, 184, 0.1);
+  }
+
+  .light-mode {
   --base-color: #ffffff;
   --base-offset-color: #f3f4f6;
   --heading-color: #111827;
   --text-color: #374151;
   --meta-color: #4b5563; 
 
-  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-bg: rgba(255, 255, 255, 0.75);
   --glass-border: rgba(0, 0, 0, 0.05);
 
   /* Syntax Highlighting (Light) */
-  --code-bg: #f9fafb;
   --code-color: #111827;
   --code-hll: #f3f4f6;
   --code-comment: #6b7280;
@@ -95,6 +104,7 @@ $breakpoints: (
 @import 'content';
 @import 'intro';
 @import 'summary';
+@import 'editorial-grid';
 @import 'author';
 @import 'pagination';
 @import 'main-menu';
