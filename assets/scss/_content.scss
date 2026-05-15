@@ -5,7 +5,7 @@ a:not(.header-logo) {
   transition: var(--transition-fast);
 
   &:hover {
-    color: #ffffff !important;
+    color: var(--hover-color) !important;
   }
 
   // Sophisticated animated underline
@@ -17,7 +17,7 @@ a:not(.header-logo) {
     height: 1px;
     bottom: -2px;
     left: 0;
-    background-color: #ffffff; // Underline also turns white on hover
+    background-color: var(--hover-color); // Underline matches theme hover color
     transform-origin: bottom right;
     transition: transform 0.3s ease-out;
   }

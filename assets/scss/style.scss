@@ -74,6 +74,7 @@
   --transition-fast: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   --glass-bg: rgba(2, 6, 23, 0.75);
   --glass-border: rgba(148, 163, 184, 0.1);
+  --hover-color: #ffffff;
   }
 
   .light-mode {
@@ -85,9 +86,9 @@
 
   --glass-bg: rgba(255, 255, 255, 0.75);
   --glass-border: rgba(0, 0, 0, 0.05);
+  --hover-color: #000000;
 
-  /* Syntax Highlighting (Light) */
-  --code-color: #111827;
+  /* Syntax Highlighting (Light) */  --code-color: #111827;
   --code-hll: #f3f4f6;
   --code-comment: #6b7280;
   --code-keyword: #6320d6;
