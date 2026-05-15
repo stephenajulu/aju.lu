@@ -36,11 +36,32 @@
   --code-variable: #e5e7eb;
   --code-string-regex: #34d399;
   /* Syntax Highlighting (Dark) */
-  ...
-  --code-builtin-pseudo: #9ca3af;
+  --code-bg: #0f172a;
+  --code-color: #f8fafc;
+  --code-hll: #1e293b;
+  --code-comment: #94a3b8;
+  --code-keyword: #a78bfa;
+  --code-operator: #f8fafc;
+  --code-type: #60a5fa;
+  --code-number: #fbbf24;
+  --code-string: #34d399;
+  --code-attribute: #818cf8;
+  --code-builtin: #2dd4bf;
+  --code-class: #60a5fa;
+  --code-constant: #fbbf24;
+  --code-decorator: #f472b6;
+  --code-entity: #c084fc;
+  --code-exception: #f87171;
+  --code-function: #60a5fa;
+  --code-label: #f472b6;
+  --code-namespace: #94a3b8;
+  --code-tag: #a78bfa;
+  --code-variable: #f8fafc;
+  --code-string-regex: #34d399;
+  --code-string-symbol: #fb7185;
+  --code-builtin-pseudo: #94a3b8;
 
-  /* Fluid UI Architecture (Master Level) */
-  --step-0: clamp(1.00rem, 0.95rem + 0.25vw, 1.15rem); // Body
+  /* Fluid UI Architecture (Master Level) */  --step-0: clamp(1.00rem, 0.95rem + 0.25vw, 1.15rem); // Body
   --step-1: clamp(1.20rem, 1.08rem + 0.61vw, 1.50rem); // H3
   --step-2: clamp(1.44rem, 1.23rem + 1.05vw, 1.95rem); // H2
   --step-3: clamp(1.73rem, 1.39rem + 1.69vw, 2.55rem); // H1
