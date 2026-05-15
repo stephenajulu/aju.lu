@@ -1,5 +1,6 @@
 ---
 title: "Digital Products"
+url: "/store/"
 date: 2026-05-08
 description: "High-impact digital assets, blueprints, and sovereign technology templates."
 layout: store

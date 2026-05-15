@@ -1,4 +1,4 @@
-a {
+a:not(.header-logo) {
   color: var(--highlight-color);
   text-decoration: none;
   position: relative;

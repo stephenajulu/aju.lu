@@ -76,7 +76,10 @@
         });
     }
 
-    initSearch();
+    // Wait for Fuse.js in the deferred bundle to be available
+    window.addEventListener('load', () => {
+        initSearch();
+    });
 </script>
 {{ end }}
 
