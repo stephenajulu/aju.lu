@@ -1,4 +1,5 @@
 ---
+featured: true
 title: What is Blockchain? How Does It Work? Blockchain Explained
 date: '2021-12-08 16:59:00+03:00'
 image: images/blockchain-technology-trends.webp

@@ -1,4 +1,5 @@
 ---
+featured: true
 title: What are NFTs? Non Fungible Tokens Explained
 date: '2021-11-30 18:36:00+03:00'
 image: images/nft-art-what-is-it.webp
