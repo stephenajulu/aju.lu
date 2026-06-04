@@ -23,17 +23,6 @@
     {{ end }}
   </section>
 
-  {{ if and .Site.Params.showPostsOnHomepage (gt (len $featured) 0) }}
-    <h2 class="section-heading">Featured Works</h2>
-    <section class="posts-list featured-list">
-        {{ range first 3 ($featured.ByDate.Reverse) }}
-            {{ .Render "summary" }}
-        {{ end }}
-    </section>
-    <br>
-    <h2 class="section-heading">Recent Writings</h2>
-  {{ end }}
-
   {{ if .Site.Params.showPostsOnHomepage }}
     <section class="posts-list">
         {{ if .Site.Params.usePaginationOnHomepage }}
