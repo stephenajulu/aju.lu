@@ -3,22 +3,32 @@
         {
             "id": "sovereign-infrastructure-blueprint",
             "name": "Sovereign Infrastructure Blueprint",
-            "description": "Complete technical roadmap for deploying managed open-source business systems.",
+            "description": "Complete technical roadmap for deploying managed open-source business systems. Includes server hardening and data ownership protocols.",
             "price": "5,000",
             "currency": "KES",
             "image": "images/hero.webp",
-            "paystack_url": "https://paystack.shop/pay/your-link",
+            "paystack_url": "https://stephenajulu.gumroad.com/l/sovereign-infrastructure",
             "category": "Blueprint"
         },
         {
             "id": "indieweb-hugo-template",
             "name": "aju.hub IndieWeb Template",
-            "description": "The exact Hugo engine behind this site. Optimized for performance and SEO.",
+            "description": "The exact high-performance Hugo engine behind this site. Fully optimized for SEO, speed, and sovereign digital identity.",
             "price": "12,000",
             "currency": "KES",
             "image": "images/me.webp",
-            "paystack_url": "https://paystack.shop/pay/your-link",
+            "paystack_url": "https://stephenajulu.gumroad.com/l/aju-hub-template",
             "category": "Theme"
+        },
+        {
+            "id": "strategic-it-audit-template",
+            "name": "Strategic IT Audit Framework",
+            "description": "A comprehensive checklist and framework for auditing enterprise infrastructure and identifying digital sovereignty risks.",
+            "price": "3,500",
+            "currency": "KES",
+            "image": "images/socialimage.webp",
+            "paystack_url": "https://stephenajulu.gumroad.com/l/it-audit-framework",
+            "category": "Framework"
         }
     ]
 }
