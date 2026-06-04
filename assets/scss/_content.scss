@@ -17,7 +17,7 @@ a:not(.header-logo) {
     height: 1px;
     bottom: -2px;
     left: 0;
-    background-color: var(--hover-color); // Underline matches theme hover color
+    background-color: var(--hover-color);
     transform-origin: bottom right;
     transition: transform 0.3s ease-out;
   }
@@ -65,7 +65,7 @@ ul {
 
 .content {
   font-size: 18px;
-  overflow-wrap: break-word; // Smart wrap for entire content area
+  overflow-wrap: break-word;
   hyphens: auto;
   
   p {
@@ -108,89 +108,45 @@ ul {
   }
   ul {
     list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
     li {
       list-style: disc;
+      margin-bottom: 10px;
     }
   }
   ol {
     list-style: decimal;
-    li {
-      list-style: decimal;
-    }
-  }
-  ul,
-  ol {
-    margin-left: 0;
-    margin-top: 10px;
+    margin-left: 20px;
     margin-bottom: 20px;
     li {
-      font-size: 18px;
-      line-height: 1.6;
+      list-style: decimal;
       margin-bottom: 10px;
-      margin-left: 0;
-      @include breakpoint('small') {
-        margin-left: 20px;
-      }
-    }
-    @include breakpoint('small') {
-      margin-left: 20px;
-    }
-  }
-  a {
-    text-decoration: underline;
-    &:hover {
     }
   }
   blockquote {
     border-left: 5px solid var(--highlight-color);
     margin: 30px 0;
     padding: 20px;
+    background: var(--base-offset-color);
+    border-radius: 0 8px 8px 0;
   }
   blockquote p {
     font-size: 20px;
     display: inline;
-    color: var(--color-base-text);
+    color: var(--text-color);
   }
   img {
-    margin: 40px 0 40px 0;
+    margin: 40px 0;
     max-width: 100%;
     height: auto;
-  }
-  figure {
-    margin: 2.6rem 0 1.18rem;
-    img {
-      margin: 0;
-    }
-    figcaption {
-      margin-top: 10px;
-      h4 {
-        margin: 0;
-        font-size: 1rem;
-        font-weight: bold;
-      }
-      p {
-        margin: 0;
-      }
-    }
-  }
-  code,
-  pre {
-    font-family: var(--font-family-monospace);
+    border-radius: 8px;
   }
 }
 
 .dot {
   color: var(--dot-color);
-  text-shadow: 0 0 10px rgba(99, 32, 214, 0.4); // Subtle bloom
-}
-
-.footnotes {
-  ol {
-    list-style: decimal;
-    li {
-      list-style: decimal;
-    }
-  }
+  text-shadow: 0 0 10px rgba(99, 32, 214, 0.4);
 }
 
 .dramatic {
@@ -214,7 +170,6 @@ ul {
     transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
   }
 
-  // Active state triggered by reveal class or scroll
   &.active::after,
   .reveal.active &::after {
     transform: scaleX(1);
@@ -227,23 +182,6 @@ ul {
   letter-spacing: -0.01em;
 }
 
-.additionalreading {
-    margin: 20px 0;
-    padding: 15px;
-    background: var(--base-offset-color);
-    border-left: 4px solid var(--highlight-color);
-    font-size: 1rem;
-    font-weight: 500;
-    
-    a {
-        color: var(--highlight-color);
-        text-decoration: none;
-        &:hover {
-            text-decoration: underline;
-        }
-    }
-}
-
 .post-tags {
     margin-top: 30px;
     display: flex;
@@ -254,173 +192,15 @@ ul {
         font-size: 0.9rem;
         font-weight: 500;
         color: var(--meta-color);
-        text-decoration: none;
         background: var(--base-offset-color);
         padding: 4px 12px;
         border-radius: 20px;
         transition: all 0.3s ease;
-        border: 1px solid transparent;
 
         &:hover {
             color: var(--highlight-color);
             border-color: var(--highlight-color);
             background: transparent;
-            text-decoration: none;
-        }
-    }
-}
-
-.see-also-callout {
-    margin: 40px 0;
-    padding: 25px;
-    background: var(--base-offset-color);
-    border-radius: 8px;
-    border-right: 4px solid var(--highlight-color);
-    
-    .see-also-label {
-        font-size: 0.75rem;
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-        color: var(--highlight-color);
-        font-weight: 700;
-        margin-bottom: 10px;
-    }
-
-    .see-also-title {
-        margin: 0 0 10px 0;
-        font-size: 1.3rem;
-        overflow-wrap: break-word; // Smart wrap
-        a {
-            color: var(--heading-color);
-            text-decoration: none;
-            &:hover {
-                color: var(--highlight-color);
-            }
-        }
-    }
-
-    .see-also-description {
-        margin: 0;
-        font-size: 0.95rem;
-        opacity: 0.8;
-        line-height: 1.4;
-    }
-}
-
-.related-posts {
-    margin-top: 60px;
-    padding-top: 40px;
-    border-top: 1px solid var(--base-offset-color);
-
-    .related-title {
-        font-size: 1.5rem;
-        margin-bottom: 30px;
-    }
-
-    .related-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 30px;
-    }
-
-    .related-item {
-        .related-meta {
-            font-size: 0.8rem;
-            color: var(--meta-color);
-            margin-bottom: 8px;
-        }
-
-        .related-post-title {
-            margin: 0;
-            font-size: 1.1rem;
-            line-height: 1.3;
-            overflow-wrap: break-word; // Smart wrap
-            a {
-                color: var(--heading-color);
-                text-decoration: none;
-                &:hover {
-                    color: var(--highlight-color);
-                }
-            }
-        }
-    }
-}
-
-<<<<<<< Updated upstream
-.expertise-callout {
-    margin: 40px 0;
-    padding: 30px;
-    background: var(--base-offset-color);
-    border-radius: 12px;
-    border-left: 6px solid var(--highlight-color);
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease;
-
-    &:hover {
-        transform: translateY(-3px);
-    }
-
-    .callout-icon {
-        font-size: 2.5rem;
-        flex-shrink: 0;
-    }
-
-    .callout-content {
-        flex-grow: 1;
-
-        .callout-label {
-            display: block;
-            font-size: 0.75rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: var(--highlight-color);
-            margin-bottom: 5px;
-        }
-
-        .callout-cta {
-            margin: 0;
-            font-size: 1.25rem;
-            line-height: 1.3;
-            color: var(--heading-color);
-        }
-    }
-
-    .callout-action {
-        flex-shrink: 0;
-
-        .btn-callout {
-            display: inline-block;
-            background: var(--highlight-color);
-            color: #ffffff !important;
-            padding: 10px 22px;
-            border-radius: 6px;
-            font-weight: 600;
-            font-size: 0.9rem;
-            text-decoration: none !important;
-            transition: opacity 0.2s ease;
-
-            &:hover {
-                opacity: 0.9;
-            }
-        }
-    }
-
-    @include breakpoint('small') {
-        flex-direction: column;
-        text-align: center;
-        gap: 15px;
-
-        .callout-action {
-            width: 100%;
-            .btn-callout {
-                display: block;
-                width: 100%;
-                box-sizing: border-box;
-            }
         }
     }
 }
@@ -431,7 +211,6 @@ ul {
     color: var(--meta-color);
     overflow-x: auto;
     white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
     &::-webkit-scrollbar { display: none; }
 
@@ -440,26 +219,16 @@ ul {
         align-items: center;
         list-style: none;
         padding: 0;
-        margin: 0;
     }
 
     li {
         display: flex;
         align-items: center;
-        flex-shrink: 0;
 
         &:not(:last-child)::after {
             content: "/";
             margin: 0 10px;
             opacity: 0.5;
-        }
-
-        a {
-            color: var(--meta-color);
-            text-decoration: none;
-            &:hover {
-                color: var(--highlight-color);
-            }
         }
 
         &[aria-current="page"] {
@@ -474,7 +243,7 @@ ul {
     padding: 20px;
     background: var(--base-offset-color);
     border-radius: 12px;
-    border: 1px solid rgba(156, 163, 175, 0.1);
+    border: 1px solid var(--glass-border);
     
     .see-also-label {
         font-size: 0.7rem;
@@ -497,49 +266,27 @@ ul {
         height: 80px;
         border-radius: 8px;
         overflow: hidden;
-        
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            margin: 0 !important;
-        }
+        img { width: 100%; height: 100%; object-fit: cover; margin: 0 !important; }
     }
 
     .see-also-text {
         flex-grow: 1;
-
         .see-also-title {
             margin: 0 0 5px 0;
             font-size: 1.1rem;
             line-height: 1.3;
-            
-            a {
-                color: var(--heading-color);
-                text-decoration: none !important;
-                &:hover {
-                    color: var(--highlight-color);
-                }
-            }
         }
-
         .see-also-summary {
             margin: 0;
             font-size: 0.85rem;
             line-height: 1.4;
             opacity: 0.8;
-            color: var(--text-color);
         }
     }
 
     @include breakpoint('small') {
-        .see-also-body {
-            flex-direction: column;
-        }
-        .see-also-image {
-            width: 100%;
-            height: 150px;
-        }
+        .see-also-body { flex-direction: column; }
+        .see-also-image { width: 100%; height: 150px; }
     }
 }
 
@@ -550,21 +297,14 @@ ul {
     border-radius: 8px;
     border-left: 4px solid var(--highlight-color);
     font-size: 1.1rem;
-    
-    p {
-        margin: 0 !important;
-    }
+    p { margin: 0 !important; }
+}
 
-    a {
-        color: var(--highlight-color);
-        text-decoration: none;
-        &:hover {
-            text-decoration: underline;
-=======
 .post-controls {
     display: flex;
     gap: 15px;
     margin: 20px 0 30px 0;
+    flex-wrap: wrap;
     
     .btn-utility {
         background: var(--base-offset-color);
@@ -580,8 +320,6 @@ ul {
         gap: 8px;
         transition: all 0.2s ease;
         
-        span { font-size: 1.1rem; }
-
         &:hover {
             border-color: var(--highlight-color);
             color: var(--highlight-color);
@@ -592,7 +330,6 @@ ul {
             background: var(--highlight-color);
             color: #ffffff;
             border-color: var(--highlight-color);
->>>>>>> Stashed changes
         }
     }
 }
@@ -608,7 +345,7 @@ ul {
         .btn-copy {
             background: var(--base-offset-color);
             color: var(--heading-color);
-            border: 1px solid rgba(156, 163, 175, 0.2);
+            border: 1px solid var(--glass-border);
             padding: 8px 16px;
             border-radius: 6px;
             font-size: 0.9rem;
