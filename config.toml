@@ -153,3 +153,8 @@ mediatype = "application/json"
     parent = "more"
     weight = 4
     url = "/cv/"
+  [[menu.main]]
+  name = "Archive"
+  parent = "more"
+  weight = "5"
+  url = "/archive/"
