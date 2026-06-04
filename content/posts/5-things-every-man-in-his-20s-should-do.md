@@ -4,16 +4,7 @@ date: '2021-11-22 05:26:00+03:00'
 image: images/matheus-ferrero-tkrrvwxjb_8.webp
 draft: false
 tags:
-- Masculinity
-- self improvement
-- self mastery
-- Growth
-- Masculine
-- Man
-- manhood
-- Men
-- Level up
-- Personal development
+- Development
 categories:
 - Masculinity
 - Self improvement
@@ -25,7 +16,6 @@ categories:
 description: Here are 5 things that will set a man in his 20s apart from the rest
   of the pack.
 ---
-
 Hi men! 
 
 Here are 5 things you should do in order to set up your life for success and level up.

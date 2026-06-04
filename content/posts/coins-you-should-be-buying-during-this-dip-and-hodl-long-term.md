@@ -4,16 +4,13 @@ date: '2022-05-17 12:22:00+03:00'
 image: images/quantitatives-hio84a6fnvw-unsplash.webp
 draft: false
 tags:
-- investing
-- ' finance'
-- cryptocurrency
-- cryptocurrencies
+- Blockchain
+- Finance
 categories:
 - investing
 - finance
 description: Coins You Should Be Buying During This Dip and HODL Long Term
 ---
-
 These coins may hold future technologies or may be used to power amazing things.
 
  1. Bitcoin

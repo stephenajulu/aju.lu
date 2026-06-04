@@ -4,12 +4,11 @@ date: '2021-06-20 16:13:00+03:00'
 image: images/cpl.webp
 draft: false
 tags:
-- passwords
+- Cybersecurity
 categories:
 - cybersecurity
 description: Top 100 Most Common Passwords + Precautionary Measures
 ---
-
 1. 12345
   2. 123456
   3. 123456789

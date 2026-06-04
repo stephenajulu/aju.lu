@@ -4,23 +4,12 @@ date: '2021-12-31 08:20:00+03:00'
 image: images/ga.webp
 draft: false
 tags:
-- search engine optimization
-- google analytics
-- web analytics
-- analytics
-- website
-- seo
-- wordpress
-- html
-- static site
-- static sites
-- traffic
+- Development
 categories:
 - Technology
 description: Here's how you can easily add Google Analytics to your website and start
   measuring your traffic and more.
 ---
-
 Hi, today I'd like to help you set up Google Analytics and monitor your traffic.
 
 Before we go on, I provide a microservice where I set this(Google Analytics) up for you so that you don't have to worry about the long process, code, and all the other things we go through here in this article, so contact me via [email](mailto:alunje73@gmail.com) or [visit my contact page](/contact) to order, fast and simple.

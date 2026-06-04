@@ -4,16 +4,12 @@ date: '2021-12-01 12:38:00+03:00'
 image: images/tanzania-purportedly-planning-to-launch-cbdc-1600x900.webp
 draft: false
 tags:
-- finance
-- cbdc
-- Central Bank Digital Currency
-- tanzania
+- Finance
 categories:
 - Finance
 description: Tanzania is Planning To Launch Their Own Central Bank Digital Currency(CBDC).
   Learn more.
 ---
-
 The Bank of Tanzania is allegedly mulling over introducing a central bank digital currency for the African nation following the footsteps of neighboring nations declaring similar initiatives.
 
 As per a recent Bloomberg report, Bank of Tanzania Governor Florens Luoga mentioned that Tanzania was contemplating following Nigeria’s precedent in rolling out its own central bank digital currency. Luoga allegedly mentioned that the central bank had “allegedly begun preparations” for a digital shilling, Tanzania’s currency since the year 1966.

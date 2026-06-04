@@ -4,18 +4,9 @@ date: '2023-01-19 21:21:00+03:00'
 image: images/learn_illustration_what_is_a_smart_contract__1_.webp
 draft: false
 tags:
-- smart contracts
-- blockchain
-- supply chain management
-- real estate
-- healthcare
-- transparency
-- immutability
-- effeciency
-- security
-- automation
-- fraud reduction
-- property transfer
+- Personal Growth
+- Blockchain
+- Cybersecurity
 categories:
 - Technology
 description: Learn about the potential of smart contracts and how they're being used
@@ -23,7 +14,6 @@ description: Learn about the potential of smart contracts and how they're being 
   costs. Discover real-world examples of smart contract use in supply chain management,
   real estate and healthcare.
 ---
-
 Smart contracts have been hailed as a game-changer in the world of business, enabling efficient and secure transactions across a wide range of industries. From supply chain management to healthcare, the use cases for smart contracts are vast and varied. In this article, we will explore the potential of smart contracts and how they are being used to streamline processes, increase transparency, and reduce costs across a variety of industries.
 
 Now, what are smart contracts? 

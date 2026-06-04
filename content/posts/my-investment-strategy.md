@@ -4,23 +4,14 @@ date: '2021-11-13 12:24:00+03:00'
 image: images/adeolu-eletu-unrkg2jh1j0-unsplash.webp
 draft: false
 tags:
-- investments
-- investment
-- investment strategy
-- cryptocurrencies
-- stocks
-- shares
-- mutual funds
-- money market funds
-- real estate
-- real estate investment trust
+- Finance
+- Blockchain
 categories:
 - investments
 - investment
 - investment strategy
 description: Here's my investment strategy and how i diversify
 ---
-
 Here's my simple investment strategy
 
 ## Blue Chip Stocks: 20%

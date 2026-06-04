@@ -3,27 +3,11 @@ title: Phone Buying Tips
 date: '2022-06-11 20:00:00+03:00'
 image: images/youssef-sarhan-sdth9wydmre-unsplash.webp
 draft: false
-tags:
-- tech
-- phones
-- smartphones
-- android
-- iphone
-- ios
-- tecno
-- xiaomi
-- redmi
-- oppo
-- oneplus
-- samsung
-- vivo
-- itel
-- infinix
+tags: []
 categories:
 - Tech
 description: Phone buying tips that will help you
 ---
-
 Let's jump right in.
 
 1. Make sure to do due diligence. - Always research the specs you want, check their prices on local selling sites, and know what exactly you want to buy. This protects you from scams and high prices.

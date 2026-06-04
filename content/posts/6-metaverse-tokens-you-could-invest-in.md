@@ -4,38 +4,8 @@ date: '2021-11-07 15:47:34+03:00'
 image: images/metaverse-1200x900.webp
 draft: false
 tags:
-- metaverse
-- tokens
-- crypto
-- vr
-- cryptocurrencies
-- digital land
-- virtual reality
-- augmented reality
-- extended reality
-- ar
-- xr
-- ready player one
-- sword art online
-- tron
-- ethereum
-- decentraland
-- mana
-- axie infinity
-- axs
-- axies
-- enjin
-- enj
-- sandbox
-- the sandbox
-- sand
-- star atlas
-- atlas
-- metaverse index
-- mvi
-- ERC20
-- nft
-- etf
+- Blockchain
+- Web3
 categories:
 - metaverse
 - tokens
@@ -43,7 +13,6 @@ categories:
 - cryptocurrencies
 description: Here Are 6 Metaverse Tokens You Could Invest In
 ---
-
 Ready, Player One? The metaverse is coming.
 
 The “metaverse” might be a new term for many, but it has actually been around for decades. The metaverse is the zenith of all science fiction fantasies that were played out in films such as ‘Ready Player One’, 'Sword Art Online' and ‘Tron.’

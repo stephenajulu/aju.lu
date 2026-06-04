@@ -4,15 +4,13 @@ date: '2022-04-30 12:01:00+03:00'
 image: images/istock-1363842094.webp
 draft: false
 tags:
-- nfts
-- non fungible tokens
-- cryptocurrencies
+- Blockchain
+- Web3
 categories:
 - nfts
 - cryptocurrencies
 description: Learn all about NFTs
 ---
-
 So you’ve been hearing more and more about this mysterious [NFT topic](https://www.fundz.net/blog/nft-startups-storming-the-stage-past-future-and-earnings), and you’re ready to find out what it’s all really about. You’re in the right place! We’re going to go over the basics of NFTs and demystify some common areas of confusion and misconception. Ready?
 
 Let’s start with the name. [NFT](https://insidexpress.com/technology/nft/) stands for [non-fungible token](https://aetsoft.net/insights/blog/nft-marketplace/). Don’t worry; it’s not as complicated as it sounds. ‘Fungible’ means that something can be traded, like physical currency or [cryptocurrencies](https://smartoptions.io/cryptocurrency-beginners-guide/). So, a non-fungible token means that this particular token can’t be traded for another one. Why? Because NFTs are digital representations of assets, and those assets can be nearly anything. An NFT isn’t a currency; it’s basically a certification of authenticity for a digital asset. Frequently, these assets are collectibles, like sports memorabilia, but they’re digital.

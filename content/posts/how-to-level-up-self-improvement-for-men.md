@@ -3,10 +3,7 @@ title: 'How To Level Up: Self Improvement For Men'
 date: '2021-08-06 11:59:00+03:00'
 image: images/shamim-nakhaei-uzqqjq7w7c0-unsplash.webp
 draft: false
-tags:
-- masculinity
-- self improvement
-- man
+tags: []
 categories:
 - masculinity
 - self improvement
@@ -14,7 +11,6 @@ categories:
 description: Here's exactly what you need to do to level up as a man physically, emotionally,
   spiritually, and financially
 ---
-
 Hi guys, here's exactly what you need to do to level up as a man physically, emotionally, spiritually, and financially. If I've missed something add it to the comments and I'll add it to the post.
 
 First I'd like to begin with a quote from Hafeez from The Roommates.

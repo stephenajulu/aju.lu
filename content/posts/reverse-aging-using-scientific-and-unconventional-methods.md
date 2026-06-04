@@ -3,22 +3,12 @@ title: Reverse Aging Using Scientific and Unconventional Methods
 date: '2022-08-24 15:08:00+03:00'
 image: images/lady-with-anti-aging-genes.webp
 draft: false
-tags:
-- aging
-- age
-- reverse aging
-- fasting
-- omad
-- if
-- diet
-- younger
-- look younger
+tags: []
 categories:
 - ' Health'
 - Lifestyle
 description: Here are proven ways to reverse aging
 ---
-
 Hello there! Welcome.
 
 In this article, I'll cover proven methods to "de-age" yourself by 1, 5, and even 10 years.

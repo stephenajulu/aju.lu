@@ -4,27 +4,10 @@ date: '2023-03-03 08:16:00+03:00'
 image: images/photo-1643101681441-0c38d714fa14.webp
 draft: false
 tags:
-- NFTs
-- NFT
-- non fungible token
-- non fungible tokens
-- blockchain
-- digital ownership
-- authenticity
-- gaming
-- real estate
-- healthcare
-- education
-- finance
-- social media
-- tech
-- technology
-- digitalcredentials
-- aiverification
-- technology
-- tokens
-- cryptography
-- crypto
+- Finance
+- Personal Growth
+- Blockchain
+- Web3
 categories:
 - Tech
 - Lifestyle
@@ -32,7 +15,6 @@ description: NFTs are revolutionizing the way we think about digital ownership a
   authenticity. From gaming to real estate, healthcare to education, NFTs have the
   potential to transform a wide range of industries. Find out more.......
 ---
-
 The world of tech is constantly evolving, and one of the most exciting developments in recent years is the rise of Non-Fungible Tokens (NFTs). 
 
 NFTs are a type of digital asset that use blockchain technology to verify ownership and uniqueness, and they are quickly becoming a hot topic in the tech world. In this article, we will explore the future of daily tech and how NFT technology will be a part of our daily lives.

@@ -4,13 +4,11 @@ date: '2022-08-14 10:35:00+03:00'
 image: images/kanchanara-oqepgkdx3ra-unsplash.webp
 draft: false
 tags:
-- crypto
-- cryptocurrency
+- Blockchain
 categories:
 - Tech
 description: Here are some use cases for cryptocurrency
 ---
-
 ### Play Online Casino Games
 
 One use for cryptocurrency that is often overlooked is online gambling. Due to the decentralized nature of digital currencies, there are no central authorities or banks that can block your transactions.

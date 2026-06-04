@@ -3,17 +3,13 @@ title: 25 Kenyan Shares You Should Own(NSE)
 date: '2021-07-31 16:18:00+03:00'
 image: images/ishant-mishra-uxejdx4sqde-unsplash.webp
 draft: false
-tags:
-- investment
-- stocks
-- shares
+tags: []
 categories:
 - investment
 - stocks
 - shares
 description: Here are 25 Kenyan stocks I believe you and Kenyans should buy and hold
 ---
-
 **Reminder:** Stock trading is simple and affordable. Take a look at my other articles to get started.
 
 ## **Banking Sector**

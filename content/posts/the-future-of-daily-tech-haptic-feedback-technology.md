@@ -4,18 +4,7 @@ date: '2023-02-17 15:18:00+03:00'
 image: images/virtual-reality-people_1600x900.webp
 draft: false
 tags:
-- haptic feedback
-- haptic
-- future of tech
-- gaming
-- vr
-- healthcare
-- ar
-- healthcare
-- robotics
-- virtual reality
-- augmented reality
-- immersive technology
+- Personal Growth
 categories:
 - Technology
 - Lifestyle
@@ -24,7 +13,6 @@ description: Haptic feedback technology is transforming the way we interact with
   Discover the potential of this groundbreaking technology and explore its exciting
   applications in gaming, healthcare, robotics, and more.
 ---
-
 As technology advances, it becomes increasingly integrated into our daily lives. From smartphones and smartwatches to virtual reality and video games, technology has transformed the way we communicate, learn, work, and play. One area of technology that is rapidly evolving is haptic feedback technology. Haptic feedback technology is a form of tactile feedback that provides physical sensations to the user. In this article, we will explore the current state of haptic feedback technology and its potential applications in various industries.
 
 ## What is Haptic Feedback Technology?

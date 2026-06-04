@@ -3,17 +3,13 @@ title: 'My 5 Month Self Improvement Action Plan: August'
 date: '2021-08-07 15:35:00+03:00'
 image: images/troy-spoelma-03mi51amhoe-unsplash.webp
 draft: false
-tags:
-- self improvement
-- manliness
-- growth
+tags: []
 categories:
 - self improvement
 - manliness
 - growth
 description: Here's my 5 month self improvement action plan. Feel free to join me.
 ---
-
 Hi guys? Today I'd like to share with you my 5-month action plan for leveling up starting up with August. I'd like it if you can join me and tweet your growth. Also, mention me @stephenajulu. Let's get stronger, faster, and better together.
 
 ## Month 1: August

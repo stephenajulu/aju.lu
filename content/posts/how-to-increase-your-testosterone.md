@@ -4,24 +4,13 @@ date: '2021-12-19 06:28:00+03:00'
 image: images/simone-pellegrini-l3qg_oblut0-unsplash.webp
 draft: false
 tags:
-- health
-- Men health
-- Masculine
-- testosterone
-- Man
-- manhood
-- Masculinity
-- Men
-- Gentlemen
-- Hormones
-- Male hormones
+- Personal Growth
 categories:
 - Health
 - Men's Health
 description: Here's how you can increase your testosterone and become more masculine.
   Article written by a man with hypogonadism on TRT.
 ---
-
 Hello guys, how are you doing? It's alright!
 
 Testosterone is the lifeblood for men. Low testosterone can impact all areas of your life. You'll have depression, become unable to get it up, lose ambition, become dull, have low libido, low mental performance, low memory, low metabolism, and the list goes on.

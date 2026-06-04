@@ -4,14 +4,12 @@ date: '2022-08-21 19:00:00+03:00'
 image: images/retina_display-646399094.webp
 draft: false
 tags:
-- blockchain
-- blockchain technology
+- Blockchain
 categories:
 - Technology
 - Tech
 description: The Importance and Benefits of Blockchain Technology
 ---
-
 ## What is blockchain?
 
 A **blockchain** is a growing list of records, called _blocks_, that are linked together using [cryptography](https://en.wikipedia.org/wiki/Cryptography "Cryptography"). Each block contains a [cryptographic hash](https://en.wikipedia.org/wiki/Cryptographic_hash_function "Cryptographic hash function") of the previous block, a [timestamp](https://en.wikipedia.org/wiki/Trusted_timestamping "Trusted timestamping"), and transaction data (generally represented as a [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree "Merkle tree")). The timestamp proves that the transaction data existed when the block was published in order to get into its hash. As blocks each contain information about the block previous to it, they form a chain, with each additional block reinforcing the ones before it. Therefore, blockchains are resistant to modification of their data because once recorded, the data in any given block cannot be altered retroactively without altering all subsequent blocks.

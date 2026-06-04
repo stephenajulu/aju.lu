@@ -4,17 +4,12 @@ date: '2021-02-08 15:00:00+00:00'
 image: images/investing-1.webp
 draft: false
 tags:
-- investment
-- investing
-- finance
-- investing kenya
-- getting stated
+- Finance
 categories:
 - finance
 description: I'll be sharing my investment journey and how you can start yours too.
   The journey of a million miles begin with 1 step.
 ---
-
 Hi, how are you? 
 
 My name is Stephen and welcome to "How I Started Investing".

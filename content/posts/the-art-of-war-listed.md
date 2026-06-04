@@ -3,17 +3,13 @@ title: The Art of War(Listed)
 date: '2021-08-09 16:19:00+03:00'
 image: images/theartofwar.webp
 draft: false
-tags:
-- self improvement
-- books
-- art of war
+tags: []
 categories:
 - self improvement
 - books
 - art of war
 description: Here's the art of war by sun tzu listed.
 ---
-
 * “According as circumstances are favorable, one should modify one’s plans.”
 * “All warfare is based on deception. Hence when able to attack we must seem unable. When using our forces we must seem inactive. When we are near we make the enemy believe we are far away. When far away we must make the enemy believe we are near.”
 * “Appear weak when you are strong, and strong when you are weak.”

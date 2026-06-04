@@ -4,16 +4,13 @@ date: '2021-06-27 15:23:00+03:00'
 image: images/thebigfatsuprisekeyideas.webp
 draft: false
 tags:
-- fat
-- health
-- lifestyle
+- Personal Growth
 categories:
 - health
 - lifestyle
 description: A breakdown and listing of points found in "The Big Fat Surprise by Nina
   Teicholz
 ---
-
 ## The Big Fat Surprise Key Idea #1: Not all fats are created equal
 
 To best understand the two main types of fats and how they affect your body, it’s important to grasp the chemical composition of each.

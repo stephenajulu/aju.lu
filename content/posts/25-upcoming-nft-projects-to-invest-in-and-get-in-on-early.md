@@ -4,32 +4,8 @@ date: '2023-02-15 16:02:00+03:00'
 image: images/how-to-buy-and-sell-nfts-aio-bot-1280x720.webp
 draft: false
 tags:
-- nfts
-- nft
-- illuvium
-- imaginary ones
-- invisible friends
-- bayc
-- cryptopunks
-- bored ape yacht club
-- cool cats
-- HAPE prime
-- DAPE
-- Stoner Ape Club
-- star atlas
-- pixelmon
-- cryptoon goonze
-- wonderpals
-- solsand
-- gooniez gang
-- bluechip nfts
-- bluechip
-- crypto baristas
-- autograph
-- celopunks
-- otaku origins
-- memeland
-- mavrix
+- Blockchain
+- Web3
 categories:
 - Technology
 - Tech
@@ -41,7 +17,6 @@ description: NFTs might just be the hottest thing in the crypto sphere. When sho
   getting off the ground, and that means getting on the whitelist or VIP list. So
   how do you invest in the best upcoming NFT projects?
 ---
-
 NFTs might just be the hottest thing in the crypto sphere. When shopping for the best NFTs to invest in, such as Bored Ape Yacht Club or CryptoPunks, you’ll be spending at least 70 to 80 ETH. While NFTs are still relative newcomers to the art world, they’re drawing a significant amount of buzz and collectors are willing to pay a premium for top NFTs. The time to buy is when new NFT projects are just getting off the ground, and that means getting on the [whitelist](https://learn.bybit.com/nft/what-is-nft-whitelist/) or VIP list. So how do you invest in the best upcoming NFT projects?
 
 It can be tough to cut through the digital clutter and discover the NFT projects that really resonate with you — or the NFT projects that are most likely to succeed. How can you decide which NFTs to invest in? With the right investment plan, knowing what you want from top NFTs, and active involvement in upcoming NFT projects, you can be prepared for anything that comes your way.

@@ -1,6 +1,7 @@
 baseURL = "https://ajulu.netlify.app/"
 languageCode = "en-us"
 title = "Stephen Ajulu"
+theme = "aju-hub"
 paginate = 24
 copyright= "Stephen Ajulu."
 timeZone = "Africa/Nairobi"
@@ -117,46 +118,46 @@ mediatype = "application/json"
     url = '/'
     weight = 1
   [[menu.main]]
+    name = "Services"
+    identifier = "services"
+    weight = 2
+    url = "/services/"
+  [[menu.main]]
+    name = "Store"
+    identifier = "store"
+    weight = 3
+    url = "/store/"
+  [[menu.main]]
     name = "Blog"
     identifier = "blog"
-    weight = 2
-    url = "/posts/"
-  [[menu.main]]
-    name = "Notes"
-    identifier = "notes"
-    weight = 3
-    url = "/notes/"
-  [[menu.main]]
-    name = "Search"
-    identifier = "search"
     weight = 4
-    url = "/search/"
+    url = "/posts/"
   [[menu.main]]
     name = "More"
     identifier = "more"
     weight = 5
   [[menu.main]]
-    name = "About"
-    parent = "more"
-    weight = 1
-    url = "/About/"
-  [[menu.main]]
     name = "Portfolio"
     parent = "more"
-    weight = 2
+    weight = 1
     url = "/projects/"
   [[menu.main]]
-    name = "Services"
+    name = "Notes"
+    parent = "more"
+    weight = 2
+    url = "/notes/"
+  [[menu.main]]
+    name = "About"
     parent = "more"
     weight = 3
-    url = "/services/"
+    url = "/About/"
   [[menu.main]]
     name = "Contact"
     parent = "more"
     weight = 4
     url = "/contact/"
   [[menu.main]]
-    name = "CV / Resume"
+    name = "CV"
     parent = "more"
     weight = 5
     url = "/cv/"

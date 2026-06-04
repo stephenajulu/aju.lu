@@ -4,13 +4,12 @@ date: '2022-05-17 03:36:00+03:00'
 image: images/dominik-martin-jyfmyif4n70-unsplash.webp
 draft: false
 tags:
-- health
+- Personal Growth
 categories:
 - health
 description: Here's an antimicrobial formula that can boost your immunity and help
   you fight off harmful bacteria, viruses, and even fungus.
 ---
-
 Here's an antimicrobial recipe that can boost your immunity/health and help you fight off harmful bacteria, viruses, and even fungus.
 
 Requirements:

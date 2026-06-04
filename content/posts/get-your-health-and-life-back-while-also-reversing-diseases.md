@@ -4,15 +4,12 @@ date: '2022-07-06 15:16:00+03:00'
 image: images/christopher-campbell-kfcdflbu6za-unsplash.webp
 draft: false
 tags:
-- lifestyle
-- health
-- longevitity
+- Personal Growth
 categories:
 - Lifestyle
 description: Here are the exact things you need to eat, cook with and make in order
   to live healthy and disease free.
 ---
-
 Hello, to begin I'd like to inform you that 90% of all diseases man experiences are man-made.
 
 No, not in the way you think. They are man-made in that, man himself made them, e.g Diabetes, Cancer, Metabolic Syndrome, Lactose Intolerance, Allergies, Hypertension, Ulcers, Obesity, and many more. We made them when we decided to deviate away from our natural way of eating and living. We are currently looking at a 50% decline in fertility(both male and female) since 1960. That's a lot considering the small gap.

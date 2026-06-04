@@ -3,13 +3,7 @@ title: 'The Future is Now: Emerging Technologies That Will Shape Our World'
 date: '2023-01-30 11:36:00+03:00'
 image: images/digital_disruption.webp
 draft: false
-tags:
-- emerging technologies
-- future tech
-- future world
-- disruptive innovations
-- emerging tech
-- disruptive tech
+tags: []
 categories:
 - Technology
 description: This article explores the top 10 emerging technologies that will have
@@ -17,7 +11,6 @@ description: This article explores the top 10 emerging technologies that will ha
   to clean energy, learn about the cutting-edge advancements that will change the
   way we live and work.
 ---
-
 Technology is constantly evolving and advancing, leading to new and innovative solutions to problems and opportunities for growth. In this article, we will explore the top 10 emerging technologies that have the potential to greatly impact and shape the future.
 
 1. Artificial Intelligence (AI)

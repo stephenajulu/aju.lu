@@ -4,22 +4,12 @@ date: '2021-12-09 11:47:00+03:00'
 image: images/proof-of-stake.webp
 draft: false
 tags:
-- proof of stake
-- ethereum2
-- blockchain
-- pos
-- proof-of-stake
-- cryptocurrencies
-- crypto
-- cryptocurrency
-- bitcoin
-- ethereum
+- Blockchain
 categories:
 - technology
 description: Proof-of-stake is a method of maintaining the integrity of a cryptocurrency.
   Proof Of Stake Explained. Learn more.
 ---
-
 Proof-of-stake is a method of maintaining the integrity of a cryptocurrency, preventing users from printing extra coins they didn’t earn. While a different method, called proof-of-work, is currently used by Bitcoin and Ethereum – the two largest cryptocurrencies by market capitalization – Ethereum has plans to migrate to proof-of-stake to make the platform more scalable and reduce the energy consumption of the network.
 
 To put it simply: Proof of stake is basically a process used to validate crypto transactions through staking.

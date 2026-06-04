@@ -4,33 +4,14 @@ date: '2023-01-19 20:53:00+03:00'
 image: images/nfts-in-museums.webp
 draft: false
 tags:
-- nfts
-- blockchain
-- digital ownership
-- digital assets
-- art
-- gaming
-- real estate
-- ' music'
-- cryptocurrency
-- digital art
-- digital gaming
-- digital real estate
-- technology
-- authenticity
-- collectibles
-- play to earn
-- play to own
-- investment
-- monetization
-- innovation
+- Blockchain
+- Web3
 categories:
 - Technology
 description: Discover the revolutionary technology of NFTs and how they are being
   used in various industries such as art, gaming, real estate and music. Learn about
   the benefits and opportunities they create for businesses and creators.
 ---
-
 Non-Fungible Tokens, or NFTs, are a revolutionary new technology that is changing the way we think about digital ownership and authenticity. These unique digital assets are being used in a wide variety of industries, from art and entertainment to real estate and gaming. In this article, we'll take a deep dive into the use cases of NFTs, exploring how this technology is being used to create new opportunities and revolutionize traditional business models.
 
 One of the most exciting use cases for NFTs is in the world of art and collectibles. NFTs allow artists to create one-of-a-kind digital pieces that can be sold and traded just like physical artwork. This opens up new possibilities for artists, as they can now sell their work to a global audience without the need for physical galleries or auction houses. For example, digital artist Beeple sold an NFT of his work for $69 million at Christie's auction house, making it the most expensive NFT ever sold.

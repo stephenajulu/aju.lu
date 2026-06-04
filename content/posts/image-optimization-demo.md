@@ -1,11 +1,12 @@
 ---
-title: "How to Use Optimized Images"
-date: 2026-04-25T10:00:00Z
-description: "A guide on using the new image optimization shortcode for better performance and Core Web Vitals."
+title: How to Use Optimized Images
+date: 2026-04-25 10:00:00+00:00
+description: A guide on using the new image optimization shortcode for better performance
+  and Core Web Vitals.
 image: images/me.webp
-tags: ["tech", "hugo", "optimization"]
+tags:
+- Development
 ---
-
 To keep your site fast and achieve high scores on Google PageSpeed Insights, you should use the new `img` shortcode for any local images you add to your posts.
 
 ## Why use the `img` shortcode?

@@ -3,14 +3,12 @@ title: A little heart to heart
 date: '2021-11-23 03:02:00+03:00'
 image: images/kelly-sikkema-4le7k9xvyje.webp
 draft: false
-tags:
-- self improvement
+tags: []
 categories:
 - Self improvement
 description: Here's a little heart to heart going out to my readers on success and
   self improvement
 ---
-
 Hi there, how are you doing? Hope you are well.
 
 So today i read a quote and this is what it reads,

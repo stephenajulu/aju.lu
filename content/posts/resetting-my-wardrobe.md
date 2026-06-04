@@ -3,16 +3,12 @@ title: Resetting My Wardrobe
 date: '2021-06-27 11:09:00+03:00'
 image: images/resetwardrobe.webp
 draft: false
-tags:
-- fashion
-- lifestyle
-- clothing
+tags: []
 categories:
 - fashion
 - lifestyle
 description: Recently i decided to reset my wardrobe, learn more as to why.
 ---
-
 I recently took a good look into my wardrobe and what I realized was eye-opening.
 
 Many times we keep old torn clothes and there are some clothes we rarely wear. I believe every year we need to do something I call "a wardrobe refresh", where we get rid of clothes we don't wear, the torn ones and the impractical ones and buy a new set.

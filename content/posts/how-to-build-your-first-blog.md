@@ -3,13 +3,11 @@ title: How to Build Your First Blog
 date: '2021-02-08 03:52:00+00:00'
 image: images/how-to-start-a-blog-illustration-1.webp
 draft: false
-tags:
-- blogging
+tags: []
 categories:
 - life
 description: Learn how to build and write your first blog.
 ---
-
 Hi everyone, glad to have you back. Today we've talked about How you can buy your first share, now I'll teach you how you can build your own blog.
 
 1. As usual, you have to get into the right mindset, there is no perfect blog, write about what you want to write about. I like tech, finance, self branding, self improvement and lifestyle, so that's what i write, you don't have to be extremely knowledgeable in the topic, everyone knows something you don't and so do you. So write about what you love and want. Value is provided with your heart not your mind.

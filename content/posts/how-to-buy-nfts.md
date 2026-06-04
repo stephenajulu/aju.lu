@@ -4,18 +4,12 @@ date: '2022-06-08 14:00:00+03:00'
 image: images/dylan-calluy-e4tbps9k_po-unsplash.webp
 draft: false
 tags:
-- technology
-- tech
-- nft
-- nfts
-- non fungible tokens
-- non fungible token
+- Web3
 categories:
 - Tech
 description: NFTs, or non-fungible tokens, have been all the rage in the digital art
   community in recent months. Here's how to buy them.
 ---
-
 NFTs, or non-fungible tokens, have been all the rage in the digital art community in recent months. In short, NFTs are blockchain-backed certificates of ownership for digital objects, such as videos and images. Just like with a physical painting or sculpture, an NFT represents that you own a unique piece of content (and it's yours to keep forever), even though that content is purely digital. And just like with physical artworks at auction houses like Christie's and Sotheby's, some NFTs can sell for staggering amounts of money—like this "anime girl" GIF that sold for over $500k. So how can you jump on this emerging trend? First things first: here's what you need to know about NFTs before you buy one:
 
 NFTs are blockchain-backed certificates of ownership for digital objects, such as art or video clips.

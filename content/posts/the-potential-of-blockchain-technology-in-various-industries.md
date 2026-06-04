@@ -4,12 +4,8 @@ date: '2023-01-01 14:00:00+03:00'
 image: images/shubham-dhage-gc_aoajql2q-unsplash.webp
 draft: false
 tags:
-- Blockchain technology
-- Decentralized systems
-- Secure transactions
-- Transparent systems
-- blockchain
-- decentralization
+- Blockchain
+- Web3
 categories:
 - Technology
 description: This article delves into the potential of blockchain technology in various
@@ -19,7 +15,6 @@ description: This article delves into the potential of blockchain technology in 
   It also addresses the challenges that must be overcome for its widespread adoption,
   such as scalability and lack of regulation.
 ---
-
 Blockchain technology, first introduced as the underlying technology behind the digital currency Bitcoin, has the potential to revolutionize various industries by providing secure, transparent, and decentralized systems. From finance and banking to healthcare and supply chain management, the applications of blockchain technology are vast and varied. In this essay, we will explore the potential of blockchain technology in various industries and the challenges that must be overcome for its widespread adoption.
 
 ## Finance and Banking 

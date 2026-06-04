@@ -3,10 +3,7 @@ title: 11 Books All Men Should Read
 date: '2021-08-03 11:39:00+03:00'
 image: images/daria-nepriakhina-xy55bl5mzam-unsplash.webp
 draft: false
-tags:
-- men
-- manhood
-- self improvement
+tags: []
 categories:
 - men
 - manhood
@@ -14,7 +11,6 @@ categories:
 description: Here are the 11 books I recommend to all men that will change your life
   and help you level up
 ---
-
 Here are the 11 books I recommend to all men that will change your life and help you level up. 
 
 This is a quick list. International links are affiliate links from Amazon and the local links are from Jumia. I get a commission from both.

@@ -4,22 +4,9 @@ date: '2021-12-09 14:53:00+03:00'
 image: images/1_cc8xg5pc8lf5id8u_vu0fw.webp
 draft: false
 tags:
-- finance
-- technology
-- staking
-- lending
-- lenders
-- cryptocurrencies
-- crypto
-- cryptocurrency
-- passive income
-- fire
-- financial freedom
-- assets
-- defi
-- decentralizedfinance
-- mining
-- yield farming
+- Blockchain
+- Finance
+- Web3
 categories:
 - Finance
 - Technology
@@ -27,7 +14,6 @@ description: Earning interest on your idle crypto assets is a great way of makin
   your money work for you. Here are 6 ways you can generate passive income while holding
   crypto.
 ---
-
 Passive income is money generated from ventures in which an individual is not actively involved. For the most part, all you need to do is invest your money or digital assets in a particular crypto investment strategy or platform and watch it generate profit. In some cases, the earnings are fixed and predictable. In others, several factors beyond your control may come into play.
 
 A typical way many try to make a return in crypto with little to no involvement is through buying and holding crypto – also known in the industry as “HODLing.” This means an investor is prepared to purchase a digital asset with the mindset that its price will hopefully rise significantly sometime in the future. Such investors are ready to go the distance as this long-term strategy might require them to hold their positions anywhere between six months to five years. Through the duration of this investment, an investor does not have to be proactive in the crypto market. They only need to buy the digital asset and store it in a secure wallet – preferably a non-custodial wallet.

@@ -4,12 +4,11 @@ date: '2021-09-02 12:49:00+03:00'
 image: images/jenny-hill-io2zgb3_kdk-unsplash.webp
 draft: false
 tags:
-- health
+- Personal Growth
 categories:
 - health
 description: How to be healthy
 ---
-
 1. Increase fat intake - Skip seed oils for cooking and frying instead adopt Organic Avocado Oil,  Organic Olive Oil, Organic Coconut oil, Grass-fed butter, Grass-fed ghee, Grass-fed tallow, Grass-fed suet, and others like them. Avoid Canola, Sunflower, Peanut, Corn, Safflower, soybean, cottonseed, rapeseed, grapeseed, and other similar oils. Increase saturated fats. Fats are the building blocks of the most important hormones. 
  2. Fast - Try One Meal A Day, Intermittent Fasting, One and A Half Meals A Day. Do Autophagy fasting Wednesday 7 pm to Friday 7 pm.
  3. Avoid sugar like the plague - Sugar is bad for you. It feeds cancer cells. Leads to metabolic syndrome and fatty liver. Among other issues. Avoid it.

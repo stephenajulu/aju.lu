@@ -4,40 +4,14 @@ date: '2023-01-19 16:00:00+03:00'
 image: images/photo-1634909924531-4daae117dbc1.webp
 draft: false
 tags:
-- ai
-- artificial intelligence
-- self awareness
-- control problem
-- ethical guidelines
-- human oversight
-- futureofai
-- aisecurity
-- trueai
-- chatgpt
-- gpt
-- gpt3
-- gpt2
-- gpt4
-- aipotential
-- aiconcerns
-- aiethics
-- airegulations
-- aipotentialdangers
-- airesponsibility
-- aipotentialrisks
-- airiskmanagement
-- aicontrol
-- autonomy
-- autonomousai
-- aiautonomy
-- aigovernance
+- Design
+- Cybersecurity
 categories:
 - Technology
 description: Explore the question of whether true artificial intelligence (AI) will
   turn against us and the potential risks and challenges facing the development of
   AI. Learn about potential solutions such as ethical guidelines and human oversight.
 ---
-
 ##
 
 ### This is a sobering thought to anyone laughing off the thought of robot overlords.

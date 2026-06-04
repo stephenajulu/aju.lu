@@ -4,38 +4,14 @@ date: '2021-12-09 16:35:00+03:00'
 image: images/gamefi.webp
 draft: false
 tags:
-- technology
-- gaming
-- metaverse
-- crypto
-- cryptocurrencies
-- play to earn
-- play games
-- games
-- play
-- earn
-- play2earn
-- cryptocurrency
-- digital currency
-- currency
-- online gaming
-- defi
-- nft
-- decentralized finance
-- non fungible tokens
-- play to earn
-- blockchain
-- metamask
-- ethereum
-- solana
-- cardano
+- Blockchain
+- Web3
 categories:
 - Technology
 - Gaming
 description: Online gaming is no longer just a pastime. Introducing GameFi, a new
   way to play games and earn crypto online.
 ---
-
 GameFi is one of the hottest new trends to emerge from the crypto industry, combining decentralized finance ([DeFi](https://stephenajulu.com/blog/decentralized-finance-defined/)) and non-fungible tokens ([NFTs](https://stephenajulu.com/blog/what-are-nfts-non-fungible-tokens-explained/)) with [blockchain-based online games](https://www.coindesk.com/business/2021/08/06/binance-smart-chain-beats-ethereum-by-some-metrics-thanks-to-latest-gamefi-craze/).
 
 Unlike many traditional online games, which operate on a “pay-to-win” model and allow players to purchase upgrades in order to gain an advantage over others, GameFi introduces a “[play-to-earn](https://www.coindesk.com/markets/2021/07/29/a-play-to-earn-account-beats-a-bank-account/)” model. This concept involves giving players financial incentives to play and progress through games. In some cases, this has allowed gamers to earn a [full-time income](https://www.coindesk.com/business/2021/05/11/for-filipinos-axie-infinity-is-more-than-a-crypto-game/) by doing so.

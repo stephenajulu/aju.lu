@@ -4,31 +4,14 @@ date: '2021-12-27 14:11:00+03:00'
 image: images/0_r24ox8zwoe0gfp1g.webp
 draft: false
 tags:
-- web3
-- technology
-- nft
-- blockchain
-- ethereum
-- cryptocurrencies
-- cryptocurrency
-- domain
-- domains
-- domain-names
-- domain name system
-- nft
-- ethereum naming service
-- eth
-- ether
-- crypto
-- ens
-- rainbowdotme
-- metamask
+- Development
+- Blockchain
+- Web3
 categories:
 - Technology
 description: Learn more about NFT domain. What they are? Where to get them and How
   to buy/use them.
 ---
-
 ### Refresher
 
 NFT domains are domains that live on a public blockchain and give users complete ownership of their stored data. The main benefits to owning one are simplifying crypto transactions by replacing long complicated wallet addresses with the domain name and easily creating and hosting websites on web3.

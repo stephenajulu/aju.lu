@@ -4,21 +4,11 @@ date: '2022-07-22 08:36:00+03:00'
 image: images/camilo-jimenez-0ylmwcxlwlw-unsplash.webp
 draft: false
 tags:
-- endocrine system
-- endocrinology
-- endocrine disruptors
-- hormones
-- hormonal
-- hormonal disruptors
-- health
-- pthalates
-- parabens
-- toxic cosmetics
+- Personal Growth
 categories:
 - Health
 description: Endocrine(Hormonal) Disruptors in Grooming Products and Cosmetics
 ---
-
 First, let's start with the definition of the endocrine system.
 
 ### What is the endocrine system?

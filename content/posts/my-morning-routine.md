@@ -4,14 +4,12 @@ date: '2021-11-26 07:48:00+03:00'
 image: images/diego-lozano-qghnk7eis0k-unsplash.webp
 draft: false
 tags:
-- self improvement
-- routines
+- Personal Growth
 categories:
 - self improvement
 description: Here's the morning routine I formulated that will help me achieve my
   4 month plan for self improvement
 ---
-
 Hello!
 
 Today I'd like to share my morning routine. I have been using it for 4 days now and feel absolutely fantastic.

@@ -4,27 +4,8 @@ date: '2021-12-02 11:35:00+03:00'
 image: images/nft-crypto-gaming-developers.webp
 draft: false
 tags:
-- finance
-- technology
-- gaming
-- cryptocurrencies
-- cryptocurrency
-- tokens
-- gaming tokens
-- gaming coins
-- cryptocurrency gaming tokens
-- cryptocurrency gaming coins
-- cryptocurrency tokens
-- cryptocurrency coins
-- axie infinity
-- axs
-- enj
-- enjin
-- gala
-- sand
-- sandbox
-- ilv
-- illuvium
+- Blockchain
+- Finance
 categories:
 - Finance
 - Technology
@@ -32,7 +13,6 @@ categories:
 description: Here's my top 6 gaming token recommendation list with their price as
   seen during the writing of this article.
 ---
-
 Here are my top 6 gaming tokens listed with their price as seen during the writing of this article.
 
 1. Axie Infinity(AXS): $136 or Ksh 15,320.40

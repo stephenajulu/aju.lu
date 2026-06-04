@@ -3,17 +3,13 @@ title: Who Moved My Cheese Summary
 date: '2021-08-09 16:27:00+03:00'
 image: images/whomovedmycheese.webp
 draft: false
-tags:
-- self improvement
-- books
-- who moved my cheese
+tags: []
 categories:
 - self improvement
 - books
 - who moved my cheese
 description: Here's the summary of who moved my cheese by spencer johnson spencer
 ---
-
 **A group of old school friends is gathered for dinner and the topic of conversation gets on to change** – in career, relationships, and family life. One of those present contends that change no longer bothers him after having heard ‘a funny little story’ called _Who Moved My Cheese?_ In this artful way, Spencer Johnson introduces the reader to his fable on how to cope positively with change.
 
 The story involves four characters who live in a maze: the mice Scurry and Sniff, and two ‘littlepeople’, Hem and Haw. All is going well because they have found a huge source of their favorite food, cheese. Hem and Haw have even moved their houses to be near it and it has become the center of their lives. But they do not notice that it is getting smaller, and are devastated when they arrive at the site one morning and find the cheese is gone.

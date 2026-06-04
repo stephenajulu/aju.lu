@@ -3,17 +3,13 @@ title: The 48 Laws of Power(Listed)
 date: '2021-08-09 16:07:00+03:00'
 image: images/48lawsof-power.webp
 draft: false
-tags:
-- self improvement
-- books
-- laws of power
+tags: []
 categories:
 - self improvement
 - books
 - laws of power
 description: Here are the 48 laws of power listed from 1 to 48.
 ---
-
 ### Law 1: Never outshine the master
 
 ### Law 2: Never put too much trust in friends, learn how to use enemies

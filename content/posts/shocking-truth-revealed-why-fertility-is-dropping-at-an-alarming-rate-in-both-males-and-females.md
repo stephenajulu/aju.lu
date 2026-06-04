@@ -4,14 +4,7 @@ date: '2023-02-24 08:05:00+03:00'
 image: images/photo-1515091110873-2a9680d5e323.webp
 draft: false
 tags:
-- fertility
-- infertility
-- reproductive health
-- environmental
-- lifestyle
-- medical
-- men
-- women
+- Personal Growth
 categories:
 - Lifestyle
 description: Have you ever wondered why more and more couples are struggling to conceive
@@ -19,7 +12,6 @@ description: Have you ever wondered why more and more couples are struggling to 
   both men and women? Join us as we uncover the shocking truth behind this alarming
   phenomenon
 ---
-
 ## How and Why Fertility is Dropping At An Alarming Rate in Both Males and Females Amongst The Human Species
 
 As human beings, we rely on our reproductive health to continue the legacy of our species. However, over the last few decades, there has been a worrying trend in the decline of fertility rates in both men and women. In this article, we will explore the reasons behind this alarming phenomenon and what can be done to address it.

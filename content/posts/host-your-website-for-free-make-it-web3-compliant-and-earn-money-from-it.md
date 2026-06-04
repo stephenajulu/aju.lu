@@ -4,14 +4,8 @@ date: '2022-05-26 20:30:00+03:00'
 image: images/le-buzz-kieii2b9gku-unsplash.webp
 draft: false
 tags:
-- technology
-- web3
-- finance
-- bat
-- basicattentiontoken
-- netlify
-- fleek
-- heroku
+- Development
+- Finance
 categories:
 - Technology
 - Web3
@@ -19,7 +13,6 @@ categories:
 description: How to host your website for free, make it web3 friendly, and earn money
   from your content
 ---
-
 ### Host Your Website For Free
 
 #### Static Websites

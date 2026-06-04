@@ -4,31 +4,11 @@ date: '2022-06-16 16:00:00+03:00'
 image: images/kanchanara-re9vlmvdizi-unsplash.webp
 draft: false
 tags:
-- binance
-- fxpesa
-- coinbase
-- hisa
-- cryptocurrencies
-- cryptocurrency
-- stocks
-- stock
-- shares
-- share
-- genghiscapital
-- nse
-- nyse
-- forex
-- fx
-- reits
-- etf
-- etfs
-- reit
-- real estate investment trust
+- Blockchain
 categories:
 - Investments
 description: Top investment platforms and apps Kenyans can use to buy and hold assets
 ---
-
 #### 1. [Binance](https://www.binance.com/en/activity/referral/offers/claim?ref=CPA_00P42ACTQZ): for Cryptocurrencies and NFTs
 
 #### 2. [Coinbase](https://www.coinbase.com/join/ajulu_v): for Cryptocurrencies and NFTs

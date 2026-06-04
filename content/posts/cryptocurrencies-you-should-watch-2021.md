@@ -4,13 +4,7 @@ date: '2021-11-18 16:41:00+03:00'
 image: images/executium-7gz3fj0h51e-unsplash.webp
 draft: false
 tags:
-- cryptocurrencies
-- cryptowatch
-- crypto
-- gains
-- watchlist
-- cryptowatchlist
-- cryptocurrencywatchlist
+- Blockchain
 categories:
 - cryptocurrencies
 - cryptowatch
@@ -19,7 +13,6 @@ description: Here is a quick list of cryptocurrencies you should watch and inves
   in. I believe these have the ingredients necessary to 10x or even 100x before the
   end of the year.
 ---
-
 Here is a quick list of cryptocurrencies you should watch and invest in. 
 
 I believe these have the ingredients necessary to 10x or even 100x before the end of the year.

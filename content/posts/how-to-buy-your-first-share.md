@@ -4,15 +4,12 @@ date: '2021-02-08 03:20:00+00:00'
 image: images/buy-shares-in-kenya.webp
 draft: false
 tags:
-- shares
-- trading
-- stocks
+- Finance
 categories:
 - finance
 description: Your first share is a milestone and today i am going to teach you how
   to go about buying it.
 ---
-
 Hi, how are you? It's been long huh!
 
 Today I'd like to show you how i bought my first share and how you can too for less than ksh. 200.

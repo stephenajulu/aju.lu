@@ -3,10 +3,7 @@ title: 5 Free Tools For Solopreneurs/Entrepreneurs (Updated)
 date: '2022-06-15 10:28:00+03:00'
 image: images/brooke-lark-nmffl1zjbw4-unsplash.webp
 draft: false
-tags:
-- entrepreneurs
-- solopreneurs
-- tools
+tags: []
 categories:
 - entrepreneurs
 - solopreneurs
@@ -14,7 +11,6 @@ categories:
 description: Here I list a few tools that can help solopreneurs get ahead and save
   time.
 ---
-
 Here are a few free tools to help ease your solo entrepreneur journey.
 
 1. [**Adobe Spark Post**](https://spark.adobe.com/) **/** [**Canva**](https://partner.canva.com/2r3dPO) - For designing posters and more

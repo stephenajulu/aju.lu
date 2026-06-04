@@ -4,18 +4,12 @@ date: '2021-02-10 09:00:00+00:00'
 image: images/feature-758x426.webp
 draft: false
 tags:
-- investment
-- investing
-- finance
-- investing kenya
-- getting stated
-- featured
+- Finance
 categories:
 - finance
 description: Learn how you can start investing and exploit compound interest. Learn
   to get more than 10% interest unlike the 7% that banks give you.
 ---
-
 Hey there? Today I'll show you how to get started investing.
 
 **Disclaimer: I am not a financial expert, down below is purely my opinion.**

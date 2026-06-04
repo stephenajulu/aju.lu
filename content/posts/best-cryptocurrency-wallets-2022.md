@@ -4,22 +4,13 @@ date: '2022-05-26 21:05:00+03:00'
 image: images/olieman-eth-evqnygt1pwg-unsplash.webp
 draft: false
 tags:
-- finance
-- technology
-- cryptocurrencies
-- wallets
-- tokens
-- cryptocurrency
-- token
-- wallet
-- bitcoin
-- ethereum
+- Blockchain
+- Finance
 categories:
 - Finance
 - Technology
 description: Get your cryptocurrencies off exchanges and into wallets now!
 ---
-
 According to this tweet:
 
 We should all remove our coins, tokens, and crypto from exchanges and into secure wallets where only the user has the private key and can access the wallet.

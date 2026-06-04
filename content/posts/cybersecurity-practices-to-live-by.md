@@ -4,15 +4,12 @@ date: '2021-01-30'
 image: images/safety-online-training.webp
 draft: false
 tags:
-- cybersecurity
-- data-security
-- featured
+- Cybersecurity
 categories:
 - tech
 description: Here are the Best Cybersecurity Practices to live by in order to safeguard
   your privacy and security
 ---
-
 1. Keep Personal Information Professional and Limited
  2. Keep Your Privacy Settings On
  3. Practice Safe Browsing

@@ -4,18 +4,13 @@ date: '2021-12-10 14:20:00+03:00'
 image: images/597b2c80-707d-439c-a801-374b634c033e_what-is-a-stablecoin-article-main.webp
 draft: false
 tags:
-- technology
-- finance
-- cryptocurrency
-- cryptocurrencies
-- stablecoin
-- stablecoins
+- Blockchain
+- Finance
 categories:
 - Technology
 - Finance
 description: Here i explain what stablecoins are and how they work.
 ---
-
 A “stablecoin” is a type of cryptocurrency whose value is pegged to another asset class, such as a fiat currency or gold, to stabilize its price.
 
 Cryptocurrencies such as bitcoin and ether offer a number of benefits, and one of the most fundamental is not requiring trust in an intermediary institution to send payments, which opens up their use to anyone around the globe. But one key drawback is that cryptocurrencies' prices are unpredictable and have a tendency to fluctuate, often wildly.

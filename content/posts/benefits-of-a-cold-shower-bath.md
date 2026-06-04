@@ -4,20 +4,13 @@ date: '2022-01-31 08:51:00+03:00'
 image: images/seth-doyle-ji6lmwtghf4-unsplash.webp
 draft: false
 tags:
-- cold showers
-- cold shower
-- cold bath
-- cold baths
-- grooming
-- health
-- mental health
+- Personal Growth
 categories:
 - grooming
 - health
 description: In this post, I cover the benefits of a cold shower or bath. Especially
   for me.
 ---
-
 Hello there guys! How are you? Today I'd like to cover the benefits of bathing with cold water.
 
 * **It wakes you up faster than a coffee cup**. Struggling to shake off morning grogginess? Freezing water boosts the production of norepinephrine and dopamine, two hormones that shift your nervous system into a sympathetic state – which essentially means that it’s a great way to get hyped up.

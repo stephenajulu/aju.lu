@@ -4,38 +4,14 @@ date: '2022-07-08 09:10:00+03:00'
 image: images/piggybank-3akqgjoowvi-unsplash.webp
 draft: false
 tags:
-- tech
-- cryptocurrencies
-- cryptocurrency
-- wallets
-- digital wallets
-- crypto wallet
-- hot wallet
-- cold wallet
-- seed phrase
-- metamask
-- coinbase wallet
-- crypto scams
-- wallet scams
-- blockchain
-- web3
-- metaverse
-- rainbow
-- risks
-- ledger
-- hardware wallets
-- airdrops
-- nfts
-- unstoppable domains
-- web3 domains
-- domains
-- nftdomains
+- Development
+- Blockchain
+- Web3
 categories:
 - Tech
 description: 'All About Cryptocurrency Wallets: What They Are, How To Keep Them Safe
   and Web 3 Identities'
 ---
-
 You may have heard of digital wallets used to interact with blockchain applications; perhaps you have already used them to make transactions, connect with services, marketplaces, etc. **_But do you know how wallets work? What types there are? What are private keys and seed phrases, and why is it critical to keep them secure to protect your assets and your identity on Web3? Are you aware of the most common types of scams that affect wallet users, and do you know how to protect yourself from these scams_**?
 
 This article answers these questions, with the goal of educating users about one of the most important aspects of Web3 access infrastructure.

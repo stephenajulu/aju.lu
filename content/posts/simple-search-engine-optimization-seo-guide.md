@@ -4,9 +4,7 @@ date: '2021-08-01 17:45:00+03:00'
 image: images/stephen-phillips-hostreviews-co-uk-shr_xn8s8qu-unsplash.webp
 draft: false
 tags:
-- seo
-- search engine optimization
-- seo guide
+- Design
 categories:
 - seo
 - search engine optimization
@@ -14,7 +12,6 @@ categories:
 description: The simple guide to search engine optimization and getting your page
   seen by people
 ---
-
 Here's a simple search engine optimization guide
 
 ## 1. Create Good Content

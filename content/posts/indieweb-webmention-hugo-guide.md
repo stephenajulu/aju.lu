@@ -1,11 +1,12 @@
 ---
-title: "Implementing Webmentions on Hugo: An IndieWeb Guide"
-date: 2026-04-27T10:00:00Z
-description: "A comprehensive guide on how to integrate Webmentions into your Hugo site, adhering to POSSE and IndieWeb principles."
-image: "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?q=80&w=1000&auto=format&fit=crop"
-tags: ["indieweb", "hugo", "webmentions", "posse"]
+title: 'Implementing Webmentions on Hugo: An IndieWeb Guide'
+date: 2026-04-27 10:00:00+00:00
+description: A comprehensive guide on how to integrate Webmentions into your Hugo
+  site, adhering to POSSE and IndieWeb principles.
+image: https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?q=80&w=1000&auto=format&fit=crop
+tags:
+- Development
 ---
-
 Webmentions are a cornerstone of the IndieWeb movement. They allow you to "own your data" while still participating in the broader social web. Instead of having a centralized comment system (like Disqus), Webmentions allow you to receive notifications whenever someone links to your post from their own site, or even from social networks like Mastodon or Twitter.
 
 ## How it Works

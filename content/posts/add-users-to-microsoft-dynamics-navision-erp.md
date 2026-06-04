@@ -3,16 +3,11 @@ title: Add Users to Microsoft Dynamics Navision ERP
 date: '2022-12-07 13:20:00+03:00'
 image: images/istock-638149788-web.webp
 draft: false
-tags:
-- NAV
-- ERP
-- Microsoft Dynamics NAV
-- Navision
+tags: []
 categories:
 - Technology
 description: Add Users to Microsoft Dynamics Navision ERP
 ---
-
 ## Adding Users and Permissions:
 1. To add a new NAV user is very easy. A new NAV user allows for a single username with access to the system and is used to specify the permissions that username will be granted.
 2. First, navigate to the User Card. To access this screen, type ‘Users’ in the search (Ctrl+f3) area or navigate to Departments/Administration/IT Administration/General/Users.

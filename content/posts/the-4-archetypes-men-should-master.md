@@ -3,10 +3,7 @@ title: The 4 Archetypes Men Should Master
 date: '2021-08-10 16:13:00+03:00'
 image: images/logan-weaver-zvg7z7zfi1u-unsplash.webp
 draft: false
-tags:
-- men
-- masculinity
-- manhood
+tags: []
 categories:
 - men
 - masculinity
@@ -14,7 +11,6 @@ categories:
 description: Here are the 4 archetypes all men should master for true growth and self
   improvement.
 ---
-
 # #1. King
 
 The King energy is primal in all men.  

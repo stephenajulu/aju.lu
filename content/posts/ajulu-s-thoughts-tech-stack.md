@@ -3,16 +3,12 @@ title: Ajulu's Thoughts Tech Stack
 date: '2021-06-27 16:00:00+03:00'
 image: images/ajulusthoughtswebcapture.webp
 draft: false
-tags:
-- blog
-- ajulusthoughts
-- tech stack
+tags: []
 categories:
 - blog
 - ajulusthoughts
 description: Here's how Ajulu's Thoughts was built
 ---
-
 Hi, there!
 
 I'd like to share a list of resources that helped me build/run this blog.

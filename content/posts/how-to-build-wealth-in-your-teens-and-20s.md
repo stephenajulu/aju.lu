@@ -4,9 +4,7 @@ date: '2021-09-02 12:07:00+03:00'
 image: images/morgan-housel-pcdggex9-ja-unsplash.webp
 draft: false
 tags:
-- wealth
-- investment
-- finance
+- Finance
 categories:
 - wealth
 - investment
@@ -14,7 +12,6 @@ categories:
 description: Here are the best ways you can build wealth in your teens and 20s without
   breaking the bank or ruining your credit score.
 ---
-
 Here's how you can build wealth in your teens and 20s.
 
 ### 1. Live below your means

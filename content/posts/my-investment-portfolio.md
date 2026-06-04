@@ -4,18 +4,7 @@ date: '2021-11-12 10:40:00+03:00'
 image: images/invest.webp
 draft: false
 tags:
-- invest
-- investment
-- crypto
-- stocks
-- investments
-- cryptocurrencies
-- stock
-- shares
-- share
-- binance
-- portfolio
-- investment portfolio
+- Blockchain
 categories:
 - invest
 - investment
@@ -23,7 +12,6 @@ categories:
 - stocks
 description: Revealing my current investment portfolio and potential invest list
 ---
-
 Hi, how are you?
 
 Today I'll be revealing my investment portfolio in a bid to encourage young people in their teens, twenties, and thirties to invest.

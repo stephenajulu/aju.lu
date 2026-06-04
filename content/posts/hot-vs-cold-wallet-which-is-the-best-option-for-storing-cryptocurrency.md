@@ -4,19 +4,14 @@ date: '2023-01-28 08:16:00+03:00'
 image: images/university-article-header-banner.webp
 draft: false
 tags:
-- hot wallet
-- cold wallet
-- cryptocurrency
-- cryptocurrency storage
-- digital wallet
-- crypto security
+- Blockchain
+- Cybersecurity
 categories:
 - Technology
 description: Confused about the differences between hot and cold wallets in cryptocurrency?
   This article breaks down the pros and cons of each type of wallet and offers tips
   for choosing the right one for your needs.
 ---
-
 When it comes to managing and storing your cryptocurrency, you have two main options: hot wallets and cold wallets. These terms refer to the level of accessibility and security that each type of wallet offers.
 
 ## Hot Wallet

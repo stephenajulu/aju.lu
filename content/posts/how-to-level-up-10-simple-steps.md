@@ -3,17 +3,13 @@ title: 'How To Level Up: 10 Simple Steps'
 date: '2021-08-01 18:36:00+03:00'
 image: images/kelvin-zhang-2zok5j-13ma-unsplash.webp
 draft: false
-tags:
-- self improvement
-- growth
-- self help
+tags: []
 categories:
 - self improvement
 - self-development
 - personal development
 description: Here's how you can level up in life with 10 steps
 ---
-
 ## 1. Read 10 pages a day
 
 Dedicate 1 hour a day to learning deliberately this can be through reading any book(better with Self-help and self-development) even the Bible. I will soon post books you can read in a separate post. Learn more about the 5-hour rule.

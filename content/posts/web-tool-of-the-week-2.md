@@ -4,14 +4,11 @@ date: '2021-06-27 10:35:00+03:00'
 image: images/webtool2.webp
 draft: false
 tags:
-- Spark post
-- Graphic design
-- Adobe
+- Design
 categories:
 - Web tool
 description: Web App of The Week Award Goes To Adobe Spark Post
 ---
-
 Here's the web tool of the week #2:
 
 ## Adobe Spark Post

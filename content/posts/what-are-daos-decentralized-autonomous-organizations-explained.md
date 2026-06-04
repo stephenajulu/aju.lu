@@ -4,21 +4,12 @@ date: '2021-12-03 16:15:00+03:00'
 image: images/de340f456ab84bf89b3f2f12cb423eeb.webp
 draft: false
 tags:
-- technology
-- decentralize
-- decentralized
-- decentralized autonomous organizations
-- dao
-- daos
-- decentralized organizations
-- decentralized organization
-- decentralized autonomous organization
+- Web3
 categories:
 - Technology
 description: What are Decentralized Autonomous Organizations? Here i explain what
   they are.
 ---
-
 DAOs are an effective and safe way to work with like-minded folks around the globe.
 
 Think of them like an internet-native business that's collectively owned and managed by its members. They have built-in treasuries that no one has the authority to access without the approval of the group. Decisions are governed by proposals and voting to ensure everyone in the organization has a voice.

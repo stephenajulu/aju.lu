@@ -4,25 +4,14 @@ date: '2021-12-22 13:31:00+03:00'
 image: images/unstoppable-1280x720.webp
 draft: false
 tags:
-- web3
-- technology
-- nft
-- blockchain
-- cryptocurrencies
-- cryptocurrency
-- domain
-- domains
-- domain names
-- domain name system
-- nfts
-- unstoppable domains
-- crypto
+- Development
+- Blockchain
+- Web3
 categories:
 - Technology
 description: Learn more about NFT domain. What they are? Where to get them and How
   to buy/use them.
 ---
-
 Today i'd like to help you buy your first NFT Web 3.0 domain. We'll talk about what they are, where you can get one and how to buy/use one.
 
 First,

@@ -4,14 +4,12 @@ date: '2021-11-30 13:06:00+03:00'
 image: images/executium-em3btkstjia-unsplash.webp
 draft: false
 tags:
-- cryptocurrency
-- cryptocurrencies
-- finance
+- Finance
+- Blockchain
 categories:
 - Finance
 description: Here's how you can buy your first cryptocurrency as a beginner.
 ---
-
 Do you want to invest in cryptocurrencies? Well here's how you can buy your first cryptocurrency as a beginner.
 
 1. Register in a Cryptocurrency Exchange. There's Binance, Coinbase, and [more](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjtuIzQ8r_0AhU8SfEDHZCwAo8QFnoECAQQAQ&url=https%3A%2F%2Fcoinmarketcap.com%2Frankings%2Fexchanges%2F&usg=AOvVaw0XciKeBh46uGvvqu9SLfkT). I suggest Binance. So if you'd like to register. here's the link: [Register on Binance Today!](https://accounts.binance.com/en/register?ref=CL2JFAB6)

@@ -3,17 +3,13 @@ title: On Becoming a High Value Woman
 date: '2021-08-02 16:04:00+03:00'
 image: images/averie-woodard-4nulm-juyfo-unsplash.webp
 draft: false
-tags:
-- high value woman
-- high value
-- woman
+tags: []
 categories:
 - high value woman
 - high value
 - woman
 description: Here's how you or any woman can level up and become a high value woman
 ---
-
 Here's how you or any woman can level up and become a high-value woman
 
 ## What is a High-Value Woman?

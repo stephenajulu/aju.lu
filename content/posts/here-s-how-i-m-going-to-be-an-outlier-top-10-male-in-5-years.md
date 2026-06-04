@@ -4,18 +4,14 @@ date: '2022-12-28 14:00:00+03:00'
 image: images/photo-nic-khhukoxqo4k-unsplash.webp
 draft: false
 tags:
-- lifestyle
-- health
-- wealth
-- relationships
-- dating
+- Personal Growth
+- Finance
 categories:
 - Lifestyle
 - Self Development
 description: Here's the step-by-step plan on how I'm going to be an outlier "Top 10%"
   male in 5 years
 ---
-
 Hello guys, as the title says. Here's how I plan to become an outlier male.
 
 Why do I plan to become an outlier male?

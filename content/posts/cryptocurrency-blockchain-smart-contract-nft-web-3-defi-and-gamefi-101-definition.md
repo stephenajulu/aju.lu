@@ -4,22 +4,15 @@ date: '2021-12-16 07:15:00+03:00'
 image: images/newhype101definition.webp
 draft: false
 tags:
-- cryptocurrency
-- blockchain
-- smart contract
-- nft
-- web3
-- nonfungibletoken
-- decentralizedfinance
-- defi
-- gamefi
-- gamefinance
+- Finance
+- Development
+- Blockchain
+- Web3
 categories:
 - Technology
 description: Cryptocurrencies, Blockchain, Smart Contracts, Non Fungible Tokens, Web
   3, Decentralized Finance and Game Finance Explained
 ---
-
 ### What is a cryptocurrency?
 
 A **cryptocurrency** is any form of currency that exists digitally or virtually and uses cryptography to secure transactions. Cryptocurrencies don't have a central issuing or regulating authority, instead, they use a decentralized system to record transactions and issue new units.

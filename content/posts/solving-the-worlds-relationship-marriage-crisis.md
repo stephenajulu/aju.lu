@@ -3,10 +3,7 @@ title: Solving The Worlds Relationship & Marriage Crisis
 date: '2021-08-02 12:08:00+03:00'
 image: images/djim-loic-hl4mrleyqxu-unsplash.webp
 draft: false
-tags:
-- Relationships
-- Life
-- Marriage
+tags: []
 categories:
 - Relationships
 - ' Life'
@@ -14,7 +11,6 @@ categories:
 description: Here's a solution to all the issues mankind is facing in relationships
   + tips for a successful relationship and marriage
 ---
-
 Here's a solution to all the issues mankind is facing in relationships + tips for a successful relationship and marriage.
 
 ## Men

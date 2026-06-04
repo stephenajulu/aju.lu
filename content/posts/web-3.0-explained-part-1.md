@@ -4,15 +4,13 @@ date: '2021-11-25 10:24:00+03:00'
 image: images/1_xdx6fonpgn2sq0fnmdqh8w.webp
 draft: false
 tags:
-- web3
-- decentralized web
-- decentralized
+- Development
+- Web3
 categories:
 - technology
 description: What is Web 3.0? How does it work? In this article, I'll explain Web
   3.0.
 ---
-
 Web 3.0 is the third generation of internet services for websites and applications that will focus on using a machine-based understanding of data to provide a data-driven and Semantic Web. The ultimate goal of Web 3.0 is to create more intelligent, connected, and open websites.
 
 Web 3.0 has not yet been implemented, so there is no solid definition. It took over ten years to transition from the original web, Web 1.0, to Web 2.0, and it is expected to take just as long, if not longer, to fully implement and reshape the web with Web 3.0. However, the technologies that some people believe are going to make up and ultimately define Web 3.0 are currently being developed. Smart home appliances using wireless networks and the Internet of Things (IoT) are two examples of how Web 3.0 is already impacting technology.

@@ -4,15 +4,12 @@ date: '2021-06-26 18:30:00+03:00'
 image: images/introversion-sucks-but.webp
 draft: false
 tags:
-- mental health
-- introversion
-- introvert
+- Personal Growth
 categories:
 - Mental Health
 - Introversion
 description: Here i talk about my curse which is also a blessing
 ---
-
 Hi there, twice in one row, yea! yea!
 
 But this is different.

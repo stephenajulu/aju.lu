@@ -3,24 +3,11 @@ title: 'The Outlier Male: Straight Seven System'
 date: '2023-02-26 14:25:00+03:00'
 draft: false
 tags:
-- wealth
-- fitness
-- intelligence
-- fashion
-- assets
-- outlier
-- outlier male
-- man
-- masculine
-- personality
-- confidence
-- power
-- status
-- 1stman
+- Personal Growth
+- Finance
 categories:
 - Lifestyle
 ---
-
 Hello guys! Today we'll be talking about the straight 7 system. 
 
 ### What is the straight 7 system?

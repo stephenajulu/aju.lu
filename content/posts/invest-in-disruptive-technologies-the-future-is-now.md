@@ -4,26 +4,8 @@ date: '2023-01-30 00:31:00+03:00'
 image: images/eba250-926051128-1200x800-panorama.webp
 draft: false
 tags:
-- investing
-- disruptive tech
-- disruptive technologies
-- biotech
-- biotechnology
-- blockchain
-- augmented reality
-- virtual reality
-- smart home
-- advanced manufacturing
-- quantum computing
-- electric vehicles
-- space technology
-- future investments
-- stocks
-- cryptocurrencies
-- blockchain technology
-- space technology
-- investments
-- invest
+- Blockchain
+- Finance
 categories:
 - Technology
 - Finance
@@ -31,7 +13,6 @@ description: Get ahead of the game with the top stocks in the most cutting-edge 
   including Biotech, Blockchain, and AR/VR. Unleash the potential of your investment
   portfolio.
 ---
-
 Here are 4 investments you can make in different disruptive industries, along with a brief description of each industry:
 
 ### Artificial Intelligence:

@@ -4,19 +4,12 @@ date: '2021-06-20 13:20:00+03:00'
 image: images/cyber-featured.webp
 draft: false
 tags:
-- cybersecurity
-- personal security
-- security
-- information security
-- data
-- personal data
-- null
+- Cybersecurity
 categories:
 - cybersecurity
 description: We are in the information age, where if i need your phone number i google
   you and find it. Here are tips and tricks that might save your life!
 ---
-
 Hi there! Welcome back to Ajulu's Thoughts. Today I'd like to teach you 10 tips that could save your life.
 
 ## Tip 1: Never share your location

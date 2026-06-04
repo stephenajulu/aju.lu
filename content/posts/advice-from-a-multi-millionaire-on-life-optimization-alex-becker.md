@@ -3,9 +3,7 @@ title: YouTube video player
 date: '2022-12-17 17:00:00+03:00'
 image: images/10-pillars-of-wealth-alex-becker-1024x686-1.webp
 draft: false
-tags:
-- lifestyle
-- life optimization
+tags: []
 categories:
 - lifestyle
 description: 'If you''re a young dude and you feel lost/directionless. Especially
@@ -13,7 +11,6 @@ description: 'If you''re a young dude and you feel lost/directionless. Especiall
   Addictions and Life Overcomplexity. Fix these...you''ll likely figure out what you
   want and make it faster than you think'
 ---
-
 If you're a young dude and you feel lost/directionless..especially in terms of success
 
 This is why. It comes down to 3 things

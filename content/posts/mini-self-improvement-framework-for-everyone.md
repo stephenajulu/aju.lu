@@ -3,13 +3,11 @@ title: Mini Self Improvement Framework For Everyone
 date: '2021-08-20 17:25:00+03:00'
 image: images/danielle-macinnes-iulgi9pwetu-unsplash.webp
 draft: false
-tags:
-- self improvement
+tags: []
 categories:
 - self improvement
 description: Here are ways you can improve yourself and the people around you.
 ---
-
 Hi! How are you?
 
 I like a quote Hafeez from The Roommates always says. Though i modified it so now it's my quote. It says,

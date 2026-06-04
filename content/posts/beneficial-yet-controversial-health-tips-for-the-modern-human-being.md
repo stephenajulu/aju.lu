@@ -4,11 +4,7 @@ date: '2022-04-16 12:00:00+03:00'
 image: images/emma-simpson-mngaalewep0-unsplash.webp
 draft: false
 tags:
-- health
-- self improvement
-- lifestyle
-- diet
-- food
+- Personal Growth
 categories:
 - health
 - self improvement
@@ -16,7 +12,6 @@ categories:
 description: Here are some beneficial yet controversial health tips for the modern
   human being
 ---
-
 Hello Everyone! How are you doing?
 
 Here are some of the most beneficial yet controversial health tips.

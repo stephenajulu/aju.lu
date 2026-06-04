@@ -3,14 +3,7 @@ title: Why Does A Meat Only Diet Cure So Many Things
 date: '2023-03-09 09:21:00+03:00'
 image: images/photo-1558030089-02acba3c214e.webp
 draft: false
-tags:
-- meat
-- carnivore
-- lipivore
-- carnivore diet
-- Jordan Peterson
-- meat only
-- meat only diet
+tags: []
 categories:
 - Lifestyle
 description: As humans, we have been conditioned to believe that a balanced diet is
@@ -18,7 +11,6 @@ description: As humans, we have been conditioned to believe that a balanced diet
   protein sources such as meat, poultry, and fish. However, in recent years, there
   has been a growing movement of people......
 ---
-
 As humans, we have been conditioned to believe that a balanced diet is one that includes a variety of foods, including vegetables, fruits, grains, and protein sources such as meat, poultry, and fish. However, in recent years, there has been a growing movement of people who claim to have experienced significant health benefits from a meat-only or carnivorous diet. This phenomenon has piqued the interest of many researchers, doctors, and nutritionists who have sought to understand the reasons behind the success of this diet.
 
 At first glance, a meat-only diet may seem nutritionally deficient, as it lacks the variety of nutrients found in fruits, vegetables, and grains. However, proponents of the diet argue that it is a more natural way of eating, as it aligns with the way our ancestors ate when food was scarce. In this article, we will explore the benefits of a meat-only diet, the reasons behind its success, and its potential drawbacks.

@@ -4,12 +4,7 @@ date: '2022-04-16 13:00:00+03:00'
 image: images/lesly-juarez-1ahgngkuhr0-unsplash.webp
 draft: false
 tags:
-- health
-- beauty
-- self improvement
-- skin
-- youth
-- healthy skin
+- Personal Growth
 categories:
 - health
 - beauty
@@ -17,7 +12,6 @@ categories:
 description: Here's the key to healthier and smoother skin that can make you look
   youthful like me.
 ---
-
 #### 1. It all starts with your gut.
 
 Are you eating good food or junk food? You should know eating junk food leads to junk-filled organs. This applies to your skin. You want to eat more animal-based fatty foods e.g beef. You want to avoid things made in factories. Eat real food. Like meat, eggs, organs, cruciferous vegetables, tubers, and such. Stay away from sugar and vegetable oils. If your skin is dry, double down your intake of fatty meats. If it’s moderate or too oily eat a slice of good meat with minimum fat.

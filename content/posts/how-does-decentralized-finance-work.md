@@ -4,17 +4,13 @@ date: '2021-12-03 14:09:00+03:00'
 image: images/defi.webp
 draft: false
 tags:
-- finance
-- technology
-- decentralized
-- decentralizedfinance
-- defi
+- Finance
+- Web3
 categories:
 - Finance
 - Technology
 description: Here's how decentralized finance works as sourced from the Ethereum website
 ---
-
 DeFi uses cryptocurrencies and smart contracts to provide services that don't need intermediaries. In today's financial world, financial institutions act as guarantors of transactions. This gives these institutions immense power because your money flows through them. Plus billions of people around the world can't even access a bank account.
 
 In DeFi, a smart contract replaces the financial institution in the transaction. A smart contract is a type of Ethereum account that can hold funds and can send/refund them based on certain conditions. No one can alter that smart contract when it's live – it will always run as programmed.

@@ -4,20 +4,14 @@ date: '2021-11-29 10:48:00+03:00'
 image: images/10-defi-coins.webp
 draft: false
 tags:
-- defi
-- decentralized finance
-- finance
-- technology
-- tech
-- financial technology
-- fintech
-- blockchain
+- Blockchain
+- Finance
+- Web3
 categories:
 - Technology
 - Finance
 description: Here are a few more applications and use cases of Decentralized Finance
 ---
-
 ### Refresher:
 
 DeFi is short for “decentralized finance,” an umbrella term for a variety of financial applications in cryptocurrency or blockchain geared toward disrupting financial intermediaries.

@@ -4,20 +4,11 @@ date: '2023-02-24 14:42:00+03:00'
 image: images/photo-1591602672136-b205b9e92d12-1.webp
 draft: false
 tags:
-- heart break
-- rejection
-- love
-- career
-- men
-- man
-- masculinity
-- mental health
-- health
+- Personal Growth
 categories:
 - Lifestyle
 description: How to deal with rejection or hurt break like a man
 ---
-
 1. Create distance: If it's someone who stays far from you. Delete contacts, unfollow, and do everything you can to create distance. If you can't, read on.
 2. Get in the gym: The gym is a great place to deal with your inner demons and emotional issues. Just pump it away. Use more pain to musk pain. In my country Kenya, we have a saying: "Dawa ya moto ni moto" The best solution in case of a fire is more fire.
 3. Go monk mode: Just abandon everything and focus on getting ahead. These females are in the millions but you only have one life. Focus, get rich, get fit, and grow then watch the number of options you have grow.

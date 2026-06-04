@@ -4,36 +4,13 @@ date: '2023-01-19 17:25:00+03:00'
 image: images/chatgpt.webp
 draft: false
 tags:
-- chatgpt
-- hackers
-- cyber attacks
-- phishing
-- social engineering
-- credential stuffing
-- protection
-- phishing scams
-- social engineering attacks
-- AI model
-- language model
-- cyber security
-- openai
-- ai
-- cybercrime
-- cyber threat
-- online security
-- data protection
-- machine learning
-- natural language processing
-- gpt
-- cyber safety
-- neural networks
+- Cybersecurity
 categories:
 - Technology
 description: Learn about the ways in which hackers are using ChatGPT for phishing
   scams, social engineering attacks, and credential stuffing. Understand the potential
   threats and how to protect yourself and your organization from these attacks.
 ---
-
 As the capabilities of large language models like ChatGPT continue to advance, they are also becoming a tool for hackers to use in their attacks.
 
 For those who don't know what ChatGPT is, here's the definition: ChatGPT (short for "Conversational Generative Pre-training Transformer") is a large language model developed by OpenAI. It is based on the GPT (Generative Pre-trained Transformer) architecture and is trained on a dataset of over 570GB of text data. The model is able to generate text that is similar to human writing and can be fine-tuned for a variety of natural language processing tasks such as language translation, question answering, and text summarization. ChatGPT is also known to be used in multiple domains such as chatbots, language model fine-tuning, and even in the cybersecurity field.

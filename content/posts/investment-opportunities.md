@@ -4,14 +4,11 @@ date: '2021-06-27 14:01:00+03:00'
 image: images/investmentopportunites.webp
 draft: false
 tags:
-- personal finance
-- investing
-- investments
+- Finance
 categories:
 - personal finance
 description: Here are ways/places you can invest in
 ---
-
 Welcome back, everyone.
 
 Here's a list of things/places you can invest in

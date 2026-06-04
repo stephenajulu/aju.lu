@@ -4,27 +4,14 @@ date: '2023-01-02 13:00:00+03:00'
 image: images/photo-nic-khhukoxqo4k-unsplash.webp
 draft: false
 tags:
-- lifestyle
-- masculinity
-- health
-- life optimization
-- self improvement
-- personal development
-- men
-- man
-- mind
-- body
-- spirit
-- growth
-- skills
-- faith
+- Development
+- Personal Growth
 categories:
 - lifestyle
 - masculinity
 description: Here we continue to discuss how one can become an outlier male by building
   the fundamentals, the mind, body and spirit.
 ---
-
 Hello Guys,
 
 Now here's the game plan.

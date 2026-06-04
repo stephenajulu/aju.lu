@@ -5,13 +5,7 @@ date: '2022-06-06 15:54:00+03:00'
 image: images/maksym-sirman-mutyusmedss-unsplash.webp
 draft: false
 tags:
-- health
-- salt
-- sodium chloride
-- insulin sensitivity
-- thyroid function
-- metabolism
-- lifestyle
+- Personal Growth
 categories:
 - Lifestye
 description: Salt(Sodium Chloride) is one the most important electrolytes. In fact
@@ -19,7 +13,6 @@ description: Salt(Sodium Chloride) is one the most important electrolytes. In fa
   it boosts thyroid function, metabolism, improves insulin sensitivity and many more.
   Find out here.
 ---
-
 1. **Salt aids blood sugar control by improving insulin sensitivity**. A low-salt diet **increases insulin resistance** and even moderate dietary salt restriction is shown to cause systemic insulin resistance (study [**#1**](http://www.metabolismjournal.com/article/S0026-0495(10)00329-X/abstract) and [**#2**](http://www.ncbi.nlm.nih.gov/pubmed/10371376)).
  2. **Salt is a natural antihistamine**. A pinch of salt sprinkled on the tongue may help improve an allergic reaction or an asthma attack ([**source**](http://amzn.to/163MtZS)).
  3. **Your body needs salt to maintain the proper stomach pH**. Stomach acid is hydro_chloric_ acid and salt is sodium _chloride_. Proper stomach acid levels are absolutely foundational for good digestion, but 90% of Americans have low stomach acid.

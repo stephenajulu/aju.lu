@@ -4,44 +4,15 @@ date: '2021-11-07 12:18:00+03:00'
 image: images/file-20210806-17-jibbct.webp
 draft: false
 tags:
-- metaverse
-- virtual reality
-- augmented reality
-- mixed reality
-- cryptocurrencies
-- cyber security
-- blockchain
-- decentralized finance
-- defi
-- vr
-- ar
-- mr
-- digital land
-- clean energy
-- fusion
-- ai
-- artificial intelligence
-- '2022'
-- '2023'
-- '2024'
-- '2025'
-- '2030'
-- '2021'
-- decentralized manufacturing
-- THC
-- CBD
-- natural plant medicine
-- psychedelic therapy
-- biotechnology
-- ' neurotechnology'
-- neuralink
+- Blockchain
+- Cybersecurity
+- Web3
 categories:
 - metaverse
 - the future
 description: Here are the industries and sectors that are going to boom or are already
   starting to boom.
 ---
-
 1. Artificial Intelligence
  2. Cyber Security
  3. Blockchain

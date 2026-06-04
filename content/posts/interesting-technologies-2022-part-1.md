@@ -4,17 +4,11 @@ date: '2022-09-06 16:00:00+03:00'
 image: images/fabio-oyxis2kalvg-unsplash.webp
 draft: false
 tags:
-- trends
-- technology
-- technologies
-- technology trends
-- tech
-- security
+- Cybersecurity
 categories:
 - Technology
 description: Here are some new interesting technologies
 ---
-
 ## Digital Trust
 
 Blockchain technology, distributed ledgers, and non-fungible tokens (NFTs) are transforming our world, and we will continue to see advances in this technology in 2022. These innovations go beyond Bitcoin to things like smart contracts that allow us to verify ownership with NFTs. This year, we will see more companies and individuals enhancing physical objects with blockchain technology and tokens.

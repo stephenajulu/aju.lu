@@ -4,17 +4,11 @@ date: '2022-06-17 16:00:00+03:00'
 image: images/christian-wiediger-poovzgc3y6k-unsplash.webp
 draft: false
 tags:
-- investments
-- recession
-- inflation
-- investing
-- hedge
-- hedging
+- Finance
 categories: []
 description: Here are the best investments that can act as hedges against inflation
   and recession.
 ---
-
 Hello there, today I'll be listing some hedges against inflation. I'll go deeper into these in individual posts covering each.
 
 1. Watches - Rolex, Richard Mille, Audemars Piguet, and Patek Phillipie are good starting points

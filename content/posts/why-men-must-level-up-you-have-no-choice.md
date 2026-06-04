@@ -3,10 +3,7 @@ title: 'Why Men Must Level Up: You Have No Choice'
 date: '2021-08-10 11:37:00+03:00'
 image: images/tom-pumford-t5lmpsyxnsu-unsplash.webp
 draft: false
-tags:
-- self improvement
-- suffering
-- manhood
+tags: []
 categories:
 - self improvement
 - suffering
@@ -14,7 +11,6 @@ categories:
 description: Here's why men have no other choice but to level up and improve up as
   well
 ---
-
 <br>
 
 > Back in the days of our grand fathers and great grandfathers, boys used to be initiated through pain and suffering in order to become men. There was circumcision(no anesthesia), front teeth pulling(no anesthesia), hunting, killing lions and other wild animals, isolation in forests, beatings, blood letting, "natural" tatooing(like the Sudanese people), fighting, bullet ant glove wearing and more.

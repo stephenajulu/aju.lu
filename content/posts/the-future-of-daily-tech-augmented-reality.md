@@ -3,21 +3,7 @@ title: 'The Future of Daily Tech: Augmented Reality'
 date: '2023-02-15 15:41:00+03:00'
 image: images/adobestock_305628750-scaled.webp
 draft: false
-tags:
-- AR
-- Augmented Reality
-- AR Tech
-- AR Technology
-- daily tech
-- future of technology
-- tech
-- technology
-- tech trends
-- technology trends
-- AR apps
-- AR devices
-- AR Experiences
-- AR software
+tags: []
 categories:
 - Tech
 - Technology
@@ -27,7 +13,6 @@ description: Discover how augmented reality is revolutionizing daily tech and tr
   in AR technology, its practical applications in various industries, and the potential
   impact on our daily lives.
 ---
-
 Augmented reality (AR) has been a buzzword in the tech industry for years, but it's only now that it's starting to live up to the hype. AR has the potential to transform the way we live, work, and play. In this article, we'll explore what AR is, how it works, and the potential it has to change the world around us. We'll also look at some of the latest developments in AR technology and how they could impact our daily lives in the future.
 
 ## What is Augmented Reality?

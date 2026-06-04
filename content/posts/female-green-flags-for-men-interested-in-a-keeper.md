@@ -3,17 +3,12 @@ title: Green Flags For Men Interested In A Keeper
 date: '2022-01-27 13:04:00+03:00'
 image: images/sasha-freemind-nxo2zskhthg-unsplash.webp
 draft: false
-tags:
-- dating
-- women
-- green flags
-- ' red flags'
+tags: []
 categories:
 - Dating
 - Women
 description: Men, these green flags make her a keeper
 ---
-
 Hello there! How are you? With no second to waste let's jump right in. But before that remember that you have to first put in work on yourself. Improve yourself first. Be worthy of seeking out these high-quality women.
 
  1. Has a good relationship with her father: I always say this, if she can't respect her father what makes you think she will respect you? Does she speak highly of him? What does the family look like? If she has a good relationship with her father then that's great.

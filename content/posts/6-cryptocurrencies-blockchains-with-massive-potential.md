@@ -4,22 +4,13 @@ date: '2021-12-04 15:01:00+03:00'
 image: images/b0ac64ca-9452-4ee2-b6fe-6ecbe8eeaddd.webp
 draft: false
 tags:
-- technology
-- metaverse
-- web3
-- defi
-- decentralized finance
-- blockchain
-- cryptocurrency
-- blockchains
-- cryptocurrencies
-- future
-- scifi
+- Development
+- Blockchain
+- Web3
 categories:
 - Technology
 description: 6 Blockchains/Cryptocurrencies With Massive Potential
 ---
-
 1. Ethereum(ETH) - Specifically Ethereum 2.0
 2. Solana(SOL)
 3. Cardano(ADA)

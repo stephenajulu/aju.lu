@@ -4,23 +4,9 @@ date: '2021-11-30 18:36:00+03:00'
 image: images/nft-art-what-is-it.webp
 draft: false
 tags:
-- art
-- nft
-- nfts
-- non fungible tokens
-- non fungible token
-- tokens
-- digital art
-- cryptocurrencies
-- crypto
-- cryptocurrency
-- tech
-- technology
-- finance
-- blockchain
-- opensea
-- mint
-- minting
+- Finance
+- Blockchain
+- Web3
 categories:
 - Technology
 - Art
@@ -28,7 +14,6 @@ categories:
 description: In this article, i'll tell you exactly what nfts are and why they are
   worth a lot of money. Non Fungible Tokens Explained.
 ---
-
 Hi there! Today i'd like to talk about NFTs and all the hype surrounding them right now. To begin, we must first know what they are. So,
 
 ### What is an NFT?
