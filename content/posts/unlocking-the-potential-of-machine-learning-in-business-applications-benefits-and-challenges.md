@@ -3,7 +3,8 @@ title: 'Unlocking the Potential of Machine Learning in Business: Applications, B
 date: '2023-01-19 14:25:00+03:00'
 image: images/istock-1313024657-scaled.webp
 draft: false
-tags: []
+tags:
+- Sovereignty
 categories:
 - Technology
 description: Discover the potential of machine learning in business, its applications

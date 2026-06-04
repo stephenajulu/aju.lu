@@ -3,7 +3,8 @@ title: 'ChatGPT: A Revolutionary Chatbot Utilizing the GPT-3 Language Processing
 date: '2023-01-06 14:00:00+03:00'
 image: images/chatgpt.webp
 draft: false
-tags: []
+tags:
+- Architecture
 categories:
 - Technology
 - tech

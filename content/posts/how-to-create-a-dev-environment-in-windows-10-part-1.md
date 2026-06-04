@@ -3,8 +3,9 @@ title: 'How to Create a Dev Environment in Windows 10: Part 1'
 date: '2020-07-09T14:00:00Z'
 image: /images/linux-windows.webp
 draft: false
+tags:
+- Development
 ---
-
 Hi, guys? Long time, huh? Hope you are all doing great! and you are all safe and sound. Today i would like to help you create a development/hacking environment in Windows 10. So let’s get started with Part 1: First Installation.
 
 First you’ll need to make sure you have a Windows 10, updated to 10th May 202 version(Windows 10, Version 2004, Build 19041 or higher).

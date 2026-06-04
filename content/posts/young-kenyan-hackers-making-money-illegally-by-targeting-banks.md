@@ -3,8 +3,9 @@ title: Young Kenyan Hackers Targeting Banks
 date: '2020-02-18T04:00:00Z'
 image: /images/photodune-21732180-diverse-computer-hacking-shoot-bw.webp
 draft: false
+tags:
+- Personal Growth
 ---
-
 .
 
 Technology is making life easier for everyone while opening up opportunities never before known to man, especially from the developing world.

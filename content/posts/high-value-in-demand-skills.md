@@ -3,7 +3,8 @@ title: High Value In-Demand Skills
 date: '2021-09-02 12:28:00+03:00'
 image: images/priscilla-du-preez-xkkcui44im0-unsplash.webp
 draft: false
-tags: []
+tags:
+- Development
 categories:
 - skills
 description: 'Here are a few high-value high-income in-demand skills. Remember: Every

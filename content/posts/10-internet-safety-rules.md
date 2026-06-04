@@ -3,8 +3,9 @@ title: 10 Internet Safety Rules
 date: '2020-03-28T06:52:00Z'
 image: /images/cybersecurity-post_2d00_1600x900.webp
 draft: false
+tags:
+- Cybersecurity
 ---
-
 1. Keep Personal Information Professional and Limited
  2. Keep Your Privacy Settings On
  3. Practice Safe Browsing

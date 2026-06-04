@@ -3,7 +3,8 @@ title: What Causes Alzheimer’s? Scientists Are Rethinking the Answer.
 date: '2022-12-24 10:00:00+03:00'
 image: images/alzheimer-byharolbustos-lede-scaled-1.webp
 draft: false
-tags: []
+tags:
+- Sovereignty
 categories:
 - Health
 description: It’s often subtle at first. A lost phone. A forgotten word. A missed

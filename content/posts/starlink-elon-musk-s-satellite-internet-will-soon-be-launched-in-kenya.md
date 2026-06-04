@@ -5,8 +5,9 @@ image: images/starlinkcharcoal.webp
 draft: false
 description: Starlink, SpaceX’s project that involves deploying thousands of satellites
   to space for internet access may be coming to Kenya.
+tags:
+- Sovereignty
 ---
-
 Starlink, SpaceX’s project that involves deploying thousands of satellites to space for internet access may be coming to Kenya.
 
 If you check the [order page ](https://www.starlink.com/preorder/)and input a Kenyan location like Syokimau, Starlink gives you this notice:

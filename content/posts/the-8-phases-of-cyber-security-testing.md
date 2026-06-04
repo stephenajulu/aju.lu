@@ -3,8 +3,9 @@ title: The 8 Phases of Cyber Security Testing
 date: '2020-03-28T06:59:00Z'
 image: /images/vmware-trustpoint-cybersecurity-threats.webp
 draft: false
+tags:
+- Cybersecurity
 ---
-
 Unlike the previous post: [**The 5 Phases Of Hacking**](https://ajulusthoughts.wordpress.com/2020/03/19/the-5-phases-of-hacking/). This procedure mostly resonates with cybersecurity professionals and/or ethical hackers.
 
 ### 1. Scoping

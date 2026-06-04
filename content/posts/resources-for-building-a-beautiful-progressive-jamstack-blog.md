@@ -3,8 +3,9 @@ title: Resources for Building a Beautiful Progressive JAMstack Blog
 date: '2020-04-06T09:00:00Z'
 image: /images/Screenshot_2020-03-31_20Stephen_20Ajulu_27s_20Blog_e31928d93e0d53d288cde238ac72207d.webp
 draft: false
+tags:
+- Development
 ---
-
 Hey guys? We are back again this time i want to share with you the tools i used to build this project. I would like to thank the creators and team behind these tools. I use these tools regularly in personal and client projects. But they contributed a great deal to this project. Even though i used a theme. Part 3 is coming soon and you may see UI changes hence the reason i reserved that for last. If you haven’t see part 1 and 2 i suggest you do.
 
 > [**_Building a Beautiful Progressive JAMstack Blog Part_** **_1_**](https://ajulusthoughts.wordpress.com/2020/03/31/building-a-beautiful-progressive-jamstack-blog-part-1/)  

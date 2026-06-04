@@ -3,8 +3,9 @@ title: How & Why Big Tech is Trying to Get Rid of Passwords
 date: '2020-01-24T09:00:00Z'
 image: /images/ditchpass3.webp
 draft: false
+tags:
+- Cybersecurity
 ---
-
 Yesterday as i was surfing as usual i encountered this statement by Merritt Maxim, “**_Passwords are like the cockroaches of the internet, They really despite all of our best efforts, are really hard to kill off and companies have been trying to do it for years_**“
 
 And so i thought why not make a post about this. So hey friends, hope you are all doing well! Let’s dive into this.

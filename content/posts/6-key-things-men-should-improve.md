@@ -3,7 +3,8 @@ title: 6 Key Things Men Should Improve
 date: '2021-08-11 16:00:00+03:00'
 image: images/luigi-estuye-lucreative-uih-y7kmaee-unsplash.webp
 draft: false
-tags: []
+tags:
+- Personal Growth
 categories:
 - men
 - self improvement

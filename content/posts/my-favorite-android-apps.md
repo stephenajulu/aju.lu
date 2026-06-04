@@ -5,8 +5,9 @@ image: images/7xzxqziqbcyvscsmkwq63k.webp
 draft: false
 description: We all have those apps that we love and cherish, apps we use on a daily
   basis. Here are some of mine..
+tags:
+- Development
 ---
-
 Phones have become a part of our life, we cherish them and most importantly, we take them everywhere, even in toilets 😬.
 
 With phones, come apps, tons of them and today I'd like to share 6 personal best android apps, let's begin.

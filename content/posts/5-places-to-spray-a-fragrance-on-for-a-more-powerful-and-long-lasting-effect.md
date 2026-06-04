@@ -5,8 +5,9 @@ image: images/how-to-apply-cologne-2.webp
 draft: false
 description: Here I'll tell you 6 places to spray or apply a fragrance eg Perfume
   and why you  should spray them in these locations
+tags:
+- Architecture
 ---
-
 Hi! Today I'll teach you hidden body fragrance techniques for a lasting and more powerful effect.
 
 ## 1. Back of The Neck

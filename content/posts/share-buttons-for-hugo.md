@@ -5,8 +5,9 @@ image: images/share1img.webp
 draft: false
 description: Do you have a hugo blog? Need some share buttons? Here are some i made
   and use.
+tags:
+- Development
 ---
-
 Here's code for ordinary social share buttons. Can be copied as is.
 
 ```html

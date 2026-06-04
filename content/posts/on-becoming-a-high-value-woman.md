@@ -3,7 +3,8 @@ title: On Becoming a High Value Woman
 date: '2021-08-02 16:04:00+03:00'
 image: images/averie-woodard-4nulm-juyfo-unsplash.webp
 draft: false
-tags: []
+tags:
+- Personal Growth
 categories:
 - high value woman
 - high value

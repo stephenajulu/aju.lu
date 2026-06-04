@@ -3,7 +3,8 @@ title: 'Koha: How To Setup Gmail Email Notices with Postfix'
 date: '2022-11-10 19:00:00+03:00'
 image: images/koha-user.webp
 draft: false
-tags: []
+tags:
+- Development
 categories:
 - Technology
 - Library

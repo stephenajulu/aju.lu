@@ -3,7 +3,8 @@ title: 'The Future of Daily Tech: Everything is Wireless'
 date: '2023-02-14 15:30:00+03:00'
 image: images/lowres-wireless-charging-header-jpg_729188885.webp
 draft: false
-tags: []
+tags:
+- Sovereignty
 categories:
 - Technology
 - .Tech

@@ -3,7 +3,8 @@ title: 'App of The Week #2'
 date: '2021-06-27 06:40:00+03:00'
 image: images/adobe_post_20210627_0658040-5932378357381964.webp
 draft: false
-tags: []
+tags:
+- Development
 categories:
 - apps
 description: App of The Week Award Goes To Simplenote by Automattic

@@ -3,7 +3,8 @@ title: YouTube video player
 date: '2022-12-17 17:00:00+03:00'
 image: images/10-pillars-of-wealth-alex-becker-1024x686-1.webp
 draft: false
-tags: []
+tags:
+- Personal Growth
 categories:
 - lifestyle
 description: 'If you''re a young dude and you feel lost/directionless. Especially

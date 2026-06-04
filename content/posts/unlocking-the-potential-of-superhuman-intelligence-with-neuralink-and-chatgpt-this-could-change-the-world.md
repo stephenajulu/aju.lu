@@ -3,7 +3,8 @@ title: Unlocking the Potential of Superhuman Intelligence with Neuralink and Cha
 date: '2023-01-27 10:52:00+03:00'
 image: images/my-project-1-11.webp
 draft: false
-tags: []
+tags:
+- Development
 categories:
 - Technology
 - Science Fiction

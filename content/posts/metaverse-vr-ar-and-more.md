@@ -3,8 +3,9 @@ title: Metaverse, VR, AR and more
 date: '2021-10-29T02:57:00Z'
 image: /images/file-20210806-17-jibbct.webp
 draft: false
+tags:
+- Web3
 ---
-
 Virtual Reality, Augmented Reality, Mixed Reality, Extended Reality, Immersive Experience, and Holographic Reality are the future of Tech.
 
 Thanks to NFTs you can buy/own land in the Metaverse. Better get ready, cryptocurrencies may turn out to be the future of currencies. You can buy digital land using Ethereum in the Metaverse. It is quite expensive but worth it from the way things are going.

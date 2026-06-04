@@ -3,8 +3,9 @@ title: Data, The New Gold!
 date: '2020-01-18T09:00:00Z'
 image: /images/is-data-the-new-gold-1.webp
 draft: false
+tags:
+- Sovereignty
 ---
-
 Just recently i posted an article on [**Why Big Tech Firms Want A Piece of Finance**](https://ajulusthoughts.wordpress.com/2020/01/17/why-big-tech-firms-want-a-piece-of-finance/)
 
 And after research i concluded that it’s not all about money. Yes they want profits and to provide value and solve society’s problems but also it’s about data! Imagine if you knew what people buy, where they buy it from, what time they buy it and what they actually buy. This kind of data is potentially worth millions even billions if sold to advertisers and used by G.A.F.A.M.

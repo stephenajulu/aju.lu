@@ -3,7 +3,8 @@ title: The Testosterone Pandemic
 date: '2022-08-16 21:32:00+03:00'
 image: images/800px-gigachad.webp
 draft: false
-tags: []
+tags:
+- Development
 categories:
 - Health
 description: Testosterone has been dropping each year by 1% since 1950. Men are becoming

@@ -3,7 +3,8 @@ title: 'The Future of Daily Tech: Nanotechnology'
 date: '2023-02-16 09:48:00+03:00'
 image: images/1_aszy222oub_qfhn_eqvnyw.webp
 draft: false
-tags: []
+tags:
+- Development
 categories:
 - Technology
 - Lifestyle

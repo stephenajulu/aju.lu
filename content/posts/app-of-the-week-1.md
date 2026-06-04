@@ -4,8 +4,9 @@ date: '2021-04-10 11:30:00+00:00'
 image: images/app-of-the-week-1.webp
 draft: false
 description: Here's the app of the week
+tags:
+- Development
 ---
-
 Hi! Starting another series on "Android App of The Week". Here's this week's app.
 
 ## [**Abstruct**](https://play.google.com/store/apps/details?id=com.hampusolsson.abstruct)

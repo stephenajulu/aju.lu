@@ -3,7 +3,8 @@ title: Ladies, Here's What Men Want and It's Surprisingly Simple
 date: '2021-12-18 14:32:00+03:00'
 image: images/jd-mason-q9rqinia5ou-unsplash.webp
 draft: false
-tags: []
+tags:
+- Personal Growth
 categories:
 - Dating
 description: Ladies, here's men want, it's surprisingly simple.

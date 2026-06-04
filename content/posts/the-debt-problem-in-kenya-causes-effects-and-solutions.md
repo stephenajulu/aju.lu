@@ -3,7 +3,8 @@ title: 'The Debt Problem in Kenya: Causes, Effects, and Solutions'
 date: '2023-02-24 09:45:00+03:00'
 image: images/photo-1596005554384-d293674c91d7.webp
 draft: false
-tags: []
+tags:
+- Finance
 categories:
 - Kenya
 description: Discover the shocking truth behind Kenya's debt crisis and how it could

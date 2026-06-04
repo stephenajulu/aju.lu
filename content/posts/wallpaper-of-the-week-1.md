@@ -3,7 +3,8 @@ title: Wallpaper of The Week 1
 date: '2022-07-11 12:38:00+03:00'
 image: images/alain-bonnardeaux-tlxgw_its7k-unsplash.webp
 draft: false
-tags: []
+tags:
+- Architecture
 categories:
 - Design
 description: Every week, I'll share with you a new wallpaper that you can use to refresh

@@ -3,7 +3,8 @@ title: 'The Way of Men: Formal Wear'
 date: '2023-02-23 15:57:00+03:00'
 image: images/photo-1577511757985-6c9f8518fc7b.webp
 draft: false
-tags: []
+tags:
+- Personal Growth
 categories:
 - Lifestyle
 - Fashion

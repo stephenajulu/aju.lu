@@ -3,7 +3,8 @@ title: 'The Future is Now: Emerging Technologies That Will Shape Our World'
 date: '2023-01-30 11:36:00+03:00'
 image: images/digital_disruption.webp
 draft: false
-tags: []
+tags:
+- Blockchain
 categories:
 - Technology
 description: This article explores the top 10 emerging technologies that will have

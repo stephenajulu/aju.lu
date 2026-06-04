@@ -3,7 +3,8 @@ title: 'The Future of Daily Tech: Holograms'
 date: '2023-02-02 10:33:00+03:00'
 image: images/new-technology-makes-real-time-3d-holograms-reality.webp
 draft: false
-tags: []
+tags:
+- Development
 categories:
 - Technology
 description: Join us to learn about the future of daily tech, holograms.

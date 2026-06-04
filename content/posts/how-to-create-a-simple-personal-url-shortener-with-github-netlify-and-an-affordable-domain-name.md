@@ -3,8 +3,9 @@ title: How to Create a Simple Personal URL Shortener
 date: '2020-07-16T09:04:00Z'
 image: /images/blog-cover.webp
 draft: false
+tags:
+- Development
 ---
-
 Hey guys. How are you? Hope you are safe!
 
 Today I’d like to help you build an URL shortener with GitHub, Netlify and an Affordable Domain Name. So let’s dive right in.

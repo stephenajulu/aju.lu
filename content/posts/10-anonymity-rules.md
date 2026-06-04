@@ -3,8 +3,9 @@ title: 10 Anonymity Rules
 date: '2020-03-28T06:55:00Z'
 image: /images/anonymity.webp
 draft: false
+tags:
+- Sovereignty
 ---
-
 1. Use Tor (Encrypted Browser, Proxy and Protocol).
  2. Use Tails (Secure OS).
  3. Use Signal (Secure Messaging App).

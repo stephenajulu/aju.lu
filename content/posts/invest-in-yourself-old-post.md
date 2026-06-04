@@ -3,7 +3,8 @@ title: Invest In Yourself(Old Post)
 date: '2021-08-09 05:17:00+03:00'
 image: images/bronzeman.webp
 draft: false
-tags: []
+tags:
+- Finance
 categories:
 - life
 - lifestyle

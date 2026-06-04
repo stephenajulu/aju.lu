@@ -3,8 +3,9 @@ title: Most Hyped Technologies Of 2020
 date: '2020-01-14T09:00:00Z'
 image: /images/sdvsdaa.webp
 draft: false
+tags:
+- Sovereignty
 ---
-
 It’s 2020, new technologies are emerging and the most hyped technologies of 2019 that failed have been set up to succeed this year.
 
 ![](https://ajulusthoughts.files.wordpress.com/2020/01/2018-gartner-hype-cycle.webp?w=850)

@@ -3,8 +3,9 @@ title: 'Building a Beautiful Progressive JAMstack Blog Part 1: Day 1 to 3'
 date: '2020-03-31T15:25:00Z'
 image: /images/Screenshot_2020-03-31_20Stephen_20Ajulu_27s_20Blog_e31928d93e0d53d288cde238ac72207d.webp
 draft: false
+tags:
+- Development
 ---
-
 Hey guys? Today we will be building a beautiful, fast, SEO optimized, progressive JAMstack blog for free. Step by step.
 
 Shall we begin?

@@ -4,8 +4,9 @@ date: '2021-04-10 19:10:00+00:00'
 image: images/re4ncja.webp
 draft: false
 description: Here are 5 must have Edge Browser Extensions + a bonus
+tags:
+- Sovereignty
 ---
-
 Microsoft recently(January 15, 2020) unveiled The Edge Browser based on Chromium(Chrome without Google). It took the internet by storm and Today, I'd like to talk about the extensions I believe are a must-have in Edge.
 
 ## 1. [uBlock Origin](https://microsoftedge.microsoft.com/addons/detail/odfafepnkmbhccpbejgmiehpchacaeak)

@@ -3,10 +3,11 @@ title: My Automatic Feed Item URL Shortener and Sender to Email
 date: '2021-06-17 08:00:00+03:00'
 image: images/afiussg.webp
 draft: false
-description: "Yes, that's it's name \U0001F601. Made a tool i can't use. Come, read
-  what this is about."
+description: Yes, that's it's name 😁. Made a tool i can't use. Come, read what this
+  is about.
+tags:
+- Architecture
 ---
-
 Hi there! Welcome back. I'm experiencing Nairobi's chilly morning. Woke up around 2.30 am. Anyway, i'd like to introduce a new tool. one I sadly can't use as it requires I upgrade to a professional account. It's a multistep zap.
 
 Here's the low down.

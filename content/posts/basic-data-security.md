@@ -3,8 +3,9 @@ title: Basic Data Security
 date: '2020-01-22T09:00:00Z'
 image: /images/datasec.webp
 draft: false
+tags:
+- Sovereignty
 ---
-
 ## WHAT IS DATA SECURITY?
 
 is the process of keeping data secure and protected from not only unauthorized access but also corrupted access. The main focus of data security is to make sure that data is safe and away from any destructive forces. Data is stored as rows and columns in its raw form in the databases, PCs as well as over networks. While some of this data may be not that secretive, other might be of private value and importance. But unauthorized access to such private information or data can cause many problems such as corruption, leakage of confidential information and violation of privacy.

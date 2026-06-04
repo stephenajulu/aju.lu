@@ -3,8 +3,9 @@ title: 'Building a Beautiful Progressive JAMstack Blog Part 2: Day 4 to 7'
 date: '2020-04-05T12:15:00Z'
 image: /images/Screenshot_2020-03-31_20Stephen_20Ajulu_27s_20Blog_e31928d93e0d53d288cde238ac72207d.webp
 draft: false
+tags:
+- Development
 ---
-
 Hey guys? Welcome to Part 2 of building the beautiful, fast, SEO optimized, progressive JAMstack blog.
 
 If you didn’t check out part 1, kindly go do so here: [**https://ajulusthoughts.wordpress.com/2020/03/31/building-a-beautiful-progressive-jamstack-blog-part-1/**](https://ajulusthoughts.wordpress.com/2020/03/31/building-a-beautiful-progressive-jamstack-blog-part-1/ "https://ajulusthoughts.wordpress.com/2020/03/31/building-a-beautiful-progressive-jamstack-blog-part-1/")

@@ -3,8 +3,9 @@ title: The 5 Phases of Hacking
 date: '2020-03-28T06:55:00Z'
 image: /images/cyber-crime-cpo-magazine-1024x587-1.webp
 draft: false
+tags:
+- Cybersecurity
 ---
-
 In this post, we are going to learn the **5 phases of hacking** which is used when hacking into systems. These are the phases which a typical hacker goes through in order to successfully compromise a system.
 
 ## **1. Reconnaissance**

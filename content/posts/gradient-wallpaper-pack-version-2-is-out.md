@@ -3,7 +3,8 @@ title: Gradient Wallpaper Pack Version 2 is Out
 date: '2021-06-30 20:46:00+03:00'
 image: images/gradientwallpaperspackv2.webp
 draft: false
-tags: []
+tags:
+- Architecture
 categories:
 - wallpapers
 description: Gradient Wallpaper Pack Version 2 is Out. It contains 334 wallpapers.

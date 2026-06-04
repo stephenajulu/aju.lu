@@ -3,7 +3,8 @@ title: The Importance of Internet of Things (IoT) in Smart Cities and Home Autom
 date: '2023-01-19 15:00:00+03:00'
 image: images/design-tech-homes-best-of-high-tech-homes-and-smart-home-technology-of-design-tech-homes-min.webp
 draft: false
-tags: []
+tags:
+- Sovereignty
 categories:
 - Technology
 description: Explore the advantages and disadvantages of IoT in smart cities and home

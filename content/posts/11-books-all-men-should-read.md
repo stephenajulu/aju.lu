@@ -3,7 +3,8 @@ title: 11 Books All Men Should Read
 date: '2021-08-03 11:39:00+03:00'
 image: images/daria-nepriakhina-xy55bl5mzam-unsplash.webp
 draft: false
-tags: []
+tags:
+- Development
 categories:
 - men
 - manhood

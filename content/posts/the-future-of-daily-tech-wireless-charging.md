@@ -3,7 +3,8 @@ title: 'The Future of Daily Tech: Wireless Charging'
 date: '2023-02-09 00:00:00+03:00'
 image: images/wireless-charging.webp
 draft: false
-tags: []
+tags:
+- Development
 categories:
 - Tech
 description: Stay ahead of the curve with our in-depth guide to wireless contactless

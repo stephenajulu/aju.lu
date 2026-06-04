@@ -3,7 +3,8 @@ title: The 4 Archetypes Men Should Master
 date: '2021-08-10 16:13:00+03:00'
 image: images/logan-weaver-zvg7z7zfi1u-unsplash.webp
 draft: false
-tags: []
+tags:
+- Personal Growth
 categories:
 - men
 - masculinity

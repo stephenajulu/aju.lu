@@ -3,7 +3,8 @@ title: My Bodyweight Workout Regime
 date: '2022-04-16 13:10:00+03:00'
 image: images/meghan-holmes-wy_l8w0zcpi-unsplash.webp
 draft: false
-tags: []
+tags:
+- Architecture
 categories:
 - self improvement
 description: Here's my bodyweight workout routine

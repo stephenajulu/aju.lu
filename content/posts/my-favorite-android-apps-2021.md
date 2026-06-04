@@ -5,8 +5,9 @@ image: images/androidpit-best-free-android-apps-hero-2.webp
 draft: false
 description: Hi there, here are my favorite android apps of 2021 that I use on a regular
   basis
+tags:
+- Development
 ---
-
 Hi there, this is Stephen Ajulu and today i'd like to share with you my favorite apps of 2021. Let's begin.
 
 ## Dolby On

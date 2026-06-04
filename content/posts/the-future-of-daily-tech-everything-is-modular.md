@@ -3,7 +3,8 @@ title: 'The Future of Daily Tech: Everything is Modular'
 date: '2023-02-14 15:14:00+03:00'
 image: images/phone-project-ara-modular-smart-phone-google-alphabet-design-technology-news_dezeen_ban_0.webp
 draft: false
-tags: []
+tags:
+- Personal Growth
 categories:
 - Technology
 - Tech

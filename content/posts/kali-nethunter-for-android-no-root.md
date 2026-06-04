@@ -3,8 +3,9 @@ title: Kali NetHunter for Android No Root
 date: '2020-02-24T09:00:00Z'
 image: /images/186a28551d84d22b06898818573b5be1.webp
 draft: false
+tags:
+- Cybersecurity
 ---
-
 Hello my cybersecurity and ethical hacker enthuiasts.
 
 I have some news for you, okay old news but still exciting.

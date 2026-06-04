@@ -4,7 +4,8 @@ title: 'Outlier Male Series: Who is an outlier male? What''''''''''''''''s the m
 date: '2023-01-02 16:00:00+03:00'
 image: images/photo-nic-khhukoxqo4k-unsplash.webp
 draft: false
-tags: []
+tags:
+- Personal Growth
 categories:
 - lifestyle
 - masculinity

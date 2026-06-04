@@ -3,7 +3,8 @@ title: Why EVERY Man Should Wear a Watch
 date: '2021-08-09 17:06:00+03:00'
 image: images/watch1.webp
 draft: false
-tags: []
+tags:
+- Personal Growth
 categories:
 - fashion
 - lifestyle

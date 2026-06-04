@@ -3,7 +3,8 @@ title: Men, Here Are 20 Characteristics Of The Women to Avoid
 date: '2022-01-10 13:25:00+03:00'
 image: images/olga-solodilova-2hwdnsti2zw-unsplash.webp
 draft: false
-tags: []
+tags:
+- Personal Growth
 categories:
 - Dating
 description: Men, here are 20 red flags, that if you see in/on a woman, run away.

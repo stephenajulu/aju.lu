@@ -3,7 +3,8 @@ title: Add Users to Microsoft Dynamics Navision ERP
 date: '2022-12-07 13:20:00+03:00'
 image: images/istock-638149788-web.webp
 draft: false
-tags: []
+tags:
+- Development
 categories:
 - Technology
 description: Add Users to Microsoft Dynamics Navision ERP

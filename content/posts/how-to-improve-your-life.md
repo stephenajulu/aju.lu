@@ -3,7 +3,8 @@ title: How To Improve Your Life
 date: '2022-04-23 20:26:00+03:00'
 image: images/mohamed-nohassi-odxb5oig_ia-unsplash.webp
 draft: false
-tags: []
+tags:
+- Personal Growth
 categories:
 - life
 description: Here are a few things that will improve your life and get you out of

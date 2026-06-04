@@ -3,7 +3,8 @@ title: Resetting My Wardrobe
 date: '2021-06-27 11:09:00+03:00'
 image: images/resetwardrobe.webp
 draft: false
-tags: []
+tags:
+- Architecture
 categories:
 - fashion
 - lifestyle

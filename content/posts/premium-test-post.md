@@ -3,7 +3,8 @@ title: 'Premium Member Test: The Future of aju.lu'
 date: 2026-05-02
 description: An exclusive look at the upcoming roadmap for our sovereign digital community.
 image: images/hero.webp
-tags: []
+tags:
+- Architecture
 ---
 Welcome to the first premium-enabled post on **aju.lu**. This page is designed to test our new membership infrastructure and content gating.
 

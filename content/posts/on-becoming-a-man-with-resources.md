@@ -5,8 +5,9 @@ image: images/man-with-resources.webp
 draft: false
 description: Here I go deeper explaining what you need to become a man with resources.
   Dive in!
+tags:
+- Personal Growth
 ---
-
 To become a man with resources you need to have at least 3 assets. Here are some:
 
 ## 1. Real Estate

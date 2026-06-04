@@ -6,8 +6,9 @@ draft: false
 description: Do you have an idea? Don't know programming? Do you want to test it?
   Today i answer all these questions and help you build your minimal viable product
   of your idea and test it's performance in the actual market for FREE!
+tags:
+- Development
 ---
-
 Do you have an idea? Don't know programming? Do you want to test it? Today i answer all these questions and help you build your minimal viable product of your idea and test it's performance in the actual market for FREE!
 
 Yes, you heard me, free. Whether it's an app or a website, whether you know how to program or not! Today with the tips and programs I'm about to share with you, you will be able to see if your idea is viable by testing it in the real world.

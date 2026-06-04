@@ -2,10 +2,10 @@
 title: Why Divorce Rates Are Through The Roof
 date: '2023-02-24 11:00:00+03:00'
 draft: false
-tags: []
+tags:
+- Sovereignty
 categories: []
 ---
-
 ## Why Divorce Rates Are Through The Roof
 
 Divorce rates have been steadily increasing over the past few decades. While there are many factors that contribute to the rise in divorce rates, promiscuity, and high body counts are two significant factors that cannot be ignored.

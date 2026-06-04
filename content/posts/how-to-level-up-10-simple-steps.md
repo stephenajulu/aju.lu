@@ -3,7 +3,8 @@ title: 'How To Level Up: 10 Simple Steps'
 date: '2021-08-01 18:36:00+03:00'
 image: images/kelvin-zhang-2zok5j-13ma-unsplash.webp
 draft: false
-tags: []
+tags:
+- Personal Growth
 categories:
 - self improvement
 - self-development

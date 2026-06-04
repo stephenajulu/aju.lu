@@ -2,8 +2,9 @@
 title: Hello World
 date: '2026-04-23'
 draft: false
+tags:
+- Personal Growth
 ---
-
 Hello world!
 
 Hello guys, I've been away from writing and blogging for quite some time and now I want to start again.
