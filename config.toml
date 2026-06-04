@@ -110,46 +110,46 @@ mediatype = "application/json"
     url = '/'
     weight = 1
   [[menu.main]]
-    name = "Services"
-    identifier = "services"
-    weight = 2
-    url = "/services/"
-  [[menu.main]]
-    name = "Store"
-    identifier = "store"
-    weight = 3
-    url = "/store/"
-  [[menu.main]]
     name = "Blog"
     identifier = "blog"
-    weight = 4
+    weight = 2
     url = "/posts/"
+  [[menu.main]]
+    name = "Notes"
+    identifier = "notes"
+    weight = 3
+    url = "/notes/"
   [[menu.main]]
     name = "More"
     identifier = "more"
     weight = 5
   [[menu.main]]
-    name = "Portfolio"
-    parent = "more"
-    weight = 1
-    url = "/projects/"
-  [[menu.main]]
-    name = "Notes"
-    parent = "more"
-    weight = 2
-    url = "/notes/"
-  [[menu.main]]
     name = "About"
     parent = "more"
-    weight = 3
+    weight = 1
     url = "/About/"
+  [[menu.main]]
+    name = "Portfolio"
+    parent = "more"
+    weight = 2
+    url = "/projects/"
+  [[menu.main]]
+    name = "Services"
+    parent = "more"
+    weight = 3
+    url = "/services/"
+  [[menu.main]]
+    name = "Store"
+    parent = "more"
+    weight = 4
+    url = "/store/"
   [[menu.main]]
     name = "Contact"
     parent = "more"
-    weight = 4
+    weight = 5
     url = "/contact/"
   [[menu.main]]
-    name = "CV"
+    name = "Curriculum Vitae"
     parent = "more"
-    weight = 5
+    weight = 6
     url = "/cv/"
