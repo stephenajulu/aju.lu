@@ -104,8 +104,12 @@
 {{ $themeStyle := slice "" }}
 {{ if eq .Site.Params.addFrame true }}{{ $themeStyle = $themeStyle | append "frame" }}{{ end }}
 
+<<<<<<< Updated upstream
 <body class='page{{ delimit $themeStyle " " }} {{ block "body_classes" . }}{{ end }}'>
   <a href="#main" class="skip-link">Skip to main content</a>
+=======
+<body class='page{{ delimit $themeStyle " " }} {{ block "body_classes" . }}{{ end }}' {{ with (index (where .Site.RegularPages "Type" "posts").ByDate.Reverse 0) }}data-newest-post="{{ .Date.Format "2006-01-02" }}"{{ end }}>
+>>>>>>> Stashed changes
   <div id="reading-progress"></div>
   {{ partial "menu-main-mobile.html" . }}
   <div id="wrapper" class="wrapper">
@@ -147,6 +151,32 @@
       localStorage.setItem('theme', isLight ? 'light' : 'dark');
       updateIcons();
     });
+  </script>
+
+  <script>
+    // View Transitions Logic
+    if (document.startViewTransition) {
+        window.navigation.addEventListener('navigate', (event) => {
+            if (event.canIntercept && !event.hashChange && !event.downloadRequest) {
+                const url = new URL(event.destination.url);
+                if (location.origin !== url.origin) return;
+
+                event.intercept({
+                    handler: async () => {
+                        const response = await fetch(url);
+                        const text = await response.text();
+                        const data = new DOMParser().parseFromString(text, 'text/html');
+                        
+                        document.startViewTransition(() => {
+                            document.title = data.title;
+                            document.body.innerHTML = data.body.innerHTML;
+                            // Re-init scripts if needed
+                        });
+                    }
+                });
+            }
+        });
+    }
   </script>
 
   {{ partial "google-analytics.html" . }}

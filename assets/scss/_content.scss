@@ -346,6 +346,7 @@ ul {
     }
 }
 
+<<<<<<< Updated upstream
 .expertise-callout {
     margin: 40px 0;
     padding: 30px;
@@ -559,6 +560,39 @@ ul {
         text-decoration: none;
         &:hover {
             text-decoration: underline;
+=======
+.post-controls {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0 30px 0;
+    
+    .btn-utility {
+        background: var(--base-offset-color);
+        color: var(--heading-color);
+        border: 1px solid var(--glass-border);
+        padding: 8px 16px;
+        border-radius: 8px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        transition: all 0.2s ease;
+        
+        span { font-size: 1.1rem; }
+
+        &:hover {
+            border-color: var(--highlight-color);
+            color: var(--highlight-color);
+            transform: translateY(-2px);
+        }
+
+        &.active {
+            background: var(--highlight-color);
+            color: #ffffff;
+            border-color: var(--highlight-color);
+>>>>>>> Stashed changes
         }
     }
 }

@@ -42,7 +42,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const highlightBlocks = document.querySelectorAll('.highlight');
 
   highlightBlocks.forEach((block) => {
-    // Attempt to extract the language from the class
     let language = "CODE";
     const codeElement = block.querySelector('code');
     if (codeElement && codeElement.className) {
@@ -93,11 +92,10 @@ document.addEventListener('DOMContentLoaded', () => {
   if (typeof mediumZoom !== 'undefined') {
     const zoom = mediumZoom(images, {
       margin: 24,
-      background: getComputedStyle(document.documentElement).getPropertyValue('--base-color').trim() || '#030712',
+      background: getComputedStyle(document.documentElement).getPropertyValue('--base-color').trim() || '#020617',
       scrollOffset: 40
     });
 
-    // Update background color when theme changes
     const themeBtn = document.getElementById('theme-toggle');
     if (themeBtn) {
       themeBtn.addEventListener('click', () => {
@@ -138,9 +136,8 @@ document.addEventListener('DOMContentLoaded', () => {
     dropdowns.forEach(dropdown => {
         const link = dropdown.querySelector('a');
         
-        // Handle click on parent link for touch/keyboard
         link.addEventListener('click', (e) => {
-            if (window.innerWidth >= 992) { // Only on desktop
+            if (window.innerWidth >= 992) {
                 e.preventDefault();
                 const isExpanded = link.getAttribute('aria-expanded') === 'true';
                 link.setAttribute('aria-expanded', !isExpanded);
@@ -148,7 +145,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        // Close on blur (when tabbing out)
         dropdown.addEventListener('focusout', (e) => {
             if (!dropdown.contains(e.relatedTarget)) {
                 link.setAttribute('aria-expanded', 'false');
@@ -158,28 +154,78 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// 6. Copy Permalink
+// 6. Netlify Identity
+if (window.netlifyIdentity) {
+  window.netlifyIdentity.on("init", user => {
+    if (!user) {
+      window.netlifyIdentity.on("login", () => {
+        document.location.href = "/membership/";
+      });
+    }
+  });
+
+  window.netlifyIdentity.on("logout", () => {
+    document.location.href = "/";
+  });
+}
+
+// 7. Advanced Browser APIs Suite (Master Level)
+
+// A. Performance Observer (Real User Metrics)
+if ('PerformanceObserver' in window) {
+  const perfObserver = new PerformanceObserver((list) => {
+    for (const entry of list.getEntries()) {
+      console.log(`[Perf] ${entry.name}: ${entry.startTime.toFixed(2)}ms`);
+    }
+  });
+  perfObserver.observe({ type: 'largest-contentful-paint', buffered: true });
+  perfObserver.observe({ type: 'first-input', buffered: true });
+}
+
+// B. Beacon API & Reading Depth
+window.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'hidden') {
+    const data = JSON.stringify({
+      url: window.location.href,
+      time: performance.now(),
+      depth: (window.scrollY + window.innerHeight) / document.documentElement.scrollHeight
+    });
+    // navigator.sendBeacon('/api/analytics', data); 
+    console.log('[Beacon] Session snapshot captured');
+  }
+});
+
+// C. Speech Synthesis (Listen to Article)
 document.addEventListener('DOMContentLoaded', () => {
-    const copyBtn = document.getElementById('copy-link');
-    if (copyBtn) {
-        copyBtn.addEventListener('click', async () => {
-            const url = copyBtn.getAttribute('data-url');
-            try {
-                await navigator.clipboard.writeText(url);
-                const originalText = copyBtn.innerText;
-                copyBtn.innerText = 'Link Copied!';
-                copyBtn.classList.add('copied');
-                setTimeout(() => {
-                    copyBtn.innerText = originalText;
-                    copyBtn.classList.remove('copied');
-                }, 2000);
-            } catch (err) {
-                console.error('Failed to copy: ', err);
-            }
-        });
+    const speechBtn = document.getElementById('btn-listen');
+    if (speechBtn && 'speechSynthesis' in window) {
+      let isReading = false;
+      const synth = window.speechSynthesis;
+      
+      speechBtn.addEventListener('click', () => {
+        if (isReading) {
+          synth.cancel();
+          isReading = false;
+          speechBtn.innerHTML = '<span>🔊</span> Listen to Article';
+          speechBtn.classList.remove('active');
+        } else {
+          const content = document.querySelector('.e-content').innerText;
+          const utterance = new SpeechSynthesisUtterance(content);
+          utterance.onend = () => { 
+            isReading = false;
+            speechBtn.innerHTML = '<span>🔊</span> Listen to Article';
+            speechBtn.classList.remove('active');
+          };
+          synth.speak(utterance);
+          isReading = true;
+          speechBtn.innerHTML = '<span>🛑</span> Stop Reading';
+          speechBtn.classList.add('active');
+        }
+      });
     }
 });
 
+<<<<<<< Updated upstream
 // 7. Netlify Identity Integration
 if (window.netlifyIdentity) {
   window.netlifyIdentity.on("init", user => {
@@ -214,6 +260,61 @@ document.addEventListener('DOMContentLoaded', () => {
   const revealElements = document.querySelectorAll('.reveal, .dramatic');
   revealElements.forEach(el => revealObserver.observe(el));
 });
+=======
+// D. Screen Wake Lock
+document.addEventListener('DOMContentLoaded', () => {
+    let wakeLock = null;
+    const wakeLockBtn = document.getElementById('btn-wake-lock');
+    if (wakeLockBtn && 'wakeLock' in navigator) {
+      wakeLockBtn.addEventListener('click', async () => {
+        try {
+          if (wakeLock === null) {
+            wakeLock = await navigator.wakeLock.request('screen');
+            wakeLockBtn.classList.add('active');
+            wakeLockBtn.innerHTML = '<span>🔆</span> Screen Always On';
+          } else {
+            await wakeLock.release();
+            wakeLock = null;
+            wakeLockBtn.classList.remove('active');
+            wakeLockBtn.innerHTML = '<span>🌙</span> Auto-Dim Enabled';
+          }
+        } catch (err) {
+          console.error(`[WakeLock] Failed: ${err.name}, ${err.message}`);
+        }
+      });
+    }
+});
+
+// E. PWA Badging API
+if ('setAppBadge' in navigator) {
+  const lastPostSeen = localStorage.getItem('last_seen_post');
+  const newestPostDate = document.body.getAttribute('data-newest-post');
+  
+  if (newestPostDate && lastPostSeen !== newestPostDate) {
+    navigator.setAppBadge(1).catch(console.error);
+  }
+  
+  if (window.location.pathname === '/' || window.location.pathname === '/posts/') {
+    navigator.clearAppBadge();
+    if (newestPostDate) localStorage.setItem('last_seen_post', newestPostDate);
+  }
+}
+
+// 8. View Transitions (Fluid Navigation)
+if (document.startViewTransition) {
+    window.addEventListener('click', (e) => {
+        const link = e.target.closest('a');
+        if (link && link.origin === window.location.origin && !link.hasAttribute('target')) {
+            // Check if it's a content link
+            if (link.getAttribute('href').startsWith('/') || link.getAttribute('href').startsWith(window.location.origin)) {
+                // e.preventDefault(); 
+                // We'll let the browser handle navigation but add a transition marker
+                document.documentElement.style.viewTransitionName = 'page-fade';
+            }
+        }
+    });
+}
+>>>>>>> Stashed changes
 
 // 9. Smooth Page Entrance
 window.addEventListener('load', () => {
