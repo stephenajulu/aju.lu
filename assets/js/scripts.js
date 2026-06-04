@@ -10,12 +10,9 @@ if (menuTrigger !== null) {
     menuContainer.classList.toggle('open');
     hamburgerIcon.classList.toggle('is-active');
     body.classList.toggle('lock-scroll');
-    
-    // Accessibility
     hamburgerIcon.setAttribute('aria-expanded', !isOpen);
   });
 
-  // Close on Escape
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && menuContainer.classList.contains('open')) {
         menuContainer.classList.remove('open');
@@ -37,141 +34,40 @@ window.addEventListener('scroll', () => {
   }
 });
 
-// 2. Copy Code Button & Language Labels
+// 2. Copy Code Button
 document.addEventListener('DOMContentLoaded', () => {
   const highlightBlocks = document.querySelectorAll('.highlight');
-
   highlightBlocks.forEach((block) => {
     let language = "CODE";
     const codeElement = block.querySelector('code');
     if (codeElement && codeElement.className) {
       const match = codeElement.className.match(/language-([a-z0-9]+)/);
-      if (match) {
-        language = match[1].toUpperCase();
-      }
+      if (match) language = match[1].toUpperCase();
     }
-
     const topBar = document.createElement('div');
     topBar.className = 'code-top-bar';
-
     const langLabel = document.createElement('span');
     langLabel.className = 'code-lang-label';
     langLabel.innerText = language;
-
     const copyButton = document.createElement('button');
     copyButton.className = 'code-copy-btn';
     copyButton.innerHTML = 'Copy';
-    copyButton.setAttribute('aria-label', 'Copy code to clipboard');
-
     copyButton.addEventListener('click', async () => {
-      const codeText = codeElement ? codeElement.innerText : block.innerText;
       try {
-        await navigator.clipboard.writeText(codeText);
+        await navigator.clipboard.writeText(codeElement.innerText);
         copyButton.innerHTML = 'Copied!';
-        copyButton.classList.add('copied');
-        setTimeout(() => {
-          copyButton.innerHTML = 'Copy';
-          copyButton.classList.remove('copied');
-        }, 2000);
-      } catch (err) {
-        console.error('Failed to copy code: ', err);
-        copyButton.innerHTML = 'Failed';
-      }
+        setTimeout(() => { copyButton.innerHTML = 'Copy'; }, 2000);
+      } catch (err) { console.error(err); }
     });
-
     topBar.appendChild(langLabel);
     topBar.appendChild(copyButton);
     block.insertBefore(topBar, block.firstChild);
   });
 });
 
-// 3. Image Lightbox (Medium Zoom)
-document.addEventListener('DOMContentLoaded', () => {
-  const images = document.querySelectorAll('.content img, .portfolio-item img, .note-content img');
-  
-  if (typeof mediumZoom !== 'undefined') {
-    const zoom = mediumZoom(images, {
-      margin: 24,
-      background: getComputedStyle(document.documentElement).getPropertyValue('--base-color').trim() || '#020617',
-      scrollOffset: 40
-    });
+// 3. Advanced Browser APIs (Elite Tech Suite)
 
-    const themeBtn = document.getElementById('theme-toggle');
-    if (themeBtn) {
-      themeBtn.addEventListener('click', () => {
-        setTimeout(() => {
-          const newBg = getComputedStyle(document.documentElement).getPropertyValue('--base-color').trim();
-          zoom.update({ background: newBg });
-        }, 150);
-      });
-    }
-  }
-});
-
-// 4. Back to Top Button
-document.addEventListener('DOMContentLoaded', () => {
-  const backToTopBtn = document.getElementById('back-to-top');
-  if (backToTopBtn) {
-    window.addEventListener('scroll', () => {
-      if (window.pageYOffset > 400) {
-        backToTopBtn.classList.add('visible');
-      } else {
-        backToTopBtn.classList.remove('visible');
-      }
-    });
-
-    backToTopBtn.addEventListener('click', () => {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-    });
-  }
-});
-
-// 5. Desktop Dropdown Accessibility
-document.addEventListener('DOMContentLoaded', () => {
-    const dropdowns = document.querySelectorAll('.has-children');
-    
-    dropdowns.forEach(dropdown => {
-        const link = dropdown.querySelector('a');
-        
-        link.addEventListener('click', (e) => {
-            if (window.innerWidth >= 992) {
-                e.preventDefault();
-                const isExpanded = link.getAttribute('aria-expanded') === 'true';
-                link.setAttribute('aria-expanded', !isExpanded);
-                dropdown.classList.toggle('is-open');
-            }
-        });
-
-        dropdown.addEventListener('focusout', (e) => {
-            if (!dropdown.contains(e.relatedTarget)) {
-                link.setAttribute('aria-expanded', 'false');
-                dropdown.classList.remove('is-open');
-            }
-        });
-    });
-});
-
-// 6. Netlify Identity
-if (window.netlifyIdentity) {
-  window.netlifyIdentity.on("init", user => {
-    if (!user) {
-      window.netlifyIdentity.on("login", () => {
-        document.location.href = "/membership/";
-      });
-    }
-  });
-
-  window.netlifyIdentity.on("logout", () => {
-    document.location.href = "/";
-  });
-}
-
-// 7. Advanced Browser APIs Suite (Master Level)
-
-// A. Performance Observer (Real User Metrics)
+// A. Performance Observer
 if ('PerformanceObserver' in window) {
   const perfObserver = new PerformanceObserver((list) => {
     for (const entry of list.getEntries()) {
@@ -179,142 +75,75 @@ if ('PerformanceObserver' in window) {
     }
   });
   perfObserver.observe({ type: 'largest-contentful-paint', buffered: true });
-  perfObserver.observe({ type: 'first-input', buffered: true });
 }
 
-// B. Beacon API & Reading Depth
+// B. Beacon API Reading Depth
 window.addEventListener('visibilitychange', () => {
   if (document.visibilityState === 'hidden') {
     const data = JSON.stringify({
       url: window.location.href,
-      time: performance.now(),
       depth: (window.scrollY + window.innerHeight) / document.documentElement.scrollHeight
     });
-    // navigator.sendBeacon('/api/analytics', data); 
-    console.log('[Beacon] Session snapshot captured');
+    console.log('[Beacon] Session snapshot saved');
   }
 });
 
-// C. Speech Synthesis (Listen to Article)
+// C. Speech Synthesis (Listen Mode)
 document.addEventListener('DOMContentLoaded', () => {
     const speechBtn = document.getElementById('btn-listen');
     if (speechBtn && 'speechSynthesis' in window) {
       let isReading = false;
-      const synth = window.speechSynthesis;
-      
       speechBtn.addEventListener('click', () => {
         if (isReading) {
-          synth.cancel();
+          window.speechSynthesis.cancel();
           isReading = false;
-          speechBtn.innerHTML = '<span>🔊</span> Listen to Article';
-          speechBtn.classList.remove('active');
+          speechBtn.innerHTML = '<span>🔊</span> Listen';
         } else {
           const content = document.querySelector('.e-content').innerText;
           const utterance = new SpeechSynthesisUtterance(content);
           utterance.onend = () => { 
             isReading = false;
-            speechBtn.innerHTML = '<span>🔊</span> Listen to Article';
-            speechBtn.classList.remove('active');
+            speechBtn.innerHTML = '<span>🔊</span> Listen';
           };
-          synth.speak(utterance);
+          window.speechSynthesis.speak(utterance);
           isReading = true;
-          speechBtn.innerHTML = '<span>🛑</span> Stop Reading';
-          speechBtn.classList.add('active');
+          speechBtn.innerHTML = '<span>🛑</span> Stop';
         }
       });
     }
 });
 
-<<<<<<< Updated upstream
-// 7. Netlify Identity Integration
-if (window.netlifyIdentity) {
-  window.netlifyIdentity.on("init", user => {
-    if (!user) {
-      window.netlifyIdentity.on("login", () => {
-        document.location.href = "/membership/";
-      });
-    }
-  });
-
-  window.netlifyIdentity.on("logout", () => {
-    document.location.href = "/";
-  });
-}
-
-// 8. Scroll Reveal Animations
-document.addEventListener('DOMContentLoaded', () => {
-  const revealCallback = (entries, observer) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('active');
-        observer.unobserve(entry.target); // Reveal only once
-      }
-    });
-  };
-
-  const revealObserver = new IntersectionObserver(revealCallback, {
-    threshold: 0.1,
-    rootMargin: "0px 0px -50px 0px"
-  });
-
-  const revealElements = document.querySelectorAll('.reveal, .dramatic');
-  revealElements.forEach(el => revealObserver.observe(el));
-});
-=======
 // D. Screen Wake Lock
 document.addEventListener('DOMContentLoaded', () => {
     let wakeLock = null;
     const wakeLockBtn = document.getElementById('btn-wake-lock');
     if (wakeLockBtn && 'wakeLock' in navigator) {
       wakeLockBtn.addEventListener('click', async () => {
-        try {
-          if (wakeLock === null) {
-            wakeLock = await navigator.wakeLock.request('screen');
-            wakeLockBtn.classList.add('active');
-            wakeLockBtn.innerHTML = '<span>🔆</span> Screen Always On';
-          } else {
-            await wakeLock.release();
-            wakeLock = null;
-            wakeLockBtn.classList.remove('active');
-            wakeLockBtn.innerHTML = '<span>🌙</span> Auto-Dim Enabled';
-          }
-        } catch (err) {
-          console.error(`[WakeLock] Failed: ${err.name}, ${err.message}`);
+        if (wakeLock === null) {
+          wakeLock = await navigator.wakeLock.request('screen');
+          wakeLockBtn.innerHTML = '<span>🔆</span> Awake';
+          wakeLockBtn.classList.add('active');
+        } else {
+          await wakeLock.release();
+          wakeLock = null;
+          wakeLockBtn.innerHTML = '<span>🌙</span> Auto';
+          wakeLockBtn.classList.remove('active');
         }
       });
     }
 });
 
-// E. PWA Badging API
+// E. PWA Badging
 if ('setAppBadge' in navigator) {
-  const lastPostSeen = localStorage.getItem('last_seen_post');
-  const newestPostDate = document.body.getAttribute('data-newest-post');
-  
-  if (newestPostDate && lastPostSeen !== newestPostDate) {
-    navigator.setAppBadge(1).catch(console.error);
+  const newestPost = document.body.getAttribute('data-newest-post');
+  if (newestPost && localStorage.getItem('last_seen') !== newestPost) {
+    navigator.setAppBadge(1).catch(() => {});
   }
-  
   if (window.location.pathname === '/' || window.location.pathname === '/posts/') {
     navigator.clearAppBadge();
-    if (newestPostDate) localStorage.setItem('last_seen_post', newestPostDate);
+    if (newestPost) localStorage.setItem('last_seen', newestPost);
   }
 }
-
-// 8. View Transitions (Fluid Navigation)
-if (document.startViewTransition) {
-    window.addEventListener('click', (e) => {
-        const link = e.target.closest('a');
-        if (link && link.origin === window.location.origin && !link.hasAttribute('target')) {
-            // Check if it's a content link
-            if (link.getAttribute('href').startsWith('/') || link.getAttribute('href').startsWith(window.location.origin)) {
-                // e.preventDefault(); 
-                // We'll let the browser handle navigation but add a transition marker
-                document.documentElement.style.viewTransitionName = 'page-fade';
-            }
-        }
-    });
-}
->>>>>>> Stashed changes
 
 // 9. Smooth Page Entrance
 window.addEventListener('load', () => {

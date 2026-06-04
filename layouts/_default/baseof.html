@@ -21,18 +21,10 @@
 
   <link rel="canonical" href="{{ .Permalink }}" />
 
-  {{ "<!-- Preloads -->" | safeHTML }}
-  <link rel="preload" as="image" href="{{ hugo.Data.author.image | relURL }}">
-  {{ if .Params.image }}
-  <link rel="preload" as="image" href="{{ .Params.image | relURL }}" fetchpriority="high">
-  {{ end }}
-
   {{- if hugo.IsProduction | or (eq .Site.Params.env "production") }}
     {{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" false) }}
     {{ $extended := (resources.Match "css/extended/*.css") | resources.Concat "assets/css/extended.css" }}
-    {{ $style_f := $style | minify | fingerprint }}
-    <link rel="preload" as="style" href="{{ $style_f.RelPermalink }}">
-    <link rel="stylesheet" href="{{ $style_f.RelPermalink }}">
+    <link rel="stylesheet" href="{{ ($style | minify | fingerprint).RelPermalink }}">
     <link rel="stylesheet" href="{{ ($extended | minify | fingerprint).RelPermalink }}">
   {{- else }}
     {{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) }}
@@ -48,73 +40,30 @@
     <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}"/>
     <meta property="og:url" content="{{ .Permalink }}"/>
     <meta property="og:description" content="{{ $description }}"/>
-    
-    {{/* Advanced Image Fallback Logic */}}
-    {{ $socialImage := "" }}
-    {{ if .Params.image }}
-      {{ $socialImage = .Params.image | absURL }}
-    {{ else if .Site.Params.image }}
-      {{ $socialImage = .Site.Params.image | absURL }}
-    {{ end }}
-    
-    {{ if $socialImage }}
-      <meta property="og:image" content="{{ $socialImage }}"/>
-      <meta name="twitter:image" content="{{ $socialImage }}"/>
-    {{ end }}
-
+    {{ if .Params.image }}<meta property="og:image" content="{{ .Params.image | absURL }}"/>{{ end }}
     <meta name="twitter:card" content="summary_large_image"/>
     {{ if .Site.Params.twitter_handle }}<meta name="twitter:site" content="{{ .Site.Params.twitter_handle }}"/>{{ end }}
     {{ if .Site.Params.twitter_handle }}<meta name="twitter:creator" content="{{ .Site.Params.twitter_handle }}"/>{{ end }}
-    
-    {{/* IndieWeb App and Identity */}}
-    {{ with .Site.Params.author.name }}<meta name="author" content="{{ . }}">{{ end }}
-    <link href="https://github.com/{{ .Site.Params.creator }}" rel="me">
-    <link href="https://twitter.com/{{ replace .Site.Params.twitter_handle "@" "" }}" rel="me">
-    
-    {{/* Fix thin content/taxonomy bloat for SEO */}}
-    {{ if or (eq .Kind "taxonomy") (eq .Kind "term") }}
-      <meta name="robots" content="noindex, follow">
-    {{ end }}
   {{ end }}
 
   {{ if and .Site.Params.googleFontsUrl .Site.Params.enableGoogleFonts }}
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" as="style" href="{{ .Site.Params.googleFontsUrl }}">
-    <link rel="stylesheet" href="{{ .Site.Params.googleFontsUrl }}" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="{{ .Site.Params.googleFontsUrl }}"></noscript>
+    <link href="{{ .Site.Params.googleFontsUrl }}" rel="stylesheet">
   {{ end }}
 
   {{ partial "schema.html" . }}
   {{ partial "extend-head.html" . }}
-
-  {{ $scripts := resources.Get "js/scripts.js" }}
-  {{ $fuse := resources.Get "js/fuse.min.js" }}
-  {{ $zoom := resources.Get "js/medium-zoom.min.js" }}
-  {{ $js := slice $fuse $zoom $scripts | resources.Concat "js/bundle.js" }}
-
-  {{- if hugo.IsProduction | or (eq .Site.Params.env "production") }}
-    {{ $js_f := $js | minify | fingerprint }}
-    <link rel="preload" as="script" href="{{ $js_f.RelPermalink }}">
-    <script type="text/javascript" src="{{ $js_f.RelPermalink }}" defer></script>
-  {{ else }}
-    <script type="text/javascript" src="{{ $js.RelPermalink }}" defer></script>
-  {{ end }}
 </head>
 
 {{ $themeStyle := slice "" }}
 {{ if eq .Site.Params.addFrame true }}{{ $themeStyle = $themeStyle | append "frame" }}{{ end }}
 
-<<<<<<< Updated upstream
-<body class='page{{ delimit $themeStyle " " }} {{ block "body_classes" . }}{{ end }}'>
-  <a href="#main" class="skip-link">Skip to main content</a>
-=======
 <body class='page{{ delimit $themeStyle " " }} {{ block "body_classes" . }}{{ end }}' {{ with (index (where .Site.RegularPages "Type" "posts").ByDate.Reverse 0) }}data-newest-post="{{ .Date.Format "2006-01-02" }}"{{ end }}>
->>>>>>> Stashed changes
   <div id="reading-progress"></div>
   {{ partial "menu-main-mobile.html" . }}
   <div id="wrapper" class="wrapper">
     {{ partial "header.html" . }}
-    <main id="main" class="main animate-entrance stagger-1">
+    <main id="main" class="main">
       {{ block "main" . }}
       {{ end }}
     </main>
@@ -124,6 +73,18 @@
   <button id="back-to-top" class="back-to-top" aria-label="Back to top">
     <svg viewBox="0 0 24 24"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
   </button>
+
+  {{ $scripts := resources.Get "js/scripts.js" }}
+  {{ $fuse := resources.Get "js/fuse.min.js" }}
+  {{ $zoom := resources.Get "js/medium-zoom.min.js" }}
+
+  {{ $js := slice $fuse $zoom $scripts | resources.Concat "js/bundle.js" }}
+
+  {{- if hugo.IsProduction | or (eq .Site.Params.env "production") }}
+    <script type="text/javascript" src="{{ ($js | minify | fingerprint).RelPermalink }}"></script>
+  {{ else }}
+    <script type="text/javascript" src="{{ $js.RelPermalink }}"></script>
+  {{ end }}
 
   {{ block "footer_js" . }}
   {{ end }}
@@ -170,7 +131,6 @@
                         document.startViewTransition(() => {
                             document.title = data.title;
                             document.body.innerHTML = data.body.innerHTML;
-                            // Re-init scripts if needed
                         });
                     }
                 });

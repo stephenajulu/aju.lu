@@ -5,29 +5,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-<<<<<<< Updated upstream
-  padding: 15px 20px;
-  margin: 0 -20px 30px -20px;
-  background: var(--glass-bg);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--glass-border);
-=======
   padding: 20px 0;
   margin-bottom: 30px;
-  background: var(--base-color); // Same as page background
+  background: var(--base-color); // Unified background
   border-bottom: 1px solid var(--glass-border);
   transition: padding 0.3s ease, border-bottom 0.3s ease;
->>>>>>> Stashed changes
   
   @include breakpoint('small') {
-    padding: 20px 50px;
-    margin: 0 -50px 50px -50px;
+    margin-bottom: 50px;
   }
 
   .header-logo {
-    text-decoration: none;
+    text-decoration: none !important;
     flex-shrink: 0;
+    position: relative;
     
     .author-large {
         display: flex;
@@ -74,7 +65,7 @@
 .hamburger-trigger {
   display: flex;
   align-items: center;
-  z-index: 10001; // Above mobile menu
+  z-index: 10001; 
   
   @include breakpoint('medium') {
     display: none;
