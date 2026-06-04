@@ -1,21 +1,20 @@
 <!-- Microformat2 data -->
+{{ $author := hugo.Data.author }}
 <div class="h-card" hidden>
-  <p class="p-name" rel="author">Stephen Ajulu</p>
+  <p class="p-name" rel="author">{{ $author.name }}</p>
   <a class="u-url" href="{{ .Permalink }}">Website</a>
-  <a class="u-email u-url" rel="me" href="mailto:alunje73@gmail.com">Email</a>
-  <p class="p-locality">Nairobi, Kenya</p>
+  <a class="u-email u-url" rel="me" href="mailto:{{ $author.email }}">Email</a>
+  <p class="p-locality">{{ $author.location }}</p>
   <a class="p-org" href="https://julz.netlify.app">JULZ - Sovereign R&D Tech Forge</a>
   <a class="p-org" href="https://julzinsight2.netlify.app">Julz Insight - Managed Sovereign Business Infrastructure</a>
-  <img class="u-photo" src="{{ "images/about.webp" | absURL }}" alt="Stephen Ajulu Photo">
-  <img class="u-logo" src="{{ "images/logo.svg" | absURL }}" alt="Stephen Ajulu Logo">
-  <a href="https://x.com/stephenajulu" rel="me" class="u-url">X</a>
-  <a href="https://github.com/stephenajulu" rel="me" class="u-url">Github</a>
-  <a href="https://instagram.com/stephenajulu" rel="me" class="u-url">Instagram</a>
-  <a href="https://www.linkedin.com/in/stephenajulu/" rel="me" class="u-url">LinkedIn</a>
-  <a href="https://www.facebook.com/stephenajulu" rel="me" class="u-url">Facebook</a>
+  <img class="u-photo" src="{{ $author.image | absURL }}" alt="{{ $author.name }} Photo">
+  <img class="u-logo" src="{{ "images/logo.svg" | absURL }}" alt="{{ $author.name }} Logo">
+  
+  {{ with $author.twitter }}<a href="https://x.com/{{ replace . "@" "" }}" rel="me" class="u-url">X</a>{{ end }}
+  {{ with $author.github }}<a href="https://github.com/{{ . }}" rel="me" class="u-url">Github</a>{{ end }}
+  {{ with $author.instagram }}<a href="https://instagram.com/{{ . }}" rel="me" class="u-url">Instagram</a>{{ end }}
+  {{ with $author.linkedin }}<a href="https://www.linkedin.com/in/{{ . }}/" rel="me" class="u-url">LinkedIn</a>{{ end }}
   <a href="https://mastodon.social/@stephenajulu" rel="me" class="u-url">Mastodon</a>
-  <p class="p-note">Hello there! I'm Stephen Ajulu, a seasoned multidisciplinary tech professional with over a decade of experience. Learn more by visiting my <a href="https://ajulu.netlify.app">website</a></p>
+  
+  <p class="p-note">{{ $author.description }}</p>
 </div>
-
-
-

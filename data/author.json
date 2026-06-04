@@ -1,5 +1,12 @@
 {
   "name": "Stephen Ajulu",
   "title": "Multidisciplinary Tech Professional",
-  "image": "images/me.webp"
+  "email": "ajulu.b22uf@aleeas.com",
+  "url": "https://stephenajulu.com",
+  "image": "images/me.webp",
+  "description": "Hello, I'm Stephen Ajulu, a seasoned multidisciplinary tech professional with over a decade of experience. I build impactful solutions using design, tech, and engineering in the pursuit of impact.",
+  "location": "Nairobi, Kenya",
+  "twitter": "@stephenajulu",
+  "github": "stephenajulu",
+  "linkedin": "stephenajulu"
 }

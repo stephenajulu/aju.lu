@@ -103,14 +103,6 @@ mediatype = "application/json"
   image = "images/socialimage.webp"
   logo = "images/me.webp"
 
-
-  [params.author]
-    name = "Stephen Ajulu"
-    email  = "ajulu.b22uf@aleeas.com"
-    url = "https://stephenajulu.com"
-    image = "images/me.webp"
-    description = "Hello, I'm Stephen Ajulu, a seasoned multidisciplinary tech professional with over a decade of experience. I build impactful solutions using design, tech, and engineering in the pursuit of impact."
-
 [menu]
   [[menu.main]]
     identifier = 'home'
