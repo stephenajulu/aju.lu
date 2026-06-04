@@ -59,6 +59,24 @@
     @include breakpoint('small') {
         gap: 25px;
     }
+
+    .search-trigger {
+        color: var(--heading-color);
+        display: flex;
+        align-items: center;
+        transition: color 0.2s ease, transform 0.2s ease;
+        
+        svg {
+            width: 20px;
+            height: 20px;
+            stroke: currentColor;
+        }
+
+        &:hover {
+            color: var(--highlight-color);
+            transform: scale(1.1);
+        }
+    }
   }
 }
 
