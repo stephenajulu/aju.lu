@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-// 3. Advanced Browser APIs (Elite Tech Suite)
+// 3. Advanced Browser APIs Suite
 
 // A. Performance Observer
 if ('PerformanceObserver' in window) {
@@ -77,18 +77,15 @@ if ('PerformanceObserver' in window) {
   perfObserver.observe({ type: 'largest-contentful-paint', buffered: true });
 }
 
-// B. Beacon API Reading Depth
+// B. Beacon API
 window.addEventListener('visibilitychange', () => {
   if (document.visibilityState === 'hidden') {
-    const data = JSON.stringify({
-      url: window.location.href,
-      depth: (window.scrollY + window.innerHeight) / document.documentElement.scrollHeight
-    });
-    console.log('[Beacon] Session snapshot saved');
+    const data = JSON.stringify({ url: window.location.href, time: Date.now() });
+    // navigator.sendBeacon('/api/log', data);
   }
 });
 
-// C. Speech Synthesis (Listen Mode)
+// C. Speech Synthesis (Listen to Article)
 document.addEventListener('DOMContentLoaded', () => {
     const speechBtn = document.getElementById('btn-listen');
     if (speechBtn && 'speechSynthesis' in window) {
@@ -120,9 +117,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (wakeLockBtn && 'wakeLock' in navigator) {
       wakeLockBtn.addEventListener('click', async () => {
         if (wakeLock === null) {
-          wakeLock = await navigator.wakeLock.request('screen');
-          wakeLockBtn.innerHTML = '<span>🔆</span> Awake';
-          wakeLockBtn.classList.add('active');
+          try {
+            wakeLock = await navigator.wakeLock.request('screen');
+            wakeLockBtn.innerHTML = '<span>🔆</span> Awake';
+            wakeLockBtn.classList.add('active');
+          } catch (err) {}
         } else {
           await wakeLock.release();
           wakeLock = null;
@@ -145,7 +144,7 @@ if ('setAppBadge' in navigator) {
   }
 }
 
-// 9. Smooth Page Entrance
+// 4. Smooth Page Entrance
 window.addEventListener('load', () => {
     body.classList.add('page-loaded');
 });

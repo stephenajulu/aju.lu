@@ -115,26 +115,14 @@
   </script>
 
   <script>
-    // View Transitions Logic
+    // View Transitions Logic (Master Tier)
     if (document.startViewTransition) {
-        window.navigation.addEventListener('navigate', (event) => {
-            if (event.canIntercept && !event.hashChange && !event.downloadRequest) {
-                const url = new URL(event.destination.url);
-                if (location.origin !== url.origin) return;
-
-                event.intercept({
-                    handler: async () => {
-                        const response = await fetch(url);
-                        const text = await response.text();
-                        const data = new DOMParser().parseFromString(text, 'text/html');
-                        
-                        document.startViewTransition(() => {
-                            document.title = data.title;
-                            document.body.innerHTML = data.body.innerHTML;
-                        });
-                    }
-                });
-            }
+        // Simple automatic transition on navigation
+        window.addEventListener('pageshow', (event) => {
+          if (event.persisted) {
+            // Restore visibility on back/forward
+            document.body.classList.add('page-loaded');
+          }
         });
     }
   </script>

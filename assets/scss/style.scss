@@ -157,14 +157,6 @@ body {
   padding: 20px;
   overflow-x: hidden;
   transition: background 0.3s ease, color 0.3s ease;
-  opacity: 0;
-  transform: translateY(10px);
-  
-  &.page-loaded {
-    opacity: 1;
-    transform: translateY(0);
-    transition: opacity 0.6s var(--transition-main), transform 0.6s var(--transition-main), background 0.3s ease;
-  }
 
   @include breakpoint('small') {
     padding: 50px;
@@ -286,4 +278,9 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--highlight-color);
+}
+
+/* View Transitions (Elite SPA-feel) */
+@view-transition {
+  navigation: auto;
 }
