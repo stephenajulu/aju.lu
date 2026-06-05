@@ -14,7 +14,7 @@ This document tracks the comprehensive overhaul of Stephen Ajulu's personal plat
 ## 📦 Content & Metadata
 - **Elite Taxonomy**: Pruned 1,100+ tags into **9 Master Pillars** (Sovereignty, Architecture, Development, Design, Cybersecurity, Blockchain, Web3, Personal Growth, Finance).
 - **Pillar-Cluster Internal Linking**: Automated "Expertise Callouts" connecting technical posts to professional services.
-- **Search Engine Strategy**: Fuzzy client-side search via `Fuse.js` with absolute path indexing.
+- **Search Engine Strategy**: Fuzzy client-side search via `Fuse.js` with match highlighting using `<mark>` tags styled to match the highlight theme color.
 - **Crawl Optimization**: `noindex` applied to all taxonomy/term pages to preserve crawl budget and eliminate "thin content."
 
 ## 💎 Design System: "Master Depth"
@@ -22,20 +22,24 @@ This document tracks the comprehensive overhaul of Stephen Ajulu's personal plat
 - **Typography**: Responsive scale using `clamp()` logic and premium spacing (letter-spacing: -0.03em for headings).
 - **Motion Design**:
   - **View Transitions API**: Fluid, SPA-like navigation between pages.
-  - **Entrance Animations**: High-performance "Fade-and-Rise" effects.
+  - **Entrance Animations**: High-performance scroll-reveal "Fade-and-Rise" effects driven by a lightweight Intersection Observer in JavaScript.
   - **Tactile Feedback**: Pulse-glow active states for utility buttons.
 
 ## 🛠️ Advanced Tech Suite (API Integration)
 - **Speech Synthesis**: Native "Listen to Article" capability on blog posts.
-- **Screen Wake Lock**: Prevents screen dimming during technical deep-dives.
-- **PWA Identity**: Full manifest sync with themed colors and PWA Badging for new content alerts.
-- **Analytics**: Performance Observer (RUM) and Beacon API for low-overhead user metrics.
+- **PWA Identity**: Full manifest sync with themed colors, PWA Badging for new content alerts, and a custom `offline.html` page to ensure stable service worker installation.
+- **Analytics**: Zero-dependency Performance HUD (FCP and LCP measurements rendered in a local development overlay). Unused Beacon API removed.
 
 ## 🛍️ Digital Offerings
 - **Sovereign Store**: Data-driven products via `data/store.json` with stylized grid layout.
-- **Membership**: Netlify Identity + Paystack bridge for automated premium role gating (`premium`).
+- **Membership**: Netlify Identity + Paystack integration.
+  - **Secure Gating**: Upgraded from client-side CSS hiding to dynamic API-driven gating. Gated post sections are extracted at build time and served only via a Netlify function after validating the user's JWT.
+  - **Hardened Webhooks**: Paystack webhooks are fully validated using HMAC-SHA512 case-insensitively with a paginated lookup search loop to prevent scaling limits.
+
+## 🛡️ Edge Security
+- **Netlify Headers**: Enforces strict security policies (CSP, X-Frame-Options: DENY, X-Content-Type-Options: nosniff, Referrer-Policy, and X-XSS-Protection) directly on Netlify's CDN edge.
 
 ---
 **Active Development Branch:** `master`
-**Status:** Technical Infrastructure Complete. Content Deep-Dive Phase Incoming.
+**Status:** Architecture Hardened. Dynamic Gating & Edge Security Complete.
 **OS:** Windows 11 (PowerShell syntax required).
