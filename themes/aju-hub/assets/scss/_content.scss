@@ -339,8 +339,8 @@ ul {
         &:hover {
             border-color: var(--highlight-color);
             color: var(--highlight-color);
-            transform: translateY(-2px);
-            box-shadow: 0 6px 12px rgba(99, 32, 214, 0.15);
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 0 15px rgba(99, 32, 214, 0.35);
             
             span {
                 transform: scale(1.1);
@@ -388,6 +388,8 @@ ul {
             &:hover {
                 border-color: var(--highlight-color);
                 color: var(--highlight-color);
+                transform: translateY(-1px) scale(1.02);
+                box-shadow: 0 0 15px rgba(99, 32, 214, 0.35);
             }
 
             &.copied {
