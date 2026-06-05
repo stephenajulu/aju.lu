@@ -41,6 +41,8 @@
       {{ .Content }}
     </div>
 
+    {{ partial "expertise-callout.html" . }}
+
     {{ partial "related.html" . }}
     
     {{ if .Params.tags }}

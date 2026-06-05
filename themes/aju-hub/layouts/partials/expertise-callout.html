@@ -1,0 +1,35 @@
+{{ $pillarMap := hugo.Data.pillar_map }}
+{{ $matchedMapping := false }}
+
+{{ if .Params.tags }}
+  {{ $normalizedTags := slice }}
+  {{ range $tag := .Params.tags }}
+    {{ $normalizedTags = $normalizedTags | append (lower $tag) }}
+  {{ end }}
+  
+  {{ range $mapping := $pillarMap.mappings }}
+    {{ $common := intersect $normalizedTags $mapping.keywords }}
+    {{ if and (not $matchedMapping) (gt (len $common) 0) }}
+      {{ $matchedMapping = $mapping }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* Fallback to the first mapping if no match is found */}}
+{{ if not $matchedMapping }}
+  {{ $matchedMapping = index $pillarMap.mappings 0 }}
+{{ end }}
+
+{{ if $matchedMapping }}
+<div class="expertise-callout reveal stagger-1">
+  <div class="callout-inner">
+    <span class="callout-icon" aria-hidden="true">{{ $matchedMapping.icon }}</span>
+    <span class="callout-text">
+      {{ $matchedMapping.cta }} 
+      <a href="{{ $matchedMapping.service_url }}" class="callout-link" data-umami-event="expertise_callout_click" data-umami-event-service="{{ $matchedMapping.label }}" data-umami-event-post="{{ .Title }}">
+        {{ $matchedMapping.label }} &rarr;
+      </a>
+    </span>
+  </div>
+</div>
+{{ end }}
