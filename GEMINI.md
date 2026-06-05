@@ -29,6 +29,7 @@ This document tracks the comprehensive overhaul of Stephen Ajulu's personal plat
 - **Speech Synthesis**: Native "Listen to Article" capability on blog posts.
 - **PWA Identity**: Full manifest sync with themed colors, PWA Badging for new content alerts, and a custom `offline.html` page to ensure stable service worker installation.
 - **Analytics**: Zero-dependency Performance HUD (FCP and LCP measurements rendered in a local development overlay). Unused Beacon API removed.
+- **Conversion Analytics**: Declarative, zero-code HTML-native event tracking via Umami (`data-umami-event`) to track article listens, copy link actions, email replies, social sharing, digital store clicks, membership upgrades, and contact/newsletter form submissions without adding external JavaScript packages or dependencies.
 
 ## 🛍️ Digital Offerings
 - **Sovereign Store**: Data-driven products via `data/store.json` with stylized grid layout.

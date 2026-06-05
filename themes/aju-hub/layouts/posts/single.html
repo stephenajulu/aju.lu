@@ -29,7 +29,7 @@
       <h1 class="p-name">{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
       
       <div class="post-controls reveal stagger-1">
-        <button id="btn-listen" class="btn-utility" title="Listen to this article"><span>🔊</span> Listen</button>
+        <button id="btn-listen" class="btn-utility" title="Listen to this article" data-umami-event="listen_article" data-umami-event-post="{{ .Title }}"><span>🔊</span> Listen</button>
       </div>
 
       {{ if .Params.image }}
@@ -54,12 +54,12 @@
 
     <div class="blog-footer">
       <div class="footer-actions">
-        <button id="copy-link" class="btn-copy" data-url="{{ .Permalink }}">Copy Link</button>
+        <button id="copy-link" class="btn-copy" data-url="{{ .Permalink }}" data-umami-event="copy_article_link" data-umami-event-post="{{ .Title }}">Copy Link</button>
         {{ partial "share.html" . }}
       </div>
       <br>
       
-      <a class="dramatic" href="mailto:{{ .Site.Params.author.email }}?subject={{ replace (printf "Re: %s" .Page.Title) "\"" "'" }}">Reply by email</a>
+      <a class="dramatic" href="mailto:{{ .Site.Params.author.email }}?subject={{ replace (printf "Re: %s" .Page.Title) "\"" "'" }}" data-umami-event="email_reply" data-umami-event-post="{{ .Title }}">Reply by email</a>
      
       <br>
       

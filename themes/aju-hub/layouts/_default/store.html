@@ -21,7 +21,7 @@
                     <span class="currency">{{ .currency }}</span>
                     <span class="amount">{{ .price }}</span>
                 </div>
-                <a href="{{ .paystack_url }}" class="btn btn-buy btn-purchase" target="_blank">Get Access</a>
+                <a href="{{ .paystack_url }}" class="btn btn-buy btn-purchase" target="_blank" data-umami-event="store_buy_click" data-umami-event-product="{{ .name }}" data-umami-event-price="{{ .price }}">Get Access</a>
             </div>
         </div>
     </div>

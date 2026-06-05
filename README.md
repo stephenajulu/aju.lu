@@ -33,6 +33,7 @@ A high-performance, IndieWeb-ready personal platform and portfolio built with **
 - **Fuzzy Search:** Instant highlighted search results with a `/` keyboard shortcut.
 - **Taxonomy Archives:** Automated, grouped yearly archives with site-wide statistics (word counts, post counts).
 - **Structured Data:** Built-in JSON-LD schemas (FAQ, Person, Article, Breadcrumbs).
+- **Zero-Dependency Tracking:** Zero-code event tracking via Umami Analytics using HTML5 declarative data attributes (`data-umami-event-*`) to capture article reads, copy links, social sharing platforms, digital store click-throughs, membership upgrades, and form sign-ups without adding external npm modules or third-party JS scripts.
 
 ### 4. CDN Edge Hardening
 - **Security Headers:** Strict HTTP headers (CSP, X-Frame-Options: DENY, X-Content-Type-Options: nosniff, Referrer-Policy) configured in `netlify.toml` directly on Netlify's CDN edge.
