@@ -4,3 +4,15 @@
 
 [build.environment]
   HUGO_VERSION = "0.160.0"
+
+[functions]
+  included_files = ["content/posts/**"]
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "no-referrer-when-downgrade"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://identity.netlify.com https://cloud.umami.is https://*.clarity.ms https://app.cal.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://app.cal.com; img-src 'self' data: https://* http://*; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://identity.netlify.com https://webmention.io https://api.netlify.com https://cloud.umami.is https://www.google-analytics.com https://*.clarity.ms; frame-src 'self' https://identity.netlify.com https://app.cal.com;"

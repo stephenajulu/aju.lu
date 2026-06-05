@@ -67,25 +67,51 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // 3. Advanced Browser APIs Suite
 
-// A. Performance Observer
-if ('PerformanceObserver' in window) {
-  const perfObserver = new PerformanceObserver((list) => {
-    for (const entry of list.getEntries()) {
-      console.log(`[Perf] ${entry.name}: ${entry.startTime.toFixed(2)}ms`);
+// A. Performance Observer HUD (Localhost Dev Mode Only)
+if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+  document.addEventListener('DOMContentLoaded', () => {
+    const hud = document.createElement('div');
+    hud.id = 'perf-hud';
+    hud.style.cssText = `
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      background: rgba(2, 6, 23, 0.85);
+      border: 1px solid rgba(148, 163, 184, 0.2);
+      padding: 10px 15px;
+      border-radius: 8px;
+      font-family: monospace;
+      font-size: 11px;
+      color: #10b981;
+      z-index: 9999;
+      pointer-events: none;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    `;
+    hud.innerHTML = '⚡ Perf: Loading...';
+    document.body.appendChild(hud);
+
+    if ('PerformanceObserver' in window) {
+      const perfObserver = new PerformanceObserver((list) => {
+        let fcp = '-';
+        let lcp = '-';
+        for (const entry of list.getEntries()) {
+          if (entry.name === 'first-contentful-paint') {
+            fcp = `${entry.startTime.toFixed(0)}ms`;
+          }
+          if (entry.entryType === 'largest-contentful-paint') {
+            lcp = `${entry.startTime.toFixed(0)}ms`;
+          }
+        }
+        hud.innerHTML = `⚡ FCP: ${fcp} | LCP: ${lcp}`;
+      });
+      perfObserver.observe({ type: 'largest-contentful-paint', buffered: true });
+      perfObserver.observe({ type: 'paint', buffered: true });
     }
   });
-  perfObserver.observe({ type: 'largest-contentful-paint', buffered: true });
 }
 
-// B. Beacon API
-window.addEventListener('visibilitychange', () => {
-  if (document.visibilityState === 'hidden') {
-    const data = JSON.stringify({ url: window.location.href, time: Date.now() });
-    // navigator.sendBeacon('/api/log', data);
-  }
-});
-
-// C. Speech Synthesis (Listen to Article)
+// B. Speech Synthesis (Listen to Article)
 document.addEventListener('DOMContentLoaded', () => {
     const speechBtn = document.getElementById('btn-listen');
     if (speechBtn && 'speechSynthesis' in window) {
@@ -110,29 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-// D. Screen Wake Lock
-document.addEventListener('DOMContentLoaded', () => {
-    let wakeLock = null;
-    const wakeLockBtn = document.getElementById('btn-wake-lock');
-    if (wakeLockBtn && 'wakeLock' in navigator) {
-      wakeLockBtn.addEventListener('click', async () => {
-        if (wakeLock === null) {
-          try {
-            wakeLock = await navigator.wakeLock.request('screen');
-            wakeLockBtn.innerHTML = '<span>🔆</span> Awake';
-            wakeLockBtn.classList.add('active');
-          } catch (err) {}
-        } else {
-          await wakeLock.release();
-          wakeLock = null;
-          wakeLockBtn.innerHTML = '<span>🌙</span> Auto';
-          wakeLockBtn.classList.remove('active');
-        }
-      });
-    }
-});
-
-// E. PWA Badging
+// C. PWA Badging
 if ('setAppBadge' in navigator) {
   const newestPost = document.body.getAttribute('data-newest-post');
   if (newestPost && localStorage.getItem('last_seen') !== newestPost) {
@@ -144,7 +148,25 @@ if ('setAppBadge' in navigator) {
   }
 }
 
-// 4. Smooth Page Entrance
+// 4. Smooth Page Entrance & Intersection Reveals
 window.addEventListener('load', () => {
     body.classList.add('page-loaded');
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const reveals = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window && reveals.length > 0) {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+        reveals.forEach(r => observer.observe(r));
+    } else {
+        // Fallback for older browsers
+        reveals.forEach(r => r.classList.add('active'));
+    }
 });

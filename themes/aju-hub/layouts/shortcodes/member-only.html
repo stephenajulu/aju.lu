@@ -1,7 +1,5 @@
-<div class="member-gate" data-role="premium">
-    <div class="unlocked-content" style="display:none;">
-        {{ .Inner | markdownify }}
-    </div>
+<div class="member-gate" data-slug="{{ .Page.File.BaseFileName }}">
+    <div class="unlocked-content" style="display:none;"></div>
     <div class="locked-message">
         <div class="gate-overlay">
             <span class="gate-icon">🔒</span>
@@ -26,9 +24,32 @@
             document.querySelectorAll('.member-gate').forEach(gate => {
                 const unlocked = gate.querySelector('.unlocked-content');
                 const locked = gate.querySelector('.locked-message');
+                const slug = gate.getAttribute('data-slug');
+                
                 if (isPremium) {
-                    unlocked.style.display = 'block';
                     locked.style.display = 'none';
+                    unlocked.style.display = 'block';
+                    
+                    if (unlocked.innerHTML.trim() === '') {
+                        unlocked.innerHTML = '<p class="loading-premium">🔒 Retrieving premium insight...</p>';
+                        
+                        netlifyIdentity.currentUser().jwt().then(token => {
+                            return fetch(`/api/get-premium-content?slug=${slug}`, {
+                                headers: { 'Authorization': `Bearer ${token}` }
+                            });
+                        })
+                        .then(res => {
+                            if (!res.ok) throw new Error("Gated fetch failed");
+                            return res.json();
+                        })
+                        .then(data => {
+                            unlocked.innerHTML = data.html;
+                        })
+                        .catch(err => {
+                            console.error("Gating retrieval error:", err);
+                            unlocked.innerHTML = '<p class="error">⚠️ Failed to retrieve content. Please check your connection.</p>';
+                        });
+                    }
                 } else {
                     unlocked.style.display = 'none';
                     locked.style.display = 'block';

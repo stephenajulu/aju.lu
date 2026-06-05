@@ -71,4 +71,12 @@
         opacity: 0.8;
         line-height: 1.6;
     }
+
+    mark.search-highlight {
+        background: var(--highlight-color);
+        color: #ffffff;
+        padding: 0 2px;
+        border-radius: 4px;
+        font-weight: 600;
+    }
 }

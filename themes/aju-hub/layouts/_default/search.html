@@ -55,6 +55,21 @@
         displayResults(results);
     });
 
+    function highlightText(text, indices) {
+        if (!indices || indices.length === 0) return text;
+        let result = '';
+        let lastIndex = 0;
+        const sorted = [...indices].sort((a, b) => a[0] - b[0]);
+        
+        sorted.forEach(([start, end]) => {
+            result += text.substring(lastIndex, start);
+            result += `<mark class="search-highlight">${text.substring(start, end + 1)}</mark>`;
+            lastIndex = end + 1;
+        });
+        result += text.substring(lastIndex);
+        return result;
+    }
+
     function displayResults(results) {
         searchResults.innerHTML = '';
         
@@ -65,12 +80,25 @@
 
         results.forEach(result => {
             const item = result.item;
+            let title = item.t;
+            let summary = item.s;
+            
+            if (result.matches) {
+                result.matches.forEach(match => {
+                    if (match.key === 't') {
+                        title = highlightText(item.t, match.indices);
+                    } else if (match.key === 's') {
+                        summary = highlightText(item.s, match.indices);
+                    }
+                });
+            }
+
             const article = document.createElement('article');
             article.className = 'search-result-item';
             article.innerHTML = `
-                <h3><a href="${item.u}">${item.t}</a></h3>
+                <h3><a href="${item.u}">${title}</a></h3>
                 <div class="search-result-meta">${item.d}</div>
-                <p>${item.s}</p>
+                <p>${summary}</p>
             `;
             searchResults.appendChild(article);
         });
