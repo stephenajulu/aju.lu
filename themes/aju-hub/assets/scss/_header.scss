@@ -10,7 +10,7 @@
   background: var(--glass-bg); // Transparent glass background
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  transition: padding 0.3s ease, border-bottom 0.3s ease, background-color 0.3s ease;
+  transition: padding 0.3s ease, background-color 0.3s ease;
   
   @include breakpoint('small') {
     margin-bottom: 50px;
