@@ -7,7 +7,7 @@
   align-items: center;
   padding: 20px 0;
   margin-bottom: 30px;
-  background: var(--glass-bg); // Transparent glass background
+  background: var(--base-color); // Transparent glass background
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   transition: padding 0.3s ease, background-color 0.3s ease;
