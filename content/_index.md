@@ -1,5 +1,5 @@
 ---
-title: Hello, I'm Ajulu - Polymathic Tech Architect & Strategic Advisor
+title: Design, tech and engineering in the pursuit of impact
 description: Stephen Ajulu is a Nairobi-based polymathic tech architect, designer, and strategic IT advisor with 13+ years of experience in technology, design, engineering, and business. Founder of Julz Insight and JULZ, he creates sovereign business infrastructure for African enterprises and future-ready solutions for global impact.
 ---
 
