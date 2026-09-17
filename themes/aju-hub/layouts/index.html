@@ -31,7 +31,7 @@
         {{ end }}
         {{ partial "paginator" . }}
         {{ else }}
-        {{ $limit := .Site.Params.limitPostsOnHomepage | default 3 }}
+        {{ $limit := .Site.Params.limitPostsOnHomepage | default 6 }}
         {{ range first $limit $sorted}}
             {{ .Render "summary" }}
         {{ end }}

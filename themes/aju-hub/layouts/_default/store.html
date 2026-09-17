@@ -101,14 +101,19 @@ document.querySelectorAll('.btn-purchase').forEach(btn => {
 
 .product-title {
     margin: 0 0 15px 0;
-    font-size: 1.5rem;
+    font-family: var(--font-family-heading);
+    font-size: var(--step-2);
+    letter-spacing: -0.02em;
+    line-height: 1.25;
     color: var(--heading-color);
 }
 
 .product-desc {
-    font-size: 0.95rem;
-    line-height: 1.5;
-    opacity: 0.8;
+    font-family: var(--font-family-paragraph);
+    font-size: var(--step-0);
+    line-height: 1.75;
+    color: var(--text-color);
+    opacity: 0.9;
     margin-bottom: 25px;
     flex-grow: 1;
 }

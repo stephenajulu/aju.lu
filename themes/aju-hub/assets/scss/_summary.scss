@@ -1,42 +1,76 @@
 .summary {
   margin-bottom: 50px;
-  font-size: 1.15rem;
-  line-height: 1.6;
+  font-size: var(--step-0);
+  line-height: 1.75;
   
   @include breakpoint('small') {
     margin-bottom: 80px;
   }
 
   .summary-date {
-    font-weight: bold;
-    color: var(--heading-color);
-    font-size: 0.9rem;
-    opacity: 0.8;
+    font-family: var(--font-family-paragraph);
+    font-weight: 500;
+    color: var(--meta-color);
+    font-size: var(--step--1);
+    letter-spacing: 0.02em;
+    opacity: 0.9;
   }
 
   .summary-title {
     margin: 16px 0;
     width: 100%;
-    font-size: var(--step-2);
-    line-height: 1.2;
+    font-family: var(--font-family-heading);
+    font-size: var(--step-4);
+    line-height: 1.15;
+    letter-spacing: -0.03em;
     
     @include breakpoint('small') {
       width: 85%;
-      font-size: var(--step-3);
+      font-size: var(--step-4);
     }
 
     a {
+      color: var(--highlight-color);
       text-decoration: none;
+      position: relative;
+      display: inline;
+      transition: color 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+
+      &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: -2px;
+        left: 0;
+        background-color: var(--hover-color);
+        transform-origin: bottom right;
+        transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
       &:hover {
-        color: var(--highlight-color);
+        color: var(--hover-color) !important;
+
+        &::after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        }
+
+        .dot {
+          text-shadow: 0 0 12px var(--dot-color), 0 0 24px rgba(139, 92, 246, 0.65);
+        }
       }
     }
   }
 
   .summary-description {
     width: 100%;
-    line-height: 1.5;
-    opacity: 0.8;
+    font-family: var(--font-family-paragraph);
+    font-size: var(--step-0);
+    line-height: 1.75;
+    color: var(--text-color);
+    opacity: 0.9;
     
     @include breakpoint('small') {
       width: 80%;
@@ -48,8 +82,8 @@
   display: inline-block;
   margin-top: 20px;
   font-family: var(--font-family-heading);
-  font-weight: 700;
-  font-size: 1.1rem;
+  font-weight: 600;
+  font-size: var(--step-0);
   color: var(--highlight-color);
   text-decoration: none !important;
 

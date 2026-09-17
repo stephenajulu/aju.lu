@@ -30,27 +30,31 @@ a:not(.header-logo) {
 
 h1,
 h2,
-h3 {
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
   color: var(--heading-color);
   font-family: var(--font-family-heading);
   overflow-wrap: break-word;
-  letter-spacing: -0.03em;
-  line-height: 1.15;
+  line-height: 1.2;
 }
 
-h1 { font-size: var(--step-3); }
-h2 { font-size: var(--step-2); }
-h3 { font-size: var(--step-1); }
+h1 { font-size: var(--step-3); letter-spacing: -0.03em; }
+h2 { font-size: var(--step-2); letter-spacing: -0.025em; }
+h3 { font-size: var(--step-1); letter-spacing: -0.02em; }
+h4 { font-size: var(--step-0); font-weight: 600; }
+h5 { font-size: var(--step-0); font-weight: 600; }
+h6 { font-size: var(--step--1); font-weight: 600; }
 
 p {
   color: var(--text-color);
   font-family: var(--font-family-paragraph);
   font-size: var(--step-0);
-  line-height: 1.75;
-  margin-bottom: 1.75rem;
-  letter-spacing: 0.015em;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
 }
 
 ol,
@@ -64,78 +68,103 @@ ul {
 }
 
 .content {
-  font-size: 18px;
+  font-size: var(--step-0);
+  line-height: 1.8;
+  color: var(--text-color);
+  font-family: var(--font-family-paragraph);
   overflow-wrap: break-word;
   hyphens: auto;
   
   p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin: 0;
+    font-size: var(--step-0);
+    line-height: 1.8;
+    color: var(--text-color);
+    font-family: var(--font-family-paragraph);
+    margin: 0 0 1.5rem 0;
     padding: 0;
-    margin-bottom: 20px;
   }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-heading);
+    color: var(--heading-color);
+    line-height: 1.25;
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+
   h1 {
-    font-size: 40px;
-    line-height: 1.6;
-    font-weight: bold;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    &:first-of-type {
-      margin-top: 0;
-    }
+    font-size: var(--step-3);
+    letter-spacing: -0.03em;
   }
+
   h2 {
-    font-size: 28px;
-    line-height: 1.4;
-    font-weight: bold;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    &:first-of-type {
-      margin-top: 0;
-    }
-    @include breakpoint('small') {
-      font-size: 30px;
-      line-height: 1.4;
-    }
+    font-size: var(--step-2);
+    letter-spacing: -0.025em;
   }
+
   h3 {
-    font-size: 22px;
-    line-height: 1.4;
-    font-weight: bold;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    font-size: var(--step-1);
+    letter-spacing: -0.02em;
   }
+
+  h4 {
+    font-size: var(--step-0);
+    letter-spacing: -0.01em;
+  }
+
+  h5, h6 {
+    font-size: var(--step--1);
+  }
+
   ul {
     list-style: disc;
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
     li {
       list-style: disc;
-      margin-bottom: 10px;
+      margin-bottom: 8px;
+      color: var(--text-color);
+      font-family: var(--font-family-paragraph);
+      font-size: var(--step-0);
+      line-height: 1.8;
     }
   }
+
   ol {
     list-style: decimal;
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
     li {
       list-style: decimal;
-      margin-bottom: 10px;
+      margin-bottom: 8px;
+      color: var(--text-color);
+      font-family: var(--font-family-paragraph);
+      font-size: var(--step-0);
+      line-height: 1.8;
     }
   }
+
   blockquote {
-    border-left: 5px solid var(--highlight-color);
-    margin: 30px 0;
-    padding: 20px;
+    border-left: 4px solid var(--highlight-color);
+    margin: 2rem 0;
+    padding: 1.25rem 1.75rem;
     background: var(--base-offset-color);
     border-radius: 0 8px 8px 0;
   }
+
   blockquote p {
-    font-size: 20px;
+    font-size: var(--step-0);
+    line-height: 1.8;
+    font-family: var(--font-family-paragraph);
     display: inline;
     color: var(--text-color);
+    font-style: italic;
   }
+
   img {
     margin: 40px 0;
     max-width: 100%;
@@ -146,7 +175,16 @@ ul {
 
 .dot {
   color: var(--dot-color);
-  text-shadow: 0 0 10px rgba(99, 32, 214, 0.4);
+  text-shadow: 0 0 8px var(--dot-color), 0 0 18px rgba(139, 92, 246, 0.45);
+  display: inline-block;
+  transition: text-shadow var(--transition-fast);
+}
+
+a:hover .dot,
+h1:hover .dot,
+h2:hover .dot,
+h3:hover .dot {
+  text-shadow: 0 0 12px var(--dot-color), 0 0 24px rgba(139, 92, 246, 0.65);
 }
 
 .dramatic {

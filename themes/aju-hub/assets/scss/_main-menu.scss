@@ -1,5 +1,6 @@
 .menu-main {
   display: none; // Hidden on mobile by default
+  font-family: var(--font-family-heading);
   
   @include breakpoint('medium') {
     display: block;

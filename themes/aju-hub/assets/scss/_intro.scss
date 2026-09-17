@@ -1,44 +1,51 @@
 .intro {
   margin-bottom: 60px;
   h1 {
-    font-size: 48px;
-    line-height: 56px;
+    font-size: var(--step-4);
+    line-height: 1.15;
+    letter-spacing: -0.03em;
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
+    font-family: var(--font-family-heading);
+    color: var(--heading-color);
+
     @include breakpoint('small') {
-      width: 80%;
-      font-size: 88px;
-      line-height: 94px;
-      margin-bottom: 50px;
+      width: 85%;
+      margin-bottom: 36px;
     }
     strong {
       color: var(--highlight-color);
     }
   }
   h2 {
-    font-size: 50px;
-    line-height: 56px;
+    font-size: var(--step-2);
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    font-family: var(--font-family-heading);
+    color: var(--heading-color);
+
     @include breakpoint('small') {
       width: 80%;
     }
   }
   p {
-    font-size: 20px;
-    line-height: 26px;
+    font-size: var(--step-0);
+    line-height: 1.8;
+    color: var(--text-color);
+    font-family: var(--font-family-paragraph);
+    max-width: 68ch;
+    margin-bottom: 1.5rem;
+
     @include breakpoint('small') {
-      width: 80%;
-      font-size: 22px;
-      line-height: 32px;
+      width: 85%;
     }
   }
   .read-more {
-    font-size: 20px;
-    line-height: 26px;
-    font-weight: bold;
-    @include breakpoint('small') {
-      font-size: 22px;
-      line-height: 32px;
-    }
+    font-size: var(--step-0);
+    line-height: 1.6;
+    font-weight: 600;
+    font-family: var(--font-family-heading);
+    color: var(--highlight-color);
   }
   img {
     max-width: 100%;
