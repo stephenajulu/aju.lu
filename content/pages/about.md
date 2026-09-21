@@ -35,12 +35,13 @@ At the intersection of these domains lies my core conviction: **to architect eco
 
 ### Workstreams
 
-My operational footprint spans four distinct avenues of impact:
+My operational footprint spans five distinct avenues of impact:
 
 * **Strategic Advisory:** High-level consulting and digital roadmaps.
 * **Julz Insight (The Execution Engine):** Deploying sovereign digital business infrastructure for African enterprises.
 * **JULZ (The Innovation Forge):** Research and engineering lab building future-ready solutions.
 * **Kenya National Library Service:** ICT Officer driving national digital transformation.
+* **Stephen Ajulu:** Writing and Affiliate Marketing
 
 ## Capabilities
 
