@@ -2,11 +2,11 @@
 title: About me
 url: /about/
 image: images/me.webp
-description: "Stephen Ajulu is a Nairobi-based polymathic tech architect, designer, and advisor with 13+ years of experience in technology, design, engineering, and business, where he excels in creating sovereign business infrastructure and future-ready solutions."
+description: "Stephen Ajulu is a Nairobi-based seasoned multidisciplinary tech architect, designer, and advisor with 13+ years of experience in technology, design, engineering, and business, where he excels in creating sovereign business infrastructure and future-ready solutions."
 ---
 ### About Ajulu
 
-#### I'm Stephen Ajulu - a polymathic tech architect, designer, and strategic advisor based in Nairobi, Kenya. 
+#### I'm Stephen Ajulu - a seasoned multidisciplinary tech architect, designer, and strategic advisor based in Nairobi, Kenya. 
 
 With 13+ years bridging technology, design, engineering, and business, I build unified, self-sustaining ecosystems that replace fragmented systems with sovereign digital infrastructure.
 
