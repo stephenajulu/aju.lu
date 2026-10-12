@@ -1,0 +1,67 @@
+{{ define "main" }}
+<div class="project-case-study">
+  <div class="project-breadcrumb">
+    <a href="/projects/">&larr; Back to Portfolio</a>
+  </div>
+
+  <header class="project-header">
+    {{ with .Params.category }}
+    <span class="project-category-badge">{{ . }}</span>
+    {{ end }}
+    <h1 class="project-title">{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+    {{ with .Description }}
+    <p class="project-lead">{{ . }}</p>
+    {{ end }}
+  </header>
+
+  {{ if .Params.image }}
+  <div class="project-hero-media">
+    {{ partial "responsive-image.html" (dict "src" .Params.image "alt" .Title "class" "project-hero-img") }}
+  </div>
+  {{ end }}
+
+  <!-- Case Study Dossier Grid -->
+  <div class="project-dossier-grid">
+    {{ with .Params.client }}
+    <div class="dossier-item">
+      <span class="dossier-label">Client / Entity</span>
+      <span class="dossier-val">{{ . }}</span>
+    </div>
+    {{ end }}
+
+    {{ with .Params.role }}
+    <div class="dossier-item">
+      <span class="dossier-label">Role</span>
+      <span class="dossier-val">{{ . }}</span>
+    </div>
+    {{ end }}
+
+    {{ with .Params.timeline }}
+    <div class="dossier-item">
+      <span class="dossier-label">Timeline</span>
+      <span class="dossier-val">{{ . }}</span>
+    </div>
+    {{ end }}
+
+    {{ with .Params.stack }}
+    <div class="dossier-item">
+      <span class="dossier-label">Technologies</span>
+      <div class="dossier-tags">
+        {{ range . }}
+        <span class="dossier-tag">{{ . }}</span>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="project-content e-content content">
+    {{ .Content }}
+  </div>
+
+  <div class="project-footer-nav">
+    <a href="/projects/" class="btn-secondary">&larr; Explore All Projects</a>
+    <a href="/services/" class="btn">Retain Advisory Services &rarr;</a>
+  </div>
+</div>
+{{ end }}

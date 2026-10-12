@@ -1,10 +1,13 @@
 ---
-title: "Solaris Brand Identity"
+title: "Solaris Brand Identity & Portal"
 date: 2026-04-20
-description: "A comprehensive branding project for a sustainable energy startup, focusing on warmth and accessibility."
+description: "A comprehensive brand architecture and accessible UI framework for an East African sustainable energy venture."
 image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=1000&auto=format&fit=crop"
+category: "Brand & Design"
+client: "Solaris Energy"
+role: "Brand Architect & UI Designer"
+stack: ["Brand Identity", "Design System", "UI/UX", "Accessibility", "Design Tokens"]
 featured: true
-tall: true
 ---
 
 ### The Vision

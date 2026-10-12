@@ -1,32 +1,124 @@
 {{ define "main" }}
 <div class="intro">
   <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
-  {{ .Content }}
+  <div class="intro-content">
+    {{ .Content }}
+  </div>
+
+  <div class="portfolio-stats-ribbon">
+    <div class="portfolio-stat-item">
+      <strong>76+</strong>
+      <span>Projects Delivered</span>
+    </div>
+    <div class="portfolio-stat-item">
+      <strong>13+</strong>
+      <span>Years Advisory</span>
+    </div>
+    <div class="portfolio-stat-item">
+      <strong>100%</strong>
+      <span>Data Sovereignty</span>
+    </div>
+    <div class="portfolio-stat-item">
+      <strong>0</strong>
+      <span>Vendor Lock-in</span>
+    </div>
+  </div>
+
+  <!-- Interactive Category Filter Tabs -->
+  <div class="portfolio-filter-bar" role="tablist" aria-label="Filter projects by category">
+    <button class="portfolio-filter-btn active" data-filter="all" type="button" role="tab" aria-selected="true">All Work</button>
+    <button class="portfolio-filter-btn" data-filter="Sovereign Infrastructure" type="button" role="tab" aria-selected="false">Sovereign Infrastructure</button>
+    <button class="portfolio-filter-btn" data-filter="Cybersecurity & Systems" type="button" role="tab" aria-selected="false">Cybersecurity & Systems</button>
+    <button class="portfolio-filter-btn" data-filter="Brand & Design" type="button" role="tab" aria-selected="false">Brand & Design</button>
+    <button class="portfolio-filter-btn" data-filter="Web & JAMstack" type="button" role="tab" aria-selected="false">Web & JAMstack</button>
+  </div>
 </div>
 
-<div class="portfolio-grid {{ if .Params.mosaic }}mosaic{{ end }}">
-  {{ range .RegularPages }}
-  <a href="{{ .RelPermalink }}" class="portfolio-item {{ if .Params.tall }}tall{{ end }} {{ if .Params.wide }}wide{{ end }}">
-    {{ if .Params.image }}
-    <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" loading="lazy">
-    {{ else }}
-    <div class="portfolio-placeholder"></div>
-    {{ end }}
-    
-    <div class="portfolio-overlay-top">
-      <h2 class="portfolio-title">{{ .Title }}</h2>
-      <div class="portfolio-date">{{ .Date.Format "January 2006" }}</div>
+<div class="portfolio-modern-grid" id="portfolio-grid">
+  {{ range .RegularPages.ByDate.Reverse }}
+  {{ $category := .Params.category | default "Architecture" }}
+  <article class="portfolio-card" data-category="{{ $category }}">
+    <a href="{{ .RelPermalink }}" class="portfolio-card-media" aria-label="{{ .Title }}">
+      {{ if .Params.image }}
+        {{ partial "responsive-image.html" (dict "src" .Params.image "alt" .Title "class" "portfolio-img") }}
+      {{ else }}
+        <div class="portfolio-placeholder"></div>
+      {{ end }}
+      <span class="portfolio-card-category">{{ $category }}</span>
+    </a>
+
+    <div class="portfolio-card-content">
+      <div class="portfolio-card-meta">
+        <span class="portfolio-card-date">{{ .Date.Format "2006" }}</span>
+        {{ with .Params.role }}
+        <span class="portfolio-card-role">&bull; {{ . }}</span>
+        {{ end }}
+      </div>
+
+      <h2 class="portfolio-card-title">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </h2>
+
+      <p class="portfolio-card-desc">
+        {{ .Description | default (.Summary | plainify | truncate 130) }}
+      </p>
+
+      {{ with .Params.stack }}
+      <div class="portfolio-card-stack">
+        {{ range . }}
+        <span class="portfolio-stack-tag">{{ . }}</span>
+        {{ end }}
+      </div>
+      {{ end }}
+
+      <div class="portfolio-card-footer">
+        <a href="{{ .RelPermalink }}" class="portfolio-card-link">
+          <span>Case Study</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+      </div>
     </div>
-    
-    <div class="portfolio-overlay-bottom">
-      <p class="portfolio-description">{{ .Description | truncate 100 }}</p>
-    </div>
-  </a>
+  </article>
   {{ end }}
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const filterBtns = document.querySelectorAll('.portfolio-filter-btn');
+  const cards = document.querySelectorAll('.portfolio-card');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const filter = btn.getAttribute('data-filter');
+
+      filterBtns.forEach(b => {
+        b.classList.remove('active');
+        b.setAttribute('aria-selected', 'false');
+      });
+      btn.classList.add('active');
+      btn.setAttribute('aria-selected', 'true');
+
+      cards.forEach(card => {
+        const cat = card.getAttribute('data-category');
+        if (filter === 'all' || cat === filter) {
+          card.style.display = 'flex';
+          setTimeout(() => {
+            card.style.opacity = '1';
+            card.style.transform = 'translateY(0)';
+          }, 10);
+        } else {
+          card.style.opacity = '0';
+          card.style.transform = 'translateY(12px)';
+          setTimeout(() => {
+            card.style.display = 'none';
+          }, 200);
+        }
+      });
+    });
+  });
+});
+</script>
 {{ end }}
-
-
-
-
-
