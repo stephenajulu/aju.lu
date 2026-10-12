@@ -101,6 +101,7 @@ $breakpoints: (
   'large': 1200px,
 );
 
+@import 'fonts';
 @import 'normalize';
 @import 'breakpoints';
 @import 'header';
@@ -121,6 +122,10 @@ $breakpoints: (
 @import 'archive';
 @import 'contact-page';
 @import 'services';
+@import 'store';
+@import 'matrix';
+@import 'command-palette';
+@import 'terminal';
 @import 'taxonomies';
 @import 'back-to-top';
 @import 'error';

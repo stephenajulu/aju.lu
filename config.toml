@@ -69,6 +69,30 @@ mediatype = "application/json"
   [module.hugoVersion]
     extended = true
     min = "0.125.0"
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+  [[module.mounts]]
+    source = "data"
+    target = "data"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "i18n"
+    target = "i18n"
+  [[module.mounts]]
+    source = "archetypes"
+    target = "archetypes"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "static/images"
+    target = "assets/images"
 
 [params]
   google_analytics_id = "G-D12EVXX422"
@@ -89,7 +113,7 @@ mediatype = "application/json"
   headingColor = "#f8fafc"
   textColor = "#cbd5e1"
   dotColor = "#6320d6"
-  enableGoogleFonts = true 
+  enableGoogleFonts = false 
   location = "Nairobi, Kenya"
   enableGitInfo = true
   googleFontsUrl = "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..800;1,9..144,300..800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
@@ -154,7 +178,12 @@ mediatype = "application/json"
     weight = 4
     url = "/cv/"
   [[menu.main]]
-  name = "Archive"
-  parent = "more"
-  weight = "5"
-  url = "/archive/"
+    name = "Polymath Matrix"
+    parent = "more"
+    weight = 5
+    url = "/matrix/"
+  [[menu.main]]
+    name = "Archive"
+    parent = "more"
+    weight = 6
+    url = "/archive/"

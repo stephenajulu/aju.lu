@@ -4,11 +4,27 @@
     <div class="intro-content">
         {{ .Content }}
     </div>
+
+    <div class="store-toolbar">
+        <div class="store-toolbar-info">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+            <span>Sovereign Assets &bull; Direct Founder Delivery &bull; Instant Access</span>
+        </div>
+        <div class="store-currency-toggle" aria-label="Select currency">
+            <button class="currency-btn active" data-currency="KES" type="button">KES</button>
+            <button class="currency-btn" data-currency="USD" type="button">USD</button>
+        </div>
+    </div>
 </div>
 
 <div class="store-grid">
     {{ range hugo.Data.store.products }}
-    <div class="product-card">
+    <div class="product-card" data-kes="{{ .price }}" data-usd="{{ .usd_price | default "" }}">
+        {{ with .badge }}
+        <div class="product-badge-float">{{ . }}</div>
+        {{ end }}
         <div class="product-image">
             {{ partial "responsive-image.html" (dict "src" .image "alt" .name "class" "store-img") }}
         </div>
@@ -16,144 +32,156 @@
             <span class="product-category">{{ .category }}</span>
             <h3 class="product-title">{{ .name }}</h3>
             <p class="product-desc">{{ .description }}</p>
+
+            {{ with .deliverables }}
+            <ul class="product-deliverables">
+                {{ range . }}
+                <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span>{{ . }}</span>
+                </li>
+                {{ end }}
+            </ul>
+            {{ end }}
+
             <div class="product-footer">
-                <div class="product-price">
-                    <span class="currency">{{ .currency }}</span>
-                    <span class="amount">{{ .price }}</span>
+                <div class="product-price-wrapper">
+                    <div class="product-price-primary">
+                        <span class="currency">KES</span>
+                        <span class="amount">{{ .price }}</span>
+                    </div>
+                    {{ with .usd_price }}
+                    <span class="product-price-secondary">~${{ . }} USD</span>
+                    {{ end }}
                 </div>
-                <a href="{{ .paystack_url }}" class="btn btn-buy btn-purchase" target="_blank" data-umami-event="store_buy_click" data-umami-event-product="{{ .name }}" data-umami-event-price="{{ .price }}">Get Access</a>
+                <div class="product-actions">
+                    <button class="btn-spec" 
+                            data-name="{{ .name }}" 
+                            data-desc="{{ .description }}" 
+                            data-cat="{{ .category }}"
+                            data-url="{{ .paystack_url }}"
+                            data-price="{{ .price }}"
+                            type="button">
+                        Spec
+                    </button>
+                    <a href="{{ .paystack_url }}" 
+                       class="btn btn-buy btn-purchase" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       data-umami-event="store_buy_click" 
+                       data-umami-event-product="{{ .name }}" 
+                       data-umami-event-price="{{ .price }}">
+                        Get Access
+                    </a>
+                </div>
             </div>
         </div>
     </div>
     {{ end }}
 </div>
 
-<script>
-document.querySelectorAll('.btn-purchase').forEach(btn => {
-    btn.addEventListener('click', function() {
-        const originalText = this.innerText;
-        this.innerText = 'Opening...';
-        this.style.opacity = '0.7';
-        this.style.pointerEvents = 'none';
+<!-- Product Spec Modal -->
+<div id="store-spec-modal" class="store-modal-overlay" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="store-modal-dialog">
+        <button id="modal-close-btn" class="store-modal-close" aria-label="Close modal">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+        <div class="product-category" id="modal-cat">Blueprint</div>
+        <h2 class="product-title" id="modal-title" style="margin-bottom: 1rem;">Product Name</h2>
+        <p class="product-desc" id="modal-desc" style="font-size: 1rem; line-height: 1.7;"></p>
         
-        setTimeout(() => {
-            this.innerText = originalText;
-            this.style.opacity = '1';
-            this.style.pointerEvents = 'auto';
-        }, 3000);
+        <div style="margin: 1.5rem 0; padding: 1rem; background: rgba(0,0,0,0.3); border-radius: 8px; border: 1px solid var(--glass-border);">
+            <div style="font-size: 0.8rem; color: var(--meta-color); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; font-weight: 700;">Delivery & Licensing</div>
+            <p style="font-size: 0.85rem; margin: 0; color: var(--text-color); line-height: 1.5;">Direct instant download upon purchase. Commercial sovereign use permitted. Lifetime updates for future revisions.</p>
+        </div>
+
+        <div style="display: flex; justify-content: flex-end; gap: 0.75rem; margin-top: 1.5rem;">
+            <a id="modal-buy-link" href="#" class="btn btn-buy" target="_blank" rel="noopener noreferrer">Proceed to Checkout &rarr;</a>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // Currency Toggle
+    const currencyBtns = document.querySelectorAll('.currency-btn');
+    const productCards = document.querySelectorAll('.product-card');
+
+    currencyBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const selectedCurrency = btn.getAttribute('data-currency');
+            currencyBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            productCards.forEach(card => {
+                const kes = card.getAttribute('data-kes');
+                const usd = card.getAttribute('data-usd');
+                const currEl = card.querySelector('.product-price-primary .currency');
+                const amtEl = card.querySelector('.product-price-primary .amount');
+                const secEl = card.querySelector('.product-price-secondary');
+
+                if (selectedCurrency === 'USD' && usd) {
+                    currEl.innerText = '$';
+                    amtEl.innerText = usd;
+                    if (secEl) secEl.innerText = `~KES ${kes}`;
+                } else {
+                    currEl.innerText = 'KES';
+                    amtEl.innerText = kes;
+                    if (secEl && usd) secEl.innerText = `~$${usd} USD`;
+                }
+            });
+        });
+    });
+
+    // Purchase button state
+    document.querySelectorAll('.btn-purchase').forEach(btn => {
+        btn.addEventListener('click', function() {
+            const originalText = this.innerText;
+            this.innerText = 'Opening...';
+            this.style.opacity = '0.7';
+            setTimeout(() => {
+                this.innerText = originalText;
+                this.style.opacity = '1';
+            }, 3000);
+        });
+    });
+
+    // Spec Modal
+    const modal = document.getElementById('store-spec-modal');
+    const closeBtn = document.getElementById('modal-close-btn');
+    const modalTitle = document.getElementById('modal-title');
+    const modalDesc = document.getElementById('modal-desc');
+    const modalCat = document.getElementById('modal-cat');
+    const modalBuyLink = document.getElementById('modal-buy-link');
+
+    document.querySelectorAll('.btn-spec').forEach(btn => {
+        btn.addEventListener('click', () => {
+            modalTitle.innerText = btn.getAttribute('data-name');
+            modalDesc.innerText = btn.getAttribute('data-desc');
+            modalCat.innerText = btn.getAttribute('data-cat');
+            modalBuyLink.href = btn.getAttribute('data-url');
+            modal.classList.add('active');
+            modal.setAttribute('aria-hidden', 'false');
+        });
+    });
+
+    function closeModal() {
+        modal.classList.remove('active');
+        modal.setAttribute('aria-hidden', 'true');
+    }
+
+    if (closeBtn) closeBtn.addEventListener('click', closeModal);
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeModal();
+    });
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal.classList.contains('active')) closeModal();
     });
 });
 </script>
-
-<style>
-.store-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 40px;
-    margin: 60px 0;
-}
-
-.product-card {
-    background: var(--base-offset-color);
-    border-radius: 16px;
-    overflow: hidden;
-    border: 1px solid rgba(156, 163, 175, 0.1);
-    display: flex;
-    flex-direction: column;
-    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease;
-}
-
-.product-card:hover, .product-card:focus-within {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25), 0 0 15px rgba(99, 32, 214, 0.15);
-    border-color: var(--highlight-color);
-    outline: none;
-}
-
-.product-image {
-    width: 100%;
-    height: 220px;
-    overflow: hidden;
-}
-
-.product-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin: 0 !important;
-}
-
-.product-info {
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-}
-
-.product-category {
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: var(--highlight-color);
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.product-title {
-    margin: 0 0 15px 0;
-    font-family: var(--font-family-heading);
-    font-size: var(--step-2);
-    letter-spacing: -0.02em;
-    line-height: 1.25;
-    color: var(--heading-color);
-}
-
-.product-desc {
-    font-family: var(--font-family-paragraph);
-    font-size: var(--step-0);
-    line-height: 1.75;
-    color: var(--text-color);
-    opacity: 0.9;
-    margin-bottom: 25px;
-    flex-grow: 1;
-}
-
-.product-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 20px;
-    border-top: 1px solid rgba(156, 163, 175, 0.1);
-}
-
-.product-price {
-    font-weight: 800;
-    color: var(--heading-color);
-}
-
-.product-price .currency {
-    font-size: 0.9rem;
-    margin-right: 2px;
-}
-
-.product-price .amount {
-    font-size: 1.6rem;
-}
-
-.btn-buy {
-    background: var(--highlight-color);
-    color: #ffffff !important;
-    padding: 10px 24px;
-    border-radius: 8px;
-    font-weight: 700;
-    text-decoration: none !important;
-    transition: opacity 0.2s ease;
-}
-
-@include breakpoint('small') {
-    .store-grid {
-        grid-template-columns: 1fr;
-    }
-}
-</style>
 {{ end }}

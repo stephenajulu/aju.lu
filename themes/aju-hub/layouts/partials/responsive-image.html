@@ -13,7 +13,8 @@
        {{ with $fetchpriority }}fetchpriority="{{ . }}"{{ end }}>
 {{ else }}
   {{/* Internal Asset */}}
-  {{ $img := resources.Get $src }}
+  {{ $cleanSrc := strings.TrimPrefix "/" $src }}
+  {{ $img := resources.Get $cleanSrc }}
   {{ if $img }}
     {{ $small := $img.Resize "480x" }}
     {{ $medium := $img.Resize "800x" }}

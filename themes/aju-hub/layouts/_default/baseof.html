@@ -49,6 +49,10 @@
   {{ if and .Site.Params.googleFontsUrl .Site.Params.enableGoogleFonts }}
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="{{ .Site.Params.googleFontsUrl }}" rel="stylesheet">
+  {{ else }}
+    <link rel="preload" href="/fonts/fraunces-400800-normal.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/inter-400700-normal.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/jetbrains-mono-400600-normal.woff2" as="font" type="font/woff2" crossorigin>
   {{ end }}
 
   {{ partial "schema.html" . }}
@@ -69,6 +73,9 @@
     </main>
     {{ partial "footer.html" . }}
   </div>
+
+  {{ partial "command-palette.html" . }}
+  {{ partial "terminal-drawer.html" . }}
 
   <button id="back-to-top" class="back-to-top" aria-label="Back to top">
     <svg viewBox="0 0 24 24"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>

@@ -1,0 +1,212 @@
+<!-- Sovereign Terminal Drawer (aju-shell) -->
+<button id="aju-shell-toggle" class="aju-shell-trigger" type="button" aria-label="Toggle terminal shell">
+    <span>⚡</span>
+    <span>aju-shell (~&#96;)</span>
+</button>
+
+<div id="aju-shell" class="aju-shell-drawer" aria-hidden="true" role="region" aria-label="Interactive terminal">
+    <div class="aju-shell-bar">
+        <div class="aju-shell-dots">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="aju-shell-title">aju-shell v2.1.0 &bull; sovereign-edge</div>
+        <div class="aju-shell-actions">
+            <button id="aju-shell-clear-btn" type="button" title="Clear terminal">clear</button>
+            <button id="aju-shell-close-btn" type="button" title="Close terminal">&times;</button>
+        </div>
+    </div>
+
+    <div id="aju-shell-body" class="aju-shell-body">
+        <div class="aju-shell-line accent">╔═╗ ╦ ╦   ╔═╗ ╦ ╦ ╔═╗ ╦   ╦</div>
+        <div class="aju-shell-line accent">╠═╣ ║ ║   ╚═╗ ╠═╣ ║╣  ║   ║</div>
+        <div class="aju-shell-line accent">╩ ╩ ╚═╝   ╚═╝ ╩ ╩ ╚═╝ ╩═╝ ╩═╝</div>
+        <div class="aju-shell-line system">Sovereign Architecture &bull; Multidisciplinary Shell v2.1</div>
+        <div class="aju-shell-line system">Type '<span class="prompt">help</span>' to list available commands or '<span class="prompt">whoami</span>' for dossier.</div>
+        <br>
+    </div>
+
+    <div class="aju-shell-input-row">
+        <span class="aju-shell-prompt-tag">ajulu@sovereign:~$</span>
+        <input type="text" id="aju-shell-input" class="aju-shell-input" autocomplete="off" spellcheck="false" aria-label="Terminal input">
+    </div>
+</div>
+
+<script>
+(function() {
+    const shell = document.getElementById('aju-shell');
+    const toggleBtn = document.getElementById('aju-shell-toggle');
+    const closeBtn = document.getElementById('aju-shell-close-btn');
+    const clearBtn = document.getElementById('aju-shell-clear-btn');
+    const body = document.getElementById('aju-shell-body');
+    const input = document.getElementById('aju-shell-input');
+
+    let history = [];
+    let historyIdx = -1;
+
+    function openShell() {
+        shell.classList.add('active');
+        shell.setAttribute('aria-hidden', 'false');
+        setTimeout(() => input.focus(), 50);
+    }
+
+    function closeShell() {
+        shell.classList.remove('active');
+        shell.setAttribute('aria-hidden', 'true');
+    }
+
+    function toggleShell() {
+        if (shell.classList.contains('active')) {
+            closeShell();
+        } else {
+            openShell();
+        }
+    }
+
+    function print(text, className = '') {
+        const line = document.createElement('div');
+        line.className = `aju-shell-line ${className}`;
+        line.innerHTML = text;
+        body.appendChild(line);
+        body.scrollTop = body.scrollHeight;
+    }
+
+    function clearBuffer() {
+        body.innerHTML = '';
+        print('aju-shell buffer cleared.', 'system');
+    }
+
+    const commands = {
+        help: () => {
+            print('AVAILABLE SOVEREIGN COMMANDS:', 'accent');
+            print('  whoami     - Founder dossier & operational coordinates', 'system');
+            print('  pillars    - Inspect the 9 Master Pillars', 'system');
+            print('  matrix     - Navigate to Polymath Matrix', 'system');
+            print('  store      - Digital artifacts & architecture specs', 'system');
+            print('  skills     - Technical capabilities & advisory vectors', 'system');
+            print('  specs      - Engine & deployment stack details', 'system');
+            print('  theme      - Toggle Obsidian Dark / Light mode', 'system');
+            print('  contact    - Book consulting call or reach out', 'system');
+            print('  clear      - Clear terminal screen', 'system');
+            print('  exit       - Close aju-shell', 'system');
+        },
+        whoami: () => {
+            print('STEPHEN AJULU &bull; Multidisciplinary Technologist & Architect', 'prompt');
+            print('  Location   : Nairobi, Kenya [1.2921° S, 36.8219° E]', 'system');
+            print('  Experience : 13+ Years Systems Architecture, Design & Strategy', 'system');
+            print('  Conviction : Creating what ought to be. Stewarding what could be.', 'system');
+            print('  Advisory   : High-level cloud, DevOps, sovereign business systems.', 'system');
+        },
+        pillars: () => {
+            print('THE 9 MASTER PILLARS:', 'accent');
+            print('  01. Sovereignty   - Self-hosted independence & operational freedom', 'system');
+            print('  02. Architecture  - Modular systems & 100-year digital durability', 'system');
+            print('  03. Development   - Static-first speed & GoLang JAMstack engines', 'system');
+            print('  04. Design        - Master Depth aesthetics & cognitive sovereignty', 'system');
+            print('  05. Cybersecurity - Zero-Trust bastions & hardened edge perimeters', 'system');
+            print('  06. Blockchain    - Cryptographic consensus & sovereign state ledgers', 'system');
+            print('  07. Web3          - Peer-to-peer protocols & decentralized identity', 'system');
+            print('  08. Growth        - High-agency conditioning & Adamic stewardship', 'system');
+            print('  09. Finance       - Sovereign capital & uncensorable value rails', 'system');
+            print('Type "matrix" to explore cross-domain intersections.', 'warning');
+        },
+        matrix: () => {
+            print('Navigating to Polymath Matrix...', 'success');
+            setTimeout(() => { window.location.href = '/matrix/'; }, 400);
+        },
+        store: () => {
+            print('SOVEREIGN DIGITAL ASSETS:', 'accent');
+            print('  1. Sovereign Infrastructure Blueprint - KES 5,000 (~$39 USD)', 'system');
+            print('  2. aju.hub IndieWeb Template        - KES 12,000 (~$89 USD)', 'system');
+            print('  3. Strategic IT Audit Framework     - KES 3,500 (~$29 USD)', 'system');
+            print('Visit /store/ for direct instant checkout.', 'success');
+        },
+        skills: () => {
+            print('CAPABILITY VECTORS:', 'accent');
+            print('  Vector 1: Infrastructure & Automation (Cloud, DevOps, Hardened Linux)', 'system');
+            print('  Vector 2: Design & Experience (Master Depth UI/UX, Typography, Front-end)', 'system');
+            print('  Vector 3: Strategy & Transformation (IT Roadmaps, Digital Sovereignty)', 'system');
+        },
+        specs: () => {
+            print('ENGINE ARCHITECTURE SPECIFICATION:', 'accent');
+            print('  Engine     : Hugo v0.160.1-extended (Dart Sass/LibSass)', 'system');
+            print('  Hosting    : Multi-Cloud Dual Edge (Render + Netlify)', 'system');
+            print('  Typography : Self-Hosted Sovereign Variable Fonts (Fraunces + Inter)', 'system');
+            print('  PWA State  : Offline Manifest + Dynamic Runtime Cache', 'system');
+            print('  Security   : Strict CSP, HSTS, X-Frame-Options: DENY, Zero 3rd-party fonts', 'system');
+        },
+        theme: () => {
+            const toggle = document.getElementById('theme-toggle');
+            if (toggle) {
+                toggle.click();
+                const mode = document.documentElement.classList.contains('light-mode') ? 'Light' : 'Obsidian Dark';
+                print(`Theme switched to: ${mode}`, 'success');
+            }
+        },
+        contact: () => {
+            print('DIRECT INQUIRIES & BOOKING:', 'prompt');
+            print('  Consulting : /services/ &bull; /contact/', 'system');
+            print('  Email      : alunje73@gmail.com', 'system');
+            print('  X/Twitter  : @stephenajulu', 'system');
+        },
+        clear: clearBuffer,
+        exit: closeShell
+    };
+
+    input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+            const raw = input.value.trim();
+            input.value = '';
+            if (!raw) return;
+
+            history.push(raw);
+            historyIdx = history.length;
+
+            print(`ajulu@sovereign:~$ ${raw}`, 'prompt');
+
+            const cmd = raw.toLowerCase().split(' ')[0];
+            if (commands[cmd]) {
+                commands[cmd]();
+            } else {
+                print(`aju-shell: command not found: "${cmd}". Type "help" for a list of valid commands.`, 'warning');
+            }
+        } else if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            if (historyIdx > 0) {
+                historyIdx--;
+                input.value = history[historyIdx];
+            }
+        } else if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            if (historyIdx < history.length - 1) {
+                historyIdx++;
+                input.value = history[historyIdx];
+            } else {
+                historyIdx = history.length;
+                input.value = '';
+            }
+        } else if (e.key === 'Escape') {
+            closeShell();
+        }
+    });
+
+    // Global backtick/tilde shortcut
+    document.addEventListener('keydown', (e) => {
+        if (e.key === '`' && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+            e.preventDefault();
+            toggleShell();
+        }
+    });
+
+    if (toggleBtn) toggleBtn.addEventListener('click', toggleShell);
+    if (closeBtn) closeBtn.addEventListener('click', closeShell);
+    if (clearBtn) clearBtn.addEventListener('click', clearBuffer);
+
+    window.AjuTerminal = {
+        open: openShell,
+        close: closeShell,
+        toggle: toggleShell
+    };
+})();
+</script>

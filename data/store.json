@@ -3,32 +3,53 @@
         {
             "id": "sovereign-infrastructure-blueprint",
             "name": "Sovereign Infrastructure Blueprint",
-            "description": "Complete technical roadmap for deploying managed open-source business systems. Includes server hardening and data ownership protocols.",
+            "description": "Complete technical roadmap for deploying managed open-source business systems. Includes server hardening, Zero-Trust network topologies, and sovereign data ownership protocols.",
             "price": "5,000",
+            "usd_price": "39",
             "currency": "KES",
             "image": "images/hero.webp",
             "paystack_url": "https://stephenajulu.gumroad.com/l/sovereign-infrastructure",
-            "category": "Blueprint"
+            "category": "Blueprint",
+            "badge": "Architecture Spec",
+            "deliverables": [
+                "Zero-Trust Server Hardening Playbooks",
+                "Self-Hosted Cloud Infrastructure Blueprints",
+                "Data Sovereignty & Automated Backup Protocols"
+            ]
         },
         {
             "id": "indieweb-hugo-template",
             "name": "aju.hub IndieWeb Template",
-            "description": "The exact high-performance Hugo engine behind this site. Fully optimized for SEO, speed, and sovereign digital identity.",
+            "description": "The exact high-performance Hugo engine behind this site. Fully optimized for 100/100 Lighthouse performance, sovereign digital identity, Webmentions, and edge security.",
             "price": "12,000",
+            "usd_price": "89",
             "currency": "KES",
             "image": "images/me.webp",
             "paystack_url": "https://stephenajulu.gumroad.com/l/aju-hub-template",
-            "category": "Theme"
+            "category": "Theme",
+            "badge": "Full Source Code",
+            "deliverables": [
+                "Decoupled Hugo v0.160+ Extended Theme",
+                "Full PWA, Fuse.js Search & Speech Synthesis",
+                "Netlify & Render Instant Deploy Blueprints"
+            ]
         },
         {
             "id": "strategic-it-audit-template",
             "name": "Strategic IT Audit Framework",
-            "description": "A comprehensive checklist and framework for auditing enterprise infrastructure and identifying digital sovereignty risks.",
+            "description": "A comprehensive checklist and diagnostic framework for auditing enterprise infrastructure, identifying cloud lock-in vulnerabilities, and structuring vendor-free architectures.",
             "price": "3,500",
+            "usd_price": "29",
             "currency": "KES",
             "image": "images/socialimage.webp",
             "paystack_url": "https://stephenajulu.gumroad.com/l/it-audit-framework",
-            "category": "Framework"
+            "category": "Framework",
+            "badge": "Enterprise Diagnostic",
+            "deliverables": [
+                "Cloud Vendor Risk Assessment Scorecard",
+                "Sovereign Security & Access Control Checklist",
+                "Executive Summary & Decision Matrix Templates"
+            ]
         }
     ]
 }

@@ -111,28 +111,126 @@ if (window.location.hostname === 'localhost' || window.location.hostname === '12
   });
 }
 
-// B. Speech Synthesis (Listen to Article)
+// B. Speech Synthesis (Sticky Dock with Playback Rate Controls)
 document.addEventListener('DOMContentLoaded', () => {
     const speechBtn = document.getElementById('btn-listen');
-    if (speechBtn && 'speechSynthesis' in window) {
-      let isReading = false;
-      speechBtn.addEventListener('click', () => {
-        if (isReading) {
-          window.speechSynthesis.cancel();
-          isReading = false;
-          speechBtn.innerHTML = '<span>🔊</span> Listen';
+    const contentEl = document.querySelector('.e-content');
+
+    if ('speechSynthesis' in window && (speechBtn || contentEl)) {
+      let isPlaying = false;
+      let isPaused = false;
+      let currentRate = 1.0;
+      const rates = [1.0, 1.25, 1.5, 2.0];
+      let currentUtterance = null;
+      let articleTitle = document.querySelector('h1')?.innerText || 'Article';
+
+      // Create Sticky Dock DOM if not present
+      let dock = document.getElementById('sticky-audio-bar');
+      if (!dock) {
+        dock = document.createElement('div');
+        dock.id = 'sticky-audio-bar';
+        dock.className = 'sticky-audio-bar';
+        dock.innerHTML = `
+          <div class="sticky-audio-indicator" id="dock-indicator">
+            <span class="audio-pulse"></span>
+            <span>Listening</span>
+          </div>
+          <span class="sticky-audio-title">${articleTitle}</span>
+          <div class="sticky-audio-controls">
+            <button class="sticky-audio-btn" id="dock-play-pause" type="button" aria-label="Pause audio">⏸ Pause</button>
+            <button class="sticky-audio-btn sticky-audio-speed" id="dock-speed" type="button" aria-label="Playback speed">1.0x</button>
+            <button class="sticky-audio-close" id="dock-stop" type="button" aria-label="Stop audio">&times;</button>
+          </div>
+        `;
+        document.body.appendChild(dock);
+      }
+
+      const dockPlayPause = document.getElementById('dock-play-pause');
+      const dockSpeed = document.getElementById('dock-speed');
+      const dockStop = document.getElementById('dock-stop');
+      const dockIndicator = document.getElementById('dock-indicator');
+
+      function startReading(rate = currentRate) {
+        window.speechSynthesis.cancel();
+        const text = contentEl ? contentEl.innerText : '';
+        if (!text) return;
+
+        currentUtterance = new SpeechSynthesisUtterance(text);
+        currentUtterance.rate = rate;
+        
+        currentUtterance.onend = () => {
+          stopReading();
+        };
+
+        currentUtterance.onerror = () => {
+          stopReading();
+        };
+
+        window.speechSynthesis.speak(currentUtterance);
+        isPlaying = true;
+        isPaused = false;
+        dock.classList.add('active');
+        dockIndicator.classList.remove('paused');
+        if (dockPlayPause) dockPlayPause.innerText = '⏸ Pause';
+        if (speechBtn) speechBtn.innerHTML = '<span>🛑</span> Stop';
+      }
+
+      function togglePause() {
+        if (!isPlaying) return;
+        if (isPaused) {
+          window.speechSynthesis.resume();
+          isPaused = false;
+          dockIndicator.classList.remove('paused');
+          if (dockPlayPause) dockPlayPause.innerText = '⏸ Pause';
         } else {
-          const content = document.querySelector('.e-content').innerText;
-          const utterance = new SpeechSynthesisUtterance(content);
-          utterance.onend = () => { 
-            isReading = false;
-            speechBtn.innerHTML = '<span>🔊</span> Listen';
-          };
-          window.speechSynthesis.speak(utterance);
-          isReading = true;
-          speechBtn.innerHTML = '<span>🛑</span> Stop';
+          window.speechSynthesis.pause();
+          isPaused = true;
+          dockIndicator.classList.add('paused');
+          if (dockPlayPause) dockPlayPause.innerText = '▶ Resume';
         }
-      });
+      }
+
+      function stopReading() {
+        window.speechSynthesis.cancel();
+        isPlaying = false;
+        isPaused = false;
+        dock.classList.remove('active');
+        dockIndicator.classList.remove('paused');
+        if (dockPlayPause) dockPlayPause.innerText = '⏸ Pause';
+        if (speechBtn) speechBtn.innerHTML = '<span>🔊</span> Listen';
+      }
+
+      function cycleSpeed() {
+        const nextIdx = (rates.indexOf(currentRate) + 1) % rates.length;
+        currentRate = rates[nextIdx];
+        dockSpeed.innerText = `${currentRate.toFixed(currentRate % 1 === 0 ? 0 : 2)}x`;
+
+        // If currently speaking, restart utterance at new rate
+        if (isPlaying && !isPaused) {
+          startReading(currentRate);
+        }
+      }
+
+      if (speechBtn) {
+        speechBtn.addEventListener('click', () => {
+          if (isPlaying) {
+            stopReading();
+          } else {
+            startReading();
+          }
+        });
+      }
+
+      if (dockPlayPause) dockPlayPause.addEventListener('click', togglePause);
+      if (dockSpeed) dockSpeed.addEventListener('click', cycleSpeed);
+      if (dockStop) dockStop.addEventListener('click', stopReading);
+
+      window.AjuAudio = {
+        play: () => startReading(),
+        pause: togglePause,
+        stop: stopReading,
+        toggle: () => isPlaying ? stopReading() : startReading()
+      };
     }
 });
 

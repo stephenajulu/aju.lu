@@ -1,0 +1,161 @@
+/* Sovereign Terminal Drawer (aju-shell) */
+
+.aju-shell-drawer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 380px;
+  max-height: 85vh;
+  background: #020617;
+  border-top: 1px solid rgba(99, 32, 214, 0.5);
+  box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.8), 0 0 30px rgba(99, 32, 214, 0.2);
+  z-index: 9995;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(100%);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  font-family: var(--font-family-monospace);
+
+  &.active {
+    transform: translateY(0);
+  }
+}
+
+.aju-shell-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 18px;
+  background: #0a0416;
+  border-bottom: 1px solid var(--glass-border);
+  user-select: none;
+}
+
+.aju-shell-dots {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+
+    &:nth-child(1) { background: #ef4444; }
+    &:nth-child(2) { background: #f59e0b; }
+    &:nth-child(3) { background: #10b981; }
+  }
+}
+
+.aju-shell-title {
+  font-size: 0.75rem;
+  color: var(--meta-color);
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.aju-shell-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  button {
+    background: transparent;
+    border: none;
+    color: var(--meta-color);
+    cursor: pointer;
+    font-size: 0.8rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+    transition: color var(--transition-fast);
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+}
+
+.aju-shell-body {
+  flex: 1;
+  padding: 14px 20px;
+  overflow-y: auto;
+  color: #cbd5e1;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.aju-shell-line {
+  margin-bottom: 4px;
+
+  &.system { color: #94a3b8; }
+  &.prompt { color: #a78bfa; font-weight: 700; }
+  &.success { color: #34d399; }
+  &.accent { color: #c084fc; }
+  &.warning { color: #fbbf24; }
+}
+
+.aju-shell-input-row {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: #06020e;
+  border-top: 1px solid var(--glass-border);
+}
+
+.aju-shell-prompt-tag {
+  color: #a78bfa;
+  font-weight: 700;
+  margin-right: 8px;
+  user-select: none;
+  font-size: 0.85rem;
+}
+
+.aju-shell-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: #f8fafc;
+  font-family: var(--font-family-monospace);
+  font-size: 0.85rem;
+  outline: none;
+}
+
+/* Floating Terminal Trigger */
+.aju-shell-trigger {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(10, 4, 22, 0.85);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--glass-border);
+  color: var(--meta-color);
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-family: var(--font-family-monospace);
+  font-size: 0.75rem;
+  cursor: pointer;
+  z-index: 9000;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all var(--transition-fast);
+
+  &:hover {
+    border-color: var(--highlight-color);
+    color: #ffffff;
+    box-shadow: 0 0 14px rgba(99, 32, 214, 0.3);
+  }
+}
+
+@include breakpoint('small') {
+  .aju-shell-trigger {
+    display: none;
+  }
+  .aju-shell-drawer {
+    height: 70vh;
+  }
+}

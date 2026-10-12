@@ -1,0 +1,406 @@
+{{ define "main" }}
+<div class="intro">
+    <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+    <div class="intro-content">
+        {{ .Content }}
+    </div>
+</div>
+
+<div class="matrix-container" id="polymath-matrix-root">
+    <div class="matrix-status-banner">
+        <div class="matrix-status-indicator">
+            <span class="matrix-pulse-dot"></span>
+            <span id="matrix-status-text">Select 1 or 2 Master Pillars to synthesize domain intersections.</span>
+        </div>
+        <button id="matrix-reset-btn" class="matrix-clear-btn" type="button" style="display:none;">Clear Selection</button>
+    </div>
+
+    <!-- 9 Master Pillars Grid -->
+    <div class="matrix-grid" id="matrix-grid">
+        <button class="matrix-node" data-pillar="sovereignty" type="button">
+            <div class="matrix-node-top">
+                <span class="matrix-node-num">01 / SOV</span>
+                <span class="matrix-node-icon">🛡️</span>
+            </div>
+            <h3 class="matrix-node-title">Sovereignty</h3>
+            <p class="matrix-node-tagline">Self-hosted infrastructure, data ownership & operational independence.</p>
+        </button>
+
+        <button class="matrix-node" data-pillar="architecture" type="button">
+            <div class="matrix-node-top">
+                <span class="matrix-node-num">02 / ARC</span>
+                <span class="matrix-node-icon">🏛️</span>
+            </div>
+            <h3 class="matrix-node-title">Architecture</h3>
+            <p class="matrix-node-tagline">Modular systems, distributed topologies & 100-year digital durability.</p>
+        </button>
+
+        <button class="matrix-node" data-pillar="development" type="button">
+            <div class="matrix-node-top">
+                <span class="matrix-node-num">03 / DEV</span>
+                <span class="matrix-node-icon">⚡</span>
+            </div>
+            <h3 class="matrix-node-title">Development</h3>
+            <p class="matrix-node-tagline">Static-first performance, GoLang, modern web & high-velocity craft.</p>
+        </button>
+
+        <button class="matrix-node" data-pillar="design" type="button">
+            <div class="matrix-node-top">
+                <span class="matrix-node-num">04 / DES</span>
+                <span class="matrix-node-icon">🎨</span>
+            </div>
+            <h3 class="matrix-node-title">Design</h3>
+            <p class="matrix-node-tagline">Master Depth aesthetics, cognitive sovereignty & cultural language.</p>
+        </button>
+
+        <button class="matrix-node" data-pillar="cybersecurity" type="button">
+            <div class="matrix-node-top">
+                <span class="matrix-node-num">05 / SEC</span>
+                <span class="matrix-node-icon">🔒</span>
+            </div>
+            <h3 class="matrix-node-title">Cybersecurity</h3>
+            <p class="matrix-node-tagline">Zero-Trust perimeter defense, cryptographic integrity & edge hardening.</p>
+        </button>
+
+        <button class="matrix-node" data-pillar="blockchain" type="button">
+            <div class="matrix-node-top">
+                <span class="matrix-node-num">06 / BLK</span>
+                <span class="matrix-node-icon">⛓️</span>
+            </div>
+            <h3 class="matrix-node-title">Blockchain</h3>
+            <p class="matrix-node-tagline">Decentralized consensus, verifiable credentials & sovereign ledgers.</p>
+        </button>
+
+        <button class="matrix-node" data-pillar="web3" type="button">
+            <div class="matrix-node-top">
+                <span class="matrix-node-num">07 / WB3</span>
+                <span class="matrix-node-icon">🌐</span>
+            </div>
+            <h3 class="matrix-node-title">Web3</h3>
+            <p class="matrix-node-tagline">Peer-to-peer protocols, permissionless networks & digital identity.</p>
+        </button>
+
+        <button class="matrix-node" data-pillar="growth" type="button">
+            <div class="matrix-node-top">
+                <span class="matrix-node-num">08 / GRO</span>
+                <span class="matrix-node-icon">🌱</span>
+            </div>
+            <h3 class="matrix-node-title">Personal Growth</h3>
+            <p class="matrix-node-tagline">High-agency conditioning, disciplined execution & Adamic stewardship.</p>
+        </button>
+
+        <button class="matrix-node" data-pillar="finance" type="button">
+            <div class="matrix-node-top">
+                <span class="matrix-node-num">09 / FIN</span>
+                <span class="matrix-node-icon">💎</span>
+            </div>
+            <h3 class="matrix-node-title">Finance</h3>
+            <p class="matrix-node-tagline">Strategic capital advisory, uncensorable value rails & enterprise viability.</p>
+        </button>
+    </div>
+
+    <!-- Synthesis Deck -->
+    <div class="matrix-synthesis-box" id="matrix-synthesis-deck">
+        <div class="matrix-synthesis-label" id="matrix-deck-label">DOMAINS UNSELECTED</div>
+        <h2 class="matrix-synthesis-heading" id="matrix-deck-title">Interdisciplinary Synthesis Engine</h2>
+        <p class="matrix-synthesis-body" id="matrix-deck-desc">
+            Stephen Ajulu's architecture does not operate in silos. Select any two pillars above to observe how cross-domain tensions produce sovereign technological artifacts and strategic clarity.
+        </p>
+
+        <div class="matrix-synthesis-specs" id="matrix-deck-specs">
+            <div class="matrix-spec-item">
+                <strong>Domain Integration</strong>
+                <span>9 Primary Sovereign Pillars</span>
+            </div>
+            <div class="matrix-spec-item">
+                <strong>Combinatorial Matrix</strong>
+                <span>36 Cross-Domain Syntheses</span>
+            </div>
+            <div class="matrix-spec-item">
+                <strong>Core Mandate</strong>
+                <span>Zero Lock-in &bull; Full Agency</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Matching Essays Section -->
+    <div class="matrix-posts-section" id="matrix-posts-container">
+        <h3 class="matrix-posts-heading">
+            <span id="matrix-posts-title">Relevant Essays & Architectural Deep-Dives</span>
+            <span id="matrix-posts-count" style="font-size: 0.85rem; color: var(--meta-color); font-weight: normal;"></span>
+        </h3>
+        <div class="matrix-posts-list" id="matrix-posts-list">
+            <!-- Dynamic Post Items Injected Here -->
+        </div>
+    </div>
+</div>
+
+<!-- Embedded Post Index for Instant Client Filtering -->
+<script>
+window.AJULU_MATRIX_POSTS = [
+    {{ range (where site.RegularPages "Type" "posts") }}
+    {
+        title: {{ .Title }},
+        url: {{ .RelPermalink }},
+        date: {{ .Date.Format "Jan 02, 2006" }},
+        tags: [
+            {{ range .Params.tags }}{{ . | lower }}, {{ end }}
+            {{ range .Params.categories }}{{ . | lower }}, {{ end }}
+        ]
+    },
+    {{ end }}
+];
+
+(function() {
+    const pillars = {
+        sovereignty: {
+            title: "Sovereignty",
+            tags: ["sovereignty", "sovereign", "open source", "infrastructure", "privacy"],
+            desc: "The foundational mandate: Digital infrastructure should empower absolute operational independence, not vendor lock-in. Self-hosted, modular systems provide lasting freedom.",
+            specs: { "Core Thesis": "Self-determination through open protocols", "Vector": "Autonomous Infrastructure", "Outcome": "Zero Lock-in" }
+        },
+        architecture: {
+            title: "Architecture",
+            tags: ["architecture", "systems", "design", "devops", "cloud"],
+            desc: "The discipline of structural integrity: Architecting software and enterprise topologies that scale gracefully, tolerate failure, and eliminate single points of failure.",
+            specs: { "Core Thesis": "Modularity over monoliths", "Vector": "Distributed Systems", "Outcome": "100-Year Survivability" }
+        },
+        development: {
+            title: "Development",
+            tags: ["development", "hugo", "golang", "jamstack", "code", "frontend", "engineering"],
+            desc: "Pure craftsmanship in code: Modern static engines, extreme performance optimization, zero-bloat delivery, and resilient developer ergonomics.",
+            specs: { "Core Thesis": "Speed as a sovereign feature", "Vector": "JAMstack & GoLang", "Outcome": "100/100 Lighthouse Potential" }
+        },
+        design: {
+            title: "Design",
+            tags: ["design", "ui", "ux", "typography", "branding", "aesthetics"],
+            desc: "Design as cultural language: Master Depth aesthetic, cognitive load reduction, fluid architectural typography, and intuitive tactile feedback.",
+            specs: { "Core Thesis": "Clarity is respect for human attention", "Vector": "Master Depth System", "Outcome": "Cognitive Sovereignty" }
+        },
+        cybersecurity: {
+            title: "Cybersecurity",
+            tags: ["cybersecurity", "security", "zero trust", "hardening", "privacy"],
+            desc: "Zero-Trust perimeter engineering: Defense-in-depth, cryptographic identity verification, hardened server boundaries, and proactive threat modeling.",
+            specs: { "Core Thesis": "Verify explicitly, trust nothing", "Vector": "Hardened Edge Policies", "Outcome": "Tamper-Proof Bastions" }
+        },
+        blockchain: {
+            title: "Blockchain",
+            tags: ["blockchain", "bitcoin", "crypto", "distributed ledgers", "decentralization"],
+            desc: "Decentralized consensus mechanisms and sovereign state machines: Verifiable ledgers that provide immutable settlement without centralized authorities.",
+            specs: { "Core Thesis": "Mathematical certainty over human trust", "Vector": "Verifiable State", "Outcome": "Immutable Records" }
+        },
+        web3: {
+            title: "Web3",
+            tags: ["web3", "decentralized", "p2p", "identity", "ipfs"],
+            desc: "The next evolution of permissionless internet protocols: Peer-to-peer distribution, decentralized identity, and community data ownership.",
+            specs: { "Core Thesis": "User-owned digital protocols", "Vector": "P2P Topologies", "Outcome": "Anti-Fragile Networks" }
+        },
+        growth: {
+            title: "Personal Growth",
+            tags: ["personal growth", "growth", "lifestyle", "discipline", "stewardship", "philosophy"],
+            desc: "The operating system of impact: High-agency conditioning, intentional habit loops, intellectual curiosity, and Adamic stewardship of raw potential.",
+            specs: { "Core Thesis": "Lifestyle as the execution engine", "Vector": "Disciplined Creation", "Outcome": "Compounding Agency" }
+        },
+        finance: {
+            title: "Finance",
+            tags: ["finance", "business", "advisory", "economics", "monetization"],
+            desc: "Strategic capital architecture: Structuring sustainable digital enterprises, sovereign monetization rails, and long-term enterprise value creation.",
+            specs: { "Core Thesis": "Capital as fuel for sovereignty", "Vector": "Uncensorable Rails", "Outcome": "Financial Autonomy" }
+        }
+    };
+
+    const syntheses = {
+        "architecture+sovereignty": {
+            title: "Sovereign Systems Architecture",
+            body: "When systems architecture is guided by sovereignty principles, the result is completely decoupled infrastructure that can survive cloud provider bankruptcies, policy changes, and arbitrary API deactivations.",
+            specs: { "Strategic Focus": "Self-Hosted Topologies", "Engineering Priority": "Decoupled Dependencies", "Impact": "Uninterrupted Business Continuity" }
+        },
+        "cybersecurity+sovereignty": {
+            title: "Zero-Trust Sovereign Bastions",
+            body: "True sovereignty requires rigorous perimeter defense. By combining Zero-Trust protocols with open-source infrastructure, enterprises retain exclusive possession of keys, secrets, and data without third-party surveillance.",
+            specs: { "Strategic Focus": "Cryptographic Isolation", "Engineering Priority": "Edge Hardening", "Impact": "Zero Third-Party Data Exposure" }
+        },
+        "development+sovereignty": {
+            title: "IndieWeb & Sovereign Static Pipelines",
+            body: "Eliminating server-side databases for public-facing experiences creates un-hackable, blazingly fast digital properties that run anywhere from edge CDNs to local memory.",
+            specs: { "Strategic Focus": "Static Generation (Hugo)", "Engineering Priority": "Zero Runtime Dependency", "Impact": "Indestructible Web Identity" }
+        },
+        "design+sovereignty": {
+            title: "Cognitive Sovereignty & Cultural Interface",
+            body: "Rejecting dark patterns and attention-capturing algorithm loops in favor of calm, high-contrast Obsidian aesthetics that respect reader focus and preserve human dignity.",
+            specs: { "Strategic Focus": "Low Cognitive Load", "Engineering Priority": "Fluid Typography", "Impact": "Calm, Intentional Readability" }
+        },
+        "growth+sovereignty": {
+            title: "Adamic Stewardship & High-Agency Creation",
+            body: "The conviction that humanity is called to cultivate and steward systems with excellence, translating personal discipline into enduring public artifacts.",
+            specs: { "Strategic Focus": "Disciplined Craftsmanship", "Engineering Priority": "Continuous Conditioning", "Impact": "Enduring Cultural Value" }
+        },
+        "blockchain+finance": {
+            title: "Uncensorable Value Rails & Sovereign Capital",
+            body: "Pairing decentralized ledger consensus with enterprise treasury architecture to create resilient, global cross-border settlement channels with zero intermediaries.",
+            specs: { "Strategic Focus": "Peer-to-Peer Settlement", "Engineering Priority": "Self-Custodial Reserves", "Impact": "Capital Mobility & Resilience" }
+        },
+        "web3+sovereignty": {
+            title: "Decentralized Sovereign Identity",
+            body: "Reclaiming digital identity and credentials through cryptographically verifiable identifiers that no single corporate platform can confiscate or revoke.",
+            specs: { "Strategic Focus": "Verifiable Credentials", "Engineering Priority": "P2P Discovery", "Impact": "Platform-Immune Digital Identity" }
+        },
+        "architecture+cybersecurity": {
+            title: "Hardened Enterprise Topology",
+            body: "Architecting defense-in-depth directly into network topology, enforcing automated certificate rotation, isolated subnets, and strict least-privilege policies.",
+            specs: { "Strategic Focus": "Perimeter Segmentation", "Engineering Priority": "Immutable Audit Logs", "Impact": "Minimal Attack Surface" }
+        },
+        "development+design": {
+            title: "Master Depth Ergonomics",
+            body: "The union of rigorous frontend performance engineering and world-class visual craft: instant view transitions, fluid clamp scaling, and sub-second load times.",
+            specs: { "Strategic Focus": "Design System Engineering", "Engineering Priority": "Modular SCSS & Zero Bloat", "Impact": "Visceral Product Quality" }
+        }
+    };
+
+    let selected = [];
+
+    const nodes = document.querySelectorAll('.matrix-node');
+    const resetBtn = document.getElementById('matrix-reset-btn');
+    const statusText = document.getElementById('matrix-status-text');
+    const deckLabel = document.getElementById('matrix-deck-label');
+    const deckTitle = document.getElementById('matrix-deck-title');
+    const deckDesc = document.getElementById('matrix-deck-desc');
+    const deckSpecs = document.getElementById('matrix-deck-specs');
+    const postsList = document.getElementById('matrix-posts-list');
+    const postsCount = document.getElementById('matrix-posts-count');
+    const postsTitle = document.getElementById('matrix-posts-title');
+
+    function updateView() {
+        nodes.forEach(node => {
+            const pillar = node.getAttribute('data-pillar');
+            node.classList.toggle('active', selected.includes(pillar));
+            node.classList.toggle('dimmed', selected.length === 2 && !selected.includes(pillar));
+        });
+
+        resetBtn.style.display = selected.length > 0 ? 'inline-block' : 'none';
+
+        if (selected.length === 0) {
+            statusText.innerText = 'Select 1 or 2 Master Pillars to synthesize domain intersections.';
+            deckLabel.innerText = 'DOMAINS UNSELECTED';
+            deckTitle.innerText = 'Interdisciplinary Synthesis Engine';
+            deckDesc.innerText = "Stephen Ajulu's architecture does not operate in silos. Select any two pillars above to observe how cross-domain tensions produce sovereign technological artifacts and strategic clarity.";
+            renderSpecs({
+                "Domain Integration": "9 Primary Sovereign Pillars",
+                "Combinatorial Matrix": "36 Cross-Domain Syntheses",
+                "Core Mandate": "Zero Lock-in • Full Agency"
+            });
+            renderPosts([]);
+            postsTitle.innerText = 'Recent Architectural Deep-Dives';
+            renderRecentPosts();
+            return;
+        }
+
+        if (selected.length === 1) {
+            const p1 = selected[0];
+            const data = pillars[p1];
+            statusText.innerText = `Pillar 1 Active: ${data.title}. Click a second pillar to compute intersection.`;
+            deckLabel.innerText = `PILLAR SPECIFICATION: ${data.title.toUpperCase()}`;
+            deckTitle.innerText = data.title;
+            deckDesc.innerText = data.desc;
+            renderSpecs(data.specs);
+
+            postsTitle.innerText = `Essays Tagged with "${data.title}"`;
+            const matched = filterPosts(data.tags);
+            renderPosts(matched);
+            return;
+        }
+
+        if (selected.length === 2) {
+            const key1 = `${selected[0]}+${selected[1]}`;
+            const key2 = `${selected[1]}+${selected[0]}`;
+            const synth = syntheses[key1] || syntheses[key2] || {
+                title: `${pillars[selected[0]].title} & ${pillars[selected[1]].title} Intersection`,
+                body: `The strategic synthesis between ${pillars[selected[0]].title} and ${pillars[selected[1]].title} creates unique architectural leverage for organizations seeking resilient, high-autonomy operations.`,
+                specs: {
+                    "Pillar Alpha": pillars[selected[0]].title,
+                    "Pillar Beta": pillars[selected[1]].title,
+                    "Synthesis Vector": "Cross-Domain Synergy"
+                }
+            };
+
+            statusText.innerText = `Domain Intersection: ${pillars[selected[0]].title} ✕ ${pillars[selected[1]].title}`;
+            deckLabel.innerText = `CROSS-DOMAIN SYNTHESIS MATRIX`;
+            deckTitle.innerText = synth.title;
+            deckDesc.innerText = synth.body;
+            renderSpecs(synth.specs);
+
+            postsTitle.innerText = `Essays Bridging ${pillars[selected[0]].title} & ${pillars[selected[1]].title}`;
+            const combinedTags = [...pillars[selected[0]].tags, ...pillars[selected[1]].tags];
+            const matched = filterPosts(combinedTags);
+            renderPosts(matched);
+        }
+    }
+
+    function renderSpecs(specsObj) {
+        deckSpecs.innerHTML = '';
+        for (const [k, v] of Object.entries(specsObj)) {
+            const div = document.createElement('div');
+            div.className = 'matrix-spec-item';
+            div.innerHTML = `<strong>${k}</strong><span>${v}</span>`;
+            deckSpecs.appendChild(div);
+        }
+    }
+
+    function filterPosts(tags) {
+        if (!window.AJULU_MATRIX_POSTS) return [];
+        return window.AJULU_MATRIX_POSTS.filter(post => {
+            return post.tags.some(t => tags.includes(t));
+        });
+    }
+
+    function renderPosts(posts) {
+        postsList.innerHTML = '';
+        postsCount.innerText = `(${posts.length} found)`;
+
+        if (posts.length === 0) {
+            postsList.innerHTML = '<p style="color: var(--meta-color); font-size: 0.9rem; padding: 1rem 0;">No direct essays found for this exact combination yet. Explore related pillars above.</p>';
+            return;
+        }
+
+        posts.slice(0, 10).forEach(post => {
+            const a = document.createElement('a');
+            a.className = 'matrix-post-item';
+            a.href = post.url;
+            a.innerHTML = `
+                <span class="matrix-post-title">${post.title}</span>
+                <span class="matrix-post-date">${post.date}</span>
+            `;
+            postsList.appendChild(a);
+        });
+    }
+
+    function renderRecentPosts() {
+        if (!window.AJULU_MATRIX_POSTS) return;
+        renderPosts(window.AJULU_MATRIX_POSTS.slice(0, 6));
+    }
+
+    nodes.forEach(node => {
+        node.addEventListener('click', () => {
+            const pillar = node.getAttribute('data-pillar');
+            if (selected.includes(pillar)) {
+                selected = selected.filter(p => p !== pillar);
+            } else {
+                if (selected.length >= 2) {
+                    selected.shift(); // rotate selection
+                }
+                selected.push(pillar);
+            }
+            updateView();
+        });
+    });
+
+    resetBtn.addEventListener('click', () => {
+        selected = [];
+        updateView();
+    });
+
+    // Initialize with recent posts
+    renderRecentPosts();
+})();
+</script>
+{{ end }}

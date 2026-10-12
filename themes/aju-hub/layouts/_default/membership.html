@@ -20,7 +20,7 @@
                 <li>Access to all public posts</li>
                 <li>Newsletter subscription</li>
             </ul>
-            <button class="btn login-trigger" onclick="netlifyIdentity.open('signup')">Create Free Account</button>
+            <button class="btn login-trigger" onclick="if(window.netlifyIdentity){netlifyIdentity.open('signup')}else{window.location.href='/contact'}">Create Free Account</button>
         </div>
         
         <div class="plan-card featured">
@@ -32,11 +32,11 @@
                 <li>Early access to notes</li>
                 <li>Direct support via M-Pesa</li>
             </ul>
-            <button class="btn login-trigger" onclick="netlifyIdentity.open('signup')">Unlock with M-Pesa</button>
+            <a href="https://paystack.shop/pay/u0tbzutalc" class="btn login-trigger" data-umami-event="membership_upgrade_click">Unlock with M-Pesa</a>
         </div>
     </div>
     <div style="text-align: center; margin-top: 40px;">
-        <p>Already have an account? <a href="#" onclick="netlifyIdentity.open('login')">Log in here</a></p>
+        <p>Already have an account? <a href="#" onclick="if(window.netlifyIdentity){netlifyIdentity.open('login')}return false;">Log in here</a></p>
     </div>
 </template>
 
@@ -102,31 +102,17 @@
             }
         }
 
-        // Wait for netlifyIdentity to be ready
+        // Initialize UI with Netlify Identity or fallback
         if (window.netlifyIdentity) {
             console.log("Membership UI: Netlify Identity found.");
-            
-            // Handle initial state
             updateUI(netlifyIdentity.currentUser());
-
-            // Bind events
-            netlifyIdentity.on('init', user => {
-                console.log("Membership UI: Init event fired");
-                updateUI(user);
-            });
-            netlifyIdentity.on('login', user => {
-                console.log("Membership UI: Login event fired");
-                updateUI(user);
-                netlifyIdentity.close(); // Close modal on success
-            });
-            netlifyIdentity.on('logout', () => {
-                console.log("Membership UI: Logout event fired");
-                updateUI(null);
-            });
-            netlifyIdentity.on('error', err => console.error('Membership UI: Netlify Identity Error:', err));
+            netlifyIdentity.on('init', user => updateUI(user));
+            netlifyIdentity.on('login', user => { updateUI(user); netlifyIdentity.close(); });
+            netlifyIdentity.on('logout', () => updateUI(null));
+            netlifyIdentity.on('error', err => console.error('Membership UI Error:', err));
         } else {
-            console.error("Membership UI: Netlify Identity widget NOT found. Ensure it's enabled in your dashboard.");
-            container.innerHTML = '<p class="error">Identity service not found. Please refresh or check back later.</p>';
+            console.log("Membership UI: Identity widget absent or running standalone. Rendering sovereign plans.");
+            updateUI(null);
         }
     });
 </script>

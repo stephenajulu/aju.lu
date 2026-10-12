@@ -1,0 +1,285 @@
+<!-- Global Sovereign Command Palette -->
+<div id="cmd-palette" class="cmd-palette-backdrop" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="cmd-palette-dialog">
+        <div class="cmd-palette-header">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="cmd-palette-input" class="cmd-palette-input" placeholder="Search essays, pillars, tools, or run action..." autocomplete="off" spellcheck="false">
+            <span class="cmd-palette-badge">ESC</span>
+        </div>
+
+        <div id="cmd-palette-results" class="cmd-palette-results" role="listbox">
+            <!-- Results populated via JS -->
+        </div>
+
+        <div class="cmd-palette-footer">
+            <div class="cmd-palette-shortcuts">
+                <span><kbd>&uarr;</kbd> <kbd>&darr;</kbd> Navigate</span>
+                <span><kbd>&crarr;</kbd> Select</span>
+                <span><kbd>ESC</kbd> Close</span>
+            </div>
+            <span>Omnisearch &bull; Stephen Ajulu</span>
+        </div>
+    </div>
+</div>
+
+<script>
+(function() {
+    let fuse = null;
+    let searchData = [];
+    let selectedIndex = 0;
+    let visibleItems = [];
+
+    const palette = document.getElementById('cmd-palette');
+    const input = document.getElementById('cmd-palette-input');
+    const resultsContainer = document.getElementById('cmd-palette-results');
+
+    const staticActions = [
+        { title: "Polymath Matrix", desc: "Interactive 9-pillar synthesis explorer", type: "Pillar", url: "/matrix/", icon: "🏛️" },
+        { title: "Sovereign Store", desc: "Architecture specs, blueprints, and themes", type: "Store", url: "/store/", icon: "🛍️" },
+        { title: "Strategic Services", desc: "Enterprise IT advisory & systems roadmaps", type: "Service", url: "/services/", icon: "⚡" },
+        { title: "Curriculum Vitae", desc: "13+ years engineering & advisory track record", type: "Profile", url: "/cv/", icon: "📄" },
+        { title: "Toggle Theme", desc: "Switch between Obsidian Dark and Light mode", type: "Action", action: "theme", icon: "🌓" },
+        { title: "Open Terminal Shell", desc: "Interactive command-line sandbox (aju-shell)", type: "Action", action: "terminal", icon: "💻" },
+        { title: "Copy RSS Feed", desc: "Subscribe to sovereign feed.xml", type: "Action", action: "rss", icon: "📡" }
+    ];
+
+    async function loadIndex() {
+        if (fuse) return;
+        try {
+            const res = await fetch('/index.json');
+            if (res.ok) {
+                searchData = await res.json();
+                if (window.Fuse) {
+                    fuse = new Fuse(searchData, {
+                        keys: [
+                            { name: 't', weight: 0.8 },
+                            { name: 's', weight: 0.3 },
+                            { name: 'tags', weight: 0.5 }
+                        ],
+                        threshold: 0.35,
+                        includeMatches: true,
+                        minMatchCharLength: 2
+                    });
+                }
+            }
+        } catch (e) {
+            console.warn("Command palette index fetch deferred:", e);
+        }
+    }
+
+    function openPalette() {
+        palette.classList.add('active');
+        palette.setAttribute('aria-hidden', 'false');
+        input.value = '';
+        selectedIndex = 0;
+        renderDefault();
+        setTimeout(() => input.focus(), 50);
+        loadIndex();
+    }
+
+    function closePalette() {
+        palette.classList.remove('active');
+        palette.setAttribute('aria-hidden', 'true');
+    }
+
+    function renderDefault() {
+        resultsContainer.innerHTML = '';
+        visibleItems = [...staticActions];
+
+        const groupTitle = document.createElement('div');
+        groupTitle.className = 'cmd-palette-group-title';
+        groupTitle.innerText = 'Quick Navigation & Actions';
+        resultsContainer.appendChild(groupTitle);
+
+        visibleItems.forEach((item, idx) => {
+            const el = createItemElement(item, idx);
+            resultsContainer.appendChild(el);
+        });
+
+        highlightSelected();
+    }
+
+    function renderSearchResults(query) {
+        resultsContainer.innerHTML = '';
+        visibleItems = [];
+
+        // Match static actions first
+        const matchedActions = staticActions.filter(a =>
+            a.title.toLowerCase().includes(query.toLowerCase()) ||
+            a.desc.toLowerCase().includes(query.toLowerCase())
+        );
+
+        if (matchedActions.length > 0) {
+            const title = document.createElement('div');
+            title.className = 'cmd-palette-group-title';
+            title.innerText = 'Actions & Destinations';
+            resultsContainer.appendChild(title);
+
+            matchedActions.forEach(a => {
+                const idx = visibleItems.length;
+                visibleItems.push(a);
+                resultsContainer.appendChild(createItemElement(a, idx));
+            });
+        }
+
+        // Match essays via Fuse
+        if (fuse) {
+            const hits = fuse.search(query).slice(0, 8);
+            if (hits.length > 0) {
+                const title = document.createElement('div');
+                title.className = 'cmd-palette-group-title';
+                title.innerText = 'Articles & Essays';
+                resultsContainer.appendChild(title);
+
+                hits.forEach(hit => {
+                    const item = {
+                        title: hit.item.t,
+                        desc: hit.item.s || hit.item.d,
+                        type: 'Essay',
+                        url: hit.item.u,
+                        icon: '📝'
+                    };
+                    const idx = visibleItems.length;
+                    visibleItems.push(item);
+                    resultsContainer.appendChild(createItemElement(item, idx));
+                });
+            }
+        }
+
+        if (visibleItems.length === 0) {
+            const noResults = document.createElement('div');
+            noResults.style.padding = '1.5rem';
+            noResults.style.textAlign = 'center';
+            noResults.style.color = 'var(--meta-color)';
+            noResults.style.fontSize = '0.9rem';
+            noResults.innerText = `No matching commands or essays found for "${query}"`;
+            resultsContainer.appendChild(noResults);
+        }
+
+        selectedIndex = 0;
+        highlightSelected();
+    }
+
+    function createItemElement(item, idx) {
+        const btn = document.createElement('button');
+        btn.className = 'cmd-palette-item';
+        btn.type = 'button';
+        btn.setAttribute('role', 'option');
+        btn.setAttribute('data-idx', idx);
+
+        btn.innerHTML = `
+            <div class="cmd-palette-item-left">
+                <span style="font-size: 1rem;">${item.icon || '⚡'}</span>
+                <div class="cmd-palette-item-text">
+                    <span class="cmd-palette-item-title">${item.title}</span>
+                    <span class="cmd-palette-item-desc">${item.desc}</span>
+                </div>
+            </div>
+            <span class="cmd-palette-item-type">${item.type}</span>
+        `;
+
+        btn.addEventListener('click', () => executeItem(item));
+        return btn;
+    }
+
+    function highlightSelected() {
+        const els = resultsContainer.querySelectorAll('.cmd-palette-item');
+        els.forEach((el, idx) => {
+            el.classList.toggle('selected', idx === selectedIndex);
+            if (idx === selectedIndex) {
+                el.scrollIntoView({ block: 'nearest' });
+            }
+        });
+    }
+
+    function executeItem(item) {
+        closePalette();
+        if (item.url) {
+            window.location.href = item.url;
+            return;
+        }
+
+        if (item.action === 'theme') {
+            const themeBtn = document.getElementById('theme-toggle');
+            if (themeBtn) themeBtn.click();
+        } else if (item.action === 'terminal') {
+            if (window.AjuTerminal && typeof window.AjuTerminal.toggle === 'function') {
+                window.AjuTerminal.toggle();
+            }
+        } else if (item.action === 'rss') {
+            navigator.clipboard.writeText(window.location.origin + '/feed.xml').then(() => {
+                alert('RSS feed link copied to clipboard: ' + window.location.origin + '/feed.xml');
+            });
+        }
+    }
+
+    // Input search binding
+    input.addEventListener('input', () => {
+        const q = input.value.trim();
+        if (q.length === 0) {
+            renderDefault();
+        } else {
+            renderSearchResults(q);
+        }
+    });
+
+    // Keyboard navigation
+    input.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            if (visibleItems.length > 0) {
+                selectedIndex = (selectedIndex + 1) % visibleItems.length;
+                highlightSelected();
+            }
+        } else if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            if (visibleItems.length > 0) {
+                selectedIndex = (selectedIndex - 1 + visibleItems.length) % visibleItems.length;
+                highlightSelected();
+            }
+        } else if (e.key === 'Enter') {
+            e.preventDefault();
+            if (visibleItems[selectedIndex]) {
+                executeItem(visibleItems[selectedIndex]);
+            }
+        } else if (e.key === 'Escape') {
+            closePalette();
+        }
+    });
+
+    // Global shortcut Cmd+K / Ctrl+K and /
+    document.addEventListener('keydown', (e) => {
+        if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+            e.preventDefault();
+            if (palette.classList.contains('active')) {
+                closePalette();
+            } else {
+                openPalette();
+            }
+        } else if (e.key === '/' && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+            e.preventDefault();
+            openPalette();
+        }
+    });
+
+    // Click outside dialog to close
+    palette.addEventListener('click', (e) => {
+        if (e.target === palette) closePalette();
+    });
+
+    // Wire up header search triggers
+    document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.search-trigger').forEach(trigger => {
+            trigger.addEventListener('click', (e) => {
+                e.preventDefault();
+                openPalette();
+            });
+        });
+    });
+
+    window.AjuCommandPalette = { open: openPalette, close: closePalette };
+})();
+</script>
