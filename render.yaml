@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: aju-lu
+    runtime: static
+    buildCommand: chmod +x ./render-build.sh && ./render-build.sh
+    staticPublishPath: ./public
+    pullRequestPreviewsEnabled: true
+    envVars:
+      - key: HUGO_VERSION
+        value: 0.160.1
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: DENY
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: X-XSS-Protection
+        value: "1; mode=block"
+      - path: /*
+        name: Referrer-Policy
+        value: no-referrer-when-downgrade
+      - path: /*
+        name: Content-Security-Policy
+        value: "default-src 'self'; script-src 'self' 'unsafe-inline' https://identity.netlify.com https://cloud.umami.is https://*.clarity.ms https://app.cal.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://app.cal.com; img-src 'self' data: https://* http://*; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://identity.netlify.com https://webmention.io https://api.netlify.com https://cloud.umami.is https://www.google-analytics.com https://*.clarity.ms; frame-src 'self' https://identity.netlify.com https://app.cal.com;"
+    routes:
+      - type: redirect
+        source: /blog/*
+        destination: /posts/*
