@@ -1,5 +1,4 @@
-<!-- Microformat2 data -->
-{{ $author := hugo.Data.author }}
+{{ $author := site.Data.author }}
 <div class="h-card" hidden>
   <p class="p-name" rel="author">{{ $author.name }}</p>
   <a class="u-url" href="{{ .Permalink }}">Website</a>

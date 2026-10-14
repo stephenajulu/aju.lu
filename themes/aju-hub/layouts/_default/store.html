@@ -20,43 +20,45 @@
 </div>
 
 <div class="store-grid">
-    {{ range hugo.Data.store.products }}
-    <div class="product-card" data-kes="{{ .price }}" data-usd="{{ .usd_price | default "" }}">
-        {{ with .badge }}
-        <div class="product-badge-float">{{ . }}</div>
-        {{ end }}
-        <div class="product-image">
-            {{ partial "responsive-image.html" (dict "src" .image "alt" .name "class" "store-img") }}
-        </div>
-        <div class="product-info">
-            <span class="product-category">{{ .category }}</span>
-            <h3 class="product-title">{{ .name }}</h3>
-            <p class="product-desc">{{ .description }}</p>
-
-            {{ with .deliverables }}
-            <ul class="product-deliverables">
-                {{ range . }}
-                <li>
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="20 6 9 17 4 12"></polyline>
-                    </svg>
-                    <span>{{ . }}</span>
-                </li>
+    {{ range site.Data.store.products }}
+    <article class="project-card store-card" data-kes="{{ .price }}" data-usd="{{ .usd_price | default "" }}">
+        <div class="store-card__inner">
+            <div class="store-card__image-square">
+                {{ with .badge }}
+                <span class="store-card__badge">{{ . }}</span>
                 {{ end }}
-            </ul>
-            {{ end }}
+                {{ partial "responsive-image.html" (dict "src" .image "alt" .name "class" "store-img") }}
+            </div>
 
-            <div class="product-footer">
-                <div class="product-price-wrapper">
-                    <div class="product-price-primary">
+            <div class="store-card__content">
+                <div class="store-card__header-row">
+                    <span class="store-card__category">{{ .category }}</span>
+                    <div class="store-card__price-badge">
                         <span class="currency">KES</span>
                         <span class="amount">{{ .price }}</span>
+                        {{ with .usd_price }}
+                        <span class="secondary-usd">~${{ . }}</span>
+                        {{ end }}
                     </div>
-                    {{ with .usd_price }}
-                    <span class="product-price-secondary">~${{ . }} USD</span>
-                    {{ end }}
                 </div>
-                <div class="product-actions">
+
+                <h2 class="store-card__title">{{ .name }}</h2>
+                <p class="store-card__desc">{{ .description }}</p>
+
+                {{ with .deliverables }}
+                <ul class="store-card__deliverables">
+                    {{ range . }}
+                    <li>
+                        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span>{{ . }}</span>
+                    </li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+
+                <div class="store-card__footer">
                     <button class="btn-spec" 
                             data-name="{{ .name }}" 
                             data-desc="{{ .description }}" 
@@ -64,7 +66,7 @@
                             data-url="{{ .paystack_url }}"
                             data-price="{{ .price }}"
                             type="button">
-                        Spec
+                        Quick Spec
                     </button>
                     <a href="{{ .paystack_url }}" 
                        class="btn btn-buy btn-purchase" 
@@ -73,12 +75,12 @@
                        data-umami-event="store_buy_click" 
                        data-umami-event-product="{{ .name }}" 
                        data-umami-event-price="{{ .price }}">
-                        Get Access
+                        Get Access &rarr;
                     </a>
                 </div>
             </div>
         </div>
-    </div>
+    </article>
     {{ end }}
 </div>
 
@@ -110,7 +112,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Currency Toggle
     const currencyBtns = document.querySelectorAll('.currency-btn');
-    const productCards = document.querySelectorAll('.product-card');
+    const productCards = document.querySelectorAll('.store-card');
 
     currencyBtns.forEach(btn => {
         btn.addEventListener('click', () => {
@@ -121,18 +123,18 @@ document.addEventListener('DOMContentLoaded', () => {
             productCards.forEach(card => {
                 const kes = card.getAttribute('data-kes');
                 const usd = card.getAttribute('data-usd');
-                const currEl = card.querySelector('.product-price-primary .currency');
-                const amtEl = card.querySelector('.product-price-primary .amount');
-                const secEl = card.querySelector('.product-price-secondary');
+                const currEl = card.querySelector('.store-card__price-badge .currency');
+                const amtEl = card.querySelector('.store-card__price-badge .amount');
+                const secEl = card.querySelector('.store-card__price-badge .secondary-usd');
 
                 if (selectedCurrency === 'USD' && usd) {
-                    currEl.innerText = '$';
-                    amtEl.innerText = usd;
+                    if (currEl) currEl.innerText = '$';
+                    if (amtEl) amtEl.innerText = usd;
                     if (secEl) secEl.innerText = `~KES ${kes}`;
                 } else {
-                    currEl.innerText = 'KES';
-                    amtEl.innerText = kes;
-                    if (secEl && usd) secEl.innerText = `~$${usd} USD`;
+                    if (currEl) currEl.innerText = 'KES';
+                    if (amtEl) amtEl.innerText = kes;
+                    if (secEl && usd) secEl.innerText = `~$${usd}`;
                 }
             });
         });

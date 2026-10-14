@@ -68,7 +68,7 @@ mediatype = "application/json"
 [module]
   [module.hugoVersion]
     extended = true
-    min = "0.125.0"
+    min = "0.110.0"
   [[module.mounts]]
     source = "content"
     target = "content"

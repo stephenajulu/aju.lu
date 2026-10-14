@@ -2,7 +2,7 @@
 # Render Build Script for aju.lu (Hugo Extended)
 set -eo pipefail
 
-HUGO_VERSION="${HUGO_VERSION:-0.160.1}"
+HUGO_VERSION="${HUGO_VERSION:-0.145.0}"
 
 echo "==> Preparing Hugo Extended v${HUGO_VERSION} for Render..."
 

@@ -7,7 +7,7 @@ services:
     pullRequestPreviewsEnabled: true
     envVars:
       - key: HUGO_VERSION
-        value: 0.160.1
+        value: 0.145.0
     headers:
       - path: /*
         name: X-Frame-Options
