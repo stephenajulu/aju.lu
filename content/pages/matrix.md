@@ -1,7 +1,7 @@
 ---
 title: "Polymath Matrix"
 url: /matrix/
-description: "An interactive cross-domain synthesis matrix mapping the 9 Master Pillars of Stephen Ajulu's engineering and sovereign architecture."
+description: "An interactive anime/game parameter radar matrix mapping the 9 Master Pillars of Stephen Ajulu's sovereign architecture. Skills are not parallel—they compound."
 layout: matrix
 ---
-Explore the synthesis between disciplines. Select any two pillars to inspect their architectural intersection, strategic thesis, and connected essays.
+An interactive parameter matrix mapping the 9 Master Pillars of sovereign architecture. One core axiom drives this framework: **skills are not parallel**. Explore the neural chords below to inspect how cross-disciplinary tensions unlock compounding leverage.

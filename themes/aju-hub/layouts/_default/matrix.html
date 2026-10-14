@@ -7,131 +7,398 @@
 </div>
 
 <div class="matrix-container" id="polymath-matrix-root">
-    <div class="matrix-status-banner">
-        <div class="matrix-status-indicator">
-            <span class="matrix-pulse-dot"></span>
-            <span id="matrix-status-text">Select 1 or 2 Master Pillars to synthesize domain intersections.</span>
+
+    <!-- Anime / Game Character Profile HUD -->
+    <div class="matrix-player-banner">
+        <div class="matrix-player-left">
+            <img src="/images/me.webp" alt="Stephen Ajulu" class="matrix-player-avatar" width="52" height="52" loading="eager">
+            <div class="matrix-player-info">
+                <span class="matrix-player-tag">ARCHETYPE &bull; S-CLASS POLYMATH</span>
+                <h2 class="matrix-player-name">Stephen Ajulu</h2>
+            </div>
         </div>
-        <button id="matrix-reset-btn" class="matrix-clear-btn" type="button" style="display:none;">Clear Selection</button>
+        <div class="matrix-player-stats">
+            <div class="matrix-stat-badge">
+                <span class="stat-label">LEVEL</span>
+                <span class="stat-val gold">Lv. 99</span>
+            </div>
+            <div class="matrix-stat-badge">
+                <span class="stat-label">SYNAPSES</span>
+                <span class="stat-val cyan">36 Active</span>
+            </div>
+            <div class="matrix-stat-badge">
+                <span class="stat-label">OVERALL RANK</span>
+                <span class="stat-val purple">EX Tier</span>
+            </div>
+        </div>
     </div>
 
-    <!-- 9 Master Pillars Grid -->
-    <div class="matrix-grid" id="matrix-grid">
-        <button class="matrix-node" data-pillar="sovereignty" type="button">
-            <div class="matrix-node-top">
-                <span class="matrix-node-num">01 / SOV</span>
-                <span class="matrix-node-icon">🛡️</span>
-            </div>
-            <h3 class="matrix-node-title">Sovereignty</h3>
-            <p class="matrix-node-tagline">Self-hosted infrastructure, data ownership & operational independence.</p>
-        </button>
-
-        <button class="matrix-node" data-pillar="architecture" type="button">
-            <div class="matrix-node-top">
-                <span class="matrix-node-num">02 / ARC</span>
-                <span class="matrix-node-icon">🏛️</span>
-            </div>
-            <h3 class="matrix-node-title">Architecture</h3>
-            <p class="matrix-node-tagline">Modular systems, distributed topologies & 100-year digital durability.</p>
-        </button>
-
-        <button class="matrix-node" data-pillar="development" type="button">
-            <div class="matrix-node-top">
-                <span class="matrix-node-num">03 / DEV</span>
-                <span class="matrix-node-icon">⚡</span>
-            </div>
-            <h3 class="matrix-node-title">Development</h3>
-            <p class="matrix-node-tagline">Static-first performance, GoLang, modern web & high-velocity craft.</p>
-        </button>
-
-        <button class="matrix-node" data-pillar="design" type="button">
-            <div class="matrix-node-top">
-                <span class="matrix-node-num">04 / DES</span>
-                <span class="matrix-node-icon">🎨</span>
-            </div>
-            <h3 class="matrix-node-title">Design</h3>
-            <p class="matrix-node-tagline">Master Depth aesthetics, cognitive sovereignty & cultural language.</p>
-        </button>
-
-        <button class="matrix-node" data-pillar="cybersecurity" type="button">
-            <div class="matrix-node-top">
-                <span class="matrix-node-num">05 / SEC</span>
-                <span class="matrix-node-icon">🔒</span>
-            </div>
-            <h3 class="matrix-node-title">Cybersecurity</h3>
-            <p class="matrix-node-tagline">Zero-Trust perimeter defense, cryptographic integrity & edge hardening.</p>
-        </button>
-
-        <button class="matrix-node" data-pillar="blockchain" type="button">
-            <div class="matrix-node-top">
-                <span class="matrix-node-num">06 / BLK</span>
-                <span class="matrix-node-icon">⛓️</span>
-            </div>
-            <h3 class="matrix-node-title">Blockchain</h3>
-            <p class="matrix-node-tagline">Decentralized consensus, verifiable credentials & sovereign ledgers.</p>
-        </button>
-
-        <button class="matrix-node" data-pillar="web3" type="button">
-            <div class="matrix-node-top">
-                <span class="matrix-node-num">07 / WB3</span>
-                <span class="matrix-node-icon">🌐</span>
-            </div>
-            <h3 class="matrix-node-title">Web3</h3>
-            <p class="matrix-node-tagline">Peer-to-peer protocols, permissionless networks & digital identity.</p>
-        </button>
-
-        <button class="matrix-node" data-pillar="growth" type="button">
-            <div class="matrix-node-top">
-                <span class="matrix-node-num">08 / GRO</span>
-                <span class="matrix-node-icon">🌱</span>
-            </div>
-            <h3 class="matrix-node-title">Personal Growth</h3>
-            <p class="matrix-node-tagline">High-agency conditioning, disciplined execution & Adamic stewardship.</p>
-        </button>
-
-        <button class="matrix-node" data-pillar="finance" type="button">
-            <div class="matrix-node-top">
-                <span class="matrix-node-num">09 / FIN</span>
-                <span class="matrix-node-icon">💎</span>
-            </div>
-            <h3 class="matrix-node-title">Finance</h3>
-            <p class="matrix-node-tagline">Strategic capital advisory, uncensorable value rails & enterprise viability.</p>
-        </button>
-    </div>
-
-    <!-- Synthesis Deck -->
-    <div class="matrix-synthesis-box" id="matrix-synthesis-deck">
-        <div class="matrix-synthesis-label" id="matrix-deck-label">DOMAINS UNSELECTED</div>
-        <h2 class="matrix-synthesis-heading" id="matrix-deck-title">Interdisciplinary Synthesis Engine</h2>
-        <p class="matrix-synthesis-body" id="matrix-deck-desc">
-            Stephen Ajulu's architecture does not operate in silos. Select any two pillars above to observe how cross-domain tensions produce sovereign technological artifacts and strategic clarity.
+    <!-- Core Philosophy Callout -->
+    <div class="matrix-philosophy-ribbon">
+        <p>
+            <strong>Core Axiom:</strong> "Skills are not parallel. In conventional education, disciplines run in isolated tracks that never touch. In sovereign engineering, skills form a compounding neural constellation where every discipline multiplies the power of the others."
         </p>
+        <span class="philosophy-tag">Non-Linear Synthesis</span>
+    </div>
 
-        <div class="matrix-synthesis-specs" id="matrix-deck-specs">
-            <div class="matrix-spec-item">
-                <strong>Domain Integration</strong>
-                <span>9 Primary Sovereign Pillars</span>
+    <!-- Anime Archetype Class Presets -->
+    <div class="matrix-presets-bar">
+        <span class="preset-label">Archetypes:</span>
+        <button class="matrix-preset-btn active" data-preset="all" type="button">All Synapses (Full Web)</button>
+        <button class="matrix-preset-btn" data-preset="bastion" type="button">The Sovereign Bastion</button>
+        <button class="matrix-preset-btn" data-preset="artisan" type="button">The Creative Engineer</button>
+        <button class="matrix-preset-btn" data-preset="economist" type="button">The Sovereign Capitalist</button>
+        <button class="matrix-preset-btn" data-preset="polymath" type="button">The High-Agency Polymath</button>
+        <button class="matrix-preset-btn" data-preset="protocol" type="button">The Protocol Architect</button>
+    </div>
+
+    <!-- The Matrix Stage: SVG Graphical Radar + Synthesis Terminal -->
+    <div class="matrix-stage">
+        
+        <!-- Graphical Radar Web -->
+        <div class="matrix-radar-card">
+            <div class="matrix-radar-header">
+                <div class="matrix-radar-title">
+                    <span class="radar-status-dot"></span>
+                    <span>NEURAL ENNEAGON // RADAR ACTIVE</span>
+                </div>
+                <span class="matrix-radar-coords" id="radar-interaction-hint">Click any 2 nodes to bridge</span>
             </div>
-            <div class="matrix-spec-item">
-                <strong>Combinatorial Matrix</strong>
-                <span>36 Cross-Domain Syntheses</span>
+
+            <div class="matrix-radar-view">
+                <svg viewBox="0 0 800 800" class="matrix-radar-svg" id="matrix-svg-root" aria-label="Polymath Parameter Radar Chart">
+                    <defs>
+                        <radialGradient id="matrixStatGradient" cx="50%" cy="50%" r="50%">
+                            <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.45" />
+                            <stop offset="50%" stop-color="#6320d6" stop-opacity="0.3" />
+                            <stop offset="100%" stop-color="#020617" stop-opacity="0.1" />
+                        </radialGradient>
+                        <filter id="laserGlow" x="-20%" y="-20%" width="140%" height="140%">
+                            <feGaussianBlur stdDeviation="3" result="blur" />
+                            <feMerge>
+                                <feMergeNode in="blur" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+
+                    <!-- Concentric Enneagon Rings (20%, 40%, 60%, 80%, 100%) -->
+                    <g class="radar-grid-rings">
+                        <polygon class="radar-grid-polygon" points="400,354 429.6,364.8 445.3,392 439.8,423 415.7,443.2 384.3,443.2 360.2,423 354.7,392 370.4,364.8" />
+                        <polygon class="radar-grid-polygon" points="400,308 459.1,329.5 490.6,384 479.7,446 431.5,486.5 368.5,486.5 320.3,446 309.4,384 340.9,329.5" />
+                        <polygon class="radar-grid-polygon" points="400,262 488.7,294.3 535.9,376 519.5,469 447.2,529.7 352.8,529.7 280.5,469 264.1,376 311.3,294.3" />
+                        <polygon class="radar-grid-polygon" points="400,216 518.3,259 581.2,368 559.3,492 462.9,572.9 337.1,572.9 240.7,492 218.8,368 281.7,259" />
+                        <polygon class="radar-grid-polygon" points="400,170 547.8,223.8 626.5,360.1 599.2,515 478.7,616.1 321.3,616.1 200.8,515 173.5,360.1 252.2,223.8" />
+                    </g>
+
+                    <!-- 9 Radial Axes from Center (400,400) -->
+                    <g class="radar-grid-axes">
+                        <line class="radar-grid-axis" x1="400" y1="400" x2="400" y2="170" />
+                        <line class="radar-grid-axis" x1="400" y1="400" x2="547.8" y2="223.8" />
+                        <line class="radar-grid-axis" x1="400" y1="400" x2="626.5" y2="360.1" />
+                        <line class="radar-grid-axis" x1="400" y1="400" x2="599.2" y2="515" />
+                        <line class="radar-grid-axis" x1="400" y1="400" x2="478.7" y2="616.1" />
+                        <line class="radar-grid-axis" x1="400" y1="400" x2="321.3" y2="616.1" />
+                        <line class="radar-grid-axis" x1="400" y1="400" x2="200.8" y2="515" />
+                        <line class="radar-grid-axis" x1="400" y1="400" x2="173.5" y2="360.1" />
+                        <line class="radar-grid-axis" x1="400" y1="400" x2="252.2" y2="223.8" />
+                    </g>
+
+                    <!-- 36 Interconnecting Chords (Non-Parallel Network) -->
+                    <g class="radar-chords" id="radar-chords-group">
+                        <!-- Chords will be rendered and illuminated here -->
+                    </g>
+
+                    <!-- Stat Polygon -->
+                    <polygon class="radar-stat-polygon" id="radar-stat-polygon" points="400,174.6 543.4,229.1 615.2,362.1 587.2,508.1 472.4,598.8 329.2,594.5 218.7,504.6 175.8,360.5 269.9,245" />
+
+                    <!-- 9 Interactive Node Pins Around Perimeter -->
+                    <g class="radar-pins" id="radar-pins-group">
+                        <!-- 01 Sovereignty -->
+                        <g class="matrix-node-pin" data-pillar="sovereignty" transform="translate(400, 124)">
+                            <circle class="pin-outer" r="22" />
+                            <circle class="pin-inner" r="4" />
+                            <text class="pin-code" y="-1">SOV</text>
+                        </g>
+
+                        <!-- 02 Architecture -->
+                        <g class="matrix-node-pin" data-pillar="architecture" transform="translate(577.4, 188.6)">
+                            <circle class="pin-outer" r="22" />
+                            <circle class="pin-inner" r="4" />
+                            <text class="pin-code" y="-1">ARC</text>
+                        </g>
+
+                        <!-- 03 Development -->
+                        <g class="matrix-node-pin" data-pillar="development" transform="translate(671.8, 352.1)">
+                            <circle class="pin-outer" r="22" />
+                            <circle class="pin-inner" r="4" />
+                            <text class="pin-code" y="-1">DEV</text>
+                        </g>
+
+                        <!-- 04 Design -->
+                        <g class="matrix-node-pin" data-pillar="design" transform="translate(639, 538)">
+                            <circle class="pin-outer" r="22" />
+                            <circle class="pin-inner" r="4" />
+                            <text class="pin-code" y="-1">DES</text>
+                        </g>
+
+                        <!-- 05 Cybersecurity -->
+                        <g class="matrix-node-pin" data-pillar="cybersecurity" transform="translate(494.4, 659.4)">
+                            <circle class="pin-outer" r="22" />
+                            <circle class="pin-inner" r="4" />
+                            <text class="pin-code" y="-1">SEC</text>
+                        </g>
+
+                        <!-- 06 Blockchain -->
+                        <g class="matrix-node-pin" data-pillar="blockchain" transform="translate(305.6, 659.4)">
+                            <circle class="pin-outer" r="22" />
+                            <circle class="pin-inner" r="4" />
+                            <text class="pin-code" y="-1">BLK</text>
+                        </g>
+
+                        <!-- 07 Web3 -->
+                        <g class="matrix-node-pin" data-pillar="web3" transform="translate(161, 538)">
+                            <circle class="pin-outer" r="22" />
+                            <circle class="pin-inner" r="4" />
+                            <text class="pin-code" y="-1">WB3</text>
+                        </g>
+
+                        <!-- 08 Personal Growth -->
+                        <g class="matrix-node-pin" data-pillar="growth" transform="translate(128.2, 352.1)">
+                            <circle class="pin-outer" r="22" />
+                            <circle class="pin-inner" r="4" />
+                            <text class="pin-code" y="-1">GRO</text>
+                        </g>
+
+                        <!-- 09 Finance -->
+                        <g class="matrix-node-pin" data-pillar="finance" transform="translate(222.6, 188.6)">
+                            <circle class="pin-outer" r="22" />
+                            <circle class="pin-inner" r="4" />
+                            <text class="pin-code" y="-1">FIN</text>
+                        </g>
+                    </g>
+                </svg>
             </div>
-            <div class="matrix-spec-item">
-                <strong>Core Mandate</strong>
-                <span>Zero Lock-in &bull; Full Agency</span>
+        </div>
+
+        <!-- Synthesis Terminal (Right Deck) -->
+        <div class="matrix-terminal-card" id="matrix-terminal">
+            <div class="matrix-terminal-top">
+                <span class="matrix-terminal-badge" id="terminal-badge">SYNAPTIC WEB // ALL 36 ACTIVE</span>
+                <span class="matrix-terminal-multiplier" id="terminal-multiplier">⚡ 9.9x Polymath Resonance</span>
+            </div>
+
+            <h3 class="matrix-terminal-title" id="terminal-title">The Non-Parallel Synthesis Engine</h3>
+            <p class="matrix-terminal-desc" id="terminal-desc">
+                When you level up Architecture, it multiplies your Cybersecurity and Development. When you pair Design with Development, you unlock Creative Engineering. Explore the interconnected web above to inspect any combination.
+            </p>
+
+            <div class="matrix-specs-grid" id="terminal-specs">
+                <div class="matrix-spec-cell">
+                    <strong>Primary Vector</strong>
+                    <span id="spec-v1">Interdisciplinary Leverage</span>
+                </div>
+                <div class="matrix-spec-cell">
+                    <strong>Compound Proof</strong>
+                    <span id="spec-v2">Zero Disciplinary Silos</span>
+                </div>
+                <div class="matrix-spec-cell">
+                    <strong>Sovereign Output</strong>
+                    <span id="spec-v3">Enduring Artifacts</span>
+                </div>
+            </div>
+
+            <!-- Connected Essays / Proof Section -->
+            <div class="matrix-terminal-posts">
+                <h4>
+                    <span id="terminal-posts-title">Verified Artifacts & Deep-Dives</span>
+                    <span class="count" id="terminal-posts-count">(0 found)</span>
+                </h4>
+                <div class="matrix-post-pill-list" id="terminal-posts-list">
+                    <!-- Dynamic Essays Inserted Here -->
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- Matching Essays Section -->
-    <div class="matrix-posts-section" id="matrix-posts-container">
-        <h3 class="matrix-posts-heading">
-            <span id="matrix-posts-title">Relevant Essays & Architectural Deep-Dives</span>
-            <span id="matrix-posts-count" style="font-size: 0.85rem; color: var(--meta-color); font-weight: normal;"></span>
-        </h3>
-        <div class="matrix-posts-list" id="matrix-posts-list">
-            <!-- Dynamic Post Items Injected Here -->
+    <!-- 9 Pillars Parameter Cards (Tactile Anime Stat Blocks) -->
+    <div class="matrix-cards-section">
+        <div class="matrix-cards-heading">
+            <h3>Master Parameter Pillars</h3>
+            <span>Click any card to isolate chords</span>
         </div>
+
+        <div class="matrix-cards-grid">
+            <!-- 01 Sovereignty -->
+            <button class="matrix-card" data-pillar="sovereignty" type="button">
+                <div class="card-top">
+                    <span class="card-code">01 / SOV</span>
+                    <span class="card-rank">RANK S</span>
+                </div>
+                <div class="card-title-row">
+                    <span class="card-icon">🛡️</span>
+                    <h4 class="card-title">Sovereignty</h4>
+                </div>
+                <p class="card-desc">Absolute operational independence, self-hosted topologies, and data ownership.</p>
+                <div class="card-stat-bar-wrap">
+                    <div class="card-stat-info"><span>AUTONOMY INDEX</span><span class="stat-num">98 / 100</span></div>
+                    <div class="card-stat-bar"><div class="card-stat-fill" style="width: 98%;"></div></div>
+                </div>
+            </button>
+
+            <!-- 02 Architecture -->
+            <button class="matrix-card" data-pillar="architecture" type="button">
+                <div class="card-top">
+                    <span class="card-code">02 / ARC</span>
+                    <span class="card-rank">RANK S</span>
+                </div>
+                <div class="card-title-row">
+                    <span class="card-icon">🏛️</span>
+                    <h4 class="card-title">Architecture</h4>
+                </div>
+                <p class="card-desc">Modular systems design, distributed resilience, and 100-year digital durability.</p>
+                <div class="card-stat-bar-wrap">
+                    <div class="card-stat-info"><span>SYSTEM WISDOM</span><span class="stat-num">97 / 100</span></div>
+                    <div class="card-stat-bar"><div class="card-stat-fill" style="width: 97%;"></div></div>
+                </div>
+            </button>
+
+            <!-- 03 Development -->
+            <button class="matrix-card" data-pillar="development" type="button">
+                <div class="card-top">
+                    <span class="card-code">03 / DEV</span>
+                    <span class="card-rank">RANK S</span>
+                </div>
+                <div class="card-title-row">
+                    <span class="card-icon">⚡</span>
+                    <h4 class="card-title">Development</h4>
+                </div>
+                <p class="card-desc">Static-first performance, GoLang, modern web engines & zero-bloat delivery.</p>
+                <div class="card-stat-bar-wrap">
+                    <div class="card-stat-info"><span>EXECUTION VELOCITY</span><span class="stat-num">95 / 100</span></div>
+                    <div class="card-stat-bar"><div class="card-stat-fill" style="width: 95%;"></div></div>
+                </div>
+            </button>
+
+            <!-- 04 Design -->
+            <button class="matrix-card" data-pillar="design" type="button">
+                <div class="card-top">
+                    <span class="card-code">04 / DES</span>
+                    <span class="card-rank">RANK S</span>
+                </div>
+                <div class="card-title-row">
+                    <span class="card-icon">🎨</span>
+                    <h4 class="card-title">Design</h4>
+                </div>
+                <p class="card-desc">Master Depth aesthetics, fluid typography, and cognitive ergonomics.</p>
+                <div class="card-stat-bar-wrap">
+                    <div class="card-stat-info"><span>PERCEPTION & CRAFT</span><span class="stat-num">94 / 100</span></div>
+                    <div class="card-stat-bar"><div class="card-stat-fill" style="width: 94%;"></div></div>
+                </div>
+            </button>
+
+            <!-- 05 Cybersecurity -->
+            <button class="matrix-card" data-pillar="cybersecurity" type="button">
+                <div class="card-top">
+                    <span class="card-code">05 / SEC</span>
+                    <span class="card-rank">RANK A+</span>
+                </div>
+                <div class="card-title-row">
+                    <span class="card-icon">🔒</span>
+                    <h4 class="card-title">Cybersecurity</h4>
+                </div>
+                <p class="card-desc">Zero-Trust perimeter engineering, cryptographic verification & edge defense.</p>
+                <div class="card-stat-bar-wrap">
+                    <div class="card-stat-info"><span>FORTITUDE RATING</span><span class="stat-num">92 / 100</span></div>
+                    <div class="card-stat-bar"><div class="card-stat-fill" style="width: 92%;"></div></div>
+                </div>
+            </button>
+
+            <!-- 06 Blockchain -->
+            <button class="matrix-card" data-pillar="blockchain" type="button">
+                <div class="card-top">
+                    <span class="card-code">06 / BLK</span>
+                    <span class="card-rank">RANK A+</span>
+                </div>
+                <div class="card-title-row">
+                    <span class="card-icon">⛓️</span>
+                    <h4 class="card-title">Blockchain</h4>
+                </div>
+                <p class="card-desc">Decentralized state machines, immutable settlement & sovereign ledgers.</p>
+                <div class="card-stat-bar-wrap">
+                    <div class="card-stat-info"><span>CONSENSUS MASTERY</span><span class="stat-num">90 / 100</span></div>
+                    <div class="card-stat-bar"><div class="card-stat-fill" style="width: 90%;"></div></div>
+                </div>
+            </button>
+
+            <!-- 07 Web3 -->
+            <button class="matrix-card" data-pillar="web3" type="button">
+                <div class="card-top">
+                    <span class="card-code">07 / WB3</span>
+                    <span class="card-rank">RANK A+</span>
+                </div>
+                <div class="card-title-row">
+                    <span class="card-icon">🌐</span>
+                    <h4 class="card-title">Web3</h4>
+                </div>
+                <p class="card-desc">Peer-to-peer protocols, permissionless commons & verifiable identity.</p>
+                <div class="card-stat-bar-wrap">
+                    <div class="card-stat-info"><span>PROTOCOL AFFINITY</span><span class="stat-num">91 / 100</span></div>
+                    <div class="card-stat-bar"><div class="card-stat-fill" style="width: 91%;"></div></div>
+                </div>
+            </button>
+
+            <!-- 08 Personal Growth -->
+            <button class="matrix-card" data-pillar="growth" type="button">
+                <div class="card-top">
+                    <span class="card-code">08 / GRO</span>
+                    <span class="card-rank">RANK EX</span>
+                </div>
+                <div class="card-title-row">
+                    <span class="card-icon">🌱</span>
+                    <h4 class="card-title">Personal Growth</h4>
+                </div>
+                <p class="card-desc">High-agency conditioning, disciplined execution & Adamic stewardship.</p>
+                <div class="card-stat-bar-wrap">
+                    <div class="card-stat-info"><span>AGENCY COMPONENT</span><span class="stat-num">99 / 100</span></div>
+                    <div class="card-stat-bar"><div class="card-stat-fill" style="width: 99%;"></div></div>
+                </div>
+            </button>
+
+            <!-- 09 Finance -->
+            <button class="matrix-card" data-pillar="finance" type="button">
+                <div class="card-top">
+                    <span class="card-code">09 / FIN</span>
+                    <span class="card-rank">RANK A</span>
+                </div>
+                <div class="card-title-row">
+                    <span class="card-icon">💎</span>
+                    <h4 class="card-title">Finance</h4>
+                </div>
+                <p class="card-desc">Strategic capital advisory, uncensorable value rails & enterprise viability.</p>
+                <div class="card-stat-bar-wrap">
+                    <div class="card-stat-info"><span>CAPITAL ALCHEMY</span><span class="stat-num">88 / 100</span></div>
+                    <div class="card-stat-bar"><div class="card-stat-fill" style="width: 88%;"></div></div>
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <!-- Sovereign Manifesto: Why Skills Are Not Parallel -->
+    <div class="matrix-manifesto-box">
+        <h2>The Polymath Manifesto: Why Skills Are Not Parallel</h2>
+        <p>
+            Industrial society conditions us to view human competence through the lens of hyper-specialization: a series of parallel conveyor belts where individuals are encouraged to go deep into a single discipline while remaining functionally blind to the rest of the world.
+        </p>
+        <blockquote>
+            "A developer who cannot design builds brittle, soulless software. A designer who cannot architect systems creates unimplementable mirages. An architect who ignores sovereignty remains an indentured servant to proprietary cloud rent."
+        </blockquote>
+        <p>
+            In the sovereign builder framework, skills are <strong>force multipliers</strong>. When you combine cybersecurity with enterprise architecture, you don't merely add two skills—you unlock the capability to build self-defending digital fortresses. When you combine high-agency personal growth with sovereign finance and blockchain, you unlock unassailable economic self-reliance.
+        </p>
+        <p>
+            True durability belongs to the synthesizers. By refusing to let disciplines run parallel, we transform isolated techniques into compounding, enduring leverage.
+        </p>
     </div>
 </div>
 
@@ -152,197 +419,339 @@ window.AJULU_MATRIX_POSTS = [
 ];
 
 (function() {
-    const pillars = {
-        sovereignty: {
-            title: "Sovereignty",
-            tags: ["sovereignty", "sovereign", "open source", "infrastructure", "privacy"],
-            desc: "The foundational mandate: Digital infrastructure should empower absolute operational independence, not vendor lock-in. Self-hosted, modular systems provide lasting freedom.",
-            specs: { "Core Thesis": "Self-determination through open protocols", "Vector": "Autonomous Infrastructure", "Outcome": "Zero Lock-in" }
-        },
-        architecture: {
-            title: "Architecture",
-            tags: ["architecture", "systems", "design", "devops", "cloud"],
-            desc: "The discipline of structural integrity: Architecting software and enterprise topologies that scale gracefully, tolerate failure, and eliminate single points of failure.",
-            specs: { "Core Thesis": "Modularity over monoliths", "Vector": "Distributed Systems", "Outcome": "100-Year Survivability" }
-        },
-        development: {
-            title: "Development",
-            tags: ["development", "hugo", "golang", "jamstack", "code", "frontend", "engineering"],
-            desc: "Pure craftsmanship in code: Modern static engines, extreme performance optimization, zero-bloat delivery, and resilient developer ergonomics.",
-            specs: { "Core Thesis": "Speed as a sovereign feature", "Vector": "JAMstack & GoLang", "Outcome": "100/100 Lighthouse Potential" }
-        },
-        design: {
-            title: "Design",
-            tags: ["design", "ui", "ux", "typography", "branding", "aesthetics"],
-            desc: "Design as cultural language: Master Depth aesthetic, cognitive load reduction, fluid architectural typography, and intuitive tactile feedback.",
-            specs: { "Core Thesis": "Clarity is respect for human attention", "Vector": "Master Depth System", "Outcome": "Cognitive Sovereignty" }
-        },
-        cybersecurity: {
-            title: "Cybersecurity",
-            tags: ["cybersecurity", "security", "zero trust", "hardening", "privacy"],
-            desc: "Zero-Trust perimeter engineering: Defense-in-depth, cryptographic identity verification, hardened server boundaries, and proactive threat modeling.",
-            specs: { "Core Thesis": "Verify explicitly, trust nothing", "Vector": "Hardened Edge Policies", "Outcome": "Tamper-Proof Bastions" }
-        },
-        blockchain: {
-            title: "Blockchain",
-            tags: ["blockchain", "bitcoin", "crypto", "distributed ledgers", "decentralization"],
-            desc: "Decentralized consensus mechanisms and sovereign state machines: Verifiable ledgers that provide immutable settlement without centralized authorities.",
-            specs: { "Core Thesis": "Mathematical certainty over human trust", "Vector": "Verifiable State", "Outcome": "Immutable Records" }
-        },
-        web3: {
-            title: "Web3",
-            tags: ["web3", "decentralized", "p2p", "identity", "ipfs"],
-            desc: "The next evolution of permissionless internet protocols: Peer-to-peer distribution, decentralized identity, and community data ownership.",
-            specs: { "Core Thesis": "User-owned digital protocols", "Vector": "P2P Topologies", "Outcome": "Anti-Fragile Networks" }
-        },
-        growth: {
-            title: "Personal Growth",
-            tags: ["personal growth", "growth", "lifestyle", "discipline", "stewardship", "philosophy"],
-            desc: "The operating system of impact: High-agency conditioning, intentional habit loops, intellectual curiosity, and Adamic stewardship of raw potential.",
-            specs: { "Core Thesis": "Lifestyle as the execution engine", "Vector": "Disciplined Creation", "Outcome": "Compounding Agency" }
-        },
-        finance: {
-            title: "Finance",
-            tags: ["finance", "business", "advisory", "economics", "monetization"],
-            desc: "Strategic capital architecture: Structuring sustainable digital enterprises, sovereign monetization rails, and long-term enterprise value creation.",
-            specs: { "Core Thesis": "Capital as fuel for sovereignty", "Vector": "Uncensorable Rails", "Outcome": "Financial Autonomy" }
-        }
-    };
+    const pillars = [
+        { id: "sovereignty", code: "SOV", num: "01", title: "Sovereignty", stat: 98, rank: "S", x: 400, y: 174.6, tags: ["sovereignty", "sovereign", "open source", "infrastructure", "privacy"], icon: "🛡️" },
+        { id: "architecture", code: "ARC", num: "02", title: "Architecture", stat: 97, rank: "S", x: 543.4, y: 229.1, tags: ["architecture", "systems", "design", "devops", "cloud"], icon: "🏛️" },
+        { id: "development", code: "DEV", num: "03", title: "Development", stat: 95, rank: "S", x: 615.2, y: 362.1, tags: ["development", "hugo", "golang", "jamstack", "code", "frontend", "engineering"], icon: "⚡" },
+        { id: "design", code: "DES", num: "04", title: "Design", stat: 94, rank: "S", x: 587.2, y: 508.1, tags: ["design", "ui", "ux", "typography", "branding", "aesthetics"], icon: "🎨" },
+        { id: "cybersecurity", code: "SEC", num: "05", title: "Cybersecurity", stat: 92, rank: "A+", x: 472.4, y: 598.8, tags: ["cybersecurity", "security", "zero trust", "hardening", "privacy"], icon: "🔒" },
+        { id: "blockchain", code: "BLK", num: "06", title: "Blockchain", stat: 90, rank: "A+", x: 329.2, y: 594.5, tags: ["blockchain", "bitcoin", "crypto", "distributed ledgers", "decentralization"], icon: "⛓️" },
+        { id: "web3", code: "WB3", num: "07", title: "Web3", stat: 91, rank: "A+", x: 218.7, y: 504.6, tags: ["web3", "decentralized", "p2p", "identity", "ipfs"], icon: "🌐" },
+        { id: "growth", code: "GRO", num: "08", title: "Personal Growth", stat: 99, rank: "EX", x: 175.8, y: 360.5, tags: ["personal growth", "growth", "lifestyle", "discipline", "stewardship", "philosophy"], icon: "🌱" },
+        { id: "finance", code: "FIN", num: "09", title: "Finance", stat: 88, rank: "A", x: 269.9, y: 245, tags: ["finance", "business", "advisory", "economics", "monetization"], icon: "💎" }
+    ];
 
+    const pillarMap = {};
+    pillars.forEach(p => pillarMap[p.id] = p);
+
+    // Dynamic 36 Interconnections (Chords)
+    const chordsContainer = document.getElementById('radar-chords-group');
+    const chords = [];
+
+    for (let i = 0; i < pillars.length; i++) {
+        for (let j = i + 1; j < pillars.length; j++) {
+            const p1 = pillars[i];
+            const p2 = pillars[j];
+            const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+            line.setAttribute('class', 'matrix-chord');
+            line.setAttribute('id', `chord-${p1.id}-${p2.id}`);
+            line.setAttribute('data-p1', p1.id);
+            line.setAttribute('data-p2', p2.id);
+            line.setAttribute('x1', p1.x);
+            line.setAttribute('y1', p1.y);
+            line.setAttribute('x2', p2.x);
+            line.setAttribute('y2', p2.y);
+            chordsContainer.appendChild(line);
+            chords.push({ p1: p1.id, p2: p2.id, el: line });
+        }
+    }
+
+    // High-Impact Synthesis Dictionary (36 Strategic Combinations)
     const syntheses = {
         "architecture+sovereignty": {
-            title: "Sovereign Systems Architecture",
-            body: "When systems architecture is guided by sovereignty principles, the result is completely decoupled infrastructure that can survive cloud provider bankruptcies, policy changes, and arbitrary API deactivations.",
-            specs: { "Strategic Focus": "Self-Hosted Topologies", "Engineering Priority": "Decoupled Dependencies", "Impact": "Uninterrupted Business Continuity" }
+            title: "Sovereign Systems Topology",
+            mult: "3.8x Resilience",
+            body: "Decoupled infrastructure engineered to outlive proprietary cloud vendors. By stripping vendor lock-in from systems architecture, businesses achieve zero-downtime survivability regardless of external API deactivations or provider insolvency.",
+            specs: ["Self-Hosted Topologies", "Zero Vendor Lock-in", "100-Year Longevity"]
         },
         "cybersecurity+sovereignty": {
             title: "Zero-Trust Sovereign Bastions",
-            body: "True sovereignty requires rigorous perimeter defense. By combining Zero-Trust protocols with open-source infrastructure, enterprises retain exclusive possession of keys, secrets, and data without third-party surveillance.",
-            specs: { "Strategic Focus": "Cryptographic Isolation", "Engineering Priority": "Edge Hardening", "Impact": "Zero Third-Party Data Exposure" }
+            mult: "3.6x Defense",
+            body: "Rigorous cryptographic perimeter engineering combined with full physical control of secrets and data. When sovereignty guides security, verification is absolute and third-party surveillance vectors are mathematically eliminated.",
+            specs: ["Cryptographic Isolation", "Edge Hardened Bastions", "Absolute Privacy"]
         },
         "development+sovereignty": {
-            title: "IndieWeb & Sovereign Static Pipelines",
-            body: "Eliminating server-side databases for public-facing experiences creates un-hackable, blazingly fast digital properties that run anywhere from edge CDNs to local memory.",
-            specs: { "Strategic Focus": "Static Generation (Hugo)", "Engineering Priority": "Zero Runtime Dependency", "Impact": "Indestructible Web Identity" }
+            title: "IndieWeb & Sovereign Static Engines",
+            mult: "3.5x Velocity",
+            body: "Eliminating server-side database vulnerabilities in favor of pre-rendered, mathematically immutable JAMstack pipelines. Delivers sub-100ms global latency and impervious security with zero runtime server bloat.",
+            specs: ["Static Generation (Hugo)", "Zero Runtime Dependency", "Indestructible Edge Presence"]
         },
         "design+sovereignty": {
-            title: "Cognitive Sovereignty & Cultural Interface",
-            body: "Rejecting dark patterns and attention-capturing algorithm loops in favor of calm, high-contrast Obsidian aesthetics that respect reader focus and preserve human dignity.",
-            specs: { "Strategic Focus": "Low Cognitive Load", "Engineering Priority": "Fluid Typography", "Impact": "Calm, Intentional Readability" }
+            title: "Cognitive Sovereignty & Master Depth",
+            mult: "3.2x Clarity",
+            body: "Rejecting predatory dopamine loops and algorithmic attention capture. Sovereign design respects human focus through rich obsidian palettes, fluid typography, and clear visual hierarchies that honor reader dignity.",
+            specs: ["Low Cognitive Load", "Fluid Architectural Scale", "Human Dignity Interface"]
         },
         "growth+sovereignty": {
-            title: "Adamic Stewardship & High-Agency Creation",
-            body: "The conviction that humanity is called to cultivate and steward systems with excellence, translating personal discipline into enduring public artifacts.",
-            specs: { "Strategic Focus": "Disciplined Craftsmanship", "Engineering Priority": "Continuous Conditioning", "Impact": "Enduring Cultural Value" }
+            title: "High-Agency Adamic Stewardship",
+            mult: "4.2x Compounding",
+            body: "The philosophical foundation of sovereign living: Cultivating personal agency, intentional execution loops, and stewarding raw creative gifts into enduring, public technological artifacts.",
+            specs: ["Disciplined Execution", "Continuous Conditioning", "Enduring Cultural Value"]
         },
         "blockchain+finance": {
-            title: "Uncensorable Value Rails & Sovereign Capital",
-            body: "Pairing decentralized ledger consensus with enterprise treasury architecture to create resilient, global cross-border settlement channels with zero intermediaries.",
-            specs: { "Strategic Focus": "Peer-to-Peer Settlement", "Engineering Priority": "Self-Custodial Reserves", "Impact": "Capital Mobility & Resilience" }
+            title: "Uncensorable Capital Rails",
+            mult: "3.9x Mobility",
+            body: "Fusing mathematical consensus with enterprise capital strategy. Creates self-custodial treasury reserves and cross-border settlement channels that operate autonomously without banking bottlenecks.",
+            specs: ["Peer-to-Peer Settlement", "Self-Custodial Reserves", "Autonomous Capital Flow"]
         },
         "web3+sovereignty": {
             title: "Decentralized Sovereign Identity",
-            body: "Reclaiming digital identity and credentials through cryptographically verifiable identifiers that no single corporate platform can confiscate or revoke.",
-            specs: { "Strategic Focus": "Verifiable Credentials", "Engineering Priority": "P2P Discovery", "Impact": "Platform-Immune Digital Identity" }
+            mult: "3.7x Autonomy",
+            body: "Reclaiming digital identity through cryptographically verifiable credentials. Ensures personal reputation, audience connections, and publishing rights remain immune to arbitrary corporate deplatforming.",
+            specs: ["Verifiable Credentials", "P2P Distribution", "Platform Immunity"]
         },
         "architecture+cybersecurity": {
             title: "Hardened Enterprise Topology",
-            body: "Architecting defense-in-depth directly into network topology, enforcing automated certificate rotation, isolated subnets, and strict least-privilege policies.",
-            specs: { "Strategic Focus": "Perimeter Segmentation", "Engineering Priority": "Immutable Audit Logs", "Impact": "Minimal Attack Surface" }
+            mult: "3.6x Fortress",
+            body: "Embedding defense-in-depth directly into network architectures: automated certificate rotation, micro-segmented subnets, and strict least-privilege access enforcement.",
+            specs: ["Perimeter Segmentation", "Zero-Trust Mesh", "Minimal Attack Surface"]
         },
-        "development+design": {
-            title: "Master Depth Ergonomics",
-            body: "The union of rigorous frontend performance engineering and world-class visual craft: instant view transitions, fluid clamp scaling, and sub-second load times.",
-            specs: { "Strategic Focus": "Design System Engineering", "Engineering Priority": "Modular SCSS & Zero Bloat", "Impact": "Visceral Product Quality" }
+        "design+development": {
+            title: "Creative Engineering & Master Depth",
+            mult: "3.4x Craft",
+            body: "The union of sub-millisecond execution and breathtaking typographic beauty. Code written with aesthetic discipline, and designs engineered with deep architectural awareness.",
+            specs: ["Design System Rigor", "Sub-Second Latency", "Visceral Craftsmanship"]
+        },
+        "architecture+development": {
+            title: "High-Velocity Distributed Systems",
+            mult: "3.5x Execution",
+            body: "System designs that translate cleanly into lean, maintainable, low-latency code. Eliminates architectural tech debt before the first line of code is committed.",
+            specs: ["Clean Architecture", "Modular GoLang / Static", "Rapid Scaling Potential"]
+        },
+        "cybersecurity+development": {
+            title: "Shift-Left Defense Engineering",
+            mult: "3.3x Hardening",
+            body: "Automated security assertions inside CI/CD deployment pipelines, tamper-evident binary builds, and eliminating software supply-chain vulnerabilities at origin.",
+            specs: ["Zero-Vulnerability Builds", "Automated Policy Checks", "Secure Binary Delivery"]
+        },
+        "architecture+growth": {
+            title: "Life Architecture & Systems Thinking",
+            mult: "3.7x Leverage",
+            body: "Applying modular, distributed systems thinking to personal execution, energy allocation, habit feedback loops, and multi-decade visionary planning.",
+            specs: ["Feedback Loop Optimization", "Energy Stewardship", "Long-Horizon Strategy"]
+        },
+        "finance+growth": {
+            title: "Sovereign Capital Stewardship",
+            mult: "3.6x Compound",
+            body: "Directing financial capital toward personal sovereignty, intellectual infrastructure, and high-impact independence rather than lifestyle creep or debt traps.",
+            specs: ["Capital Preservation", "Strategic Reinvestment", "Freedom Over Luxury"]
+        },
+        "finance+sovereignty": {
+            title: "Capital Autonomy & Self-Reliance",
+            mult: "3.9x Freedom",
+            body: "Eliminating reliance on debt-driven corporate structures. Building lean, highly profitable digital enterprises that sustain founder freedom and intellectual autonomy.",
+            specs: ["Lean Enterprise Models", "Zero Financial Lock-in", "Autonomous Monetization"]
+        },
+        "blockchain+cybersecurity": {
+            title: "Cryptographic Consensus Hardening",
+            mult: "3.8x Integrity",
+            body: "Zero-knowledge proofs, formal verification of smart contract code, and mathematical immutability that eliminates human fraud and operational bribery.",
+            specs: ["ZK Proof Systems", "Formal Verification", "Tamper-Proof State"]
+        },
+        "blockchain+web3": {
+            title: "Trustless Protocol Substrates",
+            mult: "3.7x Decentralization",
+            body: "Pairing peer-to-peer data distribution (IPFS/libp2p) with decentralized settlement layers to construct fully censorship-resistant web applications.",
+            specs: ["P2P Storage & Identity", "Decentralized State", "Immutable Commons"]
+        },
+        "design+growth": {
+            title: "Environmental Aesthetics & Focus",
+            mult: "3.1x Flow",
+            body: "Crafting digital environments, workspaces, and reading experiences that cultivate high-agency deep work and eliminate distraction.",
+            specs: ["Aesthetic Clarity", "Deep Focus Spaces", "Visual Intentionality"]
+        },
+        "development+growth": {
+            title: "Compounding Builder Ergonomics",
+            mult: "3.5x Output",
+            body: "Relentless daily deliberate practice in code craft, creating compounding leverage that allows a single sovereign engineer to rival enterprise teams.",
+            specs: ["Daily Codecraft", "Tool Mastery", "Compounding Output"]
+        }
+    };
+
+    // Archetype Presets (Anime Classes)
+    const presets = {
+        all: {
+            title: "The Non-Parallel Synthesis Engine",
+            badge: "SYNAPTIC WEB // ALL 36 ACTIVE",
+            mult: "⚡ 9.9x Polymath Resonance",
+            desc: "When you level up Architecture, it multiplies your Cybersecurity and Development. When you pair Design with Development, you unlock Creative Engineering. Explore the interconnected web above to inspect any combination.",
+            specs: ["Interdisciplinary Leverage", "Zero Disciplinary Silos", "Enduring Artifacts"],
+            activePillars: []
+        },
+        bastion: {
+            title: "The Sovereign Bastion Archetype",
+            badge: "CLASS: DEFENSIVE SYSTEMS ARCHITECT",
+            mult: "⚡ 4.8x Citadel Multiplier",
+            desc: "Synthesizing Sovereignty [01], Architecture [02], and Cybersecurity [05]. Engineered for high-stakes operational immunity, zero third-party cloud lock-in, and impenetrable perimeter defense.",
+            specs: ["Decoupled Systems", "Zero-Trust Edge", "Absolute Privacy"],
+            activePillars: ["sovereignty", "architecture", "cybersecurity"]
+        },
+        artisan: {
+            title: "The Creative Engineer Archetype",
+            badge: "CLASS: FULL-STACK CRAFTSMAN",
+            mult: "⚡ 4.5x Execution Velocity",
+            desc: "Synthesizing Architecture [02], Development [03], and Design [04]. Bridges the chasm between sub-millisecond static performance and visceral Master Depth typographic beauty.",
+            specs: ["Zero Bloat Engines", "Cognitive Sovereignty", "Sub-100ms Latency"],
+            activePillars: ["architecture", "development", "design"]
+        },
+        economist: {
+            title: "The Sovereign Capitalist Archetype",
+            badge: "CLASS: PROTOCOL VALUE ARCHITECT",
+            mult: "⚡ 4.4x Capital Autonomy",
+            desc: "Synthesizing Sovereignty [01], Blockchain [06], Web3 [07], and Finance [09]. Constructing uncensorable digital commerce rails, self-custodial reserves, and direct founder monetisation.",
+            specs: ["P2P Value Rails", "Self-Custodial Reserves", "Direct Monetization"],
+            activePillars: ["sovereignty", "blockchain", "web3", "finance"]
+        },
+        polymath: {
+            title: "The High-Agency Polymath Archetype",
+            badge: "CLASS: ASCENDED STEWARD",
+            mult: "⚡ 5.2x Life Leverage",
+            desc: "Synthesizing Sovereignty [01], Development [03], and Personal Growth [08]. Translating stoic mental conditioning and disciplined habit loops into compounding public artifacts.",
+            specs: ["Adamic Stewardship", "High-Agency Execution", "Enduring Impact"],
+            activePillars: ["sovereignty", "development", "growth"]
+        },
+        protocol: {
+            title: "The Protocol Architect Archetype",
+            badge: "CLASS: DECENTRALIZED PROTOCOL LEAD",
+            mult: "⚡ 4.6x Trustless Proof",
+            desc: "Synthesizing Cybersecurity [05], Blockchain [06], and Web3 [07]. Building peer-to-peer applications rooted in mathematical proof rather than institutional promises.",
+            specs: ["Formal Verification", "P2P Topologies", "Immutable Records"],
+            activePillars: ["cybersecurity", "blockchain", "web3"]
         }
     };
 
     let selected = [];
+    let currentPreset = 'all';
 
-    const nodes = document.querySelectorAll('.matrix-node');
-    const resetBtn = document.getElementById('matrix-reset-btn');
-    const statusText = document.getElementById('matrix-status-text');
-    const deckLabel = document.getElementById('matrix-deck-label');
-    const deckTitle = document.getElementById('matrix-deck-title');
-    const deckDesc = document.getElementById('matrix-deck-desc');
-    const deckSpecs = document.getElementById('matrix-deck-specs');
-    const postsList = document.getElementById('matrix-posts-list');
-    const postsCount = document.getElementById('matrix-posts-count');
-    const postsTitle = document.getElementById('matrix-posts-title');
+    const pins = document.querySelectorAll('.matrix-node-pin');
+    const cards = document.querySelectorAll('.matrix-card');
+    const presetBtns = document.querySelectorAll('.matrix-preset-btn');
+    const termBadge = document.getElementById('terminal-badge');
+    const termMult = document.getElementById('terminal-multiplier');
+    const termTitle = document.getElementById('terminal-title');
+    const termDesc = document.getElementById('terminal-desc');
+    const specV1 = document.getElementById('spec-v1');
+    const specV2 = document.getElementById('spec-v2');
+    const specV3 = document.getElementById('spec-v3');
+    const postsList = document.getElementById('terminal-posts-list');
+    const postsCount = document.getElementById('terminal-posts-count');
+    const postsTitle = document.getElementById('terminal-posts-title');
+    const hint = document.getElementById('radar-interaction-hint');
 
-    function updateView() {
-        nodes.forEach(node => {
-            const pillar = node.getAttribute('data-pillar');
-            node.classList.toggle('active', selected.includes(pillar));
-            node.classList.toggle('dimmed', selected.length === 2 && !selected.includes(pillar));
+    function updateState() {
+        // Pins and Cards active states
+        pins.forEach(pin => {
+            const id = pin.getAttribute('data-pillar');
+            const isActive = selected.includes(id);
+            pin.classList.toggle('active', isActive);
+            pin.classList.toggle('dimmed', selected.length > 0 && !isActive);
         });
 
-        resetBtn.style.display = selected.length > 0 ? 'inline-block' : 'none';
+        cards.forEach(card => {
+            const id = card.getAttribute('data-pillar');
+            const isActive = selected.includes(id);
+            card.classList.toggle('active', isActive);
+            card.classList.toggle('dimmed', selected.length > 0 && !isActive);
+        });
 
+        // Chords illumination logic
+        chords.forEach(c => {
+            c.el.classList.remove('connected', 'primary-active');
+
+            if (selected.length === 0) {
+                // All chords active in subtle idle / preset mode
+                if (currentPreset === 'all') {
+                    c.el.classList.add('connected');
+                } else {
+                    const preset = presets[currentPreset];
+                    if (preset && preset.activePillars.includes(c.p1) && preset.activePillars.includes(c.p2)) {
+                        c.el.classList.add('primary-active');
+                    }
+                }
+            } else if (selected.length === 1) {
+                // Show all chords connected to selected pillar
+                if (c.p1 === selected[0] || c.p2 === selected[0]) {
+                    c.el.classList.add('connected');
+                }
+            } else if (selected.length === 2) {
+                // Specific chord between the two is primary
+                const isDirect = (c.p1 === selected[0] && c.p2 === selected[1]) || (c.p1 === selected[1] && c.p2 === selected[0]);
+                if (isDirect) {
+                    c.el.classList.add('primary-active');
+                } else if (c.p1 === selected[0] || c.p2 === selected[0] || c.p1 === selected[1] || c.p2 === selected[1]) {
+                    c.el.classList.add('connected');
+                }
+            }
+        });
+
+        // Terminal Content Render
         if (selected.length === 0) {
-            statusText.innerText = 'Select 1 or 2 Master Pillars to synthesize domain intersections.';
-            deckLabel.innerText = 'DOMAINS UNSELECTED';
-            deckTitle.innerText = 'Interdisciplinary Synthesis Engine';
-            deckDesc.innerText = "Stephen Ajulu's architecture does not operate in silos. Select any two pillars above to observe how cross-domain tensions produce sovereign technological artifacts and strategic clarity.";
-            renderSpecs({
-                "Domain Integration": "9 Primary Sovereign Pillars",
-                "Combinatorial Matrix": "36 Cross-Domain Syntheses",
-                "Core Mandate": "Zero Lock-in • Full Agency"
-            });
-            renderPosts([]);
-            postsTitle.innerText = 'Recent Architectural Deep-Dives';
-            renderRecentPosts();
+            const pData = presets[currentPreset] || presets.all;
+            termBadge.innerText = pData.badge;
+            termMult.innerText = pData.mult;
+            termTitle.innerText = pData.title;
+            termDesc.innerText = pData.desc;
+            specV1.innerText = pData.specs[0];
+            specV2.innerText = pData.specs[1];
+            specV3.innerText = pData.specs[2];
+            hint.innerText = "Click any 2 nodes to bridge";
+
+            postsTitle.innerText = "Relevant Architectural Essays";
+            if (pData.activePillars.length > 0) {
+                let tags = [];
+                pData.activePillars.forEach(pid => {
+                    if (pillarMap[pid]) tags = tags.concat(pillarMap[pid].tags);
+                });
+                renderPosts(filterPosts(tags));
+            } else {
+                renderRecentPosts();
+            }
             return;
         }
 
         if (selected.length === 1) {
-            const p1 = selected[0];
-            const data = pillars[p1];
-            statusText.innerText = `Pillar 1 Active: ${data.title}. Click a second pillar to compute intersection.`;
-            deckLabel.innerText = `PILLAR SPECIFICATION: ${data.title.toUpperCase()}`;
-            deckTitle.innerText = data.title;
-            deckDesc.innerText = data.desc;
-            renderSpecs(data.specs);
+            const p = pillarMap[selected[0]];
+            presetBtns.forEach(b => b.classList.remove('active'));
+            termBadge.innerText = `SINGLE PILLAR FOCUS // ${p.code}`;
+            termMult.innerText = `⚡ ${p.stat}/100 Rating [${p.rank}]`;
+            termTitle.innerText = `${p.icon} ${p.title} Architecture`;
+            termDesc.innerText = `Pillar ${p.num} of the Sovereign Polymath. Skills are not parallel: hover or select a second node to observe the compound force multiplier between ${p.title} and other disciplines.`;
+            specV1.innerText = `Base Stat: ${p.stat}/100`;
+            specV2.innerText = `Rank: Tier ${p.rank}`;
+            specV3.innerText = `Active Synapses: 8 Links`;
+            hint.innerText = `Now click a 2nd node to synthesize with ${p.title}`;
 
-            postsTitle.innerText = `Essays Tagged with "${data.title}"`;
-            const matched = filterPosts(data.tags);
-            renderPosts(matched);
+            postsTitle.innerText = `Essays Tagged with "${p.title}"`;
+            renderPosts(filterPosts(p.tags));
             return;
         }
 
         if (selected.length === 2) {
-            const key1 = `${selected[0]}+${selected[1]}`;
-            const key2 = `${selected[1]}+${selected[0]}`;
+            presetBtns.forEach(b => b.classList.remove('active'));
+            const p1 = pillarMap[selected[0]];
+            const p2 = pillarMap[selected[1]];
+            const key1 = `${p1.id}+${p2.id}`;
+            const key2 = `${p2.id}+${p1.id}`;
+
             const synth = syntheses[key1] || syntheses[key2] || {
-                title: `${pillars[selected[0]].title} & ${pillars[selected[1]].title} Intersection`,
-                body: `The strategic synthesis between ${pillars[selected[0]].title} and ${pillars[selected[1]].title} creates unique architectural leverage for organizations seeking resilient, high-autonomy operations.`,
-                specs: {
-                    "Pillar Alpha": pillars[selected[0]].title,
-                    "Pillar Beta": pillars[selected[1]].title,
-                    "Synthesis Vector": "Cross-Domain Synergy"
-                }
+                title: `${p1.title} ⟷ ${p2.title} Resonance`,
+                mult: "⚡ 3.3x Cross-Domain Synergy",
+                body: `The non-parallel intersection of ${p1.title} and ${p2.title} demonstrates how combining seemingly disparate disciplines produces exponential competitive leverage and resilient sovereign output.`,
+                specs: [`${p1.title} Vector`, `${p2.title} Vector`, "Compound Multiplier"]
             };
 
-            statusText.innerText = `Domain Intersection: ${pillars[selected[0]].title} ✕ ${pillars[selected[1]].title}`;
-            deckLabel.innerText = `CROSS-DOMAIN SYNTHESIS MATRIX`;
-            deckTitle.innerText = synth.title;
-            deckDesc.innerText = synth.body;
-            renderSpecs(synth.specs);
+            termBadge.innerText = `SYNAPSE LOCKED // ${p1.code} ⨉ ${p2.code}`;
+            termMult.innerText = synth.mult;
+            termTitle.innerText = `${p1.icon} ${p1.title} ⟷ ${p2.icon} ${p2.title}`;
+            termDesc.innerText = synth.body;
+            specV1.innerText = synth.specs[0];
+            specV2.innerText = synth.specs[1];
+            specV3.innerText = synth.specs[2];
+            hint.innerText = "Click any node to reset or change focus";
 
-            postsTitle.innerText = `Essays Bridging ${pillars[selected[0]].title} & ${pillars[selected[1]].title}`;
-            const combinedTags = [...pillars[selected[0]].tags, ...pillars[selected[1]].tags];
-            const matched = filterPosts(combinedTags);
-            renderPosts(matched);
-        }
-    }
-
-    function renderSpecs(specsObj) {
-        deckSpecs.innerHTML = '';
-        for (const [k, v] of Object.entries(specsObj)) {
-            const div = document.createElement('div');
-            div.className = 'matrix-spec-item';
-            div.innerHTML = `<strong>${k}</strong><span>${v}</span>`;
-            deckSpecs.appendChild(div);
+            postsTitle.innerText = `Essays Bridging ${p1.title} & ${p2.title}`;
+            const combinedTags = [...p1.tags, ...p2.tags];
+            renderPosts(filterPosts(combinedTags));
         }
     }
 
@@ -358,17 +767,17 @@ window.AJULU_MATRIX_POSTS = [
         postsCount.innerText = `(${posts.length} found)`;
 
         if (posts.length === 0) {
-            postsList.innerHTML = '<p style="color: var(--meta-color); font-size: 0.9rem; padding: 1rem 0;">No direct essays found for this exact combination yet. Explore related pillars above.</p>';
+            postsList.innerHTML = '<p style="color: var(--meta-color); font-size: 0.85rem; padding: 0.75rem 0; margin: 0;">Explore related pillars to inspect cross-domain essays.</p>';
             return;
         }
 
-        posts.slice(0, 10).forEach(post => {
+        posts.slice(0, 5).forEach(post => {
             const a = document.createElement('a');
-            a.className = 'matrix-post-item';
+            a.className = 'matrix-post-pill';
             a.href = post.url;
             a.innerHTML = `
-                <span class="matrix-post-title">${post.title}</span>
-                <span class="matrix-post-date">${post.date}</span>
+                <span class="post-name">${post.title}</span>
+                <span class="post-meta">${post.date}</span>
             `;
             postsList.appendChild(a);
         });
@@ -376,31 +785,53 @@ window.AJULU_MATRIX_POSTS = [
 
     function renderRecentPosts() {
         if (!window.AJULU_MATRIX_POSTS) return;
-        renderPosts(window.AJULU_MATRIX_POSTS.slice(0, 6));
+        renderPosts(window.AJULU_MATRIX_POSTS.slice(0, 5));
     }
 
-    nodes.forEach(node => {
-        node.addEventListener('click', () => {
-            const pillar = node.getAttribute('data-pillar');
-            if (selected.includes(pillar)) {
-                selected = selected.filter(p => p !== pillar);
-            } else {
-                if (selected.length >= 2) {
-                    selected.shift(); // rotate selection
-                }
-                selected.push(pillar);
+    function togglePillar(id) {
+        if (selected.includes(id)) {
+            selected = selected.filter(p => p !== id);
+        } else {
+            if (selected.length >= 2) {
+                selected.shift(); // rotate selection
             }
-            updateView();
+            selected.push(id);
+        }
+        updateState();
+    }
+
+    // Event Listeners for Pins
+    pins.forEach(pin => {
+        pin.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const id = pin.getAttribute('data-pillar');
+            togglePillar(id);
         });
     });
 
-    resetBtn.addEventListener('click', () => {
-        selected = [];
-        updateView();
+    // Event Listeners for Cards
+    cards.forEach(card => {
+        card.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const id = card.getAttribute('data-pillar');
+            togglePillar(id);
+        });
     });
 
-    // Initialize with recent posts
-    renderRecentPosts();
+    // Event Listeners for Presets
+    presetBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const presetKey = btn.getAttribute('data-preset');
+            presetBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            currentPreset = presetKey;
+            selected = [];
+            updateState();
+        });
+    });
+
+    // Initial setup
+    updateState();
 })();
 </script>
 {{ end }}
