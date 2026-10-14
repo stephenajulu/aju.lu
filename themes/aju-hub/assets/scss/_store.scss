@@ -51,12 +51,22 @@
   }
 }
 
-/* Square Store Grid */
+/* Square Store Grid: 3 columns on desktop, 2 on tablet, 1 on mobile */
 .store-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
-  gap: 2rem;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
   margin: 2.5rem 0 4rem 0;
+
+  @include breakpoint('small') {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.75rem;
+  }
+
+  @include breakpoint('medium') {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
 }
 
 .store-card {
@@ -302,12 +312,10 @@
   }
 }
 
-@include breakpoint('small') {
-  .store-grid {
-    grid-template-columns: 1fr;
-  }
+@media (max-width: 766px) {
   .store-toolbar {
     flex-direction: column;
     align-items: flex-start;
   }
 }
+

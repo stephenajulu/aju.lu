@@ -1,54 +1,156 @@
 {
     "products": [
         {
-            "id": "sovereign-infrastructure-blueprint",
-            "name": "Sovereign Infrastructure Blueprint",
-            "description": "Complete technical roadmap for deploying managed open-source business systems. Includes server hardening, Zero-Trust network topologies, and sovereign data ownership protocols.",
-            "price": "5,000",
-            "usd_price": "39",
+            "id": "ubgseo",
+            "name": "The Ultimate Basic Guide to SEO: Boost Your Website's Search Engine Rankings",
+            "description": "Comprehensive tactical guide covering keyword research, content architecture, backlink strategies, and technical search engine optimization to drive lasting organic growth.",
+            "price": "1,300",
+            "usd_price": "10",
             "currency": "KES",
-            "image": "images/hero.webp",
-            "paystack_url": "https://stephenajulu.gumroad.com/l/sovereign-infrastructure",
-            "category": "Blueprint",
-            "badge": "Architecture Spec",
+            "image": "https://public-files.gumroad.com/csi1i88uuixnwn8azwl2g3xhpqv8",
+            "paystack_url": "https://stephenajulu.gumroad.com/l/ubgseo",
+            "category": "eBook & Guide",
+            "badge": "Complete Guide",
             "deliverables": [
-                "Zero-Trust Server Hardening Playbooks",
-                "Self-Hosted Cloud Infrastructure Blueprints",
-                "Data Sovereignty & Automated Backup Protocols"
+                "Keyword Research & Search Intent Playbooks",
+                "On-Page Content & Technical Architecture Optimization",
+                "Authority Backlink Tactics & Analytics Growth Frameworks"
             ]
         },
         {
-            "id": "indieweb-hugo-template",
-            "name": "aju.hub IndieWeb Template",
-            "description": "The exact high-performance Hugo engine behind this site. Fully optimized for 100/100 Lighthouse performance, sovereign digital identity, Webmentions, and edge security.",
-            "price": "12,000",
-            "usd_price": "89",
+            "id": "eroyal-gbur",
+            "name": "Eccentric Royal Gradient Blur Pack",
+            "description": "Exclusive digital wallpaper collection blending luminous royal purple hues with vivid warm orange tones and subtle cinematic grain. 16 wallpapers formatted for desktop and mobile.",
+            "price": "520",
+            "usd_price": "4",
+            "currency": "KES",
+            "image": "https://public-files.gumroad.com/w67ml0gqhknmyrrr15pf4uakpc0m",
+            "paystack_url": "https://stephenajulu.gumroad.com/l/eroyal-gbur",
+            "category": "Digital Art",
+            "badge": "4K Wallpapers",
+            "deliverables": [
+                "16 High-Definition Wallpapers (8 Mobile + 8 Desktop)",
+                "Rich Royal Violet & Sunset Orange Colorways",
+                "Instant High-Res ZIP Archive for Personal & Commercial Displays"
+            ]
+        },
+        {
+            "id": "gblur-1",
+            "name": "Gradient Blur Wallpaper Pack 1",
+            "description": "Premium 6K resolution (6000 x 4000) gradient wallpaper suite engineered with deep midnight blacks and smooth chromatic transitions. Includes 4 bonus wallpaper packs.",
+            "price": "6,500",
+            "usd_price": "50",
+            "currency": "KES",
+            "image": "https://public-files.gumroad.com/avy4d0ojw7nu940537a94sufwalh",
+            "paystack_url": "https://stephenajulu.gumroad.com/l/gblur-1",
+            "category": "Digital Art",
+            "badge": "Wallpaper Pack",
+            "deliverables": [
+                "24 Ultra-Resolution 6K Gradients (6000 x 4000 px)",
+                "Obsidian Contrast Optimized for OLED & Retina Displays",
+                "Includes 4 Complete Bonus Companion Packs"
+            ]
+        },
+        {
+            "id": "CwSA",
+            "name": "Consult with Stephen Ajulu",
+            "description": "Private 1-on-1 strategic consultation session with Stephen Ajulu covering personal branding, sovereign infrastructure architecture, research methodologies, and SEO strategy.",
+            "price": "65,000",
+            "usd_price": "500",
             "currency": "KES",
             "image": "images/me.webp",
-            "paystack_url": "https://stephenajulu.gumroad.com/l/aju-hub-template",
-            "category": "Theme",
-            "badge": "Full Source Code",
+            "paystack_url": "https://stephenajulu.gumroad.com/l/CwSA",
+            "category": "Advisory",
+            "badge": "1-on-1 Session",
             "deliverables": [
-                "Decoupled Hugo v0.160+ Extended Theme",
-                "Full PWA, Fuse.js Search & Speech Synthesis",
-                "Netlify & Render Instant Deploy Blueprints"
+                "60-Minute 1-on-1 Strategic Advisory Deep Dive",
+                "Tailored Architecture Diagnostic & Sovereign Roadmap",
+                "Private Call Recording, Detailed Notes & Action Plan"
             ]
         },
         {
-            "id": "strategic-it-audit-template",
-            "name": "Strategic IT Audit Framework",
-            "description": "A comprehensive checklist and diagnostic framework for auditing enterprise infrastructure, identifying cloud lock-in vulnerabilities, and structuring vendor-free architectures.",
-            "price": "3,500",
-            "usd_price": "29",
+            "id": "nwtwi",
+            "name": "Atobi Collection Logo",
+            "description": "Authentic African-inspired brandmark crafted for Atobi Collection. Geometric, culturally grounded visual identity celebrating heritage through sovereign, modern typography.",
+            "price": "150",
+            "usd_price": "1",
             "currency": "KES",
-            "image": "images/socialimage.webp",
-            "paystack_url": "https://stephenajulu.gumroad.com/l/it-audit-framework",
-            "category": "Framework",
-            "badge": "Enterprise Diagnostic",
+            "image": "https://public-files.gumroad.com/yt5up7xlcv4bwh4t409d5736jjvi",
+            "paystack_url": "https://stephenajulu.gumroad.com/l/nwtwi",
+            "category": "Brand Identity",
+            "badge": "Logo & Assets",
             "deliverables": [
-                "Cloud Vendor Risk Assessment Scorecard",
-                "Sovereign Security & Access Control Checklist",
-                "Executive Summary & Decision Matrix Templates"
+                "Vector Source Files (.SVG, .AI, .EPS) & High-Res PNGs",
+                "Curated African Heritage Color Palette Scheme",
+                "Full Commercial & Sovereign Usage Rights"
+            ]
+        },
+        {
+            "id": "vYLWW",
+            "name": "The Bistro Brand Identity and Logos",
+            "description": "Turnkey executive visual identity suite for The Bistro morning newsletter. Clean, modern typography and scalable vectors engineered for rapid financial and crypto media publishing.",
+            "price": "650",
+            "usd_price": "5",
+            "currency": "KES",
+            "image": "https://public-files.gumroad.com/4ax8pcqt6yimbi877xhylgkyxrgm",
+            "paystack_url": "https://stephenajulu.gumroad.com/l/vYLWW",
+            "category": "Brand Identity",
+            "badge": "Full Identity Kit",
+            "deliverables": [
+                "Scalable Vector Marks in Horizontal & Stacked Lockups",
+                "Modern Typography Pairings & Visual Style Tokens",
+                "High-Resolution Social Media Avatars & Newsletter Banners"
+            ]
+        },
+        {
+            "id": "hqdto",
+            "name": "OwlFire Digital Branding, Website Template & Logos",
+            "description": "Complete digital agency identity and website starter system. Includes responsive layout templates, distinctive vector logo marks, and full brand collateral for agencies.",
+            "price": "2,600",
+            "usd_price": "20",
+            "currency": "KES",
+            "image": "https://public-files.gumroad.com/4l2a6is4jggt49uy9ijwdftg02vx",
+            "paystack_url": "https://stephenajulu.gumroad.com/l/hqdto",
+            "category": "Web & Brand Kit",
+            "badge": "Template & Logos",
+            "deliverables": [
+                "Clean Agency Website Template & Component Layouts",
+                "Full Vector Logo Suite with Dark/Light Variants",
+                "Comprehensive Typography System & Brand Guidelines"
+            ]
+        },
+        {
+            "id": "IxIlr",
+            "name": "Wealth Forest Brand & Logos",
+            "description": "Sovereign personal finance brand identity suite developed for Wealth Forest. Modern vector logos, green wealth color psychology, and icons for finance publications and apps.",
+            "price": "150",
+            "usd_price": "1",
+            "currency": "KES",
+            "image": "https://public-files.gumroad.com/mo912hi5yo9c70edpcu5fsgyzxvv",
+            "paystack_url": "https://stephenajulu.gumroad.com/l/IxIlr",
+            "category": "Brand Identity",
+            "badge": "Vector Logos",
+            "deliverables": [
+                "Scalable SVG & High-Resolution Vector Assets",
+                "High-Trust Financial Color Palette & Iconography",
+                "Full Commercial & Sovereign Digital Usage Rights"
+            ]
+        },
+        {
+            "id": "EEnXP",
+            "name": "Gradient Wallpapers(8K) 3.0",
+            "description": "35 breathtaking ultra high-resolution wallpapers rendered in pure 8K precision. Engineered for vibrant color accuracy across TV monitors, laptops, and mobile screens.",
+            "price": "1,300",
+            "usd_price": "10",
+            "currency": "KES",
+            "image": "https://public-files.gumroad.com/r7zvqwab8m5bts6sgdb8ele6yiy0",
+            "paystack_url": "https://stephenajulu.gumroad.com/l/EEnXP",
+            "category": "Digital Art",
+            "badge": "8K Wallpapers",
+            "deliverables": [
+                "35 Native 8K Ultra-Resolution Wallpaper Files",
+                "Universal Multi-Device Formatting (Desktop, Tablet, Mobile)",
+                "Seamless High-Dynamic Range Gradient Transitions"
             ]
         }
     ]
