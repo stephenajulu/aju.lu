@@ -10,5 +10,5 @@
   {{ range $paginator.Pages }}
     {{ .Render "summary" }}
   {{ end }}
-  {{ partial "paginator" . }}
+  {{ partial "paginator.html" . }}
 {{ end }}

@@ -7,7 +7,7 @@
 
 <div class="posts-list">
     {{ range .Paginator.Pages }}
-        {{ partial "summary.html" . }}
+        {{ .Render "summary" }}
     {{ end }}
 </div>
 
