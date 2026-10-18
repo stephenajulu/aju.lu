@@ -785,3 +785,97 @@
     color: #f8fafc;
   }
 }
+
+.light-mode {
+  .matrix-stat-badge {
+    background: rgba(0, 0, 0, 0.04);
+    
+    .stat-val {
+      color: var(--heading-color);
+    }
+  }
+
+  .matrix-philosophy-ribbon p strong {
+    color: var(--heading-color);
+  }
+
+  .matrix-radar-card {
+    background: #ffffff;
+    border-color: rgba(99, 32, 214, 0.2);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.06);
+  }
+
+  .matrix-node-pin {
+    circle.pin-outer {
+      fill: #ffffff;
+    }
+    text.pin-code {
+      fill: #475569;
+    }
+    &:hover text.pin-code,
+    &.active text.pin-code {
+      fill: #ffffff;
+    }
+  }
+
+  .matrix-terminal-card {
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+  }
+
+  .matrix-terminal-title {
+    color: var(--heading-color);
+  }
+
+  .matrix-specs-grid {
+    background: rgba(0, 0, 0, 0.03);
+  }
+
+  .matrix-spec-cell span {
+    color: var(--heading-color);
+  }
+
+  .matrix-post-pill {
+    background: rgba(0, 0, 0, 0.03);
+
+    &:hover {
+      background: rgba(99, 32, 214, 0.08);
+      .post-name {
+        color: var(--highlight-color);
+      }
+    }
+  }
+
+  .matrix-card {
+    &:hover {
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+      .card-title {
+        color: var(--heading-color);
+      }
+    }
+    &.active {
+      background: rgba(56, 189, 248, 0.06);
+    }
+  }
+
+  .card-stat-info .stat-num {
+    color: var(--heading-color);
+  }
+
+  .card-stat-bar {
+    background: rgba(0, 0, 0, 0.08);
+  }
+
+  .matrix-manifesto-box {
+    background: var(--base-offset-color);
+    border: 1px solid var(--glass-border);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.06);
+
+    h2 {
+      color: var(--heading-color);
+    }
+
+    blockquote {
+      color: var(--heading-color);
+    }
+  }
+}

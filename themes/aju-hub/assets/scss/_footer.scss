@@ -23,7 +23,7 @@
     }
   }
 
-  body.light-mode {
+  .light-mode {
     .social-icon img {
         /* Revert to black for light mode */
         filter: invert(0);

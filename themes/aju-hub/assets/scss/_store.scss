@@ -319,3 +319,38 @@
   }
 }
 
+.light-mode {
+  .store-currency-toggle {
+    background: rgba(0, 0, 0, 0.05);
+    border-color: rgba(0, 0, 0, 0.08);
+  }
+
+  .store-card__inner {
+    &:hover {
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.08), 0 0 20px rgba(99, 32, 214, 0.12);
+    }
+  }
+
+  .store-card__image-square {
+    background: #f1f5f9;
+  }
+
+  .store-modal-overlay {
+    background: rgba(15, 23, 42, 0.45);
+  }
+
+  .store-modal-dialog {
+    background: #ffffff;
+    border: 1px solid rgba(99, 32, 214, 0.2);
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15), 0 0 20px rgba(99, 32, 214, 0.1);
+    color: var(--text-color);
+  }
+
+  .store-modal-close {
+    &:hover {
+      color: var(--heading-color);
+      background: rgba(0, 0, 0, 0.06);
+    }
+  }
+}
+

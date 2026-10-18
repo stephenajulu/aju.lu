@@ -1,7 +1,7 @@
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 <script>
-    let isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    let mermaidTheme = (isDark) ? 'dark' : 'default';
+    let isLight = document.documentElement.classList.contains('light-mode') || localStorage.getItem('theme') === 'light' || (!localStorage.getItem('theme') && window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches);
+    let mermaidTheme = isLight ? 'default' : 'dark';
     let mermaidConfig = {
         theme: mermaidTheme,
         logLevel: 'fatal',

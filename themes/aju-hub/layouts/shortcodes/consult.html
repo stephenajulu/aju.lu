@@ -10,7 +10,8 @@ Cal("init",  {origin:"https://cal.com"});
 	layout: "month_view"
   });
 
-  Cal("ui", {"theme":"light","styles":{"branding":{"brandColor":"#6320d6"}},"hideEventTypeDetails":false,"layout":"month_view"});
+  const calTheme = document.documentElement.classList.contains('light-mode') || localStorage.getItem('theme') === 'light' ? 'light' : 'dark';
+  Cal("ui", {"theme": calTheme, "styles":{"branding":{"brandColor":"#6320d6"}},"hideEventTypeDetails":false,"layout":"month_view"});
   </script>
   <!-- Cal inline embed code ends -->
 

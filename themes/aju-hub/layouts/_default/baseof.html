@@ -102,6 +102,7 @@
     const sunIcon = document.getElementById('sun-icon');
 
     function updateIcons() {
+      if (!moonIcon || !sunIcon) return;
       if (document.documentElement.classList.contains('light-mode')) {
         moonIcon.style.display = 'none';
         sunIcon.style.display = 'block';
@@ -113,12 +114,27 @@
 
     updateIcons();
 
-    themeToggle.addEventListener('click', () => {
-      document.documentElement.classList.toggle('light-mode');
-      const isLight = document.documentElement.classList.contains('light-mode');
-      localStorage.setItem('theme', isLight ? 'light' : 'dark');
-      updateIcons();
-    });
+    if (themeToggle) {
+      themeToggle.addEventListener('click', () => {
+        document.documentElement.classList.toggle('light-mode');
+        const isLight = document.documentElement.classList.contains('light-mode');
+        localStorage.setItem('theme', isLight ? 'light' : 'dark');
+        updateIcons();
+      });
+    }
+
+    if (window.matchMedia) {
+      window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', e => {
+        if (!localStorage.getItem('theme')) {
+          if (e.matches) {
+            document.documentElement.classList.add('light-mode');
+          } else {
+            document.documentElement.classList.remove('light-mode');
+          }
+          updateIcons();
+        }
+      });
+    }
   </script>
 
   <script>

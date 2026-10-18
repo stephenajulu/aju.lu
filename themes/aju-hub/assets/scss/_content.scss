@@ -438,3 +438,33 @@ h3:hover .dot {
         }
     }
 }
+
+.expand {
+  margin: 1.5rem 0;
+  border: 1px solid var(--glass-border);
+  border-radius: 8px;
+  background: var(--base-offset-color);
+  padding: 14px 18px;
+
+  .expand-label {
+    font-weight: 600;
+    color: var(--heading-color);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    user-select: none;
+    font-size: 0.95rem;
+
+    i {
+      color: var(--highlight-color);
+      transition: transform 0.2s ease;
+    }
+  }
+
+  .expand-content {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--glass-border);
+    color: var(--text-color);
+  }
+}

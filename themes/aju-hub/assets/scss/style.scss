@@ -56,6 +56,7 @@
   --transition-fast: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   --glass-bg: rgba(2, 6, 23, 0.75);
   --glass-border: rgba(148, 163, 184, 0.1);
+  --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .light-mode {
@@ -64,14 +65,16 @@
   --heading-color: #0f172a;
   --text-color: #334155;
   --meta-color: #64748b; 
-  --hover-color: #0f172a; 
+  --hover-color: #000000; 
 
-  --glass-bg: rgba(255, 255, 255, 0.75);
-  --glass-border: rgba(0, 0, 0, 0.05);
-  --hover-color: #000000;
+  --glass-bg: rgba(255, 255, 255, 0.85);
+  --glass-border: rgba(0, 0, 0, 0.08);
+  --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 
-  /* Syntax Highlighting (Light) */  --code-color: #111827;
-  --code-hll: #f3f4f6;
+  /* Syntax Highlighting (Light) */
+  --code-bg: #f8fafc;
+  --code-color: #111827;
+  --code-hll: #f1f5f9;
   --code-comment: #6b7280;
   --code-keyword: #6320d6;
   --code-operator: #111827;

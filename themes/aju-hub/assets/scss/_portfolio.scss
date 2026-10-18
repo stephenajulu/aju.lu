@@ -369,3 +369,48 @@
     padding: 1rem;
   }
 }
+
+.light-mode {
+  .portfolio-filter-btn {
+    &:hover {
+      color: var(--heading-color);
+    }
+  }
+
+  .project-card__image {
+    background: #f1f5f9;
+  }
+
+  .project-stack-tag {
+    background: rgba(0, 0, 0, 0.05);
+    border-color: rgba(0, 0, 0, 0.08);
+  }
+
+  @media only screen and (min-width: 768px) {
+    .project-card {
+      &__header {
+        background: rgba(255, 255, 255, 0.96);
+        border-top: 1px solid rgba(99, 32, 214, 0.2);
+        box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.06);
+      }
+
+      &__link:hover,
+      &__link:focus {
+        box-shadow: 0 16px 36px rgba(0, 0, 0, 0.12), 0 0 20px rgba(99, 32, 214, 0.15);
+
+        .project-card__title {
+          color: var(--heading-color);
+        }
+      }
+    }
+  }
+
+  .project-hero-media {
+    background: #f1f5f9;
+  }
+
+  .dossier-tag {
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+  }
+}
