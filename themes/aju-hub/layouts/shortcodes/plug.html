@@ -44,7 +44,10 @@
       {{ end }}
       <div class="plug-card__content" style="flex-grow: 1; min-width: 0;">
         <h4 class="plug-card__title" style="margin: 0 0 0.35rem 0; font-size: 1.05rem; font-weight: 600; color: #f8fafc; line-height: 1.35; font-family: var(--font-primary, serif); transition: color 0.2s ease;">{{ .Title }}</h4>
-        <p class="plug-card__excerpt" style="margin: 0; font-size: 0.85rem; line-height: 1.5; color: #94a3b8; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">{{ .Params.subtitle | default .Summary | truncate 130 }}</p>
+        {{ $excerpt := .Description | default .Params.description | default .Params.subtitle | default .Params.excerpt }}
+        {{ with $excerpt }}
+        <p class="plug-card__excerpt" style="margin: 0; font-size: 0.85rem; line-height: 1.5; color: #94a3b8; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">{{ . | plainify | truncate 130 }}</p>
+        {{ end }}
       </div>
     </a>
     {{ end }}

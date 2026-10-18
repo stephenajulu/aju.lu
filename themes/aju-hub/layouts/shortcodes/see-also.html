@@ -12,7 +12,10 @@
         {{ end }}
         <div class="see-also-text">
             <h4 class="see-also-title"><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></h4>
-            <p class="see-also-summary">{{ $page.Summary | plainify | truncate 120 }}</p>
+            {{ $excerpt := $page.Description | default $page.Params.description | default $page.Params.subtitle | default $page.Params.excerpt }}
+            {{ with $excerpt }}
+            <p class="see-also-summary">{{ . | plainify | truncate 120 }}</p>
+            {{ end }}
         </div>
     </div>
 </div>
