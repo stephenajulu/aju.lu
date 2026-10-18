@@ -3,3 +3,5 @@ node_modules
 .idea
 resources
 public
+.agent
+.hugo_build.lock
