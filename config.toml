@@ -1,6 +1,6 @@
 baseURL = "https://ajulu.netlify.app/"
 languageCode = "en-us"
-title = "Stephen Ajulu | Multidisciplinary Technologist, Creator & Architect"
+title = "Stephen Ajulu | Multidisciplinary Technologist, Creator, IT Consultant & Architect"
 theme = "aju-hub"
 paginate = 24
 copyright= "Stephen Ajulu."
