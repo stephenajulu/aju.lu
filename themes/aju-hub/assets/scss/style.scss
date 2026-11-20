@@ -1,7 +1,7 @@
 :root {
-  --font-family-heading: {{ site.Params.fontFamilyHeading | default "'Fraunces', Georgia, serif" }};
-  --font-family-paragraph: {{ site.Params.fontFamilyParagraph | default "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" }};
-  --font-family-monospace: {{ site.Params.fontFamilyMonospace | default "'JetBrains Mono', monospace" }};
+  --font-family-heading: {{ site.Params.fontFamilyHeading | default "'Playfair Display', Georgia, serif" }};
+  --font-family-paragraph: {{ site.Params.fontFamilyParagraph | default "'Playfair Display', Georgia, serif" }};
+  --font-family-monospace: {{ site.Params.fontFamilyMonospace | default "'Playfair Display', Georgia, serif" }};
   
   /* Default (Dark Mode) */
   --base-color: {{ site.Params.baseColor | default "#030712" }};
@@ -128,7 +128,6 @@ $breakpoints: (
 @import 'store';
 @import 'matrix';
 @import 'command-palette';
-@import 'terminal';
 @import 'taxonomies';
 @import 'back-to-top';
 @import 'error';

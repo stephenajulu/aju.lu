@@ -42,7 +42,6 @@
         { title: "Strategic Services", desc: "Enterprise IT advisory & systems roadmaps", type: "Service", url: "/services/", icon: "⚡" },
         { title: "Curriculum Vitae", desc: "13+ years engineering & advisory track record", type: "Profile", url: "/cv/", icon: "📄" },
         { title: "Toggle Theme", desc: "Switch between Obsidian Dark and Light mode", type: "Action", action: "theme", icon: "🌓" },
-        { title: "Open Terminal Shell", desc: "Interactive command-line sandbox (aju-shell)", type: "Action", action: "terminal", icon: "💻" },
         { title: "Copy RSS Feed", desc: "Subscribe to sovereign feed.xml", type: "Action", action: "rss", icon: "📡" }
     ];
 
@@ -205,10 +204,6 @@
         if (item.action === 'theme') {
             const themeBtn = document.getElementById('theme-toggle');
             if (themeBtn) themeBtn.click();
-        } else if (item.action === 'terminal') {
-            if (window.AjuTerminal && typeof window.AjuTerminal.toggle === 'function') {
-                window.AjuTerminal.toggle();
-            }
         } else if (item.action === 'rss') {
             navigator.clipboard.writeText(window.location.origin + '/feed.xml').then(() => {
                 alert('RSS feed link copied to clipboard: ' + window.location.origin + '/feed.xml');
