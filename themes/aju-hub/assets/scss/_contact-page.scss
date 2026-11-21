@@ -74,6 +74,7 @@
         border-radius: 8px;
         font-weight: 700;
         cursor: pointer;
+        font-family: var(--font-family-paragraph, inherit);
         transition: transform 0.2s ease, filter 0.2s ease, box-shadow 0.2s ease;
 
         &:hover {
