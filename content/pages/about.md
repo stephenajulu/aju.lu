@@ -1,11 +1,11 @@
 ---
-title: About Stephen Ajulu
+title: About me
 url: /about/
 image: images/me.webp
 description: "Stephen Ajulu is a Nairobi-based builder, systems architect, and multidisciplinary technologist creating sovereign infrastructure, resilient systems, and enduring artefacts."
 ---
 
-#### I'm Stephen Ajulu
+### I'm Stephen Ajulu
 
 I'm a builder by nature, multidisciplinary technologist, systems architect, entrepreneur, and strategic IT advisor based in Nairobi, Kenya.
 
