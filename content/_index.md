@@ -11,6 +11,8 @@ Currently, I lead two ventures: {{< firm url="https://julzinsight.onrender.com" 
 
 This platform serves as my digital hub for writing, learning, building, and exploring ideas across disciplines as a {{< dramatic >}}modern-day renaissance man{{< /dramatic >}}.
 
+If you're building something interesting, navigating a complex challenge, or simply looking for a thoughtful perspective on technology, systems, or business, [**let's talk**](https://cal.com/ajulu/strategy-call).
+
 Subscribe for future posts or follow via [**RSS**](/feed.xml) and [**JSON**](/feed.json) feeds to stay connected.
 
 {{< newsletter >}}
