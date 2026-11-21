@@ -86,9 +86,10 @@
 
 .booking-container {
     background: var(--base-offset-color);
+    font-family: var(--font-family-paragraph, inherit);
     border-radius: 12px;
     padding: 10px;
-    height: 600px;
+    height: 100%;
     overflow: hidden;
     border: 1px solid rgba(156, 163, 175, 0.1);
     width: 100%;
