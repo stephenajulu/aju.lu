@@ -118,6 +118,7 @@
         const isLight = document.documentElement.classList.contains('light-mode');
         localStorage.setItem('theme', isLight ? 'light' : 'dark');
         updateIcons();
+        window.dispatchEvent(new CustomEvent('themeChanged', { detail: { theme: isLight ? 'light' : 'dark' } }));
       });
     }
 
@@ -130,6 +131,8 @@
             document.documentElement.classList.remove('light-mode');
           }
           updateIcons();
+          const isLight = document.documentElement.classList.contains('light-mode');
+          window.dispatchEvent(new CustomEvent('themeChanged', { detail: { theme: isLight ? 'light' : 'dark' } }));
         }
       });
     }

@@ -12,6 +12,38 @@ Cal.config.forwardQueryParams = true;
     calLink: "ajulu/strategy-call-ajulu",
   });
 
-  Cal.ns["strategy-call-ajulu"]("ui", {"cssVarsPerTheme":{"light":{"cal-brand":"#6320d6"},"dark":{"cal-brand":"#6320d6"}},"hideEventTypeDetails":false,"layout":"month_view"});
+  function getCalTheme() {
+    return document.documentElement.classList.contains('light-mode') || localStorage.getItem('theme') === 'light' ? 'light' : 'dark';
+  }
+
+  function applyCalTheme() {
+    if (window.Cal && Cal.ns && Cal.ns["strategy-call-ajulu"]) {
+      Cal.ns["strategy-call-ajulu"]("ui", {
+        theme: getCalTheme(),
+        cssVarsPerTheme: {
+          light: { "cal-brand": "#6320d6" },
+          dark: { "cal-brand": "#6320d6" }
+        },
+        hideEventTypeDetails: false,
+        layout: "month_view"
+      });
+    }
+  }
+
+  applyCalTheme();
+
+  window.addEventListener('themeChanged', applyCalTheme);
+
+  if (window.MutationObserver) {
+    const calThemeObserver = new MutationObserver(function(mutations) {
+      for (let i = 0; i < mutations.length; i++) {
+        if (mutations[i].attributeName === 'class') {
+          applyCalTheme();
+          break;
+        }
+      }
+    });
+    calThemeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+  }
   </script>
   <!-- Cal inline embed code ends -->

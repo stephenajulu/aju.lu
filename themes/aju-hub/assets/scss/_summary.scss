@@ -91,3 +91,36 @@
     text-decoration: underline !important;
   }
 }
+
+.page-home {
+  .posts-list {
+    .summary {
+      margin-bottom: 24px;
+      font-size: var(--step-0);
+      line-height: 1.6;
+
+      @include breakpoint('small') {
+        margin-bottom: 32px;
+      }
+
+      .summary-date {
+        font-size: var(--step--1);
+        margin-bottom: 4px;
+      }
+
+      .summary-title {
+        font-size: var(--step-0);
+        font-weight: 600;
+        line-height: 1.4;
+        margin: 4px 0 0 0;
+        width: 100%;
+        letter-spacing: -0.01em;
+
+        @include breakpoint('small') {
+          width: 100%;
+          font-size: var(--step-0);
+        }
+      }
+    }
+  }
+}
