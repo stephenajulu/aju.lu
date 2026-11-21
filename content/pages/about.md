@@ -1,4 +1,3 @@
-<img width="4032" height="2001" alt="image" src="https://github.com/user-attachments/assets/97e2cffc-3b0f-46f7-9c6b-fb8e44c63469" />---
 title: About me
 url: /about/
 image: images/me.webp
