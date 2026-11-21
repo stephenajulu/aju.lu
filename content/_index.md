@@ -8,3 +8,5 @@ Hello, I'm Stephen Ajulu, a seasoned {{< dramatic >}}multidisciplinary technolog
 Subscribe for future posts or follow via [**RSS**](/feed.xml) and [**JSON**](/feed.json) feeds to stay connected.
 
 {{< newsletter >}}
+
+{{< strategy-call >}}
