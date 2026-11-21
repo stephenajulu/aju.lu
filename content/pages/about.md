@@ -1,10 +1,9 @@
-title: About me
+---
+title: About Stephen Ajulu
 url: /about/
 image: images/me.webp
-description: "Stephen Ajulu is a Nairobi-based builder, seasoned multidisciplinary technologist, systems architect, and strategic IT advisor with 13+ years of experience in technology, design, engineering, and business, where he excels in creating sovereign business infrastructure and impactful, enduring artefacts."
+description: "Stephen Ajulu is a Nairobi-based builder, systems architect, and multidisciplinary technologist creating sovereign infrastructure, resilient systems, and enduring artefacts."
 ---
-
-### About Ajulu
 
 #### I'm Stephen Ajulu
 
@@ -50,9 +49,9 @@ At its core, this is the practice of stewardship:
 
 ### Core Conviction
 
-| Creating what ought to be.
-| Stewarding what could be.
-| Leaving behind what should endure.
+> Creating what ought to be.
+> Stewarding what could be.
+> Leaving behind what should endure.
 
 ### Track Record
 
@@ -63,7 +62,7 @@ At its core, this is the practice of stewardship:
 
 ### Workstreams
 
-My work currently operates through five distinct avenues but will soon expand:
+My work currently spans five domains, but they keep expanding:
 
 - **Strategic Advisory:** Technology strategy, systems architecture, digital transformation, and organisational enablement.
 - **Julz Insight:** The execution engine responsible for deploying sovereign digital business infrastructure for African enterprises.
@@ -98,7 +97,7 @@ This platform explores ideas across:
 
 As James Clear observed:
 
-| "Write about what fascinates you. You don't need to be an expert. Curiosity leads to expertise."
+> "Write about what fascinates you. You don't need to be an expert. Curiosity leads to expertise."
 
 I couldn't agree more.
 
